@@ -1,39 +1,111 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Statement Beauty Blog
 
-Welcome,
+(Developer: Katie Dunne)
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![AmIResponsive Image]()
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+## Live website
 
-## Codeanywhere Reminders
+Link to live website: [Summit Style]()
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+## Purpose of the project
 
-`python3 -m http.server`
+## Table of contents
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+## User experience (UX)
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+### Key project goals
 
-`http_server`
+### Target audience
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### User requirements and expectations
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+## Epics and user stories
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### Epics
 
-To log into the Heroku toolbelt CLI:
+### User stories
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+## Features
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+### Logo and navigation bar
 
----
+#### Mobile navigation using burger menu
 
-Happy coding!
+#### Monitor navigation bar
+
+### Hero image
+
+### Custom 404 page
+
+### MoSCoW
+
+## Future features
+
+## Design
+
+### Color
+
+## Wireframes
+
+## Database schema
+
+### Entity relationship diagram
+
+### Entity relationship tables
+
+## Technology Used
+
+Django 5.0.3
+
+### Languages and framework
+
+### Database
+
+### Technologies and tools
+
+## Testing
+
+Detailed testing documentation can be found 
+
+### Fixed bugs
+
+### Unfixed bugs
+
+### Supported screens and browsers
+
+#### Screens
+
+- iPhone SE, 375px wide. Also looks good down to 300px according to devtools
+- iPad Mini, 768px wide
+- Nest Hub Max, 1280px wide
+
+#### Browsers
+
+- Chrome
+- Firefox
+- Safari
+- Edge
+- Opera
+
+## Deployment
+
+### Pre deployment
+
+### Deploying with heroku
+
+### Fork this repository:
+
+### Clone this repository:
+
+## Credits
+
+### Code
+
+### Media
+
+### Inspiration from real world ecommerce websites
+
+## Acknowledgements
+
+Thank you to family, friends and pets for the support. Also thank you to my mentor and CI cohort facilitator :sparkles:
