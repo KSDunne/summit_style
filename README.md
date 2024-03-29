@@ -56,13 +56,21 @@ Link to live website: [Summit Style]()
 
 ## Technology Used
 
-Django 5.0.3
-
 ### Languages and framework
+
+- [HTML5](https://developer.mozilla.org/en-US/docs/Learn/HTML "link to html mozilla documentation")
+  was used to create content and structure
+- [CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS "link to css mozilla documentation")
+  was used to add custom styles
+- [Django 5.0.3](https://www.djangoproject.com/ "link to django docs homepage") was the python framework used to develop the site
 
 ### Database
 
+- [PostgreSQL from Code Institute](https://dbs.ci-dbs.net/ "link to postgresql from code institute") was used as the PostgreSQL database for this project
+
 ### Technologies and tools
+
+- [Django allauth](https://docs.allauth.org/en/latest/ "link to official allauth documentation") addresses authentication, registration, account management
 
 ## Testing
 
