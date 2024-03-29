@@ -1,4 +1,4 @@
-# Statement Beauty Blog
+# Summit Style
 
 (Developer: Katie Dunne)
 
@@ -9,6 +9,8 @@
 Link to live website: [Summit Style]()
 
 ## Purpose of the project
+
+Here is an eCommerce website, for a fictitious business called Summit Style. This is a full stack website built using the Django web framework. This business sells adventure clothing and short educational courses based on outdoor skills.
 
 ## Table of contents
 
@@ -70,7 +72,7 @@ Link to live website: [Summit Style]()
 
 ### Technologies and tools
 
-- [Django allauth](https://docs.allauth.org/en/latest/ "link to official allauth documentation") addresses authentication, registration, account management
+- [Django allauth](https://docs.allauth.org/en/latest/ "link to official allauth documentation") addresses authentication, registration and account management
 
 ## Testing
 
