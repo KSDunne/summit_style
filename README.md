@@ -34,34 +34,35 @@ Here is an eCommerce website, for a fictitious business called Summit Style. Thi
 
 ### User stories
 
-As a website user, I want to be able to:
+- As a website user, I want to be able to:
 
 1.	View a list of products so that I can select some to buy
-2.	View individual product details so that I am informed of price, description, product rating
-3.	Quickly identify special offers so that I can take advantage of savings on products I want to buy
-4.	See the total of my purchases at any time to avoid overspending
-5.	Register for an account so that I can have a profile that is specific to me
-6.	Easily log in and out to access my personal account information and to protect it once I’m finished interacting with it
-7.	Easily recover my password if I forget it so that I can recover access to my account
-8.	Receive an email confirmation after registering to verify my account registration was successful
-9.	Have a personalised user profile so that I can view my order history, order confirmations and save payment information
-10.	Sort the list of available products so that I can easily distinguish the best rated, the best priced or categorically sort products
-11.	Sort a specific category of product so that I can find the best rated or best priced product in a specific category
-12.	Search for a product or course by name or description so that I can find a specific product or course
-13.	Easily see what I've searched for an the number of results so that I can quickly see if the product I want is available here
-14.	Easily select the size of a product when purchasing it so that I don’t accidentally order the wrong size of clothing
-15.	View items in my cart to be purchased so that I’m aware of the total cost of items and all the items that I will receive after checkout
-16.	Adjust the quantity of individual items in my cart so that I can make changes to my order before checkout if I wish to do so
-17.	Easily enter my personal payment information so that I can checkout quickly
-18.	Feel that my personal and payment information is safe so that I can confidentially provide the information to make a purchase
-19.	View an order confirmation after checkout so that I can verify that I haven’t made any mistakes
-20.	Receive an email confirmation after I make a purchase so that I can keep the confirmation for my own records
+2.	View individual product details so that I am informed of price, description and product rating
+3.	View individual course details so that I am informed of price, description and rating
+4.	Quickly identify special offers so that I can take advantage of savings on products I want to buy
+5.	See the total of my purchases at any time to avoid overspending
+6.	Register for an account so that I can have a profile that is specific to me
+7.	Easily log in and out to access my personal account information and to protect it once I’m finished interacting with it
+8.	Easily recover my password if I forget it so that I can recover access to my account
+9.	Receive an email confirmation after registering to verify my account registration was successful
+10.	Have a personalised user profile so that I can view my order history, order confirmations and save payment information
+11.	Sort the list of available products so that I can easily distinguish the best rated, the best priced or categorically sort products
+12.	Sort a specific category of product so that I can find the best rated or best priced product in a specific category
+13.	Search for a product or course by name or description so that I can find a specific product or course
+14.	Easily see what I've searched for an the number of results so that I can quickly see if the product I want is available here
+15.	Easily select the size of a product when purchasing it so that I don’t accidentally order the wrong size of clothing
+16.	View items in my cart to be purchased so that I’m aware of the total cost of items and all the items that I will receive after checkout
+17.	Adjust the quantity of individual items in my cart so that I can make changes to my order before checkout if I wish to do so
+18.	Easily enter my personal payment information so that I can checkout quickly
+19.	Feel that my personal and payment information is safe so that I can confidentially provide the information to make a purchase
+20.	View an order confirmation after checkout so that I can verify that I haven’t made any mistakes
+21.	Receive an email confirmation after I make a purchase so that I can keep the confirmation for my own records
 
-As a store owner, I want to be able to:
+- As a store owner, I want to be able to:
 
-21.	Add a product or course so that I can add new offerings as they become available for me to sell
-22.	Edit or update a product or course information so that I can change product and course prices, descriptions and images if needed
-23.	Delete a product so that I can remove items that are no longer for sale
+22.	Add a product or course so that I can add new offerings as they become available for me to sell
+23.	Edit or update a product or course information so that I can change product and course prices, descriptions and images if needed
+24.	Delete a product so that I can remove items that are no longer for sale
 
 ## Sprints
 
