@@ -115,7 +115,7 @@ Here is an eCommerce website, for a fictitious business called Summit Style. Thi
   was used to create content and structure
 - [CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS "link to css mozilla documentation")
   was used to add custom styles
-- [Django 5.0.3](https://www.djangoproject.com/ "link to django docs homepage") was the python framework used to develop the site
+- [Django 4.2.10](https://www.djangoproject.com/ "link to django docs homepage") was the python framework used to develop the site
 
 ### Database
 
