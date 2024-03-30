@@ -26,56 +26,58 @@ Here is an eCommerce website, for a fictitious business called Summit Style. Thi
 
 ### Epics
 
-1.	Viewing and navigation of products and courses
-2.	Registration and user accounts
-3.	Sorting and searching
-4.	Purchasing and checkout
-5.	Store management
+1. Viewing and navigation of products and courses
+2. Registration and user accounts
+3. Sorting and searching
+4. Purchasing and checkout
+5. Store management
 
 ### User stories
 
 - As a website user, I want to be able to:
 
-1.	View a list of products so that I can select some to buy
-2.	View individual product details so that I am informed of price, description and product rating
-3.	View individual course details so that I am informed of price, description and rating
-4.	Quickly identify special offers so that I can take advantage of savings on products I want to buy
-5.	See the total of my purchases at any time to avoid overspending
-6.	Register for an account so that I can have a profile that is specific to me
-7.	Easily log in and out to access my personal account information and to protect it once I’m finished interacting with it
-8.	Easily recover my password if I forget it so that I can recover access to my account
-9.	Receive an email confirmation after registering to verify my account registration was successful
-10.	Have a personalised user profile so that I can view my order history, order confirmations and save payment information
-11.	Sort the list of available products so that I can easily distinguish the best rated, the best priced or categorically sort products
-12.	Sort a specific category of product so that I can find the best rated or best priced product in a specific category
-13.	Search for a product or course by name or description so that I can find a specific product or course
-14.	Easily see what I've searched for an the number of results so that I can quickly see if the product I want is available here
-15.	Easily select the size of a product when purchasing it so that I don’t accidentally order the wrong size of clothing
-16.	View items in my cart to be purchased so that I’m aware of the total cost of items and all the items that I will receive after checkout
-17.	Adjust the quantity of individual items in my cart so that I can make changes to my order before checkout if I wish to do so
-18.	Easily enter my personal payment information so that I can checkout quickly
-19.	Feel that my personal and payment information is safe so that I can confidentially provide the information to make a purchase
-20.	View an order confirmation after checkout so that I can verify that I haven’t made any mistakes
-21.	Receive an email confirmation after I make a purchase so that I can keep the confirmation for my own records
+1. View a list of clothing products so that I can select some to buy
+2. View a list of short courses so that I can select some to buy
+3. View individual product details so that I am informed of price, description and product rating
+4. View individual course details so that I am informed of price, description and rating
+5. Quickly identify special offers so that I can take advantage of savings on products I want to buy
+6. See the total of my purchases at any time to avoid overspending
+7. Register for an account so that I can have a profile that is specific to me
+8. Easily log in and out to access my personal account information and to protect it once I’m finished interacting with it
+9. Easily recover my password if I forget it so that I can recover access to my account
+10. Receive an email confirmation after registering to verify my account registration was successful
+11. Have a personalised user profile so that I can view my order history, order confirmations and save payment information
+12. Choose to see either a list of clothing products or a list of courses
+13. Sort the list of offerings (clothes or courses) so that I can easily distinguish the best rated, the best priced or categorically sort products
+14. Sort a specific category of product or course so that I can find the best rated or best priced in a specific category
+15. Search for a product or course by name or description so that I can find a specific product or course
+16. Easily see what I've searched for and the number of results so that I can quickly see if the product or course I want is available here
+17. Easily select the size of a product when purchasing it so that I don’t accidentally order the wrong size of clothing
+18. View items in my cart to be purchased so that I’m aware of the total cost of items and all the items that I will receive after checkout
+19. Adjust the quantity of individual items in my cart so that I can make changes to my order before checkout if I wish to do so
+20. Easily enter my personal payment information so that I can checkout quickly
+21. Feel that my personal and payment information is safe so that I can confidentially provide the information to make a purchase
+22. View an order confirmation after checkout so that I can verify that I haven’t made any mistakes
+23. Receive an email confirmation after I make a purchase so that I can keep the confirmation for my own records
 
 - As a store owner, I want to be able to:
 
-22.	Add a product or course so that I can add new offerings as they become available for me to sell
-23.	Edit or update a product or course information so that I can change product and course prices, descriptions and images if needed
-24.	Delete a product so that I can remove items that are no longer for sale
+24. Add a product or course so that I can add new offerings as they become available for me to sell
+25. Edit or update a product or course information so that I can change product and course prices, descriptions and images if needed
+26. Delete a product or course so that I can remove items that are no longer for sale
 
 ## Sprints
 
-1.	Development environment setup
-2.	Design (wireframes and colors)
-3.	Data mapping of entity relationship diagrams
-4.	Viewing and navigation of products and courses
-5.	Registration and user accounts
-6.	Sorting and searching
-7.	Purchasing and checkout
-8.	Store management
-9.	Testing
-10.	Project sunset
+1. Development environment setup
+2. Design (wireframes and colors)
+3. Data mapping of entity relationship diagrams
+4. Viewing and navigation of products and courses
+5. Registration and user accounts
+6. Sorting and searching
+7. Purchasing and checkout
+8. Store management
+9. Testing
+10. Project sunset
 
 ## Features
 
@@ -125,7 +127,7 @@ Here is an eCommerce website, for a fictitious business called Summit Style. Thi
 
 ## Testing
 
-Detailed testing documentation can be found 
+Detailed testing documentation can be found
 
 ### Fixed bugs
 
