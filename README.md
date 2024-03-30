@@ -47,7 +47,7 @@ Here is an eCommerce website, for a fictitious business called Summit Style. Thi
 9. Easily recover my password if I forget it so that I can recover access to my account
 10. Receive an email confirmation after registering to verify my account registration was successful
 11. Have a personalised user profile so that I can view my order history, order confirmations and save payment information
-12. Choose to see either a list of clothing products or a list of courses
+12. Quickly separate a list of clothing products from a list of courses
 13. Sort the list of offerings (clothes or courses) so that I can easily distinguish the best rated, the best priced or categorically sort products
 14. Sort a specific category of product or course so that I can find the best rated or best priced in a specific category
 15. Search for a product or course by name or description so that I can find a specific product or course
