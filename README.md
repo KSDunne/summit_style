@@ -26,18 +26,56 @@ Here is an eCommerce website, for a fictitious business called Summit Style. Thi
 
 ### Epics
 
+1.	Viewing and navigation of products and courses
+2.	Registration and user accounts
+3.	Sorting and searching
+4.	Purchasing and checkout
+5.	Store management
+
 ### User stories
 
-1.	as a site user I want to be able to view a list of products so that I can select some to buy
-2.	as a site user I want to be able to view individual product details so that I am informed of price, description, product rating
-3.	as a site user I want to be able to quickly identify special offers so that I can take advantage of savings on products I want to buy
-4.	as a site user I want to be able to register for an account so that I can have a profile that is specific to me
-5.	as a site user I want to be able to easily log in and out to access my personal account information and to protect it once Im finished interacting with it
-6.	as a site user I want to be able to easily recover my password if I forget it so that I can recover access to my account
-7.	as a site user I want to receive an email confirmation after registering to verify my account registration was successful
-8.	as a site user I want to have a personalised user profile so that I can view my order history, order confirmations and save payment information
-9.	as a site user I want to be able to sort the list of available products so that I can easily distinguish the best rated, the best priced or categorically sort products
-10.	as a site user I want to be able to sort a specific category of product so that I can find the best rated or best priced product in a specific category
+As a website user, I want to be able to:
+
+1.	View a list of products so that I can select some to buy
+2.	View individual product details so that I am informed of price, description, product rating
+3.	Quickly identify special offers so that I can take advantage of savings on products I want to buy
+4.	See the total of my purchaces at any time to avoid overspending
+5.	Register for an account so that I can have a profile that is specific to me
+6.	Easily log in and out to access my personal account information and to protect it once Im finished interacting with it
+7.	Easily recover my password if I forget it so that I can recover access to my account
+8.	Receive an email confirmation after registering to verify my account registration was successful
+9.	Have a personalised user profile so that I can view my order history, order confirmations and save payment information
+10.	Sort the list of available products so that I can easily distinguish the best rated, the best priced or categorically sort products
+11.	Sort a specific category of product so that I can find the best rated or best priced product in a specific category
+12.	Search for a product or course by name or description so that I can find a specific product or course
+13.	Easily see what I've searched for an the number of results so that I can quickly see if the product I want is available here
+14.	Easily select the size of a product when purchasing it so that I don’t accendenly order the wrong size of clothing
+15.	View items in my cart to be purchased so that im aware of the total cost of items and all the items that I will receive after checkout
+16.	Adjust the quantity of individual items in my cart so that I can make changes to my order before checkout if I wish to do so
+17.	Easily enter my personal payment information so that I can checkout quickly
+18.	Feel that my personal and payment information is safe so that I can confidentially provide the information to make a purchase
+19.	View an order confirmation after checkout so that I can verify that I havent made any mistakes
+20.	Receive an email confirmation after I make a purchase so that I can keep the confirmation for my own records
+
+As a store owner, I want to be able to:
+
+21.	Add a product or course so that I can add new offerings as they become available for me to sell
+22.	Edit or update a product or course information so that I can change product and course prices, descriptions and images if needed
+23.	Delete a product so that I can remove items that are no longer for sale
+
+## Sprints
+
+1.	Development environment setup
+2.	Design (wireframes and colors)
+3.	Data mapping of entity relationship diagrams
+4.	Viewing and navigation of products and courses
+5.	Registration and user accounts
+6.	Sorting and searching
+7.	Purchasing and checkout
+8.	Store management
+9.	Testing
+10.	Project sunset
+
 
 ## Features
 
