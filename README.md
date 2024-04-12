@@ -132,6 +132,11 @@ Detailed testing documentation can be found
 
 ### Fixed bugs
 
+Leaving this here as a reminder for me to come back to it later:
+
+1. Webhook handler handling profiles
+2. wh handler key and testing
+
 ### Unfixed bugs
 
 ### Supported screens and browsers
