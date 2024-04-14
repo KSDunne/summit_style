@@ -1,0 +1,1 @@
+web: gunicorn summit_style.wsgi:application
