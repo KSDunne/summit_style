@@ -263,6 +263,16 @@ input[name='q']::placeholder {
     display: inline;
 }
 
+.shop-name{
+  font-size: 250%;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.call-to-action {
+  padding-bottom: 12rem;
+}
+
 /* fixed top navbar only on medium and up */
 @media (min-width: 992px) {
   .fixed-top-desktop-only {
