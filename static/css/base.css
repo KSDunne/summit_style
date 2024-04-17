@@ -259,14 +259,14 @@ input[name='q']::placeholder {
     border-radius: 0;
 }
 
-.btn-index {
-    display: inline;
-}
-
 .shop-name{
   font-size: 250%;
   font-weight: 500;
   margin-bottom: 0;
+}
+
+.btn-index {
+    display: inline;
 }
 
 .call-to-action {
