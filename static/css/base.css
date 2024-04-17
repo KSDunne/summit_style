@@ -265,13 +265,13 @@ input[name='q']::placeholder {
   margin-bottom: 0;
 }
 
-.btn-index {
-    display: inline;
-}
-
 .call-to-action {
   padding-bottom: 12rem;
   margin-top: 1.5rem;
+}
+
+.btn-index {
+    display: inline;
 }
 
 /* fixed top navbar only on medium and up */
