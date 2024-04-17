@@ -271,6 +271,7 @@ input[name='q']::placeholder {
 
 .call-to-action {
   padding-bottom: 12rem;
+  margin-top: 1.5rem;
 }
 
 /* fixed top navbar only on medium and up */
