@@ -927,20 +927,6 @@
     "pk": 67,
     "model": "products.product",
     "fields": {
-      "sku": "pp5003270936",
-      "name": "Silver Summit Superman Shield Cufflinks",
-      "description": "Reach the summit of style with our Silver Summit Superman Shield cufflinks. These cufflinks are a work of art and a subtle way to honor the man of steel. The one-piece fixed backing features the DC Comics logo for an extra touch of style. Measures x inches. Rhodium plated metal/enamel. Imported.",
-      "price": 76.99,
-      "category": 4,
-      "rating": 5,
-      "image_url": "",
-      "image": ""
-    }
-  },
-  {
-    "pk": 68,
-    "model": "products.product",
-    "fields": {
       "sku": "pp5002440521",
       "name": "Liz Claiborne Classic Sophie Secretly Slender Summit Trouser Leg Pants - Plus",
       "description": "Walk a little taller in our slimming straight-leg pants. Our Liz Claiborne Classic Sophie Secretly Slender Summit Trouser Leg Pants sit below the waist and are fitted through the hip and thigh. Made with fleece fabric, these pants offer warmth and comfort for all-day wear. Machine washable. Available in plus sizes.",
@@ -952,7 +938,7 @@
     }
   },
   {
-    "pk": 69,
+    "pk": 68,
     "model": "products.product",
     "fields": {
       "sku": "pp5001600425",
@@ -966,7 +952,7 @@
     }
   },
   {
-    "pk": 70,
+    "pk": 69,
     "model": "products.product",
     "fields": {
       "sku": "pp5006820299",
@@ -980,7 +966,7 @@
     }
   },
   {
-    "pk": 71,
+    "pk": 70,
     "model": "products.product",
     "fields": {
       "sku": "pp5006820210",
@@ -994,7 +980,7 @@
     }
   },
   {
-    "pk": 72,
+    "pk": 71,
     "model": "products.product",
     "fields": {
       "sku": "pp5006820170",
@@ -1008,7 +994,7 @@
     }
   },
   {
-    "pk": 73,
+    "pk": 72,
     "model": "products.product",
     "fields": {
       "sku": "pp5006462180",
@@ -1022,7 +1008,7 @@
     }
   },
   {
-    "pk": 74,
+    "pk": 73,
     "model": "products.product",
     "fields": {
       "sku": "pp5006380260",
@@ -1036,7 +1022,7 @@
     }
   },
   {
-    "pk": 75,
+    "pk": 74,
     "model": "products.product",
     "fields": {
       "sku": "pp5006380233",
@@ -1050,7 +1036,7 @@
     }
   },
   {
-    "pk": 76,
+    "pk": 75,
     "model": "products.product",
     "fields": {
       "sku": "pp5006311067",
@@ -1064,7 +1050,7 @@
     }
   },
   {
-    "pk": 77,
+    "pk": 76,
     "model": "products.product",
     "fields": {
       "sku": "pp5006310935",
@@ -1078,7 +1064,7 @@
     }
   },
   {
-    "pk": 78,
+    "pk": 77,
     "model": "products.product",
     "fields": {
       "sku": "pp5006310918",
@@ -1092,7 +1078,7 @@
     }
   },
   {
-    "pk": 79,
+    "pk": 78,
     "model": "products.product",
     "fields": {
       "sku": "pp5006070077",
@@ -1106,7 +1092,7 @@
     }
   },
   {
-    "pk": 80,
+    "pk": 79,
     "model": "products.product",
     "fields": {
       "sku": "pp5005740430",
@@ -1120,7 +1106,7 @@
     }
   },
   {
-    "pk": 81,
+    "pk": 80,
     "model": "products.product",
     "fields": {
       "sku": "pp5004910158",
@@ -1134,7 +1120,7 @@
     }
   },
   {
-    "pk": 82,
+    "pk": 81,
     "model": "products.product",
     "fields": {
       "sku": "pp5004111503",
@@ -1148,7 +1134,7 @@
     }
   },
   {
-    "pk": 83,
+    "pk": 82,
     "model": "products.product",
     "fields": {
       "sku": "pp5003831225",
@@ -1162,7 +1148,7 @@
     }
   },
   {
-    "pk": 84,
+    "pk": 83,
     "model": "products.product",
     "fields": {
       "sku": "pp5003070787",
@@ -1176,7 +1162,7 @@
     }
   },
   {
-    "pk": 85,
+    "pk": 84,
     "model": "products.product",
     "fields": {
       "sku": "pp5002990740",
@@ -1190,7 +1176,7 @@
     }
   },
   {
-    "pk": 86,
+    "pk": 85,
     "model": "products.product",
     "fields": {
       "sku": "pp5002910572",
@@ -1204,7 +1190,7 @@
     }
   },
   {
-    "pk": 87,
+    "pk": 86,
     "model": "products.product",
     "fields": {
       "sku": "pp5007310136",
@@ -1218,7 +1204,7 @@
     }
   },
   {
-    "pk": 88,
+    "pk": 87,
     "model": "products.product",
     "fields": {
       "sku": "pp5006870003",
@@ -1232,7 +1218,7 @@
     }
   },
   {
-    "pk": 89,
+    "pk": 88,
     "model": "products.product",
     "fields": {
       "sku": "pp5006590111",
@@ -1246,7 +1232,7 @@
     }
   },
   {
-    "pk": 90,
+    "pk": 89,
     "model": "products.product",
     "fields": {
       "sku": "pp5006541122",
@@ -1260,7 +1246,7 @@
     }
   },
   {
-    "pk": 91,
+    "pk": 90,
     "model": "products.product",
     "fields": {
       "sku": "pp5006390235",
@@ -1274,7 +1260,7 @@
     }
   },
   {
-    "pk": 92,
+    "pk": 91,
     "model": "products.product",
     "fields": {
       "sku": "pp5006333711",
@@ -1288,7 +1274,7 @@
     }
   },
   {
-    "pk": 93,
+    "pk": 92,
     "model": "products.product",
     "fields": {
       "sku": "pp5006330197",
@@ -1302,7 +1288,7 @@
     }
   },
   {
-    "pk": 94,
+    "pk": 93,
     "model": "products.product",
     "fields": {
       "sku": "pp5003050249",
@@ -1316,7 +1302,7 @@
     }
   },
   {
-    "pk": 95,
+    "pk": 94,
     "model": "products.product",
     "fields": {
       "sku": "pp5003050247",
@@ -1330,7 +1316,7 @@
     }
   },
   {
-    "pk": 96,
+    "pk": 95,
     "model": "products.product",
     "fields": {
       "sku": "pp5003050246",
@@ -1344,7 +1330,7 @@
     }
   },
   {
-    "pk": 97,
+    "pk": 96,
     "model": "products.product",
     "fields": {
       "sku": "pp5003050245",
@@ -1358,7 +1344,7 @@
     }
   },
   {
-    "pk": 98,
+    "pk": 97,
     "model": "products.product",
     "fields": {
       "sku": "pp5003050244",
@@ -1372,7 +1358,7 @@
     }
   },
   {
-    "pk": 99,
+    "pk": 98,
     "model": "products.product",
     "fields": {
       "sku": "pp5006160127",
@@ -1386,7 +1372,7 @@
     }
   },
   {
-    "pk": 100,
+    "pk": 99,
     "model": "products.product",
     "fields": {
       "sku": "pp5005810108",
@@ -1400,7 +1386,7 @@
     }
   },
   {
-    "pk": 101,
+    "pk": 100,
     "model": "products.product",
     "fields": {
       "sku": "pp5005740634",
@@ -1414,7 +1400,7 @@
     }
   },
   {
-    "pk": 102,
+    "pk": 101,
     "model": "products.product",
     "fields": {
       "sku": "pp5005740561",
@@ -1428,7 +1414,7 @@
     }
   },
   {
-    "pk": 103,
+    "pk": 102,
     "model": "products.product",
     "fields": {
       "sku": "pp5005700140",
@@ -1442,7 +1428,7 @@
     }
   },
   {
-    "pk": 104,
+    "pk": 103,
     "model": "products.product",
     "fields": {
       "sku": "pp5005650677",
@@ -1456,7 +1442,7 @@
     }
   },
   {
-    "pk": 105,
+    "pk": 104,
     "model": "products.product",
     "fields": {
       "sku": "pp5005630638",
@@ -1470,7 +1456,7 @@
     }
   },
   {
-    "pk": 106,
+    "pk": 105,
     "model": "products.product",
     "fields": {
       "sku": "pp5005630637",
@@ -1484,7 +1470,7 @@
     }
   },
   {
-    "pk": 107,
+    "pk": 106,
     "model": "products.product",
     "fields": {
       "sku": "pp5005630605",
@@ -1498,7 +1484,7 @@
     }
   },
   {
-    "pk": 108,
+    "pk": 107,
     "model": "products.product",
     "fields": {
       "sku": "pp5006640930",
@@ -1512,7 +1498,7 @@
     }
   },
   {
-    "pk": 109,
+    "pk": 108,
     "model": "products.product",
     "fields": {
       "sku": "pp5006590221",
@@ -1526,7 +1512,7 @@
     }
   },
   {
-    "pk": 110,
+    "pk": 109,
     "model": "products.product",
     "fields": {
       "sku": "pp5006590213",
@@ -1540,7 +1526,7 @@
     }
   },
   {
-    "pk": 111,
+    "pk": 110,
     "model": "products.product",
     "fields": {
       "sku": "pp5005980146",
@@ -1554,7 +1540,7 @@
     }
   },
   {
-    "pk": 112,
+    "pk": 111,
     "model": "products.product",
     "fields": {
       "sku": "pp5005310360",
@@ -1568,7 +1554,7 @@
     }
   },
   {
-    "pk": 113,
+    "pk": 112,
     "model": "products.product",
     "fields": {
       "sku": "pp5005140282",
@@ -1582,7 +1568,7 @@
     }
   },
   {
-    "pk": 114,
+    "pk": 113,
     "model": "products.product",
     "fields": {
       "sku": "pp5004910477",
@@ -1596,7 +1582,7 @@
     }
   },
   {
-    "pk": 115,
+    "pk": 114,
     "model": "products.product",
     "fields": {
       "sku": "pp5003960682",
@@ -1610,7 +1596,7 @@
     }
   },
   {
-    "pk": 116,
+    "pk": 115,
     "model": "products.product",
     "fields": {
       "sku": "pp5003560948",
@@ -1624,7 +1610,7 @@
     }
   },
   {
-    "pk": 117,
+    "pk": 116,
     "model": "products.product",
     "fields": {
       "sku": "pp5003560513",
@@ -1638,7 +1624,7 @@
     }
   },
   {
-    "pk": 118,
+    "pk": 117,
     "model": "products.product",
     "fields": {
       "sku": "pp5003230723",
@@ -1652,7 +1638,7 @@
     }
   },
   {
-    "pk": 119,
+    "pk": 118,
     "model": "products.product",
     "fields": {
       "sku": "pp5003161326",
@@ -1666,7 +1652,7 @@
     }
   },
   {
-    "pk": 120,
+    "pk": 119,
     "model": "products.product",
     "fields": {
       "sku": "pp5002701115",
@@ -1680,7 +1666,7 @@
     }
   },
   {
-    "pk": 121,
+    "pk": 120,
     "model": "products.product",
     "fields": {
       "sku": "pp5002601115",
@@ -1694,7 +1680,7 @@
     }
   },
   {
-    "pk": 122,
+    "pk": 121,
     "model": "products.product",
     "fields": {
       "sku": "pp5002111605",
@@ -1708,7 +1694,7 @@
     }
   },
   {
-    "pk": 123,
+    "pk": 122,
     "model": "products.product",
     "fields": {
       "sku": "pp5001890157",
@@ -1722,7 +1708,7 @@
     }
   },
   {
-    "pk": 124,
+    "pk": 123,
     "model": "products.product",
     "fields": {
       "sku": "pp5007320233",
@@ -1736,7 +1722,7 @@
     }
   },
   {
-    "pk": 125,
+    "pk": 124,
     "model": "products.product",
     "fields": {
       "sku": "pp5007310220",
@@ -1750,7 +1736,7 @@
     }
   },
   {
-    "pk": 126,
+    "pk": 125,
     "model": "products.product",
     "fields": {
       "sku": "pp5007300026",
@@ -1764,7 +1750,7 @@
     }
   },
   {
-    "pk": 127,
+    "pk": 126,
     "model": "products.product",
     "fields": {
       "sku": "pp5007280253",
@@ -1778,7 +1764,7 @@
     }
   },
   {
-    "pk": 128,
+    "pk": 127,
     "model": "products.product",
     "fields": {
       "sku": "pp5007250126",
@@ -1792,7 +1778,7 @@
     }
   },
   {
-    "pk": 129,
+    "pk": 128,
     "model": "products.product",
     "fields": {
       "sku": "pp5007210967",
@@ -1806,7 +1792,7 @@
     }
   },
   {
-    "pk": 130,
+    "pk": 129,
     "model": "products.product",
     "fields": {
       "sku": "pp5007210063",
@@ -1820,7 +1806,7 @@
     }
   },
   {
-    "pk": 131,
+    "pk": 130,
     "model": "products.product",
     "fields": {
       "sku": "pp5007170182",
@@ -1834,7 +1820,7 @@
     }
   },
   {
-    "pk": 132,
+    "pk": 131,
     "model": "products.product",
     "fields": {
       "sku": "pp5007170155",
@@ -1848,7 +1834,7 @@
     }
   },
   {
-    "pk": 133,
+    "pk": 132,
     "model": "products.product",
     "fields": {
       "sku": "pp5007160030",
@@ -1862,7 +1848,7 @@
     }
   },
   {
-    "pk": 134,
+    "pk": 133,
     "model": "products.product",
     "fields": {
       "sku": "pp5007090227",
@@ -1876,7 +1862,7 @@
     }
   },
   {
-    "pk": 135,
+    "pk": 134,
     "model": "products.product",
     "fields": {
       "sku": "pp5007071033",
@@ -1890,7 +1876,7 @@
     }
   },
   {
-    "pk": 136,
+    "pk": 135,
     "model": "products.product",
     "fields": {
       "sku": "pp5006960828",
@@ -1904,7 +1890,7 @@
     }
   },
   {
-    "pk": 137,
+    "pk": 136,
     "model": "products.product",
     "fields": {
       "sku": "pp5006950238",
@@ -1918,7 +1904,7 @@
     }
   },
   {
-    "pk": 138,
+    "pk": 137,
     "model": "products.product",
     "fields": {
       "sku": "pp5006430031",
@@ -1932,7 +1918,7 @@
     }
   },
   {
-    "pk": 139,
+    "pk": 138,
     "model": "products.product",
     "fields": {
       "sku": "pp5006370013",
@@ -1946,7 +1932,7 @@
     }
   },
   {
-    "pk": 140,
+    "pk": 139,
     "model": "products.product",
     "fields": {
       "sku": "pp5006340653",
@@ -1960,7 +1946,7 @@
     }
   },
   {
-    "pk": 141,
+    "pk": 140,
     "model": "products.product",
     "fields": {
       "sku": "pp5006280064",
@@ -1974,7 +1960,7 @@
     }
   },
   {
-    "pk": 142,
+    "pk": 141,
     "model": "products.product",
     "fields": {
       "sku": "pp5005860263",
@@ -1988,7 +1974,7 @@
     }
   },
   {
-    "pk": 143,
+    "pk": 142,
     "model": "products.product",
     "fields": {
       "sku": "pp5005630545",
@@ -2002,7 +1988,7 @@
     }
   },
   {
-    "pk": 144,
+    "pk": 143,
     "model": "products.product",
     "fields": {
       "sku": "pp5006820399",
@@ -2016,7 +2002,7 @@
     }
   },
   {
-    "pk": 145,
+    "pk": 144,
     "model": "products.product",
     "fields": {
       "sku": "pp5006750455",
@@ -2030,7 +2016,7 @@
     }
   },
   {
-    "pk": 146,
+    "pk": 145,
     "model": "products.product",
     "fields": {
       "sku": "pp5006310072",
@@ -2044,7 +2030,7 @@
     }
   },
   {
-    "pk": 147,
+    "pk": 146,
     "model": "products.product",
     "fields": {
       "sku": "pp5006242905",
@@ -2058,7 +2044,7 @@
     }
   },
   {
-    "pk": 148,
+    "pk": 147,
     "model": "products.product",
     "fields": {
       "sku": "pp5006242904",
@@ -2072,7 +2058,7 @@
     }
   },
   {
-    "pk": 149,
+    "pk": 148,
     "model": "products.product",
     "fields": {
       "sku": "pp5006241766",
@@ -2086,7 +2072,7 @@
     }
   },
   {
-    "pk": 150,
+    "pk": 149,
     "model": "products.product",
     "fields": {
       "sku": "pp5006082011",
@@ -2100,7 +2086,7 @@
     }
   },
   {
-    "pk": 151,
+    "pk": 150,
     "model": "products.product",
     "fields": {
       "sku": "pp5005940242",
@@ -2114,7 +2100,7 @@
     }
   },
   {
-    "pk": 152,
+    "pk": 151,
     "model": "products.product",
     "fields": {
       "sku": "pp5005870638",
@@ -2128,7 +2114,7 @@
     }
   },
   {
-    "pk": 153,
+    "pk": 152,
     "model": "products.product",
     "fields": {
       "sku": "pp5005840776",
@@ -2142,7 +2128,7 @@
     }
   },
   {
-    "pk": 154,
+    "pk": 153,
     "model": "products.product",
     "fields": {
       "sku": "pp5005430944",
@@ -2156,7 +2142,7 @@
     }
   },
   {
-    "pk": 155,
+    "pk": 154,
     "model": "products.product",
     "fields": {
       "sku": "pp5004991006",
@@ -2170,7 +2156,7 @@
     }
   },
   {
-    "pk": 156,
+    "pk": 155,
     "model": "products.product",
     "fields": {
       "sku": "pp5004900522",
@@ -2184,7 +2170,7 @@
     }
   },
   {
-    "pk": 157,
+    "pk": 156,
     "model": "products.product",
     "fields": {
       "sku": "pp5003780391",
@@ -2198,7 +2184,7 @@
     }
   },
   {
-    "pk": 158,
+    "pk": 157,
     "model": "products.product",
     "fields": {
       "sku": "pp5003540313",
@@ -2212,7 +2198,7 @@
     }
   },
   {
-    "pk": 159,
+    "pk": 158,
     "model": "products.product",
     "fields": {
       "sku": "pp5003360384",
@@ -2226,7 +2212,7 @@
     }
   },
   {
-    "pk": 160,
+    "pk": 159,
     "model": "products.product",
     "fields": {
       "sku": "pp5002820147",
@@ -2240,7 +2226,7 @@
     }
   },
   {
-    "pk": 161,
+    "pk": 160,
     "model": "products.product",
     "fields": {
       "sku": "pp5002761055",
@@ -2254,7 +2240,7 @@
     }
   },
   {
-    "pk": 162,
+    "pk": 161,
     "model": "products.product",
     "fields": {
       "sku": "pp5002260206",
@@ -2268,7 +2254,7 @@
     }
   },
   {
-    "pk": 163,
+    "pk": 162,
     "model": "products.product",
     "fields": {
       "sku": "847291034582",
@@ -2282,7 +2268,7 @@
     }
   },
   {
-    "pk": 164,
+    "pk": 163,
     "model": "products.product",
     "fields": {
       "sku": "935716284012",
@@ -2296,7 +2282,7 @@
     }
   },
   {
-    "pk": 165,
+    "pk": 164,
     "model": "products.product",
     "fields": {
       "sku": "720964318572",
@@ -2310,7 +2296,7 @@
     }
   },
   {
-    "pk": 166,
+    "pk": 165,
     "model": "products.product",
     "fields": {
       "sku": "486230159274",
@@ -2324,7 +2310,7 @@
     }
   },
   {
-    "pk": 167,
+    "pk": 166,
     "model": "products.product",
     "fields": {
       "sku": "592836401725",
@@ -2338,7 +2324,7 @@
     }
   },
   {
-    "pk": 168,
+    "pk": 167,
     "model": "products.product",
     "fields": {
       "sku": "149682537802",
@@ -2352,7 +2338,7 @@
     }
   },
   {
-    "pk": 169,
+    "pk": 168,
     "model": "products.product",
     "fields": {
       "sku": "384715926038",
@@ -2366,7 +2352,7 @@
     }
   },
   {
-    "pk": 170,
+    "pk": 169,
     "model": "products.product",
     "fields": {
       "sku": "570291843625",
@@ -2380,7 +2366,7 @@
     }
   },
   {
-    "pk": 171,
+    "pk": 170,
     "model": "products.product",
     "fields": {
       "sku": "925784569812",
@@ -2394,7 +2380,7 @@
     }
   },
   {
-    "pk": 172,
+    "pk": 171,
     "model": "products.product",
     "fields": {
       "sku": "936547812569",
@@ -2408,7 +2394,7 @@
     }
   },
   {
-    "pk": 173,
+    "pk": 172,
     "model": "products.product",
     "fields": {
       "sku": "845693214587",
@@ -2422,7 +2408,7 @@
     }
   },
   {
-    "pk": 174,
+    "pk": 173,
     "model": "products.product",
     "fields": {
       "sku": "701258963214",
@@ -2436,7 +2422,7 @@
     }
   },
   {
-    "pk": 175,
+    "pk": 174,
     "model": "products.product",
     "fields": {
       "sku": "369874125698",
@@ -2450,7 +2436,7 @@
     }
   },
   {
-    "pk": 176,
+    "pk": 175,
     "model": "products.product",
     "fields": {
       "sku": "582143697854",
@@ -2464,7 +2450,7 @@
     }
   },
   {
-    "pk": 177,
+    "pk": 176,
     "model": "products.product",
     "fields": {
       "sku": "785469231478",
@@ -2478,7 +2464,7 @@
     }
   },
   {
-    "pk": 178,
+    "pk": 177,
     "model": "products.product",
     "fields": {
       "sku": "632145897452",
