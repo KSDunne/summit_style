@@ -262,16 +262,39 @@ input[name='q']::placeholder {
 .shop-name{
   font-size: 250%;
   font-weight: 500;
-  margin-bottom: 0;
+  margin-bottom: 9rem;
+  padding-top: 8rem;
 }
 
 .call-to-action {
-  padding-bottom: 12rem;
-  margin-top: 1.5rem;
+  padding-bottom: 3rem;
+  margin-top: 3rem;
+}
+
+.button-wrapper {
+    margin-bottom: 4rem;
 }
 
 .btn-index {
-    display: inline;
+    display: inline-block;
+    color:black;
+    font-weight: 600;
+    background-color: yellow;
+    border-radius: 14px;
+    box-shadow: 0 2px 2px #3a3a3a;
+}
+
+.offers-on {
+  position: fixed;
+  bottom: 2vh;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  background-color: black;
+  padding: 0.5rem;
+  width:60%;
 }
 
 /* fixed top navbar only on medium and up */
