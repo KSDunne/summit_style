@@ -262,17 +262,17 @@ input[name='q']::placeholder {
 .shop-name{
   font-size: 250%;
   font-weight: 500;
-  margin-bottom: 9rem;
-  padding-top: 8rem;
+  margin-bottom: 12rem;
+  padding-top: 5rem;
 }
 
 .call-to-action {
-  padding-bottom: 3rem;
+  padding-bottom: 1rem;
   margin-top: 3rem;
 }
 
 .button-wrapper {
-    margin-bottom: 4rem;
+    margin-bottom: 1rem;
 }
 
 .btn-index {
