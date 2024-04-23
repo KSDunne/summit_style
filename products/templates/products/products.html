@@ -77,11 +77,33 @@
                                                 </a>
                                             </p>
                                             {% endif %}
-                                            {% if product.rating %}
-                                                <small class="text-muted"><i class="fas fa-star mr-1"></i>{{ product.rating }} / 5</small>
-                                            {% else %}
-                                                <small class="text-muted">No Rating</small>
-                                            {% endif %}
+                                            <div class="container" style="padding: 2em">
+                                                <div class="card" style="width: 30rem;">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">{{ product.header }}</h5>
+                                                    <p class="card-text">{{ product.text }}</p>
+                                                    <h5 class="card-title">Avg rating:
+                                                        <span class="fa fa-star {% if product.average_rating > 0 %} checked {% endif %}"></span>
+                                                        <span class="fa fa-star {% if product.average_rating > 1 %} checked {% endif %}"></span>
+                                                        <span class="fa fa-star {% if product.average_rating > 2 %} checked {% endif %}"></span>
+                                                        <span class="fa fa-star {% if product.average_rating > 3 %} checked {% endif %}" ></span>
+                                                        <span class="fa fa-star {% if product.average_rating > 4 %} checked {% endif %}"></span>
+                                                    </h5>
+                                                    <ul class="btn btn-light list-inline rating-list">
+                                                    <li onclick="rate(5, {{ product.id }})">
+                                                        <i class="fa fa-star {% if product.user_rating > 4 %} checked {% endif %}" title="Rate 5"></i></li>
+                                                    <li onclick="rate(4, {{ product.id }})">
+                                                        <i class="fa fa-star {% if product.user_rating > 3 %} checked {% endif %}" title="Rate 4"></i></li>
+                                                    <li onclick="rate(3, {{ product.id }})">
+                                                        <i class="fa fa-star {% if product.user_rating > 2 %} checked {% endif %}" title="Rate 3"></i></li>
+                                                    <li onclick="rate(2, {{ product.id }})">
+                                                        <i class="fa fa-star {% if product.user_rating > 1 %} checked {% endif %}" title="Rate 2"></i></li>
+                                                    <li onclick="rate(1, {{ product.id }})">
+                                                        <i class="fa fa-star {% if product.user_rating > 0 %} checked {% endif %}" title="Rate 1"></i></li>
+                                                    </ul>
+                                                </div>
+                                                </div>
+                                            </div>
                                             {% if request.user.is_superuser %}
                                                 <small class="ml-3">
                                                     <a href="{% url 'edit_product' product.id %}">Edit</a> | 
@@ -127,12 +149,6 @@
 
 {% block postloadjs %}
     {{ block.super }}
-    <script type="text/javascript">
-		$('.btt-link').click(function(e) {
-			window.scrollTo(0,0)
-		})
-	</script>
-
     <script type="text/javascript">
 		$('.btt-link').click(function(e) {
 			window.scrollTo(0,0)

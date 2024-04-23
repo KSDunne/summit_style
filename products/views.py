@@ -3,8 +3,9 @@ from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from django.db.models import Q
 from django.db.models.functions import Lower
+from django.http import HttpRequest, HttpResponse
 
-from .models import Product, Category
+from .models import Product, Category, ProductRating
 from .forms import ProductForm
 
 # Create your views here.
@@ -48,6 +49,10 @@ def all_products(request):
             products = products.filter(queries)
 
     current_sorting = f'{sort}_{direction}'
+    
+    for product in products:
+        rating = ProductRating.objects.filter(product=product, user=request.user).first()
+        product.user_rating = rating.rating if rating else 0
 
     context = {
         'products': products,
@@ -57,6 +62,13 @@ def all_products(request):
     }
 
     return render(request, 'products/products.html', context)
+
+
+def rate(request: HttpRequest, product_id: int, rating: int) -> HttpResponse:
+    product = Product.objects.get(id=product_id)
+    ProductRating.objects.filter(product=product, user=request.user).delete()
+    product.productrating_set.create(user=request.user, rating=rating)
+    return all_products(request)
 
 
 def product_detail(request, product_id):
