@@ -8,7 +8,6 @@
       "description": "Conquer any trail with these rugged yet comfortable hiking pants. Built for durability and freedom of movement on any outdoor adventure. Features include reinforced knees, moisture-wicking fabric, and multiple pockets for storage.",
       "price": 64.99,
       "category": 1,
-      "rating": 4.7,
       "image_url": "",
       "image": ""
     }
@@ -22,7 +21,6 @@
       "description": "Stay cool and dry during intense hikes with our SummitShield tank. Its quick-dry fabric and strategic mesh panels provide optimal ventilation, while the athletic fit ensures unrestricted movement on the trails.",
       "price": 42.99,
       "category": 1,
-      "rating": 4.9,
       "image_url": "",
       "image": ""
     }
@@ -36,7 +34,6 @@
       "description": "Boost your performance with our ExpeditionPro compression shorts. Designed to enhance blood circulation and muscle support, these shorts are perfect for intense outdoor activities like trail running or mountain biking.",
       "price": 34.99,
       "category": 1,
-      "rating": 4.5,
       "image_url": "",
       "image": ""
     }
@@ -50,7 +47,6 @@
       "description": "Start every adventure right with our AdventureReady base layer top. Its moisture-wicking fabric keeps you dry and comfortable, while the seamless design reduces chafing during long hours of outdoor exploration.",
       "price": 24.99,
       "category": 1,
-      "rating": 4.6,
       "image_url": "",
       "image": ""
     }
@@ -64,7 +60,6 @@
       "description": "Hit the trails in style and comfort with our SummitStride trail shorts. Designed for durability and flexibility, these shorts feature a moisture-wicking inner liner and multiple pockets for storing essentials.",
       "price": 29.99,
       "category": 1,
-      "rating": 4.8,
       "image_url": "",
       "image": ""
     }
@@ -78,7 +73,6 @@
       "description": "Stay warm and dry on chilly outdoor adventures with our RidgeRun Merino Wool Base Layer. This lightweight yet insulating garment is perfect for layering under your favorite outdoor gear.",
       "price": 59.99,
       "category": 1,
-      "rating": 4.9,
       "image_url": "",
       "image": ""
     }
@@ -92,7 +86,6 @@
       "description": "Stay warm and mobile during cold-weather hikes with our PeakPulse Insulated Vest. Featuring lightweight insulation and a water-resistant shell, this vest provides essential core warmth without restricting movement.",
       "price": 49.99,
       "category": 1,
-      "rating": 4.7,
       "image_url": "",
       "image": ""
     }
@@ -106,7 +99,6 @@
       "description": "Adapt to changing conditions on the trail with our VentureFlex Convertible Hiking Pants. Zip-off legs transform these pants into shorts, while the durable, water-resistant fabric ensures comfort and protection.",
       "price": 69.99,
       "category": 1,
-      "rating": 4.8,
       "image_url": "",
       "image": ""
     }
@@ -120,7 +112,6 @@
       "description": "Stay protected from the elements with our TrailBlaze Performance Trail Jacket. Constructed from lightweight, breathable fabric with water-repellent technology, this jacket is essential for outdoor enthusiasts.",
       "price": 79.99,
       "category": 1,
-      "rating": 4.9,
       "image_url": "",
       "image": ""
     }
@@ -134,7 +125,6 @@
       "description": "Prepare for any weather with our SummitShield Waterproof Shell Jacket. This versatile jacket offers reliable protection from wind and rain, making it perfect for hiking, camping, or any outdoor activity.",
       "price": 59.99,
       "category": 1,
-      "rating": 4.7,
       "image_url": "",
       "image": ""
     }
@@ -148,7 +138,6 @@
       "description": "Stay protected from the elements with our AdventureReady Waterproof Jacket. Constructed from lightweight, breathable fabric with water-repellent technology, this jacket is essential for outdoor enthusiasts.",
       "price": 89.99,
       "category": 1,
-      "rating": 4.6,
       "image_url": "",
       "image": ""
     }
@@ -162,7 +151,6 @@
       "description": "Conquer any terrain with our ExplorerPro Waterproof Hiking Boots. Featuring durable construction, waterproof membrane, and aggressive tread pattern, these boots provide stability and traction on any outdoor adventure.",
       "price": 59.99,
       "category": 1,
-      "rating": 4.9,
       "image_url": "",
       "image": ""
     }
@@ -176,7 +164,6 @@
       "description": "Embark on a journey to master advanced tent building techniques with our Summit Ascent course. Learn from seasoned outdoor experts as they guide you through the intricacies of tent construction in challenging environments.",
       "price": 99.99,
       "category": 2,
-      "rating": 5,
       "image_url": "",
       "image": ""
     }
@@ -190,7 +177,6 @@
       "description": "Join our Everest Expedition course and discover the essentials of tent building. Whether you're a beginner or an experienced outdoor enthusiast, this course covers everything you need to know to build sturdy and reliable shelters in various outdoor conditions.",
       "price": 79.99,
       "category": 2,
-      "rating": 4.8,
       "image_url": "",
       "image": ""
     }
@@ -204,7 +190,6 @@
       "description": "Embark on a journey to master the basics of tent construction with our Mountain Shelter course. Learn fundamental techniques for setting up tents, selecting appropriate materials, and ensuring safety and stability in outdoor environments.",
       "price": 49.99,
       "category": 2,
-      "rating": 4.5,
       "image_url": "",
       "image": ""
     }
@@ -218,7 +203,6 @@
       "description": "Take your tent rigging skills to the next level with our Wilderness Survival course. Explore advanced techniques for securing tents in rugged terrain, extreme weather conditions, and high-altitude environments.",
       "price": 129.99,
       "category": 2,
-      "rating": 4.9,
       "image_url": "",
       "image": ""
     }
@@ -232,7 +216,6 @@
       "description": "Join our Summit Shelter masterclass and delve deep into the art of tent design. Learn advanced principles of structural engineering, innovative material selection, and creative design concepts to build cutting-edge shelters for your outdoor adventures.",
       "price": 149.99,
       "category": 2,
-      "rating": 5,
       "image_url": "",
       "image": ""
     }
@@ -246,7 +229,6 @@
       "description": "Embark on an adrenaline-fueled journey with our Alpine Expeditions course. Learn specialized tent building techniques for extreme conditions, including high winds, heavy snowfall, and freezing temperatures.",
       "price": 179.99,
       "category": 2,
-      "rating": 4.7,
       "image_url": "",
       "image": ""
     }
@@ -260,7 +242,6 @@
       "description": "Delve deep into the intricacies of tent framework design with this advanced course. Explore innovative methods and optimize your tent structures for maximum stability and durability.",
       "price": 60.99,
       "category": 2,
-      "rating": 4.5,
       "image_url": "",
       "image": ""
     }
@@ -274,7 +255,6 @@
       "description": "Learn to choose the right tent fabrics and maintain them effectively with this essential course. Enhance the lifespan of your tents and ensure optimal performance in various weather conditions.",
       "price": 21.99,
       "category": 2,
-      "rating": 4,
       "image_url": "",
       "image": ""
     }
@@ -288,7 +268,6 @@
       "description": "Discover the secrets of effective tent waterproofing with this specialized course. Master various techniques to keep your tents dry and comfortable even in the harshest conditions.",
       "price": 58.99,
       "category": 2,
-      "rating": 4.5,
       "image_url": "",
       "image": ""
     }
@@ -302,7 +281,6 @@
       "description": "Optimize airflow and maintain comfortable conditions inside your tents with this specialized course. Explore various ventilation systems and learn to create a healthy indoor environment.",
       "price": 72.99,
       "category": 2,
-      "rating": 5,
       "image_url": "",
       "image": ""
     }
@@ -316,7 +294,6 @@
       "description": "Be prepared for any outdoor emergency with this essential course on emergency shelter construction. Learn to build temporary shelters quickly and effectively to ensure safety in unexpected situations.",
       "price": 31.99,
       "category": 2,
-      "rating": 4.6,
       "image_url": "",
       "image": ""
     }
@@ -330,7 +307,6 @@
       "description": "Prepare for extreme cold conditions with this specialized course on cold weather tent construction. Learn insulation techniques and design principles to keep yourself warm and safe in challenging environments.",
       "price": 82,
       "category": 2,
-      "rating": 3.8,
       "image_url": "",
       "image": ""
     }
@@ -344,7 +320,6 @@
       "description": "Ensure safety during your outdoor adventures with this comprehensive course on tent safety and risk management. Learn essential safety protocols and strategies to mitigate risks effectively.",
       "price": 60.99,
       "category": 2,
-      "rating": 5,
       "image_url": "",
       "image": ""
     }
@@ -358,7 +333,6 @@
       "description": "Extend the lifespan of your tents with this practical course on tent repair and maintenance. Learn essential repair techniques and maintenance routines to keep your tents in top condition.",
       "price": 59.99,
       "category": 2,
-      "rating": 4.8,
       "image_url": "",
       "image": ""
     }
@@ -372,7 +346,6 @@
       "description": "Turn your passion for tent building into a successful business venture with this comprehensive course. Learn essential business strategies and marketing techniques to launch and grow your own tent building business.",
       "price": 169.99,
       "category": 2,
-      "rating": 4.7,
       "image_url": "",
       "image": ""
     }
@@ -386,7 +359,6 @@
       "description": "Explore the art and science of tent architecture with this fascinating course. Learn about design principles, structural analysis, and innovative materials to create cutting-edge tent designs.",
       "price": 205.99,
       "category": 2,
-      "rating": 4.7,
       "image_url": "",
       "image": ""
     }
@@ -400,7 +372,6 @@
       "description": "Conquer the highest peaks with our Summit Explorer Backpack. Built for durability and comfort, this backpack features reinforced straps, multiple compartments, and a hydration bladder sleeve. Whether you're trekking through the mountains or exploring rugged trails, this backpack has your back.",
       "price": 79.99,
       "category": 3,
-      "rating": 4.7,
       "image_url": "",
       "image": ""
     }
@@ -414,7 +385,6 @@
       "description": "Gear up for your next adventure with our Everest Trekking Shoes. Designed for rugged terrain, these shoes provide superior traction and ankle support. Whether you're hiking through rocky trails or crossing streams, these shoes will keep you comfortable and stable.",
       "price": 99.99,
       "category": 3,
-      "rating": 4.9,
       "image_url": "",
       "image": ""
     }
@@ -428,7 +398,6 @@
       "description": "Stay warm and cozy on chilly nights with our Mountain Summit Sleeping Bag. Made with high-quality insulation and a durable shell, this sleeping bag is perfect for camping under the stars or relaxing in your tent. Get ready for a restful night's sleep wherever your adventures take you.",
       "price": 129.99,
       "category": 3,
-      "rating": 4.5,
       "image_url": "",
       "image": ""
     }
@@ -442,7 +411,6 @@
       "description": "Navigate through rugged terrain with ease using our Adventure-Ready Compass. Designed for outdoor enthusiasts, this compass features a durable housing and a precise needle for accurate navigation. Whether you're hiking, camping, or trekking, this compass is an essential tool for your adventures.",
       "price": 19.99,
       "category": 3,
-      "rating": 4.8,
       "image_url": "",
       "image": ""
     }
@@ -456,7 +424,6 @@
       "description": "Conquer challenging trails with our Summit Pro Trekking Poles. Made from lightweight yet sturdy materials, these trekking poles provide stability and support on any terrain. Whether you're ascending steep slopes or descending rocky paths, these poles will enhance your outdoor experience.",
       "price": 49.99,
       "category": 3,
-      "rating": 4.6,
       "image_url": "",
       "image": ""
     }
@@ -470,7 +437,6 @@
       "description": "Set up camp anywhere with our Everest Expedition Tent. Designed for extreme conditions, this tent features durable construction and weatherproof materials to keep you protected from the elements. Whether you're camping in the mountains or exploring remote wilderness, this tent is your ultimate shelter.",
       "price": 299.99,
       "category": 3,
-      "rating": 4.9,
       "image_url": "",
       "image": ""
     }
@@ -484,7 +450,6 @@
       "description": "Navigate your adventures with confidence using our Adventure Explorer GPS Watch. Packed with features like route tracking, altimeter, and compass, this watch is your ultimate outdoor companion. Whether you're hiking, biking, or climbing, this GPS watch will help you reach new heights.",
       "price": 149.99,
       "category": 3,
-      "rating": 4.7,
       "image_url": "",
       "image": ""
     }
@@ -498,7 +463,6 @@
       "description": "Experience the ultimate adventure with our Summit Alpine Backpacking Tent. Engineered for performance and durability, this tent provides ample space and weather protection for your backcountry excursions. Whether you're summiting peaks or traversing rugged landscapes, this tent is your home away from home.",
       "price": 199.99,
       "category": 3,
-      "rating": 4.8,
       "image_url": "",
       "image": ""
     }
@@ -512,7 +476,6 @@
       "description": "Be prepared for any adventure with our Everest Explorer Survival Kit. Packed with essential tools like a fire starter, emergency blanket, and multi-tool, this kit has everything you need to stay safe in the wilderness. Whether you're camping, hiking, or exploring, this survival kit is your lifeline.",
       "price": 59.99,
       "category": 3,
-      "rating": 4.9,
       "image_url": "",
       "image": ""
     }
@@ -526,7 +489,6 @@
       "description": "Cook up a feast on your outdoor adventures with our Mountain Summit Portable Stove. Compact and lightweight, this stove is perfect for backpacking, camping, and trekking. Whether you're boiling water for coffee or cooking a gourmet meal, this portable stove delivers reliable performance wherever you go.",
       "price": 79.99,
       "category": 3,
-      "rating": 4.7,
       "image_url": "",
       "image": ""
     }
@@ -540,7 +502,6 @@
       "description": "Embark on epic journeys with our Everest Expedition Backpack. Designed for maximum comfort and durability, this backpack features adjustable straps, padded back panel, and multiple pockets for organization. Whether you're backpacking through remote wilderness or traveling the world, this backpack is your ultimate companion.",
       "price": 159.99,
       "category": 3,
-      "rating": 4.8,
       "image_url": "",
       "image": ""
     }
@@ -554,7 +515,6 @@
       "description": "Experience ultimate comfort during your outdoor adventures with this microplush heated throw. Whether you're camping under the stars or cozying up in your cabin after a long day of hiking, this throw will keep you warm and snug. Features a foot pocket designed to keep your feet warm even in the chilliest of nights. With 3 heat settings and a 3-hour auto-off function, it's the perfect companion for your outdoor escapades. Dimensions: 50x60\". Material: Polyester. Machine washable. Imported.",
       "price": 138.99,
       "category": 3,
-      "rating": 4.2,
       "image_url": "",
       "image": ""
     }
@@ -568,7 +528,6 @@
       "description": "Let your little explorer embark on thrilling adventures with this Frozen-themed Elsa graphic tee. Perfect for outdoor play and exploration, this tee features a glittering Elsa design that adds a touch of magic to every adventure. Made from 100% cotton for comfort and durability. Machine washable for easy care. Imported.",
       "price": 27,
       "category": 3,
-      "rating": 5,
       "image_url": "",
       "image": ""
     }
@@ -582,7 +541,6 @@
       "description": "Conquer new heights in style with this Levi's short-sleeve logo tee. Featuring an iconic logo design with a rugged mountain summit backdrop, this tee is perfect for outdoor enthusiasts. Crafted from a comfortable cotton/polyester blend for all-day wear. Machine washable for easy maintenance. Imported.",
       "price": 29,
       "category": 3,
-      "rating": 5,
       "image_url": "",
       "image": ""
     }
@@ -596,7 +554,6 @@
       "description": "Gear up for your next outdoor adventure with this colorful Nike graphic tee. Inspired by the majestic beauty of mountain landscapes, this tee features a vibrant mountain air graphic that captures the spirit of exploration. Made from 100% cotton for breathable comfort during your outdoor pursuits. Machine washable for easy care. Imported.",
       "price": 30.99,
       "category": 3,
-      "rating": 4,
       "image_url": "",
       "image": ""
     }
@@ -610,7 +567,6 @@
       "description": "Embark on your outdoor adventures in style with this Crystal-Accent White Leather Strap Watch from Summit Explorer. Featuring genuine leather and sparkling CRYSTALLIZED - Swarovski Elements, this watch adds a touch of elegance to your rugged expeditions. With its durable construction and luxurious design, it's the perfect companion for every outdoor enthusiast. Water-resistant. Imported.",
       "price": 69.99,
       "category": 3,
-      "rating": 4,
       "image_url": "",
       "image": ""
     }
@@ -624,7 +580,6 @@
       "description": "Fuel your little adventurer's imagination with this Mountain Explorer graphic tee. Featuring an edgy print inspired by rugged mountain landscapes, this tee is perfect for outdoor exploration and play. Made from a soft and durable cotton-polyester blend for all-day comfort. Machine washable for easy care. Imported.",
       "price": 19.99,
       "category": 3,
-      "rating": 4.9,
       "image_url": "",
       "image": ""
     }
@@ -638,7 +593,6 @@
       "description": "Get your little climber ready for outdoor adventures with this adorable 4-piece set. Whether he's exploring the great outdoors or snuggling up at home, this set will keep him cozy and stylish. Includes a bodysuit, tee, footed pants, and cap, all crafted from soft and breathable cotton for maximum comfort. Machine washable for easy care. Imported.",
       "price": 31.99,
       "category": 3,
-      "rating": 5,
       "image_url": "",
       "image": ""
     }
@@ -652,7 +606,6 @@
       "description": "Conquer the summit in style with these sateen cropped pants. Whether you're hiking through rugged terrain or exploring scenic trails, these pants will keep you comfortable and chic. Features a zipper closure, 2 front slash pockets, and 2 faux back pockets. Made from a cotton/nylon/spandex blend for stretch and durability. Machine washable for easy maintenance. Imported.",
       "price": 66,
       "category": 3,
-      "rating": 4.7,
       "image_url": "",
       "image": ""
     }
@@ -666,7 +619,6 @@
       "description": "Conquer the trails in style with this mountain explorer short-sleeve woven shirt. Crafted from easy-match cotton poplin, this shirt offers the perfect blend of style and comfort for your outdoor adventures. Features a point collar, button front, and side pleat back for a relaxed fit. Machine washable for easy care. Imported.",
       "price": 53.99,
       "category": 3,
-      "rating": 3.7,
       "image_url": "",
       "image": ""
     }
@@ -680,7 +632,6 @@
       "description": "Elevate your sleeping experience with this microfiber sheet set inspired by mountain expeditions. Made from soft microfiber fabric, this set features exciting patterns and colors that reflect the thrill of outdoor adventures. Set includes a flat sheet, fitted sheet, and pillowcase. Fits mattresses up to 14\" deep. Machine washable for easy maintenance. Imported. Twin XL: flat 66x96\"; fitted 39x80\"; pillowcase 21x32\"",
       "price": 41.99,
       "category": 3,
-      "rating": 3.8,
       "image_url": "",
       "image": ""
     }
@@ -694,7 +645,6 @@
       "description": "Conquer the highest peaks in style with this Crystal-Accent White Leather Strap Watch from Mountain Peak. Crafted from genuine leather and sparkling CRYSTALLIZED - Swarovski Elements, this watch exudes elegance and adventure. Perfect for women who appreciate the finer things in life, it features 10 CRYSTALLIZED - Swarovski Elements markers and a sweeping second hand. Water-resistant. Imported.",
       "price": 69.99,
       "category": 3,
-      "rating": 4,
       "image_url": "",
       "image": ""
     }
@@ -708,7 +658,6 @@
       "description": "Stay warm and cozy during your outdoor adventures with our Arctic Explorer long sleeve fleece jacket. Featuring a high collar and full zip closure, this jacket is perfect for chilly hikes or evenings by the campfire. Made with thick, insulating fleece fabric. 100% polyester. Machine washable.",
       "price": 103.99,
       "category": 4,
-      "rating": 5,
       "image_url": "",
       "image": ""
     }
@@ -722,7 +671,6 @@
       "description": "Conquer the trails with our Summit Series short sleeve fleece pullover. Made with lightweight fleece fabric, this pullover provides warmth without bulk, making it perfect for layering during your outdoor adventures. Features a quarter zip closure and chest pocket. 100% polyester. Machine washable.",
       "price": 43.99,
       "category": 4,
-      "rating": 5,
       "image_url": "",
       "image": ""
     }
@@ -736,7 +684,6 @@
       "description": "Discover new trails in style with our Explorer Pro fleece-lined denim shorts. These rugged shorts feature a cozy fleece lining to keep you warm on cool mornings or evenings. Classic 5-pocket styling with a raw-edge hem adds a touch of adventure to your look. 98% cotton, 2% spandex. Machine washable.",
       "price": 48.99,
       "category": 4,
-      "rating": 5,
       "image_url": "",
       "image": ""
     }
@@ -750,7 +697,6 @@
       "description": "Blaze your own trail in our Trailblazer convertible fleece pants. These versatile pants feature zip-off legs, allowing you to easily switch between pants and shorts depending on the weather. The fleece fabric provides warmth and comfort for all-day exploration. 100% polyester. Machine washable.",
       "price": 53.99,
       "category": 4,
-      "rating": 4.5,
       "image_url": "",
       "image": ""
     }
@@ -764,7 +710,6 @@
       "description": "Be adventure-ready with our short-sleeve fleece shirt. Crafted with breathable fleece fabric, this shirt is perfect for outdoor activities in changing weather conditions. Features a button-down front and chest pocket for added convenience. 100% polyester. Machine washable.",
       "price": 53.99,
       "category": 4,
-      "rating": 4.3,
       "image_url": "",
       "image": ""
     }
@@ -778,7 +723,6 @@
       "description": "Reach new heights with our Summit Peak roll-cuff fleece jeans. These versatile jeans feature a cozy fleece lining to keep you warm during chilly outdoor adventures. The roll-cuff design adds a touch of style, perfect for transitioning between seasons. 98% cotton, 2% spandex. Machine washable.",
       "price": 58.99,
       "category": 4,
-      "rating": 4.7,
       "image_url": "",
       "image": ""
     }
@@ -792,7 +736,6 @@
       "description": "Escape to the mountains with our Alpine Escape essential fleece capri pant. Made with cozy fleece fabric, these capris provide warmth and comfort for all-day wear. The elastic waistband ensures a snug fit, while slash pockets add convenience. 100% polyester. Machine washable.",
       "price": 41.99,
       "category": 4,
-      "rating": 4.7,
       "image_url": "",
       "image": ""
     }
@@ -806,7 +749,6 @@
       "description": "Conquer the summit with our Nike Summit Dri-FIT base layer tights. These compression tights provide the comfort and mobility you need to maximize your outdoor workouts. Made with moisture-wicking fabric to keep you dry and comfortable. 80% polyester, 20% spandex. Machine washable.",
       "price": 41,
       "category": 4,
-      "rating": 5,
       "image_url": "",
       "image": ""
     }
@@ -820,7 +762,6 @@
       "description": "Reach the summit of style with our Liz Claiborne Summit City-Fit Skinny Fleece Jeans. These skinny jeans are designed to keep you warm and comfortable during outdoor adventures. Made with a blend of cotton, polyester, and spandex for stretch and durability. Machine washable.",
       "price": 58.99,
       "category": 4,
-      "rating": 4,
       "image_url": "",
       "image": ""
     }
@@ -834,7 +775,6 @@
       "description": "Make a splash in our Coastal Explorer printed micro fleece swim trunks. Crafted with soft fleece fabric, these swim trunks provide comfort both in and out of the water. The elastic waist with drawstring ensures a secure fit, while side-seam pockets add convenience. 100% polyester. Machine washable.",
       "price": 60.99,
       "category": 4,
-      "rating": 3.7,
       "image_url": "",
       "image": ""
     }
@@ -848,7 +788,6 @@
       "description": "Climb to new heights with our Summit Peak crossover fleece ankle pants. Made with soft fleece fabric, these pants offer warmth and comfort for all-day wear. The flat front and slim fit silhouette provide a flattering look, perfect for any outdoor activity. 98% cotton, 2% spandex. Machine washable.",
       "price": 53.99,
       "category": 4,
-      "rating": 4.8,
       "image_url": "",
       "image": ""
     }
@@ -862,7 +801,6 @@
       "description": "Hit the summit in style with our Summit Trail Quick-Dri performance fleece bootcut pant. Designed for active lifestyles, these pants feature Quick-Dri moisture-wicking fabric to keep you dry and comfortable. The bootcut silhouette offers a flattering look, perfect for any adventure. 90% polyester, 10% spandex. Machine washable.",
       "price": 58.99,
       "category": 4,
-      "rating": 4.8,
       "image_url": "",
       "image": ""
     }
@@ -876,7 +814,6 @@
       "description": "Blaze a new trail with our Trailblazer Reserve authentic relaxed-fit fleece jeans. Crafted with premium fleece-lined denim, these jeans offer warmth and comfort for all-day wear. The relaxed fit and straight leg silhouette provide a classic look, perfect for outdoor adventures. 98% cotton, 2% spandex. Machine washable.",
       "price": 65.99,
       "category": 4,
-      "rating": 4.4,
       "image_url": "",
       "image": ""
     }
@@ -890,7 +827,6 @@
       "description": "Stay cool and comfortable with our adidas climacool fleece boxer briefs. Made with moisture-wicking fabric, these boxer briefs keep you dry and comfortable during any activity. The mesh panels provide added ventilation, while the double-lined support pouch offers extra comfort and support. Tag-free design reduces irritation. 95% polyester, 5% spandex. Machine washable.",
       "price": 28.99,
       "category": 4,
-      "rating": 4.5,
       "image_url": "",
       "image": ""
     }
@@ -904,7 +840,6 @@
       "description": "Climb to new heights with our Nike 3-pk. Dri-FIT Summit Fly Rise crew socks. Made with moisture-wicking fabric, these socks keep your feet dry and comfortable during outdoor adventures. The cushioned footbed provides added comfort, while the arch compression ensures a snug fit. Reinforced heel and toe offer durability for long-lasting wear. 80% nylon, 17% cotton, 2% polyester, 1% spandex. Machine washable.",
       "price": 23.99,
       "category": 4,
-      "rating": 4.6,
       "image_url": "",
       "image": ""
     }
@@ -918,7 +853,6 @@
       "description": "Reach the summit of comfort with our Hanes 3-pk. Cotton Summit crewneck t-shirts. Made with ultra-soft cotton fabric, these t-shirts provide superior comfort for all-day wear. The longer stay-tucked length and tagless design ensure a comfortable fit without irritation. Midweight fabric offers the perfect balance of comfort and durability. 100% cotton. Machine washable.",
       "price": 53.99,
       "category": 4,
-      "rating": 4.3,
       "image_url": "",
       "image": ""
     }
@@ -932,7 +866,6 @@
       "description": "Walk a little taller in our slimming straight-leg pants. Our Liz Claiborne Classic Sophie Secretly Slender Summit Trouser Leg Pants sit below the waist and are fitted through the hip and thigh. Made with fleece fabric, these pants offer warmth and comfort for all-day wear. Machine washable. Available in plus sizes.",
       "price": 59,
       "category": 4,
-      "rating": 4.4,
       "image_url": "",
       "image": ""
     }
@@ -946,7 +879,6 @@
       "description": "Straight-leg styling and on-the-job comfort make our Audra pants a flattering business decision. Made with fleece fabric, these pants offer warmth and comfort for all-day wear. Flat front with zip fly and hook-and-bar closure. 2 front and 2 back welt pockets. Machine washable.",
       "price": 58.99,
       "category": 4,
-      "rating": 4.6,
       "image_url": "",
       "image": ""
     }
@@ -960,7 +892,6 @@
       "description": "Stay warm and protected during your aquatic adventures with our long-sleeve neoprene wetsuit. Designed for comfort and flexibility, this wetsuit features a durable construction and sleek design.",
       "price": 199.99,
       "category": 5,
-      "rating": 4.5,
       "image_url": "",
       "image": ""
     }
@@ -974,7 +905,6 @@
       "description": "Enjoy maximum mobility and comfort with our short-sleeve spring wetsuit. Perfect for warmer waters, this wetsuit provides excellent insulation while allowing unrestricted movement.",
       "price": 149.99,
       "category": 5,
-      "rating": 4.3,
       "image_url": "",
       "image": ""
     }
@@ -988,7 +918,6 @@
       "description": "Gear up for your next triathlon with our full-length triathlon wetsuit. Designed for optimal performance, this wetsuit offers superior buoyancy and hydrodynamics to help you glide through the water with ease.",
       "price": 299.99,
       "category": 5,
-      "rating": 4.8,
       "image_url": "",
       "image": ""
     }
@@ -1002,7 +931,6 @@
       "description": "Explore the depths in comfort with our diving dry suit. Made from waterproof materials, this suit keeps you dry and warm even in the coldest waters, allowing you to focus on your underwater adventures.",
       "price": 499.99,
       "category": 5,
-      "rating": 4.9,
       "image_url": "",
       "image": ""
     }
@@ -1016,7 +944,6 @@
       "description": "Dominate your next triathlon with our sleeveless triathlon wetsuit. Engineered for speed and agility, this wetsuit offers optimal flexibility and hydrodynamics to help you achieve your personal best.",
       "price": 249.99,
       "category": 5,
-      "rating": 4.7,
       "image_url": "",
       "image": ""
     }
@@ -1030,7 +957,6 @@
       "description": "Enjoy the freedom of movement with our shorty wetsuit. Perfect for surfing or snorkeling, this wetsuit offers excellent insulation without restricting your mobility.",
       "price": 129.99,
       "category": 5,
-      "rating": 4.4,
       "image_url": "",
       "image": ""
     }
@@ -1044,7 +970,6 @@
       "description": "Stay comfortable and agile in the water with our long john wetsuit. Designed for extended periods of wear, this wetsuit offers excellent thermal protection without sacrificing flexibility.",
       "price": 179.99,
       "category": 5,
-      "rating": 4.6,
       "image_url": "",
       "image": ""
     }
@@ -1058,7 +983,6 @@
       "description": "Conquer extreme conditions with our drysuit with hood. Featuring a fully waterproof design and integrated hood, this suit keeps you warm and dry in the harshest environments.",
       "price": 599.99,
       "category": 5,
-      "rating": 4.9,
       "image_url": "",
       "image": ""
     }
@@ -1072,7 +996,6 @@
       "description": "Versatile and practical, our convertible wetsuit adapts to changing conditions. Wear it with full sleeves for extra warmth or convert it into a shorty wetsuit for greater mobility.",
       "price": 279.99,
       "category": 5,
-      "rating": 4.7,
       "image_url": "",
       "image": ""
     }
@@ -1086,7 +1009,6 @@
       "description": "Protect your skin from abrasions and sunburn with our neoprene rash guard. Designed for comfort and durability, this rash guard is essential for any water sports enthusiast.",
       "price": 69.99,
       "category": 5,
-      "rating": 4.4,
       "image_url": "",
       "image": ""
     }
@@ -1100,7 +1022,6 @@
       "description": "Stay warm on chilly days with our thermal wetsuit jacket. Featuring a fleece-lined interior and water-resistant exterior, this jacket is perfect for layering or wearing on its own.",
       "price": 119.99,
       "category": 5,
-      "rating": 4.5,
       "image_url": "",
       "image": ""
     }
@@ -1114,7 +1035,6 @@
       "description": "Experience full-body protection with our full body wetsuit. Made from premium neoprene, this wetsuit provides excellent insulation and abrasion resistance for all-day comfort in the water.",
       "price": 349.99,
       "category": 5,
-      "rating": 4.8,
       "image_url": "",
       "image": ""
     }
@@ -1128,7 +1048,6 @@
       "description": "Get versatile performance with our two-piece wetsuit set. This set includes a long-sleeve top and full-length pants, providing customizable coverage and warmth for any aquatic activity.",
       "price": 389.99,
       "category": 5,
-      "rating": 4.6,
       "image_url": "",
       "image": ""
     }
@@ -1142,7 +1061,6 @@
       "description": "Stay agile in the water with our knee-length wetsuit. Featuring a streamlined design and flexible construction, this wetsuit offers enhanced mobility and comfort for all your aquatic adventures.",
       "price": 219.99,
       "category": 5,
-      "rating": 4.4,
       "image_url": "",
       "image": ""
     }
@@ -1156,7 +1074,6 @@
       "description": "Stay safe under the sun with our UV protection wetsuit. Made from high-performance materials, this wetsuit blocks harmful UV rays while providing superior insulation and comfort in the water.",
       "price": 179.99,
       "category": 5,
-      "rating": 4.7,
       "image_url": "",
       "image": ""
     }
@@ -1170,7 +1087,6 @@
       "description": "Keep your core warm with our windproof wetsuit vest. Designed to block cold winds and retain body heat, this vest is perfect for layering or wearing on its own during your aquatic adventures.",
       "price": 89.99,
       "category": 5,
-      "rating": 4.5,
       "image_url": "",
       "image": ""
     }
@@ -1184,7 +1100,6 @@
       "description": "Stay protected from the elements with our hooded wetsuit jacket. Featuring a built-in hood and adjustable cuffs, this jacket provides additional coverage and warmth for your outdoor adventures.",
       "price": 129.99,
       "category": 5,
-      "rating": 4.6,
       "image_url": "",
       "image": ""
     }
@@ -1198,7 +1113,6 @@
       "description": "Stay dry and comfortable on your outdoor adventures with these waterproof pants. Designed for durability and performance, they'll keep you protected in any weather conditions. Perfect for hiking, camping, and other outdoor activities.",
       "price": 79.99,
       "category": 6,
-      "rating": 4.8,
       "image_url": "",
       "image": ""
     }
@@ -1212,7 +1126,6 @@
       "description": "Gear up for your next adventure with these combat tactical pants. Built to withstand rugged terrain and harsh conditions, they offer exceptional durability and versatility. Whether you're hiking through the wilderness or tackling tough obstacles, these pants have you covered.",
       "price": 89.99,
       "category": 6,
-      "rating": 4.9,
       "image_url": "",
       "image": ""
     }
@@ -1226,7 +1139,6 @@
       "description": "Embark on your outdoor adventures with confidence in these cargo pants. Featuring ample pocket space and a rugged design, they're perfect for hiking, camping, and exploring. Stay comfortable and prepared for anything nature throws your way.",
       "price": 74.99,
       "category": 6,
-      "rating": 4.7,
       "image_url": "",
       "image": ""
     }
@@ -1240,7 +1152,6 @@
       "description": "Conquer the trails in these waterproof hiking pants. Designed for maximum comfort and protection, they'll keep you dry and comfortable during your outdoor excursions. With a durable construction and practical features, they're essential gear for any hiker.",
       "price": 69.99,
       "category": 6,
-      "rating": 4.6,
       "image_url": "",
       "image": ""
     }
@@ -1254,7 +1165,6 @@
       "description": "Stay prepared for your outdoor adventures with these tactical cargo pants. Built to withstand rugged terrain and harsh conditions, they offer exceptional durability and functionality. Whether you're hiking, camping, or on a mission, these pants have you covered.",
       "price": 85.99,
       "category": 6,
-      "rating": 4.8,
       "image_url": "",
       "image": ""
     }
@@ -1268,7 +1178,6 @@
       "description": "Brave the elements in these waterproof outdoor pants. Engineered for superior performance and comfort, they'll keep you dry and protected during your outdoor pursuits. Whether you're hiking, camping, or fishing, these pants are your ultimate companion.",
       "price": 79.99,
       "category": 6,
-      "rating": 4.9,
       "image_url": "",
       "image": ""
     }
@@ -1282,7 +1191,6 @@
       "description": "Gear up for your outdoor adventures with these combat cargo pants. Designed for rugged performance and durability, they'll keep you comfortable and prepared for any challenge. Perfect for hiking, camping, and tactical missions.",
       "price": 89.99,
       "category": 6,
-      "rating": 4.9,
       "image_url": "",
       "image": ""
     }
@@ -1296,7 +1204,6 @@
       "description": "Get the timeless look and durable comfort of classic straight leg jeans. Made from quality denim, these jeans are perfect for everyday wear and outdoor adventures alike. With a versatile design, they're a must-have addition to any wardrobe.",
       "price": 59.99,
       "category": 6,
-      "rating": 4.5,
       "image_url": "",
       "image": ""
     }
@@ -1310,7 +1217,6 @@
       "description": "Achieve a sleek and modern look with these slim fit stretch jeans. Made from stretch denim for maximum comfort and flexibility, they're perfect for active lifestyles and outdoor adventures. Whether you're hiking, camping, or just hanging out, these jeans will keep you looking and feeling great.",
       "price": 64.99,
       "category": 6,
-      "rating": 4.6,
       "image_url": "",
       "image": ""
     }
@@ -1324,7 +1230,6 @@
       "description": "Enjoy all-day comfort and style with these relaxed fit jeans. Made from soft denim with a relaxed fit through the seat and thigh, they're perfect for outdoor activities and casual wear. Whether you're hiking, camping, or just hanging out, these jeans have you covered.",
       "price": 54.99,
       "category": 6,
-      "rating": 4.4,
       "image_url": "",
       "image": ""
     }
@@ -1338,7 +1243,6 @@
       "description": "Step out in style with these classic bootcut jeans. Made from durable denim with a slight flare at the hem, they're perfect for pairing with boots and other outdoor footwear. Whether you're hiking, camping, or just running errands, these jeans will keep you looking great.",
       "price": 69.99,
       "category": 6,
-      "rating": 4.7,
       "image_url": "",
       "image": ""
     }
@@ -1352,7 +1256,6 @@
       "description": "Make a statement with these trendy skinny jeans. Made from stretch denim for a comfortable fit, they feature a slim fit through the hip and thigh with a narrow leg opening. Perfect for outdoor adventures and casual outings alike, these jeans will keep you looking stylish wherever you go.",
       "price": 64.99,
       "category": 6,
-      "rating": 4.5,
       "image_url": "",
       "image": ""
     }
@@ -1366,7 +1269,6 @@
       "description": "Embark on your outdoor adventures in style with these tactical pants. Built for performance and durability, they offer unmatched versatility and comfort. Whether you're hiking, camping, or exploring, these pants are ready for action.",
       "price": 84.99,
       "category": 6,
-      "rating": 4.8,
       "image_url": "",
       "image": ""
     }
@@ -1380,7 +1282,6 @@
       "description": "Stay prepared for any outdoor challenge with these waterproof tactical pants. Engineered for durability and performance, they offer maximum comfort and protection in harsh conditions. Whether you're hiking, camping, or on a mission, these pants have you covered.",
       "price": 89.99,
       "category": 6,
-      "rating": 4.9,
       "image_url": "",
       "image": ""
     }
@@ -1394,7 +1295,6 @@
       "description": "Gear up for your outdoor adventures with these combat pants. Designed for rugged performance and durability, they'll keep you comfortable and prepared for any challenge. Perfect for hiking, camping, and tactical missions.",
       "price": 84.99,
       "category": 6,
-      "rating": 4.8,
       "image_url": "",
       "image": ""
     }
@@ -1408,7 +1308,6 @@
       "description": "Stay prepared for any outdoor challenge with these waterproof combat pants. Engineered for durability and performance, they offer maximum comfort and protection in harsh conditions. Whether you're hiking, camping, or on a mission, these pants have you covered.",
       "price": 89.99,
       "category": 6,
-      "rating": 4.9,
       "image_url": "",
       "image": ""
     }
@@ -1422,7 +1321,6 @@
       "description": "Get ready for your outdoor adventures with these cargo pants. Designed for durability and functionality, they feature ample pocket space and a rugged design. Whether you're hiking, camping, or exploring, these pants are the perfect companion.",
       "price": 79.99,
       "category": 6,
-      "rating": 4.8,
       "image_url": "",
       "image": ""
     }
@@ -1436,7 +1334,6 @@
       "description": "Gear up for your outdoor missions with these tactical cargo pants. Built for durability and functionality, they feature ample pocket space and a rugged design. Whether you're hiking, camping, or on a mission, these pants have you covered.",
       "price": 85.99,
       "category": 6,
-      "rating": 4.9,
       "image_url": "",
       "image": ""
     }
@@ -1450,7 +1347,6 @@
       "description": "Stay prepared for any outdoor mission with these waterproof tactical cargo pants. Engineered for durability and functionality, they offer maximum comfort and protection in harsh conditions. Whether you're hiking, camping, or on a mission, these pants have you covered.",
       "price": 89.99,
       "category": 6,
-      "rating": 4.9,
       "image_url": "",
       "image": ""
     }
@@ -1464,7 +1360,6 @@
       "description": "Brave the elements in these combat cargo pants. Designed for durability and functionality, they feature ample pocket space and a rugged design. Whether you're hiking, camping, or on a mission, these pants have you covered.",
       "price": 84.99,
       "category": 6,
-      "rating": 4.8,
       "image_url": "",
       "image": ""
     }
@@ -1478,7 +1373,6 @@
       "description": "Stay prepared for any outdoor adventure with these waterproof cargo pants. Engineered for durability and functionality, they offer maximum comfort and protection in harsh conditions. Whether you're hiking, camping, or exploring, these pants have you covered.",
       "price": 89.99,
       "category": 6,
-      "rating": 4.9,
       "image_url": "",
       "image": ""
     }
@@ -1492,7 +1386,6 @@
       "description": "Learn the essential skills of basic navigation for outdoor adventures.",
       "price": 82.99,
       "category": 7,
-      "rating": 4.7,
       "image_url": "",
       "image": ""
     }
@@ -1506,7 +1399,6 @@
       "description": "Master the art of building shelters in the wilderness with this comprehensive course.",
       "price": 362.99,
       "category": 7,
-      "rating": 4.5,
       "image_url": "",
       "image": ""
     }
@@ -1520,7 +1412,6 @@
       "description": "Obtain vital skills to handle medical emergencies in outdoor environments.",
       "price": 90.99,
       "category": 7,
-      "rating": 5,
       "image_url": "",
       "image": ""
     }
@@ -1534,7 +1425,6 @@
       "description": "Explore delicious campfire recipes and essential cooking techniques for outdoor adventures.",
       "price": 58.99,
       "category": 7,
-      "rating": 4.5,
       "image_url": "",
       "image": ""
     }
@@ -1548,7 +1438,6 @@
       "description": "Learn the art of outdoor photography and capture stunning images of nature's beauty.",
       "price": 169.99,
       "category": 7,
-      "rating": 5,
       "image_url": "",
       "image": ""
     }
@@ -1562,7 +1451,6 @@
       "description": "Discover how to identify edible plants in the wilderness and enhance your outdoor survival skills.",
       "price": 211.99,
       "category": 7,
-      "rating": 4,
       "image_url": "",
       "image": ""
     }
@@ -1576,7 +1464,6 @@
       "description": "Get started with rock climbing basics and learn the essential skill of belaying.",
       "price": 88.99,
       "category": 7,
-      "rating": 5,
       "image_url": "",
       "image": ""
     }
@@ -1590,7 +1477,6 @@
       "description": "Learn how to build emergency shelters in outdoor environments for survival situations.",
       "price": 31.99,
       "category": 7,
-      "rating": 5,
       "image_url": "",
       "image": ""
     }
@@ -1604,7 +1490,6 @@
       "description": "Gain crucial first aid skills tailored for wilderness environments to ensure safety during outdoor adventures.",
       "price": 338.99,
       "category": 7,
-      "rating": 5,
       "image_url": "",
       "image": ""
     }
@@ -1618,7 +1503,6 @@
       "description": "Learn essential techniques for purifying water in outdoor settings to ensure safe hydration during adventures.",
       "price": 241.99,
       "category": 7,
-      "rating": 4.4,
       "image_url": "",
       "image": ""
     }
@@ -1632,7 +1516,6 @@
       "description": "Gain essential knowledge and skills for safe firearm handling in outdoor environments.",
       "price": 60.99,
       "category": 7,
-      "rating": 4.3,
       "image_url": "",
       "image": ""
     }
@@ -1646,7 +1529,6 @@
       "description": "Learn fundamental navigation techniques essential for safe and successful outdoor adventures.",
       "price": 20.99,
       "category": 7,
-      "rating": 4.7,
       "image_url": "",
       "image": ""
     }
@@ -1660,7 +1542,6 @@
       "description": "Master the art of cooking in outdoor settings with essential techniques and recipes tailored for wilderness adventures.",
       "price": 33.99,
       "category": 7,
-      "rating": 4.4,
       "image_url": "",
       "image": ""
     }
@@ -1674,7 +1555,6 @@
       "description": "Discover essential outdoor cooking equipment and gear to enhance your outdoor cooking experience.",
       "price": 36.99,
       "category": 7,
-      "rating": 4.5,
       "image_url": "",
       "image": ""
     }
@@ -1688,7 +1568,6 @@
       "description": "Learn essential wilderness navigation skills for safe and successful outdoor adventures.",
       "price": 232.99,
       "category": 7,
-      "rating": 5,
       "image_url": "",
       "image": ""
     }
@@ -1702,7 +1581,6 @@
       "description": "Master basic camping techniques essential for safe and enjoyable outdoor experiences.",
       "price": 169.99,
       "category": 7,
-      "rating": 3,
       "image_url": "",
       "image": ""
     }
@@ -1716,7 +1594,6 @@
       "description": "Stay warm and dry with our Mountain Pro Base Layer, perfect for all your outdoor adventures. Moisture-wicking fabric ensures comfort while you explore. crewneck long sleeves polyester/spandex blend machine washable",
       "price": 39.99,
       "category": 8,
-      "rating": 4.8,
       "image_url": "",
       "image": ""
     }
@@ -1730,7 +1607,6 @@
       "description": "Don't let rain dampen your outdoor fun. Our TrailBlaze Rain Pants will keep you dry and comfortable on all your adventures. elastic waistband with drawstring waterproof design polyester construction",
       "price": 49.99,
       "category": 8,
-      "rating": 4.6,
       "image_url": "",
       "image": ""
     }
@@ -1744,7 +1620,6 @@
       "description": "Stay cool and comfortable on the trails with our Quick-Dry Hiking Shorts. Breathable fabric and multiple pockets make them perfect for your outdoor excursions. quick-dry fabric adjustable waistband zippered pockets",
       "price": 34.99,
       "category": 8,
-      "rating": 4.5,
       "image_url": "",
       "image": ""
     }
@@ -1758,7 +1633,6 @@
       "description": "Conquer the elements with our Alpine Performance Jacket. Designed for maximum warmth and mobility, it's perfect for all your outdoor pursuits. fleece-lined adjustable cuffs waterproof shell",
       "price": 79.99,
       "category": 8,
-      "rating": 4.9,
       "image_url": "",
       "image": ""
     }
@@ -1772,7 +1646,6 @@
       "description": "Keep your feet warm and dry on the trail with our Merino Wool Socks. Moisture-wicking and odor-resistant, they're essential for any outdoor enthusiast. merino wool blend reinforced heel and toe cushioned sole",
       "price": 19.99,
       "category": 8,
-      "rating": 4.7,
       "image_url": "",
       "image": ""
     }
@@ -1786,7 +1659,6 @@
       "description": "Stay dry in style with our SummitShield Waterproof Shell Jacket. Whether you're hitting the slopes or exploring the city, this jacket has you covered. adjustable hood and cuffs waterproof and breathable fabric zippered pockets",
       "price": 89.99,
       "category": 8,
-      "rating": 4.8,
       "image_url": "",
       "image": ""
     }
@@ -1800,7 +1672,6 @@
       "description": "Stay warm on chilly days with our Highlander Insulated Vest. Lightweight and packable, it's the perfect layering piece for any outdoor adventure. insulated design zippered pockets adjustable hem",
       "price": 59.99,
       "category": 8,
-      "rating": 4.6,
       "image_url": "",
       "image": ""
     }
@@ -1814,7 +1685,6 @@
       "description": "Stay cool and dry on the rock face with our ClimbPro Tank Top. Moisture-wicking fabric and a racerback design ensure maximum comfort during your climb. quick-dry fabric racerback design slim fit",
       "price": 29.99,
       "category": 8,
-      "rating": 4.7,
       "image_url": "",
       "image": ""
     }
@@ -1828,7 +1698,6 @@
       "description": "Stay cozy on cold days with our TundraTech Leggings. Fleece-lined for warmth and comfort, they're perfect for layering under pants or wearing on their own. fleece-lined fabric stretchy and comfortable high waist",
       "price": 34.99,
       "category": 8,
-      "rating": 4.5,
       "image_url": "",
       "image": ""
     }
@@ -1842,7 +1711,6 @@
       "description": "Adapt to changing conditions with our PeakPerformance Hiking Pants. Convertible design allows you to switch between pants and shorts, while water-resistant fabric keeps you dry. zip-off legs for shorts conversion adjustable waistband multiple pockets",
       "price": 69.99,
       "category": 8,
-      "rating": 4.8,
       "image_url": "",
       "image": ""
     }
@@ -1856,7 +1724,6 @@
       "description": "Stay cool and comfortable on the trail with our OutdoorVenture Quick-Dry T-Shirt. Moisture-wicking fabric ensures you stay dry during your outdoor adventures. quick-dry fabric crewneck short sleeves",
       "price": 24.99,
       "category": 8,
-      "rating": 4.6,
       "image_url": "",
       "image": ""
     }
@@ -1870,7 +1737,6 @@
       "description": "Keep his feet dry and comfortable on all his outdoor adventures with our TrailBlazer Hiking Boots. Waterproof design and rugged construction ensure durability on the trail. waterproof construction cushioned insole rubber outsole",
       "price": 59.99,
       "category": 8,
-      "rating": 4.7,
       "image_url": "",
       "image": ""
     }
@@ -1884,7 +1750,6 @@
       "description": "Be prepared for sudden showers with our Lightweight Rain Jacket. Compact and packable, it's perfect for stashing in your backpack or glove compartment. waterproof and breathable fabric adjustable hood and cuffs zippered pockets",
       "price": 49.99,
       "category": 8,
-      "rating": 4.5,
       "image_url": "",
       "image": ""
     }
@@ -1898,7 +1763,6 @@
       "description": "Protect yourself from the sun's harmful rays with our UV-Protection Sun Hat. Lightweight and breathable, it's perfect for all your outdoor adventures. wide brim adjustable chin strap UPF 50+ protection",
       "price": 29.99,
       "category": 8,
-      "rating": 4.7,
       "image_url": "",
       "image": ""
     }
@@ -1912,7 +1776,6 @@
       "description": "Let them explore the trails with confidence in our Trail Running Shoes. Lightweight and durable, they provide the support they need for all their outdoor adventures. breathable mesh upper cushioned insole rubber outsole",
       "price": 39.99,
       "category": 8,
-      "rating": 4.6,
       "image_url": "",
       "image": ""
     }
@@ -1926,7 +1789,6 @@
       "description": "Dive into adventure with our Quick-Dry Swim Trunks. Whether you're hitting the beach or the pool, these trunks will keep you comfortable and stylish. quick-dry fabric elastic waistband with drawstring mesh lining",
       "price": 29.99,
       "category": 8,
-      "rating": 4.7,
       "image_url": "",
       "image": ""
     }
@@ -1940,7 +1802,6 @@
       "description": "Stay dry on the go with our Packable Rain Poncho. Lightweight and compact, it's perfect for stashing in your backpack or glove compartment. waterproof design hood with drawstring packable into small pouch",
       "price": 19.99,
       "category": 8,
-      "rating": 4.5,
       "image_url": "",
       "image": ""
     }
@@ -1954,7 +1815,6 @@
       "description": "Relax in nature with our Lightweight Camping Hammock. Easy to set up and pack away, it's perfect for camping trips, backpacking, or just lounging in the backyard. durable nylon construction lightweight and portable includes suspension system",
       "price": 49.99,
       "category": 8,
-      "rating": 4.8,
       "image_url": "",
       "image": ""
     }
@@ -1968,7 +1828,6 @@
       "description": "Keep your hands warm and dry on the slopes with our Insulated Ski Gloves. Waterproof and insulated, they're essential for any winter adventure. waterproof and windproof design adjustable wrist strap touchscreen compatible",
       "price": 34.99,
       "category": 8,
-      "rating": 4.6,
       "image_url": "",
       "image": ""
     }
@@ -1982,7 +1841,6 @@
       "description": "Keep your gear dry on the trail with our Waterproof Backpack. With plenty of pockets and a comfortable design, it's perfect for day hikes or overnight adventures. waterproof construction padded shoulder straps multiple pockets",
       "price": 79.99,
       "category": 8,
-      "rating": 4.7,
       "image_url": "",
       "image": ""
     }
@@ -1996,7 +1854,6 @@
       "description": "Conquer the slopes with confidence in our Mountain Summit waterproof ski jacket. This jacket offers exceptional protection from the elements while keeping you warm and dry. Features include a removable hood, adjustable cuffs, and multiple pockets for all your essentials.",
       "price": 149.99,
       "category": 9,
-      "rating": 4.8,
       "image_url": "",
       "image": ""
     }
@@ -2010,7 +1867,6 @@
       "description": "Stay warm and stylish on your outdoor adventures with our AdventureTech insulated parka. Featuring a water-resistant shell and cozy insulation, this parka is perfect for chilly days in the wilderness.",
       "price": 179.99,
       "category": 9,
-      "rating": 4.5,
       "image_url": "",
       "image": ""
     }
@@ -2024,7 +1880,6 @@
       "description": "Embark on your next alpine adventure with confidence in our Alpine Expedition fleece jacket. This jacket is made from premium fleece for maximum warmth and comfort, and features zippered pockets to keep your essentials secure.",
       "price": 99.99,
       "category": 9,
-      "rating": 4.7,
       "image_url": "",
       "image": ""
     }
@@ -2038,7 +1893,6 @@
       "description": "Conquer the summit in our Summit Ascent softshell jacket. This jacket combines wind and water resistance with breathable comfort, making it ideal for challenging outdoor pursuits.",
       "price": 129.99,
       "category": 9,
-      "rating": 4.6,
       "image_url": "",
       "image": ""
     }
@@ -2052,7 +1906,6 @@
       "description": "Blaze your own trail with our Trailblazer 3-in-1 parka. This versatile parka features a waterproof shell and a removable insulated liner, allowing you to customize your level of warmth and protection.",
       "price": 199.99,
       "category": 9,
-      "rating": 4.9,
       "image_url": "",
       "image": ""
     }
@@ -2066,7 +1919,6 @@
       "description": "Embark on an arctic expedition with our Arctic Expedition down jacket. This jacket is filled with premium down insulation for maximum warmth in extreme cold conditions, while the water-resistant shell keeps you dry.",
       "price": 249.99,
       "category": 9,
-      "rating": 5,
       "image_url": "",
       "image": ""
     }
@@ -2080,7 +1932,6 @@
       "description": "Explore the backcountry in comfort with our Backcountry Explorer insulated jacket. This jacket features a durable water-repellent finish and synthetic insulation to keep you warm and dry in harsh conditions.",
       "price": 159.99,
       "category": 9,
-      "rating": 4.8,
       "image_url": "",
       "image": ""
     }
@@ -2094,7 +1945,6 @@
       "description": "Hit the trails in style with our Wilderness Trail fleece pullover. This pullover features a cozy fleece construction and a quarter-zip design for easy layering.",
       "price": 79.99,
       "category": 9,
-      "rating": 4.4,
       "image_url": "",
       "image": ""
     }
@@ -2108,7 +1958,6 @@
       "description": "Reach new heights with our Summit Peak softshell vest. This vest provides core warmth and wind protection, making it an essential layer for any outdoor adventure.",
       "price": 69.99,
       "category": 9,
-      "rating": 4.6,
       "image_url": "",
       "image": ""
     }
@@ -2122,7 +1971,6 @@
       "description": "Conquer the elements with our Glacier Ridge waterproof parka. This parka features a waterproof shell and synthetic insulation to keep you warm and dry in cold, wet conditions.",
       "price": 189.99,
       "category": 9,
-      "rating": 4.7,
       "image_url": "",
       "image": ""
     }
@@ -2136,7 +1984,6 @@
       "description": "Explore the alpine in comfort with our Alpine Explorer insulated jacket. This jacket features a water-resistant shell and synthetic insulation to keep you warm and dry on the slopes.",
       "price": 179.99,
       "category": 9,
-      "rating": 4.5,
       "image_url": "",
       "image": ""
     }
@@ -2150,7 +1997,6 @@
       "description": "Embark on a summit quest with our Summit Quest softshell jacket. This jacket features a windproof and water-resistant shell, making it ideal for high-altitude adventures.",
       "price": 139.99,
       "category": 9,
-      "rating": 4.7,
       "image_url": "",
       "image": ""
     }
@@ -2164,7 +2010,6 @@
       "description": "Conquer the cold with our Glacier Peak down parka. This parka features premium down insulation and a water-resistant shell to keep you warm and dry in extreme conditions.",
       "price": 279.99,
       "category": 9,
-      "rating": 4.9,
       "image_url": "",
       "image": ""
     }
@@ -2178,7 +2023,6 @@
       "description": "Embark on an expedition with our Expedition Pro fleece jacket. This jacket features a durable water-repellent finish and cozy fleece construction for maximum warmth and comfort.",
       "price": 109.99,
       "category": 9,
-      "rating": 4.6,
       "image_url": "",
       "image": ""
     }
@@ -2192,7 +2036,6 @@
       "description": "Hit the trail in any weather with our Cascade Trail waterproof jacket. This jacket features a waterproof shell and adjustable hood to keep you dry and comfortable on rainy days.",
       "price": 129.99,
       "category": 9,
-      "rating": 4.7,
       "image_url": "",
       "image": ""
     }
@@ -2206,7 +2049,6 @@
       "description": "Reach new heights with our Summit Ridge softshell jacket. This jacket features a windproof and water-resistant shell, making it ideal for challenging outdoor pursuits.",
       "price": 119.99,
       "category": 9,
-      "rating": 4.5,
       "image_url": "",
       "image": ""
     }
@@ -2220,7 +2062,6 @@
       "description": "Discover new horizons with our Explorer's Edge fleece vest. This vest features a cozy fleece construction and zippered pockets for storing essentials on the trail.",
       "price": 59.99,
       "category": 9,
-      "rating": 4.4,
       "image_url": "",
       "image": ""
     }
@@ -2234,7 +2075,6 @@
       "description": "Blaze new trails with our Trailblazer Expedition parka. This parka features a waterproof shell and premium insulation to keep you warm and dry in the harshest conditions.",
       "price": 209.99,
       "category": 9,
-      "rating": 4.8,
       "image_url": "",
       "image": ""
     }
@@ -2248,7 +2088,6 @@
       "description": "Reach the summit in our Everest Summit insulated jacket. This jacket features a waterproof shell and synthetic insulation for maximum warmth and protection in extreme conditions.",
       "price": 189.99,
       "category": 9,
-      "rating": 4.7,
       "image_url": "",
       "image": ""
     }
@@ -2262,7 +2101,6 @@
       "description": "The Summit 2-Person Backpacking Tent is perfect for your next outdoor adventure. Its lightweight design and easy setup make it ideal for backpackers and campers alike.",
       "price": 199.99,
       "category": 10,
-      "rating": 4.9,
       "image_url": "",
       "image": ""
     }
@@ -2276,7 +2114,6 @@
       "description": "The Alpine 4-Person Family Tent offers spacious accommodation for your family camping trips. With its durable construction and weather-resistant materials, you can enjoy camping in comfort and style.",
       "price": 299.99,
       "category": 10,
-      "rating": 4.7,
       "image_url": "",
       "image": ""
     }
@@ -2290,7 +2127,6 @@
       "description": "The Ridge 6-Person Camping Tent is designed for larger groups and families. With its spacious interior and easy setup, it's perfect for weekend getaways and extended camping trips.",
       "price": 399.99,
       "category": 10,
-      "rating": 4.8,
       "image_url": "",
       "image": ""
     }
@@ -2304,7 +2140,6 @@
       "description": "The Trailblazer 3-Person Backpacking Tent is lightweight and compact, making it ideal for backpackers and minimalist campers. Its durable construction and weatherproof design ensure a comfortable night's sleep in any conditions.",
       "price": 149.99,
       "category": 10,
-      "rating": 4.6,
       "image_url": "",
       "image": ""
     }
@@ -2318,7 +2153,6 @@
       "description": "The Expedition 8-Person Dome Tent is perfect for large groups and family camping trips. With its spacious interior and easy setup, you can enjoy the great outdoors in comfort and style.",
       "price": 499.99,
       "category": 10,
-      "rating": 4.9,
       "image_url": "",
       "image": ""
     }
@@ -2332,7 +2166,6 @@
       "description": "The Basecamp 10-Person Cabin Tent offers spacious accommodation for larger groups and families. With its tall ceiling and multiple rooms, it provides comfort and convenience for extended camping trips.",
       "price": 599.99,
       "category": 10,
-      "rating": 4.7,
       "image_url": "",
       "image": ""
     }
@@ -2346,7 +2179,6 @@
       "description": "The Summit Ultra-Light 2-Person Tent is perfect for backpackers and minimalist campers. Its lightweight design and compact size make it easy to carry on long hikes, while its durable construction ensures reliable performance in any conditions.",
       "price": 249.99,
       "category": 10,
-      "rating": 4.8,
       "image_url": "",
       "image": ""
     }
@@ -2360,7 +2192,6 @@
       "description": "The Trailhead 4-Person Backpacking Tent is designed for adventurous couples or small families. Its lightweight design and compact size make it easy to carry on backpacking trips, while its durable construction ensures reliable performance in any conditions.",
       "price": 179.99,
       "category": 10,
-      "rating": 4.6,
       "image_url": "",
       "image": ""
     }
@@ -2374,7 +2205,6 @@
       "description": "Conquer the cold nights with the Everest Extreme Sleeping Bag. Designed for extreme conditions, this sleeping bag will keep you warm and comfortable during your most adventurous expeditions.",
       "price": 299.99,
       "category": 11,
-      "rating": 4.9,
       "image_url": "",
       "image": ""
     }
@@ -2388,7 +2218,6 @@
       "description": "Experience lightweight warmth with the Summit Series Ultralight Sleeping Bag. Perfect for backpacking and camping, this sleeping bag offers superior insulation without the added bulk.",
       "price": 199.99,
       "category": 11,
-      "rating": 4.7,
       "image_url": "",
       "image": ""
     }
@@ -2402,7 +2231,6 @@
       "description": "Snuggle up with your loved one in the Arctic Expedition Double Sleeping Bag. With its spacious design and cold-resistant materials, this sleeping bag is perfect for couples who love to explore the great outdoors together.",
       "price": 399.99,
       "category": 11,
-      "rating": 4.8,
       "image_url": "",
       "image": ""
     }
@@ -2416,7 +2244,6 @@
       "description": "Stay warm and cozy on your camping trips with the Trailblazer Mummy Sleeping Bag. Designed to provide maximum insulation, this sleeping bag is perfect for cold nights under the stars.",
       "price": 129.99,
       "category": 11,
-      "rating": 4.6,
       "image_url": "",
       "image": ""
     }
@@ -2430,7 +2257,6 @@
       "description": "Share the warmth with the Explorer Doublewide Sleeping Bag. With its roomy design and soft lining, this sleeping bag is perfect for camping trips with friends.",
       "price": 249.99,
       "category": 11,
-      "rating": 4.7,
       "image_url": "",
       "image": ""
     }
@@ -2444,7 +2270,6 @@
       "description": "Sleep comfortably under the stars with the Alpine Envelope Sleeping Bag. Its envelope shape provides ample room to move around, while its insulated design keeps you warm all night long.",
       "price": 179.99,
       "category": 11,
-      "rating": 4.5,
       "image_url": "",
       "image": ""
     }
@@ -2458,7 +2283,6 @@
       "description": "Stay warm and cozy on your next camping trip with the Cascade Trail Sleeping Bag. With its durable construction and soft lining, this sleeping bag is perfect for outdoor enthusiasts.",
       "price": 99.99,
       "category": 11,
-      "rating": 4.4,
       "image_url": "",
       "image": ""
     }
@@ -2472,7 +2296,6 @@
       "description": "Sleep comfortably on your backpacking adventures with the Backcountry Quilt Sleeping Bag. Its quilted design provides warmth and comfort without the added bulk, making it perfect for lightweight travel.",
       "price": 159.99,
       "category": 11,
-      "rating": 4.6,
       "image_url": "",
       "image": ""
     }
