@@ -1,4 +1,6 @@
 from django.db import models
+from django.contrib.auth.models import User
+from django.db.models import Avg
 
 # Models for products app
 
@@ -34,9 +36,20 @@ class Product(models.Model):
     has_sizes = models.BooleanField(default=True, null=True, blank=True)
     is_course = models.BooleanField(default=False, null=True, blank=True)
     price = models.DecimalField(max_digits=6, decimal_places=2)
-    rating = models.DecimalField(max_digits=6, decimal_places=2, null=True, blank=True)
     image_url = models.URLField(max_length=1024, null=True, blank=True)
     image = models.ImageField(null=True, blank=True)
 
     def __str__(self):
         return self.name
+    
+    def average_rating(self) -> float:
+        return ProductRating.objects.filter(product=self).aggregate(Avg("rating"))["rating__avg"] or 0
+    
+    
+class ProductRating(models.Model):
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    product = models.ForeignKey(Product, on_delete=models.CASCADE)
+    rating = models.IntegerField(default=0)
+
+    def __str__(self):
+        return f"{self.product.name}: {self.rating}"
