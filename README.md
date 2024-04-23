@@ -94,6 +94,10 @@ Here is an eCommerce website, for a fictitious business called Summit Style. Thi
 
 ### MoSCoW
 
+## Three custom models
+
+1. Star rating
+
 ## Future features
 
 ## Design
@@ -168,6 +172,8 @@ Leaving this here as a reminder for me to come back to it later:
 ## Credits
 
 ### Code
+
+[Star rating tutorial](https://medium.com/p/e1deff03bb1c)
 
 ### Media
 
