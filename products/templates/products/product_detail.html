@@ -112,20 +112,21 @@
                             </div>
                             <input type="hidden" name="redirect_url" value="{{ request.path }}">
                             {% endwith %}
-                            <div>
-                            Star rate panel:
-                            {% if star.rating %}
-                            <h6>My current rating: {{star.rating}} (click rate to edit)</h6>
-                            {% else %}
-                            <h6>My current rating: You didn't rate yet</h6>
-                            {% endif %}
-                            <h6>RATE | DELETE MY RATING</h6>
-                            </div>   
                         </div>
                     </form>
                 </div>
             </div>
         </div>
+        <div class="text-center">
+            <h4>Star rate panel:</h4>
+            {% if star.rating %}
+            <h6>My current rating: {{star.rating}}</h6>
+            <p>(See option to edit)</p>
+            {% else %}
+            <h6>My current rating: You didn't rate yet</h6>
+            {% endif %}
+            <h6 class="mb-4">RATE | EDIT | DELETE MY RATING</h6>
+        </div>   
     </div>
 {% endblock %}
 {% block postloadjs %}
