@@ -298,6 +298,18 @@ input[name="q"]::placeholder {
   width: 60%;
 }
 
+.prod-detail-describe{
+ margin: 0rem 0rem 1rem 0rem;
+}
+
+.pd-edit-delete{
+  margin-bottom: 2rem;
+}
+
+.pd-size{
+  margin-top: 1rem;
+}
+
 /* rating style */
 /* credit for rating style: https://medium.com/geekculture/django-implementing-star-rating-e1deff03bb1c */
 
