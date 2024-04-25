@@ -26,6 +26,7 @@ class CategoryAdmin(admin.ModelAdmin):
 class StarAdmin(admin.ModelAdmin):
     list_display = (
         'product_name',
+        'user',
         'rating',
     )
 
