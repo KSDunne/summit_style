@@ -96,7 +96,17 @@ Here is an eCommerce website, for a fictitious business called Summit Style. Thi
 
 ## Three custom models
 
-1. Star rating
+1. Average Star Rating
+
+This has FE CRUD functionality for your rating
+
+2. Testimonials App
+
+This is on a testimonials app with tab of its own. This has 3 showing at the top half of the page and the ability to submit a testimonial through a form at the bottom half of the page
+
+3. Record user contact requests in the database
+
+This is on a contact app with tab of its own
 
 ## Future features
 
