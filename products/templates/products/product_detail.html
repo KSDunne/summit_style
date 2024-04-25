@@ -47,9 +47,11 @@
                                 <span class="fa fa-star {% if product.average_rating > 3 %} checked {% endif %}" ></span>
                                 <span class="fa fa-star {% if product.average_rating > 4 %} checked {% endif %}"></span>
                             </h6>
+                            <h6>Scroll to add your rating!</h6>
                         </div>
                         </div>
                     </div>
+                    <h6>Description:</h6>
                     <p class="prod-detail-describe">{{ product.description }}</p>
                     {% if request.user.is_superuser %}
                         <small class="pd-edit-delete">
@@ -110,6 +112,15 @@
                             </div>
                             <input type="hidden" name="redirect_url" value="{{ request.path }}">
                             {% endwith %}
+                            <div>
+                            Star rate panel:
+                            {% if star.rating %}
+                            <h6>My current rating: {{star.rating}} (click rate to edit)</h6>
+                            {% else %}
+                            <h6>My current rating: You didn't rate yet</h6>
+                            {% endif %}
+                            <h6>RATE | DELETE MY RATING</h6>
+                            </div>   
                         </div>
                     </form>
                 </div>
