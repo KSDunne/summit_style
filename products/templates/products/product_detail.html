@@ -47,18 +47,6 @@
                                 <span class="fa fa-star {% if product.average_rating > 3 %} checked {% endif %}" ></span>
                                 <span class="fa fa-star {% if product.average_rating > 4 %} checked {% endif %}"></span>
                             </h6>
-                            <ul class="btn btn-light list-inline rating-list star-buttons">
-                            <li onclick="rate(5, {{ product.id }})">
-                                <i class="fa fa-star {% if product.user_rating > 4 %} checked {% endif %}" title="Rate 5"></i></li>
-                            <li onclick="rate(4, {{ product.id }})">
-                                <i class="fa fa-star {% if product.user_rating > 3 %} checked {% endif %}" title="Rate 4"></i></li>
-                            <li onclick="rate(3, {{ product.id }})">
-                                <i class="fa fa-star {% if product.user_rating > 2 %} checked {% endif %}" title="Rate 3"></i></li>
-                            <li onclick="rate(2, {{ product.id }})">
-                                <i class="fa fa-star {% if product.user_rating > 1 %} checked {% endif %}" title="Rate 2"></i></li>
-                            <li onclick="rate(1, {{ product.id }})">
-                                <i class="fa fa-star {% if product.user_rating > 0 %} checked {% endif %}" title="Rate 1"></i></li>
-                            </ul>
                         </div>
                         </div>
                     </div>
@@ -131,17 +119,5 @@
 {% endblock %}
 {% block postloadjs %}
 {{ block.super }}
-<script>
-        const rate = (rating, post_id) => {
-            fetch(`/rate/${post_id}/${rating}/`, {
-                method: 'GET',
-                headers: {
-                    'Content-Type': 'application/json'
-                }
-            }).then(rest => {
-                window.location.reload();
-            })
-        }
-</script>
 {% include 'products/includes/quantity_input_script.html' %}
 {% endblock %}
