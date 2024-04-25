@@ -51,10 +51,6 @@ def all_products(request):
             products = products.filter(queries)
 
     current_sorting = f'{sort}_{direction}'
-    
-    for product in products:
-        rating = Star.objects.filter(product=product, user=request.user).first()
-        product.user_rating = rating.rating if rating else 0
 
     context = {
         'products': products,
@@ -64,28 +60,6 @@ def all_products(request):
     }
 
     return render(request, 'products/products.html', context)
-
-
-def rate(request):
-    if request.method == 'POST' and request.is_ajax():
-        product_id = request.POST.get('product_id')
-        rating = request.POST.get('rating')
-        
-        product = Product.objects.get(id=product_id)
-        
-        # Delete any previous rating by the user
-        Star.objects.filter(product=product, user=request.user).delete()
-        
-        # Create a new rating by the user
-        product.star_set.create(user=request.user, rating=rating)
-        
-        # Calculate the new average rating for the product
-        new_avg_rating = product.average_rating()
-        
-        # Return the new average rating as JSON response
-        return JsonResponse({'new_avg_rating': new_avg_rating})
-    else:
-        return JsonResponse({'error': 'Invalid request'})
 
 
 def product_detail(request, product_id):
