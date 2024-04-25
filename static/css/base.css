@@ -301,6 +301,22 @@ input[name="q"]::placeholder {
 /* rating style */
 /* credit for rating style: https://medium.com/geekculture/django-implementing-star-rating-e1deff03bb1c */
 
+.star-container{
+  padding: 1rem 1rem 1rem 0rem;
+}
+
+.star-card{
+  border: none;
+}
+
+.star-card-body{
+  padding: 1rem 1rem 1rem 0;
+}
+
+.star-buttons{
+  margin: 0;
+}
+
 .rating-list li {
   float: right;
   color: #ddd;

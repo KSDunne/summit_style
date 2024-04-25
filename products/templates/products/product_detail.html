@@ -37,11 +37,31 @@
                         </a>
                     </p>
                     {% endif %}
-                    {% if product.rating %}
-                        <small class="text-muted"><i class="fas fa-star mr-1"></i>{{ product.rating }} / 5</small>
-                    {% else %}
-                        <small class="text-muted">No Rating</small>
-                    {% endif %}
+                    <div class="star-container">
+                        <div class="card star-card">
+                        <div class="card-body star-card-body">
+                            <h6 class="card-title">Avg rating:
+                                <span class="fa fa-star {% if product.average_rating > 0 %} checked {% endif %}"></span>
+                                <span class="fa fa-star {% if product.average_rating > 1 %} checked {% endif %}"></span>
+                                <span class="fa fa-star {% if product.average_rating > 2 %} checked {% endif %}"></span>
+                                <span class="fa fa-star {% if product.average_rating > 3 %} checked {% endif %}" ></span>
+                                <span class="fa fa-star {% if product.average_rating > 4 %} checked {% endif %}"></span>
+                            </h6>
+                            <ul class="btn btn-light list-inline rating-list star-buttons">
+                            <li onclick="rate(5, {{ product.id }})">
+                                <i class="fa fa-star {% if product.user_rating > 4 %} checked {% endif %}" title="Rate 5"></i></li>
+                            <li onclick="rate(4, {{ product.id }})">
+                                <i class="fa fa-star {% if product.user_rating > 3 %} checked {% endif %}" title="Rate 4"></i></li>
+                            <li onclick="rate(3, {{ product.id }})">
+                                <i class="fa fa-star {% if product.user_rating > 2 %} checked {% endif %}" title="Rate 3"></i></li>
+                            <li onclick="rate(2, {{ product.id }})">
+                                <i class="fa fa-star {% if product.user_rating > 1 %} checked {% endif %}" title="Rate 2"></i></li>
+                            <li onclick="rate(1, {{ product.id }})">
+                                <i class="fa fa-star {% if product.user_rating > 0 %} checked {% endif %}" title="Rate 1"></i></li>
+                            </ul>
+                        </div>
+                        </div>
+                    </div>
                     {% if request.user.is_superuser %}
                         <small class="ml-3">
                             <a href="{% url 'edit_product' product.id %}">Edit</a> | 
