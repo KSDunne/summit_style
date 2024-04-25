@@ -43,10 +43,10 @@ class Product(models.Model):
         return self.name
     
     def average_rating(self) -> float:
-        return ProductRating.objects.filter(product=self).aggregate(Avg("rating"))["rating__avg"] or 0
+        return Star.objects.filter(product=self).aggregate(Avg("rating"))["rating__avg"] or 0
     
     
-class ProductRating(models.Model):
+class Star(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     product = models.ForeignKey(Product, on_delete=models.CASCADE)
     rating = models.IntegerField(default=0)

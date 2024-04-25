@@ -131,17 +131,20 @@
 {% endblock %}
 {% block postloadjs %}
 {{ block.super }}
-    <script>
-        const rate = (rating, post_id) => {
-            fetch(`/rate/${post_id}/${rating}/`, {
-                method: 'GET',
-                headers: {
-                    'Content-Type': 'application/json'
-                }
-            }).then(rest => {
-                window.location.reload();
-            })
-        }
-    </script>
+<script>
+    // Function to submit rating via AJAX
+    const rate = (rating, product_id) => {
+        $.ajax({
+            url: `/rate/${product_id}/${rating}/`,
+            method: 'POST',
+            dataType: 'json',
+            success: function(data) {
+                // Update with new average rating
+                $('#average-rating').text(data.new_avg_rating.toFixed(1)); // Update the average rating element
+                alert('Rating submitted successfully');
+            },
+        });
+    }
+</script>
 {% include 'products/includes/quantity_input_script.html' %}
 {% endblock %}

@@ -3,9 +3,11 @@ from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from django.db.models import Q
 from django.db.models.functions import Lower
+from django.db.models import Avg
 from django.http import HttpRequest, HttpResponse
+from django.http import JsonResponse
 
-from .models import Product, Category, ProductRating
+from .models import Product, Category, Star
 from .forms import ProductForm
 
 # Create your views here.
@@ -51,7 +53,7 @@ def all_products(request):
     current_sorting = f'{sort}_{direction}'
     
     for product in products:
-        rating = ProductRating.objects.filter(product=product, user=request.user).first()
+        rating = Star.objects.filter(product=product, user=request.user).first()
         product.user_rating = rating.rating if rating else 0
 
     context = {
@@ -64,12 +66,20 @@ def all_products(request):
     return render(request, 'products/products.html', context)
 
 
-def rate(request: HttpRequest, product_id: int, rating: int) -> HttpResponse:
+def rate(request, product_id, rating):
     product = Product.objects.get(id=product_id)
-    ProductRating.objects.filter(product=product, user=request.user).delete()
-    product.productrating_set.create(user=request.user, rating=rating)
-    return redirect('rate', product_id=product_id)
-
+    
+    # Delete any previous rating by the user
+    Star.objects.filter(product=product, user=request.user).delete()
+    
+    # Create a new rating by the user
+    product.star_set.create(user=request.user, rating=rating)
+    
+    # Calculate the new average rating for the product
+    new_avg_rating = product.average_rating()
+    
+    # Return the new average rating as JSON response
+    return JsonResponse({'new_avg_rating': new_avg_rating})
 
 def product_detail(request, product_id):
     """ A view to show individual product details """
