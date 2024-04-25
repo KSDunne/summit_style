@@ -68,7 +68,7 @@ def rate(request: HttpRequest, product_id: int, rating: int) -> HttpResponse:
     product = Product.objects.get(id=product_id)
     ProductRating.objects.filter(product=product, user=request.user).delete()
     product.productrating_set.create(user=request.user, rating=rating)
-    return all_products(request)
+    return redirect('rate', product_id=product_id)
 
 
 def product_detail(request, product_id):

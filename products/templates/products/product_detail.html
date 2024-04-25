@@ -131,5 +131,17 @@
 {% endblock %}
 {% block postloadjs %}
 {{ block.super }}
+    <script>
+        const rate = (rating, post_id) => {
+            fetch(`/rate/${post_id}/${rating}/`, {
+                method: 'GET',
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            }).then(rest => {
+                window.location.reload();
+            })
+        }
+    </script>
 {% include 'products/includes/quantity_input_script.html' %}
 {% endblock %}
