@@ -42,8 +42,9 @@ class Product(models.Model):
     def __str__(self):
         return self.name
     
-    def average_rating(self) -> float:
-        return Star.objects.filter(product=self).aggregate(Avg("rating"))["rating__avg"] or 0
+    def average_rating(self) -> int:
+        avg_rating = Star.objects.filter(product=self).aggregate(Avg("rating"))["rating__avg"] or 0
+        return round(avg_rating)
     
     
 class Star(models.Model):
