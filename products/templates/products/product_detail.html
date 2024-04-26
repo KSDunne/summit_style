@@ -122,6 +122,8 @@
             {% if star.rating %}
             <h6>My current rating: {{star.rating}}</h6>
             <p>(See option to edit)</p>
+            <h6>My review title: {{star.title}}</h6>
+            <h6>My review text: {{star.body}}</h6>
             {% else %}
             <h6>My current rating: You didn't rate yet</h6>
             {% endif %}
