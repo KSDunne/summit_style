@@ -27,6 +27,11 @@
           >By Price</a
         >
         <a
+          href="{% url 'products' %}?sort=name&direction=asc"
+          class="dropdown-item"
+          >By Name</a
+        >
+        <a
           href="{% url 'products' %}?sort=category&direction=asc"
           class="dropdown-item"
           >By Category</a
