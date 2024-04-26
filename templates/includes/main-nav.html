@@ -37,6 +37,9 @@
           >By Category</a
         >
         <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
+        <a href="{% url 'products' %}?category=sale" class="dropdown-item"
+          >Sale</a
+        >
       </div>
     </li>
 
@@ -132,32 +135,25 @@
       </div>
     </li>
 
-    <li class="nav-item dropdown">
+    <li class="nav-item">
       <a
-        class="logo-font font-weight-bold nav-link text-black"
+        class="logo-font font-weight-bold nav-link text-black mr-5"
         href="#"
-        id="specials-link"
-        data-toggle="dropdown"
-        aria-haspopup="true"
+        id="testimonial-link"
         aria-expanded="false"
       >
-        Special Offers
+        Testimonials
       </a>
-      <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-        <a
-          href="{% url 'products' %}?category=new_arrivals"
-          class="dropdown-item"
-          >New Arrivals</a
-        >
-        <a href="{% url 'products' %}?category=sale" class="dropdown-item"
-          >Sale</a
-        >
-        <a
-          href="{% url 'products' %}?category=new_arrivals,sale"
-          class="dropdown-item"
-          >All Specials</a
-        >
-      </div>
+    </li>
+    <li class="nav-item">
+      <a
+        class="logo-font font-weight-bold nav-link text-black mr-5"
+        href="#"
+        id="tcontact-link"
+        aria-expanded="false"
+      >
+        Contact
+      </a>
     </li>
   </ul>
 </div>
