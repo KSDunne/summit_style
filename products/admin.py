@@ -28,6 +28,8 @@ class StarAdmin(admin.ModelAdmin):
         'product_name',
         'user',
         'rating',
+        'title',
+        'created_on',
     )
 
     def product_name(self, obj):

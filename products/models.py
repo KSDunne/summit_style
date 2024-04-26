@@ -1,3 +1,4 @@
+from django.core.validators import MinLengthValidator
 from django.db import models
 from django.contrib.auth.models import User
 from django.db.models import Avg
@@ -51,6 +52,17 @@ class Star(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     product = models.ForeignKey(Product, on_delete=models.CASCADE)
     rating = models.IntegerField(default=0)
+    title = models.CharField(max_length=180)
+    body = models.TextField(
+        validators=[MinLengthValidator(
+            40, "Review must be greater than 40 characters")],
+        max_length=400
+    )
+    created_on = models.DateTimeField(auto_now_add=True)
+    updated_on = models.DateTimeField(auto_now=True)
+    
+    class Meta:
+        ordering = ["created_on"]
 
     def __str__(self):
-        return f"{self.product.name}: {self.rating}"
+        return f"{self.product.name} rated {self.rating} by {self.user}"
