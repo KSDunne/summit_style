@@ -10,7 +10,7 @@ Link to live website: [Summit Style](https://summit-style-b727a186ee80.herokuapp
 
 ## Purpose of the project
 
-Here is an eCommerce website, for a fictitious business called Summit Style. This is a full stack website built using the Django web framework. This business sells adventure clothing and short educational courses based on outdoor skills.
+Here is an eCommerce website, for a fictitious business called Summit Style. This is a full stack website built using the Django web framework. This business sells adventure clothing, equipment and short educational courses based on outdoor skills. There is a star rating feature on all products and courses. There is a app for testimonals which shows 3 testimonials on the front end, with an option to submit testimonials using a form. There is also a contact tab.
 
 ## Table of contents
 
