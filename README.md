@@ -20,6 +20,11 @@ Here is an eCommerce website, for a fictitious business called Summit Style. Thi
 
 ### Target audience
 
+- Users that are interested in outdoor and adventure hobbies
+- Users that want to buy clothes that are specifically made with outdoor functionality (e.g. fleece, coats, base layers, wetsuits)
+- Users that are interested in equipment for the outdoors and adventure hobbies (e.g. tents, sleeping bags)
+- Users that would like to learn about outdoors and adventure hobbies through short courses
+
 ### User requirements and expectations
 
 ## Epics and user stories
