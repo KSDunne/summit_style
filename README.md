@@ -6,7 +6,7 @@
 
 ## Live website
 
-Link to live website: [Summit Style]()
+Link to live website: [Summit Style](https://summit-style-b727a186ee80.herokuapp.com/)
 
 ## Purpose of the project
 
