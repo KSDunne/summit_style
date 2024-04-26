@@ -302,6 +302,7 @@ input[name="q"]::placeholder {
 }
 
 .offers-on {
+  font-size: 130%;
   position: fixed;
   bottom: 2vh;
   left: 0;
