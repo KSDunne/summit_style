@@ -112,15 +112,15 @@ This is on a contact app with tab of its own
 
 ## Design
 
-### Color palette 1
+### Color
+
+#### Color palette 1
 
 ![Accessible color palette 1](docs/readme_images/color_palette_1.PNG)
 
-### Color palette 2
+#### Color palette 2
 
 ![Accessible color palette 2](docs/readme_images/color_palette_2.PNG)
-
-### Color
 
 ## Wireframes
 
