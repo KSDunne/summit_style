@@ -369,6 +369,14 @@ input[name="q"]::placeholder {
 }
 
 /* rate and review crud panel on product detail page */
+.ratereview-hr{
+  width: 80%;
+}
+
+.all-reviews{
+  border: none;
+}
+
 .review-item {
   margin-top: 1rem;
   background-color: #e8f2fe;
