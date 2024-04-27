@@ -137,6 +137,7 @@
           to iterate through each review in reviews -->
         {% for star in stars %}
           <div id="star{{ star.id }}">
+            <hr />
             User: {{ star.user}}
           </div>
           <div id="star{{ star.id }}">
@@ -185,7 +186,7 @@
             {% else %}
             <h6>My current rating: You didn't rate yet</h6>
             {% endif %}
-            <h6 class="mb-4">RATE | EDIT | DELETE MY RATING</h6>
+            <h6 class="mb-4">| RATE |</h6>
         </div>   
     </div>
 {% endblock %}
