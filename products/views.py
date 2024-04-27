@@ -63,11 +63,11 @@ def product_detail(request, product_id):
     """ A view to show individual product details """
 
     product = get_object_or_404(Product, pk=product_id)
-    star = Star.objects.filter(user=request.user, product_id=product_id).first()
+    stars = Star.objects.filter(product=product)
 
     context = {
         'product': product,
-        'star': star,
+        'stars': stars,
     }
 
     return render(request, 'products/product_detail.html', context)

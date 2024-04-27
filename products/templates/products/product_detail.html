@@ -117,8 +117,49 @@
                 </div>
             </div>
         </div>
+  <!-- displaying reviews -->
+  <div class="row">
+    <div class="col-md-8 card mb-4 mt-3">
+      <h3>Reviews:</h3>
+      <div class="card-body">
+        <!-- we want a for loop inside the empty control tags
+          to iterate through each review in reviews -->
+        {% for star in stars %}
+          <div id="star{{ star.id }}">
+            User: {{ star.user}}
+          </div>
+          <div id="star{{ star.id }}">
+            Rated: {{ star.rating}}
+          </div>
+        <div>
+          <p>
+            On:<span> {{ star.created_on }} </span>
+          </p>
+          <p>
+            Review:
+          </p>
+          <div id="star{{ star.id }}">
+            {{ star.body | linebreaks }}
+          </div>
+         {% if user.is_authenticated and star.user == user %}
+          <div class="text-center">
+            <button
+              aria-label="click this button to edit your review if desired"
+              class="btn btn-edit"
+              data-review_id="{{ review.id }}"
+            >
+              Edit
+            </button>
+          </div>
+          {% endif %}
+        </div>
+        <!-- for loop ends here -->
+        {% endfor %}
+      </div>
+    </div>
+    <!-- create new star rating and review -->
         <div class="text-center">
-            <h4>Star rate panel:</h4>
+            <h4>Rate panel:</h4>
             {% if star.rating %}
             <h6>My current rating: {{star.rating}}</h6>
             <p>(See option to edit)</p>
