@@ -1,6 +1,6 @@
 from django import forms
 from .widgets import CustomClearableFileInput
-from .models import Product, Category
+from .models import Product, Category, Star
 
 
 class ProductForm(forms.ModelForm):
@@ -19,3 +19,20 @@ class ProductForm(forms.ModelForm):
         self.fields['category'].choices = friendly_names
         for field_name, field in self.fields.items():
             field.widget.attrs['class'] = 'border-black rounded-0'
+            
+class StarForm(forms.ModelForm):
+    """
+    Form class for users to review a product
+
+    **Fields:**
+
+    `body`: Text area where logged in users can write their reviews
+    """
+
+    class Meta:
+        """
+        Uses :model: `products.Star`
+        """
+
+        model = Star
+        fields = ("rating","body",)

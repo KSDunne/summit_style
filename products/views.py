@@ -1,11 +1,13 @@
 from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
+from django.contrib.auth.mixins import UserPassesTestMixin, LoginRequiredMixin
+from django.views.generic import UpdateView, DeleteView
 from django.db.models import Q
 from django.db.models.functions import Lower
 
 from .models import Product, Category, Star
-from .forms import ProductForm
+from .forms import ProductForm, StarForm
 
 # Create your views here.
 
@@ -64,13 +66,120 @@ def product_detail(request, product_id):
 
     product = get_object_or_404(Product, pk=product_id)
     stars = Star.objects.filter(product=product)
+    review_count = Star.objects.filter(product=product).count()
 
     context = {
         'product': product,
         'stars': stars,
+        'review_count': review_count,
     }
 
     return render(request, 'products/product_detail.html', context)
+
+
+"""
+Credit: https://www.youtube.com/watch?v=JzDBCZTgVyw&list=PLXuTq6OsqZjbCSfi
+LNb2f1FOs8viArjWy&index=14
+Credit: https://github.com/Dee-McG/Recipe-Tutorial/blob/main/recipes
+/views.py#L61
+"""
+
+
+class EditReview(LoginRequiredMixin, UserPassesTestMixin, UpdateView):
+    """
+    Edit a review
+
+    Uses :model: `product.Star`
+
+    **Context**
+
+    ``star``
+        represents the review instance to be edited
+
+     **Template**
+
+    :template:`products/edit_review.html`
+
+    """
+
+    model = Star
+    template_name = "products/edit_review.html"
+    form_class = StarForm
+    success_url = "/product_detail/"
+
+    def form_valid(self, form):
+        form.instance.confirmed = False
+        messages.success(
+            self.request,
+            "Your review has been updated!",
+            extra_tags="alert alert-success alert-dismissible",
+        )
+
+        return super().form_valid(form)
+
+    def test_func(self):
+        """
+        Checks if the logged-in user is the owner of the review.
+
+        Returns:
+            bool: True if the logged in user is the owner of the review
+            False otherwise.
+        """
+        star = self.get_object()
+        return (self.request.user == star.user or
+                self.request.user.is_superuser)
+
+
+"""
+Credit: https://www.youtube.com/watch?v=nFa3lC105dM&list=
+PLXuTq6OsqZjbCSfiLNb2f1FOs8viArjWy&index=13
+Credit: https://github.com/Dee-McG/Recipe-Tutorial/blob/main/recipes
+/views.py#L72
+"""
+
+
+class DeleteReview(LoginRequiredMixin, UserPassesTestMixin, DeleteView):
+    """
+    Displays a new page to confirm deletion of a review
+
+    Uses :model: `products.Star`
+
+    **Context**
+
+    ``star``
+        Represents the review instance to be deleted.
+        Comes from :model:`products.Star`
+
+    **Template**
+
+    :template:`products/review_confirm_delete.html`
+
+    Redirects to success url which is "/products/"
+    """
+
+    model = Star
+    success_url = "/products/"
+
+    def form_valid(self, form):
+        messages.success(
+            self.request,
+            "Your review has been deleted successfully!",
+            extra_tags="alert alert-success alert-dismissible",
+        )
+
+        return super().form_valid(form)
+
+    def test_func(self):
+        """
+        Checks if the logged-in user is the owner of the review.
+
+        Returns:
+            bool: True if the logged in user is the owner of the review
+            False otherwise.
+        """
+        star = self.get_object()
+        return (self.request.user == star.user or
+                self.request.user.is_superuser)
 
 
 @login_required
