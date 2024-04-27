@@ -186,54 +186,62 @@
     </div>
   </section>
 
- <section class="reviews-section">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-8">
-        <div class="card all-reviews mb-4 mt-3">
-          <h3 class="card-header">Reviews:</h3>
-          <div class="card-body">
-            <!-- Your review display code here -->
-            <!-- we want a for loop inside the control tags
+  <section class="reviews-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="card all-reviews mb-4 mt-3">
+            <h3 class="card-header">Reviews:</h3>
+            <div class="card-body">
+              <!-- Your review display code here -->
+              <!-- we want a for loop inside the control tags
             to iterate through each review in reviews -->
-            {% for star in stars %}
-            <div class="p-2 review-item">
-              <div id="star{{ star.id }}">
-                On:<span> {{ star.created_on }} </span>
-              </div>
-              <div id="star{{ star.id }}">User: {{ star.user}}</div>
-              <div id="star{{ star.id }}">Rated: {{ star.rating}}</div>
-              <div id="star{{ star.id }}">Title: {{ star.title}}</div>
-              <div>
-                <p>Review:</p>
-                <div id="star{{ star.id }}">{{ star.body | linebreaks }}</div>
-                {% if user.is_authenticated and star.user == user %}
-                <div class="text-center">
-                  <a href="{% url 'edit_review' star.id %}" class="btn btn-primary w-25">Edit</a>
-                  <a href="{% url 'delete_review' star.id %}" class="btn btn-primary w-25">Delete</a>
+              {% for star in stars %}
+              <div class="p-2 review-item">
+                <div id="star{{ star.id }}">
+                  On:<span> {{ star.created_on }} </span>
                 </div>
-                {% endif %}
+                <div id="star{{ star.id }}">User: {{ star.user}}</div>
+                <div id="star{{ star.id }}">Rated: {{ star.rating}}</div>
+                <div id="star{{ star.id }}">Title: {{ star.title}}</div>
+                <div>
+                  <p>Review:</p>
+                  <div id="star{{ star.id }}">{{ star.body | linebreaks }}</div>
+                  {% if user.is_authenticated and star.user == user %}
+                  <div class="text-center">
+                    <a
+                      href="{% url 'edit_review' star.id %}"
+                      class="btn btn-primary w-25"
+                      >Edit</a
+                    >
+                    <a
+                      href="{% url 'delete_review' star.id %}"
+                      class="btn btn-primary w-25"
+                      >Delete</a
+                    >
+                  </div>
+                  {% endif %}
+                </div>
               </div>
+              <!-- for loop ends here -->
+              {% endfor %}
             </div>
-            <!-- for loop ends here -->
-            {% endfor %}
           </div>
         </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card write-review mb-4 mt-3">
-          <h3 class="card-header">Write a Review:</h3>
-          <div class="text-center mt-3">
-            <h6 class="mb-4">| RATE |</h6>
+        <div class="col-md-4">
+          <div class="card write-review mb-4 mt-3">
+            <h3 class="card-header">Write a Review:</h3>
+            <div class="text-center mt-3">
+              <h6 class="mb-4">| RATE |</h6>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
   {% endblock %}
   {% block postloadjs %}
-  {{ block.super }} 
-  {% include 'products/includes/quantity_input_script.html' %} 
+  {{ block.super }}
+  {% include 'products/includes/quantity_input_script.html' %}
   {% endblock %}
