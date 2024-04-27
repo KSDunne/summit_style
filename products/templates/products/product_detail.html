@@ -196,7 +196,9 @@
         <!-- we want a for loop inside the empty control tags
           to iterate through each review in reviews -->
         {% for star in stars %}
-        <hr />
+        <div
+          class="p-2 review-item"
+        >
         <div id="star{{ star.id }}">
           On:<span> {{ star.created_on }} </span>
         </div>
@@ -222,6 +224,7 @@
           {% endif %}
         </div>
         <!-- for loop ends here -->
+        </div>
         {% endfor %}
       </div>
     </div>
