@@ -368,10 +368,10 @@ input[name="q"]::placeholder {
   color: orange;
 }
 
-/* rate and review crud panel on product detail page */
+/* rate and review crud panel on product detail page
 .ratereview-hr{
   width: 80%;
-}
+} */
 
 .all-reviews{
   border: none;
