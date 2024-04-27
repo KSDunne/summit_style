@@ -368,10 +368,7 @@ input[name="q"]::placeholder {
   color: orange;
 }
 
-/* rate and review crud panel on product detail page
-.ratereview-hr{
-  width: 80%;
-} */
+/* rate and review crud panel on product detail page */
 
 .all-reviews{
   border: none;
@@ -382,6 +379,18 @@ input[name="q"]::placeholder {
   background-color: #e8f2fe;
   border-radius: 8px;
   padding: 0.5rem;
+}
+
+.edit-del-btn{
+  background-color: #fffae0;
+  color: black;
+  font-weight: 500;
+  width: 34%;
+  font-size: 0.8rem;
+}
+
+.btn-primary {
+    border-width: 2px;
 }
 
 /* fixed top navbar only on medium and up */
