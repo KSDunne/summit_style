@@ -1,4 +1,4 @@
-from django.core.validators import MinLengthValidator
+from django.core.validators import MinLengthValidator, MinValueValidator, MaxValueValidator
 from django.db import models
 from django.contrib.auth.models import User
 from django.db.models import Avg
@@ -51,11 +51,17 @@ class Product(models.Model):
 class Star(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     product = models.ForeignKey(Product, on_delete=models.CASCADE)
-    rating = models.IntegerField(default=0)
+    rating = models.IntegerField(
+        default=0,
+        validators=[
+            MinValueValidator(1, "Rating must be at least 1"),
+            MaxValueValidator(5, "Rating must be a max of 5")
+        ]
+    )
     title = models.CharField(max_length=180)
     body = models.TextField(
         validators=[MinLengthValidator(
-            40, "Review must be greater than 40 characters")],
+            30, "Review must be greater than 30 characters")],
         max_length=400
     )
     created_on = models.DateTimeField(auto_now_add=True)
