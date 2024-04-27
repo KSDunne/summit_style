@@ -144,8 +144,11 @@
         <!-- we want a for loop inside the empty control tags
           to iterate through each review in reviews -->
         {% for star in stars %}
+        <hr />
           <div id="star{{ star.id }}">
-            <hr />
+            On:<span> {{ star.created_on }} </span>
+          </div>
+          <div id="star{{ star.id }}">
             User: {{ star.user}}
           </div>
           <div id="star{{ star.id }}">
@@ -155,9 +158,6 @@
             Title: {{ star.title}}
           </div>
         <div>
-          <p>
-            On:<span> {{ star.created_on }} </span>
-          </p>
           <p>
             Review:
           </p>
