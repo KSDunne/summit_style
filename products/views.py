@@ -3,6 +3,7 @@ from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.mixins import UserPassesTestMixin, LoginRequiredMixin
 from django.views.generic import UpdateView, DeleteView
+from django.urls import reverse_lazy
 from django.db.models import Q
 from django.db.models.functions import Lower
 
@@ -158,7 +159,15 @@ class DeleteReview(LoginRequiredMixin, UserPassesTestMixin, DeleteView):
     """
 
     model = Star
-    success_url = "/products/"
+
+    def get_success_url(self):
+        """
+        Returns the success URL after deleting the review.
+        Redirects the user back to the product detail page
+        that they were already on.
+        """
+        star = self.get_object()
+        return reverse_lazy('product_detail', kwargs={'product_id': star.product.pk})
 
     def form_valid(self, form):
         messages.success(
