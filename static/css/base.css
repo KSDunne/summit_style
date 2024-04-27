@@ -26,13 +26,13 @@ body {
 
 /*summit style logo style*/
 
-.brand{
+.brand {
   font-family: "Roboto", sans-serif;
   font-size: 1.4rem;
   font-weight: 900;
 }
 
-.thin-blue{
+.thin-blue {
   font-weight: 300;
   color: #ffff00;
   background-color: #5ea5f9;
@@ -314,38 +314,38 @@ input[name="q"]::placeholder {
   background-color: black;
 }
 
-.button-wrapper{
+.button-wrapper {
   margin-bottom: 2.5rem;
 }
 
-.prod-detail-describe{
- margin: 0rem 0rem 1rem 0rem;
+.prod-detail-describe {
+  margin: 0rem 0rem 1rem 0rem;
 }
 
-.pd-edit-delete{
+.pd-edit-delete {
   margin-bottom: 2rem;
 }
 
-.pd-size{
+.pd-size {
   margin-top: 1rem;
 }
 
-/* rating style */
-/* credit for rating style: https://medium.com/geekculture/django-implementing-star-rating-e1deff03bb1c */
+/* average rating style */
+/* credit for avg rating style: https://medium.com/geekculture/django-implementing-star-rating-e1deff03bb1c */
 
-.star-container{
+.star-container {
   padding: 1rem 1rem 1rem 0rem;
 }
 
-.star-card{
+.star-card {
   border: none;
 }
 
-.star-card-body{
+.star-card-body {
   padding: 1rem 1rem 1rem 0;
 }
 
-.star-buttons{
+.star-buttons {
   margin: 0;
 }
 
@@ -365,8 +365,10 @@ input[name="q"]::placeholder {
   list-style: none;
 }
 .checked {
-    color: orange;
+  color: orange;
 }
+
+/* rate and review crud panel on product detail page */
 
 /* fixed top navbar only on medium and up */
 @media (min-width: 992px) {
@@ -392,7 +394,7 @@ input[name="q"]::placeholder {
   body {
     height: calc(100vh - 116px);
   }
-  
+
   .display-4.logo-font.text-black {
     font-size: 2rem;
   }
