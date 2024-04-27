@@ -106,7 +106,15 @@ class EditReview(LoginRequiredMixin, UserPassesTestMixin, UpdateView):
     model = Star
     template_name = "products/edit_review.html"
     form_class = StarForm
-    success_url = "/product_detail/"
+    
+    def get_success_url(self):
+        """
+        Returns the success URL after editing the review.
+        Redirects the user back to the product detail page
+        that they were already on.
+        """
+        star = self.get_object()
+        return reverse_lazy('product_detail', kwargs={'product_id': star.product.pk})
 
     def form_valid(self, form):
         form.instance.confirmed = False
