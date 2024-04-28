@@ -69,10 +69,27 @@ def product_detail(request, product_id):
     stars = Star.objects.filter(product=product)
     review_count = Star.objects.filter(product=product).count()
 
+    if request.method == "POST":
+        star_form = StarForm(data=request.POST)
+        if star_form.is_valid():
+            star = star_form.save(commit=False)
+            star.user = request.user
+            star.product = product
+            star.save()
+            messages.success(
+                request,
+                "Review submitted successfully"
+            )        
+            return reverse_lazy('product_detail', kwargs={'product_id': star.product.pk})
+    
+    else:
+        star_form = StarForm()
+
     context = {
         'product': product,
         'stars': stars,
         'review_count': review_count,
+        'star_form': star_form,
     }
 
     return render(request, 'products/product_detail.html', context)
