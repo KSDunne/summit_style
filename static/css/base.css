@@ -370,7 +370,7 @@ input[name="q"]::placeholder {
 
 /* rate and review crud panel on product detail page */
 
-.all-reviews{
+.all-reviews {
   border: none;
 }
 
@@ -381,7 +381,7 @@ input[name="q"]::placeholder {
   padding: 0.5rem;
 }
 
-.edit-del-btn{
+.edit-del-btn {
   background-color: #fffae0;
   color: black;
   font-weight: 500;
@@ -390,21 +390,34 @@ input[name="q"]::placeholder {
 }
 
 .btn-primary {
-    border-width: 2px;
+  border-width: 2px;
 }
 
-.write-review{
+.write-review {
   border: none;
 }
 
-/* style for edit review form */
+/* style for edit review form and confirm delete */
 
-.edit-review-title{
+.edit-review-title,
+.delete-review-title {
   margin: 3.5rem 0 2rem 0;
   color: #000;
 }
-.edit-form{
+
+.edit-form {
   color: #000;
+}
+
+.delete-review {
+  color: #000;
+  font-size: 140%;
+  margin-bottom: 2rem;
+}
+
+.review-delete-btn{
+  width:36%;
+  margin-top: 2rem;
 }
 
 /* fixed top navbar only on medium and up */

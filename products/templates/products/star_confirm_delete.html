@@ -12,12 +12,12 @@
 
 {% block content %}
 <div class="container">
-    <h1 class="text-center mt-2">Confirm Review Deletion</h1>
+    <h1 class="text-center delete-review-title">Confirm Review Deletion</h1>
     <div class="d-flex justify-content-center pt-3">
-        <form method="post" class="text-center">
+        <form method="post" class="text-center delete-review ">
             {% csrf_token %} 
-            <p>Are you sure you want to delete "{{object.title}}"?</p>
-            <input type="submit" value="Confirm" class="btn btn-primary w-25">
+            <p>Are you sure you want to delete the review titled, "{{object.title}}"?</p>
+            <input type="submit" value="Confirm" class="btn btn-primary review-delete-btn">
         </form>
     </div>
 </div>
