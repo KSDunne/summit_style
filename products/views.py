@@ -1,4 +1,5 @@
 from django.shortcuts import render, redirect, reverse, get_object_or_404
+from django.http import HttpResponseRedirect
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.mixins import UserPassesTestMixin, LoginRequiredMixin
@@ -80,7 +81,7 @@ def product_detail(request, product_id):
                 request,
                 "Review submitted successfully"
             )        
-            return reverse_lazy('product_detail', kwargs={'product_id': star.product.pk})
+            return HttpResponseRedirect(reverse("product_detail", kwargs={'product_id': star.product.pk}))
     
     else:
         star_form = StarForm()
