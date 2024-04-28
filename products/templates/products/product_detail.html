@@ -177,7 +177,7 @@
                 <h3>Rate and Review Panel</h3>
                 <!-- displaying count of reviews on this product -->
                 <div>
-                <i class="fa-solid fa-pencil"></i> {{ review_count }} reviews
+                  <i class="fa-solid fa-pencil"></i> {{ review_count }} reviews
                 </div>
               </strong>
               <hr />
@@ -204,7 +204,9 @@
                   On:<span> {{ star.created_on }} </span>
                 </div>
                 <div id="star{{ star.id }}">User: {{ star.user}}</div>
-                <div id="star{{ star.id }}">Rated: {{ star.rating}} <i class="fa-regular fa-star"></i></div>
+                <div id="star{{ star.id }}">
+                  Rated: {{ star.rating}} <i class="fa-regular fa-star"></i>
+                </div>
                 <div id="star{{ star.id }}">Title: {{ star.title}}</div>
                 <div>
                   <p>Review:</p>
@@ -234,19 +236,26 @@
           <div class="card write-review mb-4 mt-3">
             <h3 class="card-header">Write a Review:</h3>
             <div class="text-center mt-3">
-            <!-- creating a new review -->
-            <div class="col-md-12 card mb-4 mt-3">
-              <div class="card-body">
-                <p class="pt-3"><strong>Posting as:</strong> {{ star.user }}</p>
-                <form method="POST" enctype="multipart/form-data" class="p-2 form">
-                    {% csrf_token %}
-                    {{ star_form | crispy }}
+              <!-- creating a new review -->
+              <div class="col-md-12 card mb-4 mt-3">
+                <div class="card-body">
+                  <p class="pt-3">
+                    <strong>Posting as:</strong> {{ star.user }}
+                  </p>
+                  <form
+                    method="POST"
+                    enctype="multipart/form-data"
+                    class="p-2 form"
+                  >
+                    {% csrf_token %} {{ star_form | crispy }}
                     <div class="text-center">
-                        <button type="submit" class="btn btn-primary mt-2">Submit</button>
+                      <button type="submit" class="btn btn-primary mt-2">
+                        Submit
+                      </button>
                     </div>
-                </form>
+                  </form>
+                </div>
               </div>
-            </div>
             </div>
           </div>
         </div>
@@ -254,8 +263,6 @@
     </div>
   </section>
 
-  {% endblock %}
-  {% block postloadjs %}
-  {{ block.super }}
-  {% include 'products/includes/quantity_input_script.html' %}
-  {% endblock %}
+  {% endblock %} {% block postloadjs %} {{ block.super }} {% include
+  'products/includes/quantity_input_script.html' %} {% endblock %}
+</div>
