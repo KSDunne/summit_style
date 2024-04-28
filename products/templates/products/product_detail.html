@@ -206,7 +206,8 @@
                 <p><strong>On: </strong><span> {{ star.created_on }} </span></p>
                 <p><strong>User: </strong>{{ star.user}}</p>
                 <p>
-                  <strong>Rated: </strong>{{ star.rating}} <i class="fa-regular fa-star"></i>
+                  <strong>Rated: </strong>{{ star.rating}}
+                  <i class="fa-regular fa-star"></i>
                 </p>
                 <p><strong>Title: </strong>{{ star.title}}</p>
                 <div>
@@ -267,5 +268,5 @@
     </div>
   </section>
 </div>
-  {% endblock %} {% block postloadjs %} {{ block.super }} {% include
-  'products/includes/quantity_input_script.html' %} {% endblock %}
+{% endblock %} {% block postloadjs %} {{ block.super }} 
+{% include 'products/includes/quantity_input_script.html' %} {% endblock %}
