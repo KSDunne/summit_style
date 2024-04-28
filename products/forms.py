@@ -35,4 +35,4 @@ class StarForm(forms.ModelForm):
         """
 
         model = Star
-        fields = ("rating","body",)
+        fields = ("title","rating","body",)
