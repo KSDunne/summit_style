@@ -72,7 +72,7 @@ Here is an eCommerce website, for a fictitious business called Summit Style. Thi
 26. See average star ratings on products quickly and easily, so that I don't have to go searching for ratings and I can buy a reliable product or course
 27. Submit my star rating so that I can give a vote on how good the product or course is
 28. Read reviews that other customers have submitted so that I feel I am purchasing a reliable product
-29. Submit a product review with title, star rating and review text.
+29. Submit a review using a front end form with fields for title, star rating and review text
 30. Edit the review I gave, in case I change my mind on how good a product or course is
 31. Delete a review I submitted in case I rate the wrong product or I change my mind about giving my opinion
 32. Read testimonials from other customers so that I feel like I am making a reliable purchase
