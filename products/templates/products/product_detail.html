@@ -200,9 +200,7 @@
             to iterate through each review in reviews -->
               {% for star in stars %}
               <div class="p-2 review-item">
-                <div>
-                  On:<span> {{ star.created_on }} </span>
-                </div>
+                <div>On:<span> {{ star.created_on }} </span></div>
                 <div>User: {{ star.user}}</div>
                 <div>
                   Rated: {{ star.rating}} <i class="fa-regular fa-star"></i>
