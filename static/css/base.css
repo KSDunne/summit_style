@@ -397,6 +397,16 @@ input[name="q"]::placeholder {
   border: none;
 }
 
+/* style for edit review form */
+
+.edit-review-title{
+  margin: 3.5rem 0 2rem 0;
+  color: #000;
+}
+.edit-form{
+  color: #000;
+}
+
 /* fixed top navbar only on medium and up */
 @media (min-width: 992px) {
   .fixed-top-desktop-only {
