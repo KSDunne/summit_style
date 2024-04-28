@@ -71,18 +71,20 @@ Here is an eCommerce website, for a fictitious business called Summit Style. Thi
 25.	Receive an email confirmation after I make a purchase so that I can keep the confirmation for my own records
 26. See average star ratings on products quickly and easily, so that I don't have to go searching for ratings and I can buy a reliable product or course
 27. Submit my star rating so that I can give a vote on how good the product or course is
-28. Edit the star rating I gave, in case I change my mind on how good a product or course is
-29. Delete a star rating I submitted in case I rate the wrong product or I change my mind about giving my opinion
-30. Read testimonials from other customers so that I feel like I am making a reliable purchase
-31. Submit a testimonial of my own so that I can give my opinion on my purchase from this company
-32. Find the contact page easily, so that I don't get frustrated trying to contact the company
-33. Contact summit style using a contact form and recieve feedback that my query has been stored and the company will respond in a few days
+28. Read reviews that other customers have submitted so that I feel I am purchasing a reliable product
+29. Submit a product review with title, star rating and review text.
+30. Edit the review I gave, in case I change my mind on how good a product or course is
+31. Delete a review I submitted in case I rate the wrong product or I change my mind about giving my opinion
+32. Read testimonials from other customers so that I feel like I am making a reliable purchase
+33. Submit a testimonial of my own so that I can give my opinion on my purchase from this company
+34. Find the contact page easily, so that I don't get frustrated trying to contact the company
+35. Contact summit style using a contact form and recieve feedback that my query has been stored and the company will respond in a few days
 
 - As a store owner, I want to be able to:
 
-34.	Add a product or course so that I can add new offerings as they become available for me to sell
-35.	Edit or update a product or course information so that I can change product and course prices, descriptions and images if needed
-36.	Delete a product or course so that I can remove items that are no longer for sale
+36.	Add a product or course so that I can add new offerings as they become available for me to sell
+37.	Edit or update a product or course information so that I can change product and course prices, descriptions and images if needed
+38.	Delete a product or course so that I can remove items that are no longer for sale
 
 ## Sprints
 
