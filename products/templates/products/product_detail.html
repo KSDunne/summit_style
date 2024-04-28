@@ -239,15 +239,18 @@
               <!-- creating a new review -->
               <div class="col-md-12 card mb-4 mt-3">
                 <div class="card-body">
-                  <p class="pt-3">
-                    <strong>Posting as:</strong> {{ star.user }}
-                  </p>
+                  <h4 class="pt-3">
+                    <strong>Reviewing:</strong> {{ product.name }}
+                  </h4>
                   <form
                     method="POST"
                     enctype="multipart/form-data"
                     class="p-2 form"
                   >
                     {% csrf_token %} {{ star_form | crispy }}
+                    <h5 class="pt-3">
+                      <strong>From user:</strong> {{ request.user }}
+                    </h5>
                     <div class="text-center">
                       <button type="submit" class="btn btn-primary mt-2">
                         Submit

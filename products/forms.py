@@ -36,3 +36,9 @@ class StarForm(forms.ModelForm):
 
         model = Star
         fields = ("title","rating","body",)
+        
+        labels = {
+            "title": "Review Title",
+            "rating": "Rating (1-5)",
+            "body": "Review Text",
+        }
