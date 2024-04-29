@@ -35,7 +35,7 @@ body {
 .thin-blue {
   font-weight: 300;
   color: #ffff00;
-  background-color: #5ea5f9;
+  background-color: #001efa;
   padding: 2px 6px;
   margin-left: 4px;
 }
@@ -464,6 +464,10 @@ input[name="q"]::placeholder {
 
   #delivery-banner h4 {
     font-size: 0.9rem;
+  }
+
+  .custom-bg-blue {
+    background-color: #001efa;
   }
 
   .btn.btn-outline-black.rounded-0,
