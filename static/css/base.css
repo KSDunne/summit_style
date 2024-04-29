@@ -336,11 +336,6 @@ input[name="q"]::placeholder {
   background-color: #001efa;
 }
 
-.text-white {
-  color: #fff;
-  background-color: #001efa;
-}
-
 /* average rating style */
 /* credit for avg rating style: https://medium.com/geekculture/django-implementing-star-rating-e1deff03bb1c */
 
