@@ -33,7 +33,7 @@ body {
 }
 
 .thin-blue {
-  font-weight: 300;
+  font-weight: 400;
   color: #ffff00;
   background-color: #001efa;
   padding: 2px 6px;
@@ -334,6 +334,10 @@ input[name="q"]::placeholder {
 
 .custom-bg-blue {
   background-color: #001efa;
+}
+
+.text-banner{
+  color: #ffff00;
 }
 
 /* average rating style */
