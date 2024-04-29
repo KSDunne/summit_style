@@ -330,6 +330,17 @@ input[name="q"]::placeholder {
   margin-top: 1rem;
 }
 
+/* custom delivery banner styling */
+
+.custom-bg-blue {
+  background-color: #001efa;
+}
+
+.text-white {
+  color: #fff;
+  background-color: #001efa;
+}
+
 /* average rating style */
 /* credit for avg rating style: https://medium.com/geekculture/django-implementing-star-rating-e1deff03bb1c */
 
@@ -415,8 +426,8 @@ input[name="q"]::placeholder {
   margin-bottom: 2rem;
 }
 
-.review-delete-btn{
-  width:36%;
+.review-delete-btn {
+  width: 36%;
   margin-top: 2rem;
 }
 
@@ -464,10 +475,6 @@ input[name="q"]::placeholder {
 
   #delivery-banner h4 {
     font-size: 0.9rem;
-  }
-
-  .custom-bg-blue {
-    background-color: #001efa;
   }
 
   .btn.btn-outline-black.rounded-0,
