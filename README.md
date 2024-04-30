@@ -180,6 +180,10 @@ This is on a contact app with tab of its own
 
 ### Entity relationship tables
 
+Please find a screenshot of tables below. These tables are in preparation for the final entity relationship diagram (ERD).
+
+![ERD](docs/readme_images/erd1_300424.PNG)
+
 ## Technology Used
 
 ### Languages and framework
