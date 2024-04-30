@@ -146,6 +146,34 @@ This is on a contact app with tab of its own
 
 ## Wireframes
 
+### Index page wireframes
+
+#### Mobile
+
+![Index iPhone SE](docs/readme_images/Home_Page.png)
+
+#### Tablet
+
+![Index Tablet](docs/readme_images/Tablet_Home.png)
+
+#### Monitor
+
+![Index Monitor](docs/readme_images/Monitor_Home.png)
+
+### Product detail page
+
+#### Mobile
+
+![Product Detail iPhone SE](docs/readme_images/Product_Detail_Page.png)
+
+#### Tablet
+
+![Product Detail Tablet](docs/readme_images/Tablet_Product_Detail.png)
+
+#### Monitor
+
+![Product Detail Monitor](docs/readme_images/Monitor_Product_Detail.png)
+
 ## Database schema
 
 ### Entity relationship diagram
