@@ -134,9 +134,9 @@ This is a call to action on the index page
 
 ## Three custom models
 
-1. Average Star Rating
+1. Average Star Rating and Reviews
 
-This has FE CRUD functionality for your rating
+This has FE CRUD functionality for your rating and reviews
 
 2. Testimonials App
 
