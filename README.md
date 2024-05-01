@@ -253,20 +253,20 @@ Leaving this here as a reminder for me to come back to it later:
 
 ### Stripe setup
 
-This project used [Stripe](https://stripe.com) to handle the ecommerce payments.
+This project used [Stripe](https://stripe.com) to handle all payments.
 
 - Log in to [Stripe](https://stripe.com)
-- Navigate to developers section (link located at the top right)
-- Go to API keys tab and copy the values of PUBLIC_KEY and SECRET_KEY and add them to your env.py file
+- Go to the developers section. The link is located in the top right of the page
+- Go to API keys tab and copy the PUBLIC_KEY and SECRET_KEY and add them to your env.py file
 - `STRIPE_PUBLIC_KEY` = starts with **pk**
 - `STRIPE_SECRET_KEY` = starts with **sk**
-- Navigate to the Webhooks tab and click on add endpoint
-- This section requires a link to the deployed application. The link should look like this: https://your_website.herokuapp.com/checkout/wh/
-- Choose the events the webhook should recieve and add endpoint
+- Go to the Webhooks tab and click on add endpoint
+- Here you will need to give a link to the deployed application. The link should look like this: https://your_website.herokuapp.com/checkout/wh/
+- Choose the events the webhook should receive and add endpoint
 - You'll be given another key, the stripe webhook secret
 - `STRIPE_WH_SECRET` = starts with **wh**
 - When the application is deployed, run a test purchase to ensure the webhooks are working
-- The events can be checked on the webhooks page
+- Go back to the webhooks page to check the events
 
 ### AWS setup
 
