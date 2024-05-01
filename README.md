@@ -202,13 +202,18 @@ Please find a screenshot of tables below. These tables are in preparation for th
 
 ## Technology Used
 
-### Languages and framework
+### Languages
 
 - [HTML5](https://developer.mozilla.org/en-US/docs/Learn/HTML "link to html mozilla documentation")
   was used to create content and structure
 - [CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS "link to css mozilla documentation")
   was used to add custom styles
+- Javascript
+- Python
+
+### Frameworks and libraries
 - [Django 4.2.10](https://www.djangoproject.com/ "link to django docs homepage") was the python framework used to develop the site
+- Bootstrap
 
 ### Database
 
@@ -269,6 +274,78 @@ This project used [Stripe](https://stripe.com) to handle all payments.
 - Go back to the webhooks page to check the events
 
 ### AWS setup
+
+This project used [AWS](https://aws.amazon.com) to store static and media files.
+
+Follow these steps to connect the project to AWS.
+
+- Create an AWS account and login
+- Go to the AWS Management Console under My Account
+
+#### S3 Bucket
+
+- Search for S3
+- Create a new bucket, give it a name (usually matching your Heroku app name), and choose the region closest to you
+- Uncheck Block all public access, and acknowledge that the bucket will be public
+- Click Create Bucket
+- From the Properties tab, turn on static website hosting, and type `index.html` and `error.html` in their respective fields, then click Save
+- From the Permissions tab, paste in the following CORS configuration:
+
+```
+[
+ {
+  "AllowedHeaders": [
+   "Authorization"
+  ],
+  "AllowedMethods": [
+   "GET"
+  ],
+  "AllowedOrigins": [
+   "*"
+  ],
+  "ExposeHeaders": []
+ }
+]
+```
+
+From the Bucket Policy tab, select the Policy Generator link, and use the following steps:
+
+- Policy Type: S3 Bucket Policy
+- Effect: Allow
+- Principal: `*`
+- Actions: GetObject
+- Amazon Resource Name (ARN): paste the arn from the bucket policy here
+- Click Add Statement
+- Click Generate Policy
+- Copy the entire Policy, and paste it into the Bucket Policy Editor
+- Add a /* on to the end of the resource key, because we want to allow access to all resources in this bucket
+
+  ```shell
+  {
+   "Id": "Policy1234567890",
+   "Version": "2012-10-17",
+   "Statement": [
+    {
+     "Sid": "Stmt1234567890",
+     "Action": [
+      "s3:GetObject"
+     ],
+     "Effect": "Allow",
+     "Resource": "arn:aws:s3:::your-bucket-name/*"
+     "Principal": "*",
+    }
+   ]
+  }
+  ```
+
+- Click Save
+- Go to the Access Control List (ACL) tab and set the List Objects Permission to Everyone (public access)
+- Accept the warning box
+
+#### IAM
+
+#### Final steps for AWS setup
+
 
 ### Deploying with heroku
 
