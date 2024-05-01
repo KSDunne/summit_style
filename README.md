@@ -274,7 +274,18 @@ This project used [Stripe](https://stripe.com) to handle all payments.
 
 ### Fork this repository:
 
-### Clone this repository:
+### Clone
+
+The repository can be cloned by following these steps:
+
+- Go to the [GitHub repository](https://github.com/KSDunne/summit_style)
+- Click the Code button near the top of the page
+- Select 'HTTPS', 'SSH', or 'Github CLI', depending on how you would like to clone
+- Click the copy button to copy the URL to your clipboard
+- Open Git Bash
+- Change the current working directory to where you want the cloned directory
+- Type git clone and paste the URL ($ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY)
+- Press enter to create your clone locally
 
 ## Credits
 
