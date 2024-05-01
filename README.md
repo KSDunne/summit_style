@@ -260,7 +260,7 @@ This project used [Stripe](https://stripe.com) to handle the ecommerce payments.
 - Go to API keys tab and copy the values of PUBLIC_KEY and SECRET_KEY and add them to your env.py file
 - `STRIPE_PUBLIC_KEY` = starts with **pk**
 - `STRIPE_SECRET_KEY` = starts with **sk**
-- Navigate to the Webhooks page from the tab in the menu at the top and click on add endpoint
+- Navigate to the Webhooks tab and click on add endpoint
 - This section requires a link to the deployed application. The link should look like this: https://your_website.herokuapp.com/checkout/wh/
 - Choose the events the webhook should recieve and add endpoint
 - You'll be given another key, the stripe webhook secret
