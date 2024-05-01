@@ -96,7 +96,7 @@ Here is an eCommerce website, for a fictitious business called Summit Style. Thi
 6. Sorting and searching
 7. Purchasing and checkout
 8. Store management
-9. Add rating feature
+9. Add rating and review feature
 10. Testimonials app
 11. Contact app
 12. Testing
