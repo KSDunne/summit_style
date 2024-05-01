@@ -286,6 +286,8 @@ Follow these steps to connect the project to AWS.
 
 - Search for S3
 - Create a new bucket, give it a name (usually matching your Heroku app name) and choose the region closest to you
+- Under Object Ownership select ACLs enabled
+- Make sure that Bucket Owner Preferred option is ticked
 - Uncheck Block all public access and acknowledge that the bucket will be public
 - Click Create Bucket
 - From the Properties tab, turn on static website hosting and type `index.html` and `error.html` in their respective fields, then click Save
@@ -344,8 +346,64 @@ From the Bucket Policy tab, select the Policy Generator link, and use the follow
 
 #### IAM
 
+The procedure here is; 1. you should create a group for the user to live in, 2. create an access policy giving the group access to the s3 bucket that was created and 3. assign a user to the group, so that it can use the policy to access all the files.
+
+Go back to the AWS Services Menu and follow these steps:
+
+1. Create a group
+
+- Search for IAM (Identity and Access Management) and open it
+- Click on create user group
+- Add a name and click create group. The users and permission policies will be added later
+
+2. Create an access policy
+
+- Click the policies button on the left hand side and then click the create policy button
+- Click on actions and import policy
+- Search for "AmazonS3FullAccess", select this policy, and click Import
+- Click "JSON" under "Policy Document" to see the imported policy
+- Copy the bucket ARN from the bucket policy page and paste it into the "Resource" section of the JSON snippet. 
+- Copy the bucket ARN a second time into the "Resource" section of the JSON snippet. This time, add "/*" to the end of the ARN to allow access to all resources in this bucket
+
+```
+    {
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "s3:*",
+                "s3-object-lambda:*"
+            ],
+            "Resource": [
+                "arn:aws:s3:::your-project",
+                "arn:aws:s3:::your-project/*"
+            ]
+        }
+    ]
+}
+
+```
+
+- On the next page add polcity name and description and click create policy
+- To attach Policy to User Group, first click on User Groups in the left-hand menu
+- Click on the user group name created during the above step and select the permissions tab
+- Click Attach Policy
+- Search for the policy you just created, select it and click attach policy
+
+3. Create User
+
+- On the users page, click on add user
+- Enter a User name 
+- Select Programmatic access and AWS Management Console access and click next
+- Click on add user to group, select the user group created earlier and click create user
+- Take note of the Access key and Secret access key as these will be needed to connect to the S3 bucket
+- At this point it's important to download and save this CSV file containing the access keys, because once we've gone through this process we can't download them again
+
+
 #### Final steps for AWS setup
 
+- Configure Django to connect to S3
 
 ### Deploying with heroku
 
