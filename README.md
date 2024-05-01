@@ -398,7 +398,7 @@ Go back to the AWS Services Menu and follow these steps:
 - Select Programmatic access and AWS Management Console access and click next
 - Click on add user to group, select the user group created earlier and click create user
 - Take note of the Access key and Secret access key as these will be needed to connect to the S3 bucket
-- At this point it's important to download and save this CSV file containing the access keys, because once we've gone through this process we can't download them again
+- At this point it's important to download and save this CSV file containing the access keys, because once you have gone through this process you can't download them again
 
 
 #### Final steps for AWS setup
