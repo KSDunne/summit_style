@@ -110,7 +110,23 @@ Here is an eCommerce website, for a fictitious business called Summit Style. Thi
 
 #### Monitor navigation bar
 
+On monitor size screens, this is split into 2 divs. The top nav which contains the logo, a search bar, an account dropdown menu and a shopping cart logo with link to the shopping cart. This shopping cart also shows a running total of the users spend. The second part is the main site navigation bar. This main navbar contains downdown menus and links with titles; all products, clothes, equipment, courses, testimonials and contact.
+
 ### Hero image
+
+The index page hero image was chosen because it fits the theme of the website. There is a man with hiking gear looking at some mountains in the distance. The colors of this image also align with the theme and design of the overall website.
+
+### Shop now button
+
+This is a call to action on the index page
+
+### We're green section on the index page
+
+### Newsletter sign up on the index page
+
+### Average star rating and reviews
+
+### Footer
 
 ### Custom 404 page
 
