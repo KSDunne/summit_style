@@ -285,10 +285,10 @@ Follow these steps to connect the project to AWS.
 #### S3 Bucket
 
 - Search for S3
-- Create a new bucket, give it a name (usually matching your Heroku app name), and choose the region closest to you
-- Uncheck Block all public access, and acknowledge that the bucket will be public
+- Create a new bucket, give it a name (usually matching your Heroku app name) and choose the region closest to you
+- Uncheck Block all public access and acknowledge that the bucket will be public
 - Click Create Bucket
-- From the Properties tab, turn on static website hosting, and type `index.html` and `error.html` in their respective fields, then click Save
+- From the Properties tab, turn on static website hosting and type `index.html` and `error.html` in their respective fields, then click Save
 - From the Permissions tab, paste in the following CORS configuration:
 
 ```
@@ -320,23 +320,23 @@ From the Bucket Policy tab, select the Policy Generator link, and use the follow
 - Copy the entire Policy, and paste it into the Bucket Policy Editor
 - Add a /* on to the end of the resource key, because we want to allow access to all resources in this bucket
 
-  ```shell
+```
+{
+  "Id": "Policy1234567890",
+  "Version": "2012-10-17",
+  "Statement": [
   {
-   "Id": "Policy1234567890",
-   "Version": "2012-10-17",
-   "Statement": [
-    {
-     "Sid": "Stmt1234567890",
-     "Action": [
-      "s3:GetObject"
-     ],
-     "Effect": "Allow",
-     "Resource": "arn:aws:s3:::your-bucket-name/*"
-     "Principal": "*",
-    }
-   ]
+    "Sid": "Stmt1234567890",
+    "Action": [
+    "s3:GetObject"
+    ],
+    "Effect": "Allow",
+    "Resource": "arn:aws:s3:::your-bucket-name/*"
+    "Principal": "*",
   }
-  ```
+  ]
+}
+```
 
 - Click Save
 - Go to the Access Control List (ACL) tab and set the List Objects Permission to Everyone (public access)
