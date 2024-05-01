@@ -276,6 +276,7 @@ This project used [Stripe](https://stripe.com) to handle all payments.
 
 - Go to the [GitHub repository](https://github.com/KSDunne/summit_style)
 - Click on the Fork button in the upper right-hand corner
+- Once clicked, you should have a copy of the original repository in your own GitHub account
 
 ### Clone
 
