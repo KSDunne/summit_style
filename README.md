@@ -435,6 +435,9 @@ Note: The difference between fork and clone is, you need permissions to push bac
 ### Code
 
 [Star rating tutorial](https://medium.com/p/e1deff03bb1c)
+[Wishlist logic](https://github.com/Code-Institute-Solutions/Django3blog/blob/master/10_likes/blog/views.py#L69)
+[Wishlist product detail heart](https://github.com/Code-Institute-Solutions/Django3blog/blob/master/10_likes/templates/post_detail.html#L36)
+[My wishlist template](https://github.com/Harry-Leepz/Nourish-and-Lift/blob/main/wishlist/templates/wishlist/wishlist.html)
 
 ### Media
 
