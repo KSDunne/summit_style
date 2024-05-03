@@ -4,6 +4,7 @@ from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.mixins import UserPassesTestMixin, LoginRequiredMixin
 from django.views.generic import UpdateView, DeleteView
+from django.views import View
 from django.urls import reverse_lazy
 from django.db.models import Q
 from django.db.models.functions import Lower
@@ -95,6 +96,27 @@ def product_detail(request, product_id):
     }
 
     return render(request, "products/product_detail.html", context)
+
+
+class Wishlist(LoginRequiredMixin, View):
+    """
+    Add or remove a product from the wishlist.
+
+    Uses :model: `products.Product`
+
+    Redirects the user back to the product detail page
+    that they were already on.
+
+    """
+
+    def post(self, request, pk):
+        product = get_object_or_404(Product, pk=pk)
+        if product.wishlist.filter(id=request.user.id).exists():
+            product.wishlist.remove(request.user)
+        else:
+            product.wishlist.add(request.user)
+
+        return HttpResponseRedirect(reverse("product_detail", args=[pk]))
 
 
 """
