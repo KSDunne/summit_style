@@ -79,12 +79,14 @@ Here is an eCommerce website, for a fictitious business called Summit Style. Thi
 33. Submit a testimonial of my own so that I can give my opinion on my purchase from this company
 34. Find the contact page easily, so that I don't get frustrated trying to contact the company
 35. Contact summit style using a contact form and recieve feedback that my query has been stored and the company will respond in a few days
+36. Toggle a heart button to add and remove products and courses from my wishlist, so that when I have the money or when they go on special offer I can access them easily
+37. Go to a page that has a list of my wishlist items, so that I don't have to spend time looking all over the site for items that I liked in the past
 
 - As a store owner, I want to be able to:
 
-36.	Add a product or course so that I can add new offerings as they become available for me to sell
-37.	Edit or update a product or course information so that I can change product and course prices, descriptions and images if needed
-38.	Delete a product or course so that I can remove items that are no longer for sale
+38.	Add a product or course so that I can add new offerings as they become available for me to sell
+39.	Edit or update a product or course information so that I can change product and course prices, descriptions and images if needed
+40.	Delete a product or course so that I can remove items that are no longer for sale
 
 ## Sprints
 
