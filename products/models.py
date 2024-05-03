@@ -39,15 +39,19 @@ class Product(models.Model):
     price = models.DecimalField(max_digits=6, decimal_places=2)
     image_url = models.URLField(max_length=1024, null=True, blank=True)
     image = models.ImageField(null=True, blank=True)
+    wishlist = models.ManyToManyField(User, related_name="product_wishlist", blank=True)
 
     def __str__(self):
         return self.name
-    
+
     def average_rating(self) -> int:
         avg_rating = Star.objects.filter(product=self).aggregate(Avg("rating"))["rating__avg"] or 0
         return round(avg_rating)
     
-    
+    def number_of_wishes(self):
+        return self.wishlist.count()
+
+
 class Star(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     product = models.ForeignKey(Product, on_delete=models.CASCADE)
