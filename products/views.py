@@ -121,7 +121,34 @@ class Wishlist(LoginRequiredMixin, View):
             product.wishlist.add(request.user)
 
         return HttpResponseRedirect(reverse("product_detail", args=[pk]))
+    
+class MyWishlist(LoginRequiredMixin, View):
+    """
+    Display wishlist for the logged-in user on the my_wishlist template.
 
+    Uses :model: `products.Product`
+
+    **Context**
+
+    ``wishlist_products``
+        Represents the products in the user's wishlist.
+
+    **Template**
+
+    :template:`products/my_wishlist.html`
+
+    """
+
+    def get(self, request):
+        """
+        Retrieves the wishlist products for the current user and
+        renders the my_wishlist template.
+        """
+        wishlist_products = Product.objects.filter(wishlist=request.user)
+        context = {
+            "wishlist_products": wishlist_products,
+        }
+        return render(request, "products/my_wishlist.html", context)
 
 
 """

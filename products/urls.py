@@ -1,6 +1,6 @@
 from django.urls import path
 from . import views
-from .views import EditReview, DeleteReview, Wishlist
+from .views import EditReview, DeleteReview, Wishlist, MyWishlist
 
 urlpatterns = [
     path('', views.all_products, name='products'),
@@ -12,4 +12,5 @@ urlpatterns = [
     path("delete/<int:pk>", DeleteReview.as_view(),
          name="delete_review"),
     path('wishlist/<int:pk>/', Wishlist.as_view(), name='wishlist'),
+    path('my_wishlist/', MyWishlist.as_view(), name='my_wishlist'),
 ]
