@@ -412,6 +412,11 @@ input[name="q"]::placeholder {
   display:inline-block;
 }
 
+/* mobile icon styling */
+.mobile-icon-text{
+ font-size: 70%;
+}
+
 /* rate and review crud panel on product detail page */
 
 .all-reviews {
