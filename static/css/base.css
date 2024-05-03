@@ -336,7 +336,7 @@ input[name="q"]::placeholder {
   background-color: #001efa;
 }
 
-.text-banner{
+.text-banner {
   color: #ffff00;
 }
 
@@ -376,6 +376,14 @@ input[name="q"]::placeholder {
 }
 .checked {
   color: orange;
+}
+
+/* product detail wishlist styling */
+
+.btn-like {
+  color: red;
+  border: none;
+  background: transparent;
 }
 
 /* rate and review crud panel on product detail page */

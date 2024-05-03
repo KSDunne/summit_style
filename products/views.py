@@ -72,7 +72,11 @@ def product_detail(request, product_id):
     product = get_object_or_404(Product, pk=product_id)
     stars = Star.objects.filter(product=product)
     review_count = Star.objects.filter(product=product).count()
-
+    liked = False
+    
+    if product.wishlist.filter(id=request.user.id).exists():
+        liked = True
+        
     if request.method == "POST":
         star_form = StarForm(data=request.POST)
         if star_form.is_valid():
@@ -93,6 +97,7 @@ def product_detail(request, product_id):
         "stars": stars,
         "review_count": review_count,
         "star_form": star_form,
+        "liked": liked,
     }
 
     return render(request, "products/product_detail.html", context)
@@ -104,8 +109,7 @@ class Wishlist(LoginRequiredMixin, View):
 
     Uses :model: `products.Product`
 
-    Redirects the user back to the product detail page
-    that they were already on.
+    Redirects the user back to the product detail page with the liked status
 
     """
 
@@ -117,6 +121,7 @@ class Wishlist(LoginRequiredMixin, View):
             product.wishlist.add(request.user)
 
         return HttpResponseRedirect(reverse("product_detail", args=[pk]))
+
 
 
 """

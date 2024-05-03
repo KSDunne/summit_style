@@ -47,7 +47,7 @@
         <!-- wishlist section -->
         <div class="col pt-3 pl-0 mt-3">
           <h5>Wishlist</h5>
-          Use heart to add or remove from wishlist
+          <strong>Click heart</strong> to add or remove from wishlist:
             {% if user.is_authenticated %}
             <form
               class="d-inline"
@@ -61,7 +61,7 @@
                 value="{{product.pk}}"
                 class="btn-like"
               >
-                <i class="fas fa-heart"></i>
+                <i class="fa-solid fa-heart fa-xl"></i>
               </button>
               {% else %}
               <button
@@ -70,7 +70,7 @@
                 value="{{product.pk}}"
                 class="btn-like"
               >
-                <i class="far fa-heart"></i>
+                <i class="fa-regular fa-heart fa-xl"></i>
               </button>
               {% endif %}
             </form>
