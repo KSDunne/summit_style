@@ -26,8 +26,8 @@ class Category(models.Model):
 '''
 Credit: https://github.com/Code-Institute-Solutions/boutique_ado_v1/blob
 /5e595d250f0d7a408a7ccd40bfa25d24c000034d/products/models.py#L18
-I changed this model by adding a field 'is_course' and I set
-'has_sizes' to a default of True
+I changed this model by adding a 'wishlist' field, a 'is_course' field
+and I set 'has_sizes' to a default of True.
 '''
 class Product(models.Model):
     category = models.ForeignKey('Category', null=True, blank=True, on_delete=models.SET_NULL)
