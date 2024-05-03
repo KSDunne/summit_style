@@ -386,6 +386,32 @@ input[name="q"]::placeholder {
   background: transparent;
 }
 
+/* wishlist page styling */
+
+.heart-note{
+  background: #1b1e21;
+  color: #ffff00;
+  padding: 1rem;
+  border-radius: 8px;
+  width: 50%;
+  margin: 0 auto;
+  font-size: 115%;
+}
+
+.wl-product-btn{
+  background: #1b1e21;
+  color: #ffff00;
+  border: 2px solid #ffff00;
+}
+
+.wl-product-btn:hover {
+  color: white;
+}
+
+.wl-rating{
+  display:inline-block;
+}
+
 /* rate and review crud panel on product detail page */
 
 .all-reviews {
