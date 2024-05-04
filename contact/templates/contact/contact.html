@@ -5,5 +5,31 @@
   </div>
 </div>
 {% endblock %} {% block content %}
-<h1>Contact Page</h1>
+<h1 class="text-black">Contact Page</h1>
+
+<div class="row justify-content-center text-black">
+  <div class="col-12 col-md-7 my-5">
+    <h2>Would you like to contact us?</h2>
+    <p>
+      Welcome to Summit Styles contact form! Here is your gateway to getting in
+      touch with us. Simply fill in your name, phone, email and let us know the
+      topic you're interested in. That could be clothing, equipment, or one of
+      our thrilling tent building and survival courses. If you're eyeing a
+      course, don't forget to specify your availability timeframe. We're eager
+      to hear from you and help you gear up for your next summit adventure!
+    </p>
+
+    <!-- contact form -->
+    <form method="post">
+      {{ contact_form | crispy }} {% csrf_token %}
+      <button
+        class="btn btn-about"
+        aria-label="click this button to submit your contact request"
+        type="submit"
+      >
+        Submit
+      </button>
+    </form>
+  </div>
+</div>
 {% endblock %}
