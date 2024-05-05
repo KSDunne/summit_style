@@ -3,12 +3,41 @@ html {
 }
 
 body {
-  background: url("/media/homepage_background.jpg") no-repeat center center
-    fixed;
-  background-size: cover;
-  height: calc(100vh - 164px);
-  color: #555;
-  font-family: "Inter";
+    min-height: 100vh;
+    font-family: 'Inter', sans-serif;
+    color: #3a3a3a;
+}
+
+/* index page hero image */
+#hero-outer {
+  height: 54vh;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+/* credit for object-fit: https://www.w3schools.com/csS/css3_object-fit.asp */
+.hero-image {
+  height: 54vh;
+  width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  /* credit for hero animated zoom effect: love-running-2.0 depreciated project July 2023 */
+  /* animating zoom effect on the hero image when loading page */
+  animation-name: hero-zoom;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+}
+
+/* creating a zoom for the hero image */
+@keyframes hero-zoom {
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(1.1);
+  }
 }
 
 /* from Bulma */
