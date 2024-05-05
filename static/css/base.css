@@ -241,6 +241,13 @@ input[name="q"]::placeholder {
   overflow-y: auto;
 }
 
+/* more index page styling */
+
+.newsletter-home{
+  height:200px;
+  background-color: #17a2b8;
+}
+
 /* media queries */
 
 /* slightly larger container on xl screens */
