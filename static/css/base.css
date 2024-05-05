@@ -388,7 +388,7 @@ input[name="q"]::placeholder {
 
 /* wishlist page styling */
 
-.heart-note{
+.heart-note {
   background: #1b1e21;
   color: #ffff00;
   padding: 1rem;
@@ -398,23 +398,25 @@ input[name="q"]::placeholder {
   font-size: 115%;
 }
 
-.wl-product-btn{
+.wl-product-btn,
+.contact-btn {
   background: #1b1e21;
   color: #ffff00;
   border: 2px solid #ffff00;
 }
 
-.wl-product-btn:hover {
+.wl-product-btn:hover,
+.contact-btn:hover {
   color: white;
 }
 
-.wl-rating{
-  display:inline-block;
+.wl-rating {
+  display: inline-block;
 }
 
 /* mobile icon styling */
-.mobile-icon-text{
- font-size: 70%;
+.mobile-icon-text {
+  font-size: 70%;
 }
 
 /* rate and review crud panel on product detail page */
@@ -470,9 +472,16 @@ input[name="q"]::placeholder {
 }
 
 /* contact page styling */
-.contact-heading{
+.contact-heading {
   margin-top: 3rem;
-}  
+  background-color: #e8f2fe;
+  border-radius: 14px;
+}
+
+.contact-form {
+  background-color: #e8f2fe;
+  border-radius: 14px;
+}
 
 /* fixed top navbar only on medium and up */
 @media (min-width: 992px) {

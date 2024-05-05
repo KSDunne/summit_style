@@ -7,18 +7,16 @@
 {% endblock %} {% block content %}
 <div class="container-fluid">
   <div class="row justify-content-center">
-      <h1 class="text-black contact-heading">Contact</h1>
+      <h1 class="text-black contact-heading p-2">Contact</h1>
 
       <div class="row justify-content-center text-black">
-        <div class="col-10 col-md-7 my-4">
+        <div class="col-10 col-md-7 my-4 p-4 contact-form">
           <h2>Would you like to contact us?</h2>
           <p>
-            Welcome to the Summit Style contact form! Here is your gateway to
-            getting in touch with us. Let us know the topic you're interested in
-            chatting about. That could be clothing, equipment, or one of our
-            thrilling tent building and survival courses. If you're eyeing a
-            course, don't forget to specify your availability timeframe. We're
-            eager to hear from you and help you gear up for your next summit
+            Welcome to the Summit Style contact form! Let us know the topic
+            you're interested in chatting about. If you're eyeing a course, 
+            don't forget to specify your availability timeframe. We're eager 
+            to hear from you and help you gear up for your next summit
             adventure!
           </p>
 
@@ -26,7 +24,7 @@
           <form method="post">
             {{ contact_form | crispy }} {% csrf_token %}
             <button
-              class="btn btn-primary"
+              class="btn contact-btn"
               aria-label="click this button to submit your contact request"
               type="submit"
             >
