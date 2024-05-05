@@ -49,18 +49,19 @@ body {
   top: 5vh;
   padding: 8px 7px 0px 7px;
   text-align: center;
-  border-radius: 3px;
-  width: 78%;
+  border-radius: 14px;
+  width: 60%;
+  color: #fef2d8;
+  left: 20%;
+  right: 20%;
 }
 
 .cover-text > h1 {
-  color: #fef2d8;
   padding-top: 8px;
   font-size: 1.5rem;
 }
 
 .cover-text > h2 {
-  color: #fef2d8;
   padding-top: 10px;
   padding-bottom: 15px;
   font-size: 1.2rem;
