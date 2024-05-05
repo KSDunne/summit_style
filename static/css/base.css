@@ -469,6 +469,11 @@ input[name="q"]::placeholder {
   margin-top: 2rem;
 }
 
+/* contact page styling */
+.contact-heading{
+  margin-top: 3rem;
+}  
+
 /* fixed top navbar only on medium and up */
 @media (min-width: 992px) {
   .fixed-top-desktop-only {
