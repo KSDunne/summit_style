@@ -1,6 +1,4 @@
-{% extends "base.html" %}
-{% load static %}
-{% block page_header %}
+{% extends "base.html" %} {% load static %} {% block page_header %}
 
 <div class="container header-container">
   <div class="row">
@@ -8,55 +6,77 @@
   </div>
 </div>
 {% endblock %} {% block content %}
-    <!-- main content -->
-    <main>
-        <!-- credit for hero section code: love-running-2.0 depreciated project July 2023. Line break was added, as that was more suited to my aesthetic -->
-        <section id="hero-outer">
-            <!--Image taken from  -->
-            <div id="hero-image"></div>
-            <div id="cover-text">
-                <h2>Summit Style</h2>
-                <br>
-                <h3>Outdoor Clothes, Equipment and Courses</h3>
-            </div>
-        </section>
+<!-- main content -->
+<main>
+  <!-- credit for hero section code: love-running-2.0 depreciated project July 2023. Line break was added, as that was more suited to my aesthetic -->
+  <section id="hero-outer">
+    <!--Image taken from  -->
+    <img
+      src="/media/homepage_background.jpg"
+      class="hero-image"
+      alt="Image of a man that is hiking with mountains in the background"
+    />
+    <div id="cover-text">
+      <h1>Summit Style</h1>
+      <h2>Outdoor clothing, equipment and courses</h2>
+    </div>
+  </section>
 
-        <!-- were green paragraph -->
-        <section id="green-text-section">
-            <div id="green-text">
-                <div class="center-green-heading">
-                    <h2>We're Green <i class="fa-solid fa-recycle"></i></h2>
-                    <hr>
-                    <p>
-                        Look at the four points below that show how we are giving back to the environment.
-                    </p>
-                </div>
-            </div>
-        </section>
+  <!-- were green paragraph -->
+  <section id="green-text-section">
+    <div id="green-text">
+      <div class="center-green-heading">
+        <h2>We're Green <i class="fa-solid fa-recycle"></i></h2>
+        <hr />
+        <p>
+          Look at the four points below that show how we are giving back to the
+          environment.
+        </p>
+      </div>
+    </div>
+  </section>
 
-        <!-- responsive green-boxes -->
-        <!-- credit for responsive boxes code and responsive 'green box' design inspiration: love-running-v3 newest version August 2023 -->
-        <section id="green-section">
-            <div id="green">
-                <div id="bcorporation-home">
-                    <h2>BCorp</h2>
-                    <p>As a certified B Corporation, we uphold rigorous standards of social and environmental performance, transparency, and accountability in every aspect of our business.</p>
-                </div>
-                <div id="ethical-home">
-                    <h2>Ethical Sourcing</h2>
-                    <p> We are committed to ethically sourcing materials for our products, ensuring fair labor practices and supporting local communities while delivering top-quality gear for your outdoor adventures.</p>
-                </div>
-                <div id="tree-home">
-                    <h2>Tree Planting Partnership</h2>
-                    <p>For every purchase made on our platform, we partner with reforestation initiatives to plant a tree in areas affected by deforestation. Join us in our mission to not just sustain, but enhance our planet's natural beauty for generations to come.</p>
-                </div>
-                <div id="packaging-home">
-                    <h2>Recycled Packaging</h2>
-                    <p>We take our commitment to the environment seriously, even down to the packaging. Our innovative approach includes using biodegradable and recycled materials for packaging, reducing waste and minimizing our carbon footprint throughout the shipping process.</p>
-                </div>
-            </div>
-        </section>
-    </main>
+  <!-- responsive green-boxes -->
+  <!-- credit for responsive boxes code and responsive 'green box' design inspiration: love-running-v3 newest version August 2023 -->
+  <section id="green-section">
+    <div id="green">
+      <div id="bcorporation-home">
+        <h2>BCorp</h2>
+        <p>
+          As a certified B Corporation, we uphold rigorous standards of social
+          and environmental performance, transparency, and accountability in
+          every aspect of our business.
+        </p>
+      </div>
+      <div id="ethical-home">
+        <h2>Ethical Sourcing</h2>
+        <p>
+          We are committed to ethically sourcing materials for our products,
+          ensuring fair labor practices and supporting local communities while
+          delivering top-quality gear for your outdoor adventures.
+        </p>
+      </div>
+      <div id="tree-home">
+        <h2>Tree Planting Partnership</h2>
+        <p>
+          For every purchase made on our platform, we partner with reforestation
+          initiatives to plant a tree in areas affected by deforestation. Join
+          us in our mission to not just sustain, but enhance our planet's
+          natural beauty for generations to come.
+        </p>
+      </div>
+      <div id="packaging-home">
+        <h2>Recycled Packaging</h2>
+        <p>
+          We take our commitment to the environment seriously, even down to the
+          packaging. Our innovative approach includes using biodegradable and
+          recycled materials for packaging, reducing waste and minimizing our
+          carbon footprint throughout the shipping process.
+        </p>
+      </div>
+    </div>
+  </section>
+</main>
 
-    <!-- footer -->
+<!-- footer -->
 {% endblock %}
