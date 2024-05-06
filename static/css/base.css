@@ -40,8 +40,7 @@ body {
   }
 }
 
-/* index page cover text */
-/* cover text on hero image */
+/* index page cover text on hero image */
 .shop-name {
   font-family: "Roboto", sans-serif;
   position: absolute;
@@ -55,27 +54,32 @@ body {
 }
 
 .btn-index {
-  display: inline-block;
+  position: absolute;
+  top: 26vh;
   color: black;
   font-weight: 600;
   background-color: yellow;
   border-radius: 22px;
   box-shadow: 0 2px 2px #3a3a3a;
   margin-top: 24vh;
+  width: 30%;
+  left: 36%;
+  right: 36%;
+  font-size: 50%;
 }
 
 .cover-text {
   background-color: rgba(33, 33, 33, 0.9);
   font-family: "Roboto", sans-serif;
   position: absolute;
-  top: 42vh;
+  top: 58vh;
   padding: 8px 7px 0px 7px;
   text-align: center;
   border-radius: 14px;
-  width: 60%;
+  width: 52%;
   color: #fef2d8;
-  left: 20%;
-  right: 20%;
+  left: 24%;
+  right: 24%;
 }
 
 .cover-text > h3 {
