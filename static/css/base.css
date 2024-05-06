@@ -3,9 +3,9 @@ html {
 }
 
 body {
-    min-height: 100vh;
-    font-family: 'Inter', sans-serif;
-    color: #3a3a3a;
+  min-height: 100vh;
+  font-family: "Inter", sans-serif;
+  color: #3a3a3a;
 }
 
 /* index page hero image */
@@ -42,11 +42,33 @@ body {
 
 /* index page cover text */
 /* cover text on hero image */
+.shop-name {
+  font-family: "Roboto", sans-serif;
+  position: absolute;
+  top: 12vh;
+  padding: 8px 7px 0px 7px;
+  text-align: center;
+  border-radius: 14px;
+  width: 60%;
+  left: 20%;
+  right: 20%;
+}
+
+.btn-index {
+  display: inline-block;
+  color: black;
+  font-weight: 600;
+  background-color: yellow;
+  border-radius: 22px;
+  box-shadow: 0 2px 2px #3a3a3a;
+  margin-top: 24vh;
+}
+
 .cover-text {
   background-color: rgba(33, 33, 33, 0.9);
   font-family: "Roboto", sans-serif;
   position: absolute;
-  top: 18vh;
+  top: 42vh;
   padding: 8px 7px 0px 7px;
   text-align: center;
   border-radius: 14px;
@@ -56,12 +78,7 @@ body {
   right: 20%;
 }
 
-.cover-text > h1 {
-  padding-top: 8px;
-  font-size: 1.5rem;
-}
-
-.cover-text > h2 {
+.cover-text > h3 {
   padding-top: 10px;
   padding-bottom: 15px;
   font-size: 1.2rem;
@@ -101,12 +118,6 @@ body {
   width: fit-content;
 }
 
-.shop-now-button {
-  background: black;
-  color: white;
-  min-width: 110px;
-}
-
 .btn-black {
   background: black;
   color: white;
@@ -118,9 +129,9 @@ body {
   border: 1px solid black;
 }
 
-.shop-now-button:hover,
-.shop-now-button:active,
-.shop-now-button:focus,
+.btn-index:hover,
+.btn-index:active,
+.btn-index:focus,
 .btn-black:hover,
 .btn-black:active,
 .btn-black:focus {
@@ -243,8 +254,8 @@ input[name="q"]::placeholder {
 
 /* more index page styling */
 
-.newsletter-home{
-  height:200px;
+.newsletter-home {
+  height: 200px;
   background-color: #17a2b8;
 }
 
@@ -343,27 +354,6 @@ input[name="q"]::placeholder {
 .call-to-action {
   padding-bottom: 1rem;
   margin-top: 3rem;
-}
-
-.btn-index {
-  display: inline-block;
-  color: black;
-  font-weight: 600;
-  background-color: yellow;
-  border-radius: 14px;
-  box-shadow: 0 2px 2px #3a3a3a;
-}
-
-.offers-on {
-  font-size: 130%;
-  position: fixed;
-  bottom: 2vh;
-  left: 0;
-  right: 0;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0.5rem;
-  width: 60%;
 }
 
 .offers-on-list {
