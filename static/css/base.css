@@ -41,17 +41,6 @@ body {
 }
 
 /* index page cover text on hero image */
-.shop-name {
-  font-family: "Roboto", sans-serif;
-  position: absolute;
-  top: 12vh;
-  padding: 8px 7px 0px 7px;
-  text-align: center;
-  border-radius: 14px;
-  width: 40%;
-  left: 30%;
-  right: 30%;
-}
 
 .btn-index {
   position: absolute;
@@ -72,21 +61,19 @@ body {
   background-color: rgba(33, 33, 33, 0.9);
   font-family: "Roboto", sans-serif;
   position: absolute;
-  top: 58vh;
+  top: 20vh;
   padding: 8px 7px 0px 7px;
   text-align: center;
   border-radius: 14px;
-  width: 52%;
+  width: 70%;
   color: #fef2d8;
-  left: 24%;
-  right: 24%;
+  left: 15%;
+  right: 15%;
 }
 
-.cover-text > h3 {
+.cover-text > h2 {
   padding-top: 10px;
   padding-bottom: 15px;
-  font-size: 1.2rem;
-  font-weight: 400;
 }
 
 /* from Bulma */
