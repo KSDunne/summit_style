@@ -306,11 +306,11 @@ input[name="q"]::placeholder {
 
 /* custom footer style */
 .footer-section {
-  background-color: #001efa;
+  background-color: #27a680;
 }
 
 .social-icon {
-  color: #ffff00;;
+  color: black;
   transition: color 0.3s ease-in-out;
 }
 
@@ -319,13 +319,13 @@ input[name="q"]::placeholder {
 }
 
 .footer-text {
-  color: #ffff00;;
+  color: black;
   font-size: 110%;
   font-weight: 500;
 }
 
 .contact-text-email {
-  color: #ffff00;;
+  color: black;
   font-size: 102%;
   font-weight: 600;
   padding-bottom: 1rem;
@@ -336,7 +336,7 @@ input[name="q"]::placeholder {
 }
 
 .contact-text {
-  color: #ffff00;
+  color: black;
   font-size: 102%;
   font-weight: 300;
   padding-bottom: 1rem;
