@@ -22,46 +22,15 @@ body {
   width: 100%;
   overflow: hidden;
   object-fit: cover;
-  /* credit for hero animated zoom effect: love-running-2.0 depreciated project July 2023 */
-  /* animating zoom effect on the hero image when loading page */
-  animation-name: hero-zoom;
-  animation-duration: 5s;
-  animation-fill-mode: forwards;
-}
-
-/* creating a zoom for the hero image */
-@keyframes hero-zoom {
-  from {
-    transform: scale(1);
-  }
-
-  to {
-    transform: scale(1.1);
-  }
 }
 
 /* index page cover text on hero image */
-
-.btn-index {
-  position: absolute;
-  top: 26vh;
-  color: black;
-  font-weight: 600;
-  background-color: yellow;
-  border-radius: 22px;
-  box-shadow: 0 2px 2px #3a3a3a;
-  margin-top: 24vh;
-  width: 26%;
-  left: 37%;
-  right: 37%;
-  font-size: 50%;
-}
 
 .cover-text {
   background-color: rgba(33, 33, 33, 0.9);
   font-family: "Roboto", sans-serif;
   position: absolute;
-  top: 20vh;
+  top: 10vh;
   padding: 8px 7px 0px 7px;
   text-align: center;
   border-radius: 14px;
@@ -71,9 +40,28 @@ body {
   right: 15%;
 }
 
+.cover-text > h1 {
+  padding-top: 10px;
+  font-size: 140%;
+}
+
 .cover-text > h2 {
   padding-top: 10px;
   padding-bottom: 15px;
+  font-size: 130%;
+}
+
+.btn-index {
+  color: black;
+  font-weight: 600;
+  background-color: yellow;
+  border-radius: 22px;
+  box-shadow: 0 2px 2px #3a3a3a;
+  width: 40%;
+  left: 37%;
+  right: 37%;
+  font-size: 70%;
+  padding-top: 14px;
 }
 
 /* from Bulma */
