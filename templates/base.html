@@ -155,6 +155,69 @@
     {% block content %}
     {% endblock %}
 
+    <!-- footer -->
+    <footer class="mt-auto py-4 footer-section">
+        <!-- credit for footer code: 
+        https://github.com/DanMorriss/nialls-barbershop/blob/main/templates/base.html -->
+        <div class="container px-4">
+        <div class="row">
+            <div class="col-lg-8 col-md-10 mx-auto">
+            <ul class="list-inline text-center">
+                <li class="list-inline-item">
+                <a
+                    href="https://facebook.com"
+                    target="_blank"
+                    aria-label="Visit our Facebook page (opens in a new tab)"
+                >
+                    <span class="fa-stack fa-lg">
+                    <i
+                        class="fa-brands fa-facebook fa-stack-1x social-icon"
+                    ></i>
+                    </span>
+                </a>
+                </li>
+                <li class="list-inline-item">
+                <a
+                    href="https://instagram.com"
+                    target="_blank"
+                    aria-label="Visit our Instagram page (opens in a new tab)"
+                >
+                    <span class="fa-stack fa-lg">
+                    <i
+                        class="fa-brands fa-instagram fa-stack-1x social-icon"
+                    ></i>
+                    </span>
+                </a>
+                </li>
+                <li class="list-inline-item">
+                <a
+                    href="https://github.com/ksdunne"
+                    target="_blank"
+                    aria-label="Visit our GitHub page (opens in a new tab)"
+                >
+                    <span class="fa-stack fa-lg">
+                    <i class="fa-brands fa-github fa-stack-1x social-icon"></i>
+                    </span>
+                </a>
+                </li>
+            </ul>
+            <p class="m-0 text-center contact-text-email">
+                <i class="fa-solid fa-envelope social-icon"></i>
+                <a href="mailto:info@summitstyle.com">
+                info@summitstyle.com</a
+                >
+            </p>
+            <p class="m-0 text-center contact-text">
+                <i class="fa-solid fa-phone social-icon"></i> 089555742254
+            </p>
+            <p class="m-0 text-center footer-text">
+                Copyright &copy; Katie Dunne 2024
+            </p>
+            </div>
+        </div>
+        </div>
+    </footer>
+
     {% block postloadjs %}
     <script type="text/javascript">
         $('.toast').toast('show');

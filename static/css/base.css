@@ -304,6 +304,43 @@ input[name="q"]::placeholder {
   padding: 4%;
 }
 
+/* custom footer style */
+.footer-section {
+  background-color: #001efa;
+}
+
+.social-icon {
+  color: #ffff00;;
+  transition: color 0.3s ease-in-out;
+}
+
+.social-icon:hover {
+  color: #fe2c89;
+}
+
+.footer-text {
+  color: #ffff00;;
+  font-size: 110%;
+  font-weight: 500;
+}
+
+.contact-text-email {
+  color: #ffff00;;
+  font-size: 102%;
+  font-weight: 600;
+  padding-bottom: 1rem;
+}
+
+.contact-text-email a {
+  color: #692d5d;
+}
+
+.contact-text {
+  color: #ffff00;
+  font-size: 102%;
+  font-weight: 300;
+  padding-bottom: 1rem;
+}
 
 /* media queries */
 
