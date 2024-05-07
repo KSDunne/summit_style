@@ -238,6 +238,73 @@ input[name="q"]::placeholder {
   background-color: #17a2b8;
 }
 
+/* were green section */
+
+#green-text {
+  padding-top: 30px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#green-text p {
+  font-size: 130%;
+}
+
+#green-text i {
+  color: green;
+}
+
+#bcorporation-home {
+  padding-bottom: 20px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#ethical-home{
+  padding-bottom: 20px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#tree-home {
+  padding-bottom: 20px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#packaging-home {
+  padding-bottom: 20px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#green-section {
+  padding: 0% 11% 2%;
+}
+
+#green {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#green div {
+  color: #fffae6;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 15px;
+  text-align: center;
+  /* There will be no wraping on screens of less than 400px wide*/
+  flex-basis: 200px;
+  flex-grow: 1;
+  /* Create a grid over the background */
+  border: 2px solid #ffffff;
+}
+
+#green h2 {
+  color: #fffae6;
+  padding: 4%;
+}
+
+
 /* media queries */
 
 /* slightly larger container on xl screens */
