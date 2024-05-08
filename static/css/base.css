@@ -335,15 +335,6 @@ input[name="q"]::placeholder {
   padding-bottom: 1rem;
 }
 
-/* media queries */
-
-/* slightly larger container on xl screens */
-@media (min-width: 1200px) {
-  .container {
-    max-width: 80%;
-  }
-}
-
 /* allauth form formatting */
 
 .allauth-form-inner-content p {
@@ -606,13 +597,29 @@ input[name="q"]::placeholder {
   border-radius: 14px;
 }
 
-/* mailchimp newsletter styling
+/* mailchimp newsletter styling */
+
+#mc_embed_shell{
+  background: #5ea5f9;
+}
+
 #mc_embed_signup{
-  background:#fff;
-  clear:left;
+  background: #5ea5f9;
   font:14px Helvetica,Arial,sans-serif;
-  width: 600px;
-}*/
+  width: 100%;
+  padding: 1%;
+  font-size: 110%;
+  margin: 0 auto;
+}
+
+/* media queries */
+
+/* slightly larger container on xl screens */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 80%;
+  }
+}
 
 /* fixed top navbar only on medium and up */
 @media (min-width: 992px) {
@@ -674,5 +681,19 @@ input[name="q"]::placeholder {
   .increment-qty,
   .decrement-qty {
     padding: 0.25rem 0.5rem !important;
+  }
+}
+
+/* media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+  #mc_embed_signup{
+    width: 70%;
+  }
+}
+
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+  #mc_embed_signup{
+    width: 60%;
   }
 }
