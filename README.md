@@ -140,7 +140,9 @@ This is a call to action on the index page
 
 ### We're green section on the index page
 
-### Newsletter sign up on the index page
+### Newsletter sign up
+
+This is in base.html, so it shows up on all pages right above the footer.
 
 ### Average star rating and reviews
 
