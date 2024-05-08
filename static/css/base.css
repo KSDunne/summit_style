@@ -26,30 +26,44 @@ body {
 
 /* index page cover text on hero image */
 
-.cover-text {
-  background-color: rgba(33, 33, 33, 0.9);
+.title-text {
   font-family: "Roboto", sans-serif;
   position: absolute;
-  top: 10vh;
+  top: 6vh;
   padding: 8px 7px 0px 7px;
   text-align: center;
   border-radius: 14px;
   width: 70%;
-  color: #fef2d8;
+  color: black;
   left: 15%;
   right: 15%;
 }
 
-.cover-text > h1 {
+.title-text > h1 {
   padding-top: 10px;
-  font-size: 140%;
+  font-size: 220%;
+}
+
+.cover-text {
+  font-family: "Roboto", sans-serif;
+  position: absolute;
+  top: 19vh;
+  padding: 8px 7px 0px 7px;
+  text-align: center;
+  border-radius: 14px;
+  width: 70%;
+  color: black;
+  left: 15%;
+  right: 15%;
 }
 
 .cover-text > h2 {
   padding-top: 10px;
   padding-bottom: 15px;
-  font-size: 130%;
+  font-size: 120%;
 }
+
+/* call to action shop now button */
 
 .btn-index {
   color: black;
@@ -686,13 +700,32 @@ input[name="q"]::placeholder {
 
 /* media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+  /* mailchimp */
   #mc_embed_signup {
     width: 70%;
+  }
+
+  /* index page cover text on hero image */
+  .title-text {
+    top: 8vh;
+  }
+
+  .title-text > h1 {
+    font-size: 240%;
+  }
+
+  .cover-text {
+    top: 20vh;
+  }
+
+  .cover-text > h2 {
+    font-size: 130%;
   }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
+  /* mailchimp */
   #mc_embed_signup {
     width: 55%;
   }
@@ -700,7 +733,21 @@ input[name="q"]::placeholder {
 
 /* Very Large devices (large laptop screens and monitors, 1440px and up) */
 @media screen and (min-width: 1440px) {
+  /* mailchimp */
   #mc_embed_signup {
     width: 45%;
+  }
+
+  /* index page cover text on hero image */
+  .title-text {
+    top: 9vh;
+  }
+
+  .title-text > h1 {
+    font-size: 270%;
+  }
+
+  .cover-text > h2 {
+    font-size: 160%;
   }
 }
