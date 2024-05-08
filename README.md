@@ -172,21 +172,49 @@ This is on a contact app with tab of its own
 
 ## SEO
 
-Good seo means that more potential customers can find your website. Keyword research tells us what topics people care abour and how popular these topics are among your audience. Short-tail keywords are 1-2 words long and highly competitive. Long-tail keywords are usually in the form of a phrase or sentence and competition is lower.
+Good seo means that more potential customers can find your website. Keyword research tells us what topics people care about and how popular these topics are among your audience. Short-tail keywords are 1-2 words long and highly competitive. Long-tail keywords are usually in the form of a phrase or sentence and competition is lower.
 
 Short tail keywords used on this app:
 
-- Irish hiking
 - Hiking clothes
 - Hiking equipment
 - Adventure courses
+- Irish hiking
 - Outdoors
 
 Long tail keywords used on this app:
 
+- Irelands toughest hike
 - Clothes for hiking in Ireland
+- Hiking clothes Ireland
 - Equipment for camping in Ireland
-- Adventure skills course in Ireland
+- Hiking equipment for beginners
+- Adventure courses in Ireland
+- Outdoors shop dublin
+
+Here are some screenshot examples of how I did my keyword research. It involved using the search bar in google and the suggested searches that popped up in the dropdown menu. I also looked at the longer tailed questions that were frequently asked on google.
+
+### Hiking clothes
+
+See the screenshot of the dropdown on google for this short-tailed keyword
+
+![hiking clothes keyword](docs/readme_images/png)
+
+### Hiking equipment
+
+See the screenshot of the dropdown on google for this short-tailed keyword
+
+![hiking equipment keyword](docs/readme_images/png)
+
+### Adventure courses
+
+See the screenshot of the dropdown on google for this short-tailed keyword
+
+![adventure courses keyword](docs/readme_images/png)
+
+Also see a site I found that is selling online courses for mountaineering in Scotland
+
+![mountaineering courses](docs/readme_images/mountain_courses.png)
 
 ## Design
 
