@@ -599,13 +599,13 @@ input[name="q"]::placeholder {
 
 /* mailchimp newsletter styling */
 
-#mc_embed_shell{
+#mc_embed_shell {
   background: #5ea5f9;
 }
 
-#mc_embed_signup{
+#mc_embed_signup {
   background: #5ea5f9;
-  font:14px Helvetica,Arial,sans-serif;
+  font: 14px Helvetica, Arial, sans-serif;
   width: 100%;
   padding: 1%;
   font-size: 110%;
@@ -686,14 +686,14 @@ input[name="q"]::placeholder {
 
 /* media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
-  #mc_embed_signup{
+  #mc_embed_signup {
     width: 70%;
   }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
-  #mc_embed_signup{
+  #mc_embed_signup {
     width: 60%;
   }
 }
