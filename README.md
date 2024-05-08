@@ -170,7 +170,7 @@ This is on a contact app with tab of its own
 - Instant access to digital products. When a course is bought the customer instantly receives a PDF or access to a course video
 - Subscription to course material (pdfs and videos)
 
-## SEO
+## Keyword research and SEO
 
 Good seo means that more potential customers can find your website. Keyword research tells us what topics people care about and how popular these topics are among your audience. Short-tail keywords are 1-2 words long and highly competitive. Long-tail keywords are usually in the form of a phrase or sentence and competition is lower.
 
@@ -194,27 +194,27 @@ Long tail keywords used on this app:
 
 Here are some screenshot examples of how I did my keyword research. It involved using the search bar in google and the suggested searches that popped up in the dropdown menu. I also looked at the longer tailed questions that were frequently asked on google.
 
-### Hiking clothes
+### Hiking clothes keyword
 
 See the screenshot of the dropdown on google for this short-tailed keyword
 
-![hiking clothes keyword](docs/readme_images/png)
+![hiking clothes keyword](docs/readme_images/hiking_clothes_kw.png)
 
-### Hiking equipment
-
-See the screenshot of the dropdown on google for this short-tailed keyword
-
-![hiking equipment keyword](docs/readme_images/png)
-
-### Adventure courses
+### Hiking equipment keyword
 
 See the screenshot of the dropdown on google for this short-tailed keyword
 
-![adventure courses keyword](docs/readme_images/png)
+![hiking equipment keyword](docs/readme_images/hiking_equipment_kw.png)
 
-Also see a site I found that is selling online courses for mountaineering in Scotland
+### Adventure courses keyword
 
-![mountaineering courses](docs/readme_images/mountain_courses.png)
+See the screenshot of the dropdown on google for this short-tailed keyword
+
+![adventure courses keyword](docs/readme_images/adventure_courses_kw.png)
+
+Also, see a site I found that is selling online courses for mountaineering in Scotland
+
+![mountaineering courses](docs/readme_images/mountain_courses_kw.png)
 
 ## Design
 
