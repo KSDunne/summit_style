@@ -244,7 +244,7 @@ input[name="q"]::placeholder {
 }
 
 #green-text i {
-  color: green;
+  color: #2cbc91;
 }
 
 #bcorporation-home {
@@ -299,7 +299,7 @@ input[name="q"]::placeholder {
 
 /* custom footer style */
 .footer-section {
-  background-color: #27a680;
+  background-color: #5ea5f9;
 }
 
 .social-icon {
@@ -600,11 +600,11 @@ input[name="q"]::placeholder {
 /* mailchimp newsletter styling */
 
 #mc_embed_shell {
-  background: #5ea5f9;
+  background: #37d0a2;
 }
 
 #mc_embed_signup {
-  background: #5ea5f9;
+  background: #37d0a2;
   font: 14px Helvetica, Arial, sans-serif;
   width: 100%;
   padding: 1%;
@@ -694,6 +694,13 @@ input[name="q"]::placeholder {
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
   #mc_embed_signup {
-    width: 60%;
+    width: 55%;
+  }
+}
+
+/* Very Large devices (large laptop screens and monitors, 1440px and up) */
+@media screen and (min-width: 1440px) {
+  #mc_embed_signup {
+    width: 45%;
   }
 }
