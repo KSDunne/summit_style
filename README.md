@@ -20,7 +20,7 @@ An ecommerce app is designed to facilitate commercial or business transactions a
 
 - Summit style is a retail store and it is a B2C (business to customer) type of business
 - The deliverables here are products (clothes, tents, sleeping bags) and digital products (courses)
-- This business uses a single payment system, that is the transaction is finished after a single payment is made.
+- This business uses a single payment system, that is the transaction is finished after a single payment is made
 
 ## User experience (UX)
 
@@ -169,6 +169,24 @@ This is on a contact app with tab of its own
 - Notifications when items are sold out
 - Instant access to digital products. When a course is bought the customer instantly receives a PDF or access to a course video
 - Subscription to course material (pdfs and videos)
+
+## SEO
+
+Good seo means that more potential customers can find your website. Keyword research tells us what topics people care abour and how popular these topics are among your audience. Short-tail keywords are 1-2 words long and highly competitive. Long-tail keywords are usually in the form of a phrase or sentence and competition is lower.
+
+Short tail keywords used on this app:
+
+- Irish hiking
+- Hiking clothes
+- Hiking equipment
+- Adventure courses
+- Outdoors
+
+Long tail keywords used on this app:
+
+- Clothes for hiking in Ireland
+- Equipment for camping in Ireland
+- Adventure skills course in Ireland
 
 ## Design
 
