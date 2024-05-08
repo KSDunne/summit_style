@@ -10,9 +10,13 @@ Link to live website: [Summit Style](https://summit-style-b727a186ee80.herokuapp
 
 ## Purpose of the project
 
-Here is an eCommerce website, for a fictitious business called Summit Style. This is a full stack website built using the Django web framework. This business sells adventure clothing, equipment and short educational courses based on outdoor skills. There is a star rating feature on all products and courses. There is a app for testimonals which shows 3 testimonials on the front end, with an option to submit testimonials using a form. There is also a contact tab.
+Here is an eCommerce website, for a fictitious business called Summit Style. This is a full stack website built using the Django web framework. This business sells adventure clothing, equipment and short educational courses based on outdoor skills. There is a star rating feature on all products and courses. There is a wishlist feature and there is also a contact tab.
 
 ## Table of contents
+
+## Ecommerce
+
+An ecommerce app is designed to facilitate commercial or business transactions and it involves an online transfer of information. Summit style is a retail store and it is a B2C (business to customer) type of business. The deliverables here are products (clothes, tents, sleeping bags) and digital products (courses). This business uses a single payment system, that is the transaction is finished after a single payment is made.
 
 ## User experience (UX)
 
@@ -146,11 +150,11 @@ This is a call to action on the index page
 
 1. Average Star Rating and Reviews
 
-This has FE CRUD functionality for your rating and reviews
+This has full FE CRUD functionality for your rating and reviews
 
-2. Testimonials App
+2. Wishlist feature
 
-This is on a testimonials app with tab of its own. This has 3 showing at the top half of the page and the ability to submit a testimonial through a form at the bottom half of the page
+There is a heart button that can be toggled on and off to add and remove items from your personal wishlist
 
 3. Record user contact requests in the database
 
@@ -161,19 +165,6 @@ This is on a contact app with tab of its own
 - Notifications when items are sold out
 - Instant access to digital products. When a course is bought the customer instantly receives a PDF or access to a course video
 - Subscription to course material (pdfs and videos)
-
-## Ecommerce
-
-An ecommerce app is designed to facilitate commercial or business transactions and it involves an online transfer of information.
-
-Summit style is a retail store and it is B2C (business to customer).
-
-The deliverables here are products (clothes, tents, sleeping bags) and digital products (courses).
-
-This business uses a single payment system, that is the transaction is finished after a single payment is made.
-
-
-
 
 ## Design
 
