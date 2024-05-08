@@ -184,11 +184,11 @@ Short tail keywords used on this app:
 
 Long tail keywords used on this app:
 
-- Irelands toughest hike
 - Clothes for hiking in Ireland
 - Hiking clothes Ireland
 - Equipment for camping in Ireland
 - Hiking equipment for beginners
+- Irelands toughest hike
 - Adventure courses in Ireland
 - Outdoors shop dublin
 
