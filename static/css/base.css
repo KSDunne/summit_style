@@ -29,7 +29,7 @@ body {
 .title-text {
   font-family: "Roboto", sans-serif;
   position: absolute;
-  top: 6vh;
+  top: 12vh;
   padding: 8px 7px 0px 7px;
   text-align: center;
   border-radius: 14px;
@@ -45,14 +45,15 @@ body {
 }
 
 .cover-text {
+  background-color: rgba(33, 33, 33, 0.8);
   font-family: "Roboto", sans-serif;
   position: absolute;
-  top: 19vh;
+  top: 56vh;
   padding: 8px 7px 0px 7px;
   text-align: center;
   border-radius: 14px;
   width: 70%;
-  color: black;
+  color: #fef2d8;
   left: 15%;
   right: 15%;
 }
@@ -707,7 +708,7 @@ input[name="q"]::placeholder {
 
   /* index page cover text on hero image */
   .title-text {
-    top: 8vh;
+    top: 13vh;
   }
 
   .title-text > h1 {
@@ -715,11 +716,7 @@ input[name="q"]::placeholder {
   }
 
   .cover-text {
-    top: 20vh;
-  }
-
-  .cover-text > h2 {
-    font-size: 130%;
+    top: 58vh;
   }
 }
 
@@ -728,6 +725,13 @@ input[name="q"]::placeholder {
   /* mailchimp */
   #mc_embed_signup {
     width: 55%;
+  }
+
+  /* index page cover text on hero image */
+  .cover-text {
+    width: 62%;
+    left: 19%;
+    right: 19%;
   }
 }
 
@@ -740,14 +744,21 @@ input[name="q"]::placeholder {
 
   /* index page cover text on hero image */
   .title-text {
-    top: 9vh;
+    top: 15vh;
   }
 
   .title-text > h1 {
-    font-size: 270%;
+    font-size: 290%;
+  }
+
+  .cover-text {
+    top: 58vh;
+    width: 46%;
+    left: 27%;
+    right: 27%;
   }
 
   .cover-text > h2 {
-    font-size: 160%;
+    font-size: 130%;
   }
 }
