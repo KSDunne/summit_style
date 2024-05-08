@@ -16,7 +16,11 @@ Here is an eCommerce website, for a fictitious business called Summit Style. Thi
 
 ## Ecommerce
 
-An ecommerce app is designed to facilitate commercial or business transactions and it involves an online transfer of information. Summit style is a retail store and it is a B2C (business to customer) type of business. The deliverables here are products (clothes, tents, sleeping bags) and digital products (courses). This business uses a single payment system, that is the transaction is finished after a single payment is made.
+An ecommerce app is designed to facilitate commercial or business transactions and it involves an online transfer of information. 
+
+- Summit style is a retail store and it is a B2C (business to customer) type of business
+- The deliverables here are products (clothes, tents, sleeping bags) and digital products (courses)
+- This business uses a single payment system, that is the transaction is finished after a single payment is made.
 
 ## User experience (UX)
 
