@@ -122,6 +122,14 @@ The index page hero image was chosen because it fits the theme of the website. T
 
 This is a call to action on the index page
 
+### Shopping cart and single payment system
+
+### Authentication system
+
+### Search and filter functionality
+
+### Product images and clear descriptions
+
 ### We're green section on the index page
 
 ### Newsletter sign up on the index page
@@ -149,6 +157,23 @@ This is on a testimonials app with tab of its own. This has 3 showing at the top
 This is on a contact app with tab of its own
 
 ## Future features
+
+- Notifications when items are sold out
+- Instant access to digital products. When a course is bought the customer instantly receives a PDF or access to a course video
+- Subscription to course material (pdfs and videos)
+
+## Ecommerce
+
+An ecommerce app is designed to facilitate commercial or business transactions and it involves an online transfer of information.
+
+Summit style is a retail store and it is B2C (business to customer).
+
+The deliverables here are products (clothes, tents, sleeping bags) and digital products (courses).
+
+This business uses a single payment system, that is the transaction is finished after a single payment is made.
+
+
+
 
 ## Design
 
