@@ -627,6 +627,40 @@ input[name="q"]::placeholder {
   margin: 0 auto;
 }
 
+/* partnerships section on index page */
+
+#center-partnerships {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.center-partnerships-heading {
+  width: 100%;
+  line-height: 20px;
+  clear: both;
+  margin-bottom: 50px;
+}
+
+.center-partnerships-heading i {
+  color: #2cbc91;
+}
+
+#partnerships-paragraph {
+  padding: 6px;
+  font-size: 130%;
+  line-height: 180%;
+}
+
+#partnerships-list {
+  margin-left: 25px;
+  padding: 6px;
+  line-height: 200%;
+}
+
+#partnerships-list a {
+  font-weight: bold;
+}
+
 /* media queries */
 
 /* slightly larger container on xl screens */
