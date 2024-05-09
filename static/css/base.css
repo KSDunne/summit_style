@@ -655,6 +655,7 @@ input[name="q"]::placeholder {
   margin-left: 25px;
   padding: 6px;
   line-height: 200%;
+  font-size: 110%;
 }
 
 #partnerships-list a {
