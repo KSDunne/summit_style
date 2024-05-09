@@ -328,7 +328,7 @@ input[name="q"]::placeholder {
 
 .footer-text {
   color: black;
-  font-size: 110%;
+  font-size: 90%;
   font-weight: 500;
 }
 
@@ -344,9 +344,9 @@ input[name="q"]::placeholder {
 }
 
 .contact-text {
-  color: black;
+  color: #692d5d;
   font-size: 102%;
-  font-weight: 300;
+  font-weight: 500;
   padding-bottom: 1rem;
 }
 
