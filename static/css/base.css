@@ -288,6 +288,7 @@ input[name="q"]::placeholder {
 
 #green-section {
   padding: 0% 11% 2%;
+  margin-bottom: 6%;
 }
 
 #green {
@@ -753,6 +754,10 @@ input[name="q"]::placeholder {
   .cover-text {
     top: 58vh;
   }
+
+  #green-section {
+    margin-bottom: 5%;
+  }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
@@ -795,5 +800,9 @@ input[name="q"]::placeholder {
 
   .cover-text > h2 {
     font-size: 130%;
+  }
+
+  #green-section {
+    margin-bottom: 2%;
   }
 }
