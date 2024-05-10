@@ -9,6 +9,7 @@ body {
 }
 
 /* index page hero image */
+
 #hero-outer {
   height: 74vh;
   width: 100%;
@@ -17,6 +18,7 @@ body {
 }
 
 /* credit for object-fit: https://www.w3schools.com/csS/css3_object-fit.asp */
+
 .hero-image {
   height: 74vh;
   width: 100%;
@@ -80,6 +82,7 @@ body {
 }
 
 /* from Bulma */
+
 .icon {
   align-items: center;
   display: inline-flex;
@@ -92,7 +95,7 @@ body {
   text-transform: uppercase;
 }
 
-/*summit style logo style*/
+/* summit style logo style */
 
 .brand {
   font-family: "Roboto", sans-serif;
@@ -119,7 +122,7 @@ body {
 
 .btn-outline-black {
   background: white;
-  color: black !important; /* using important to override link colors for <a> elements */
+  color: black !important;
   border: 1px solid black;
 }
 
@@ -196,6 +199,7 @@ input[name="q"]::placeholder {
 }
 
 /* from CSS-tricks.com: https://css-tricks.com/snippets/css/css-triangle/ */
+
 .arrow-up {
   width: 0;
   height: 0;
@@ -208,6 +212,7 @@ input[name="q"]::placeholder {
 }
 
 /* Convenience classes - colors copied from Bootstrap */
+
 .arrow-primary {
   border-bottom-color: #007bff !important;
 }
@@ -301,7 +306,7 @@ input[name="q"]::placeholder {
   background-color: rgba(0, 0, 0, 0.6);
   padding: 15px;
   text-align: center;
-  /* There will be no wraping on screens of less than 400px wide*/
+  /* There will be no wraping on screens of less than 400px wide */
   flex-basis: 200px;
   flex-grow: 1;
   /* Create a grid over the background */
@@ -545,6 +550,7 @@ input[name="q"]::placeholder {
 }
 
 /* mobile icon styling */
+
 .mobile-icon-text {
   font-size: 70%;
 }
@@ -602,6 +608,7 @@ input[name="q"]::placeholder {
 }
 
 /* contact page styling */
+
 .contact-heading {
   margin-top: 3rem;
   background-color: #e8f2fe;
