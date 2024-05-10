@@ -249,7 +249,7 @@ input[name="q"]::placeholder {
 /* were green section */
 
 #green-text {
-  padding-top: 30px;
+  padding-top: 5px;
   width: 80%;
   margin: 0 auto;
 }
@@ -764,9 +764,9 @@ input[name="q"]::placeholder {
 
   /* index page cover text on hero image */
   .cover-text {
-    width: 62%;
-    left: 19%;
-    right: 19%;
+    width: 50%;
+    left: 25%;
+    right: 25%;
   }
 }
 
@@ -788,9 +788,9 @@ input[name="q"]::placeholder {
 
   .cover-text {
     top: 58vh;
-    width: 46%;
-    left: 27%;
-    right: 27%;
+    width: 42%;
+    left: 29%;
+    right: 29%;
   }
 
   .cover-text > h2 {
