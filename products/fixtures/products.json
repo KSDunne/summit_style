@@ -289,19 +289,6 @@
     "pk": 23,
     "model": "products.product",
     "fields": {
-      "sku": "pp5006380693",
-      "name": "Summit Explorer Backpack",
-      "description": "Conquer the highest peaks with our Summit Explorer Backpack. Built for durability and comfort, this backpack features reinforced straps, multiple compartments, and a hydration bladder sleeve. Whether you're trekking through the mountains or exploring rugged trails, this backpack has your back.",
-      "price": 79.99,
-      "category": 3,
-      "image_url": "",
-      "image": ""
-    }
-  },
-  {
-    "pk": 24,
-    "model": "products.product",
-    "fields": {
       "sku": "pp5006330208",
       "name": "Everest Trekking Shoes",
       "description": "Gear up for your next adventure with our Everest Trekking Shoes. Designed for rugged terrain, these shoes provide superior traction and ankle support. Whether you're hiking through rocky trails or crossing streams, these shoes will keep you comfortable and stable.",
@@ -312,7 +299,7 @@
     }
   },
   {
-    "pk": 25,
+    "pk": 24,
     "model": "products.product",
     "fields": {
       "sku": "pp5006200658",
@@ -325,7 +312,7 @@
     }
   },
   {
-    "pk": 26,
+    "pk": 25,
     "model": "products.product",
     "fields": {
       "sku": "pp5006200155",
@@ -338,7 +325,7 @@
     }
   },
   {
-    "pk": 27,
+    "pk": 26,
     "model": "products.product",
     "fields": {
       "sku": "pp5006153172",
@@ -351,7 +338,7 @@
     }
   },
   {
-    "pk": 28,
+    "pk": 27,
     "model": "products.product",
     "fields": {
       "sku": "pp5006150186",
@@ -364,7 +351,7 @@
     }
   },
   {
-    "pk": 29,
+    "pk": 28,
     "model": "products.product",
     "fields": {
       "sku": "pp5005980058",
@@ -377,7 +364,7 @@
     }
   },
   {
-    "pk": 30,
+    "pk": 29,
     "model": "products.product",
     "fields": {
       "sku": "pp5005941612",
@@ -390,7 +377,7 @@
     }
   },
   {
-    "pk": 31,
+    "pk": 30,
     "model": "products.product",
     "fields": {
       "sku": "pp5005940299",
@@ -403,7 +390,7 @@
     }
   },
   {
-    "pk": 32,
+    "pk": 31,
     "model": "products.product",
     "fields": {
       "sku": "pp5005930313",
@@ -416,7 +403,7 @@
     }
   },
   {
-    "pk": 33,
+    "pk": 32,
     "model": "products.product",
     "fields": {
       "sku": "pp5005870599",
@@ -429,7 +416,7 @@
     }
   },
   {
-    "pk": 34,
+    "pk": 33,
     "model": "products.product",
     "fields": {
       "sku": "pp5005850180",
@@ -442,7 +429,7 @@
     }
   },
   {
-    "pk": 35,
+    "pk": 34,
     "model": "products.product",
     "fields": {
       "sku": "pp5005840598",
@@ -455,7 +442,7 @@
     }
   },
   {
-    "pk": 36,
+    "pk": 35,
     "model": "products.product",
     "fields": {
       "sku": "pp5005760088",
@@ -468,7 +455,7 @@
     }
   },
   {
-    "pk": 37,
+    "pk": 36,
     "model": "products.product",
     "fields": {
       "sku": "pp5005430914",
@@ -481,7 +468,7 @@
     }
   },
   {
-    "pk": 38,
+    "pk": 37,
     "model": "products.product",
     "fields": {
       "sku": "pp5005330596",
@@ -494,33 +481,7 @@
     }
   },
   {
-    "pk": 39,
-    "model": "products.product",
-    "fields": {
-      "sku": "pp5007220049",
-      "name": "Arctic Explorer Long Sleeve Fleece Jacket",
-      "description": "Stay warm and cozy during your outdoor adventures with our Arctic Explorer long sleeve fleece jacket. Featuring a high collar and full zip closure, this jacket is perfect for chilly hikes or evenings by the campfire. Made with thick, insulating fleece fabric. 100% polyester. Machine washable.",
-      "price": 103.99,
-      "category": 4,
-      "image_url": "",
-      "image": ""
-    }
-  },
-  {
-    "pk": 40,
-    "model": "products.product",
-    "fields": {
-      "sku": "pp5006990785",
-      "name": "Summit Series Short Sleeve Fleece Pullover",
-      "description": "Conquer the trails with our Summit Series short sleeve fleece pullover. Made with lightweight fleece fabric, this pullover provides warmth without bulk, making it perfect for layering during your outdoor adventures. Features a quarter zip closure and chest pocket. 100% polyester. Machine washable.",
-      "price": 43.99,
-      "category": 4,
-      "image_url": "",
-      "image": ""
-    }
-  },
-  {
-    "pk": 41,
+    "pk": 38,
     "model": "products.product",
     "fields": {
       "sku": "pp5006790745",
@@ -533,7 +494,7 @@
     }
   },
   {
-    "pk": 42,
+    "pk": 39,
     "model": "products.product",
     "fields": {
       "sku": "pp5006660007",
@@ -546,7 +507,7 @@
     }
   },
   {
-    "pk": 43,
+    "pk": 40,
     "model": "products.product",
     "fields": {
       "sku": "pp5006620412",
@@ -559,7 +520,7 @@
     }
   },
   {
-    "pk": 44,
+    "pk": 41,
     "model": "products.product",
     "fields": {
       "sku": "pp5006420202",
@@ -572,7 +533,7 @@
     }
   },
   {
-    "pk": 45,
+    "pk": 42,
     "model": "products.product",
     "fields": {
       "sku": "pp5006380337",
@@ -585,7 +546,7 @@
     }
   },
   {
-    "pk": 46,
+    "pk": 43,
     "model": "products.product",
     "fields": {
       "sku": "pp5006243276",
@@ -598,7 +559,7 @@
     }
   },
   {
-    "pk": 47,
+    "pk": 44,
     "model": "products.product",
     "fields": {
       "sku": "pp5006243106",
@@ -611,7 +572,7 @@
     }
   },
   {
-    "pk": 48,
+    "pk": 45,
     "model": "products.product",
     "fields": {
       "sku": "pp5006170357",
@@ -624,7 +585,7 @@
     }
   },
   {
-    "pk": 49,
+    "pk": 46,
     "model": "products.product",
     "fields": {
       "sku": "pp5006081758",
@@ -637,7 +598,7 @@
     }
   },
   {
-    "pk": 50,
+    "pk": 47,
     "model": "products.product",
     "fields": {
       "sku": "pp5005860175",
@@ -650,7 +611,7 @@
     }
   },
   {
-    "pk": 51,
+    "pk": 48,
     "model": "products.product",
     "fields": {
       "sku": "pp5005200166",
@@ -663,7 +624,7 @@
     }
   },
   {
-    "pk": 52,
+    "pk": 49,
     "model": "products.product",
     "fields": {
       "sku": "pp5004991162",
@@ -676,7 +637,7 @@
     }
   },
   {
-    "pk": 53,
+    "pk": 50,
     "model": "products.product",
     "fields": {
       "sku": "pp5003910638",
@@ -689,7 +650,7 @@
     }
   },
   {
-    "pk": 54,
+    "pk": 51,
     "model": "products.product",
     "fields": {
       "sku": "pp5003570628",
@@ -702,33 +663,7 @@
     }
   },
   {
-    "pk": 55,
-    "model": "products.product",
-    "fields": {
-      "sku": "pp5006820299",
-      "name": "Long-Sleeve Neoprene Wetsuit",
-      "description": "Stay warm and protected during your aquatic adventures with our long-sleeve neoprene wetsuit. Designed for comfort and flexibility, this wetsuit features a durable construction and sleek design.",
-      "price": 199.99,
-      "category": 5,
-      "image_url": "",
-      "image": ""
-    }
-  },
-  {
-    "pk": 56,
-    "model": "products.product",
-    "fields": {
-      "sku": "pp5006820210",
-      "name": "Short-Sleeve Spring Wetsuit",
-      "description": "Enjoy maximum mobility and comfort with our short-sleeve spring wetsuit. Perfect for warmer waters, this wetsuit provides excellent insulation while allowing unrestricted movement.",
-      "price": 149.99,
-      "category": 5,
-      "image_url": "",
-      "image": ""
-    }
-  },
-  {
-    "pk": 57,
+    "pk": 52,
     "model": "products.product",
     "fields": {
       "sku": "pp5006820170",
@@ -741,7 +676,7 @@
     }
   },
   {
-    "pk": 58,
+    "pk": 53,
     "model": "products.product",
     "fields": {
       "sku": "pp5006462180",
@@ -754,7 +689,7 @@
     }
   },
   {
-    "pk": 59,
+    "pk": 54,
     "model": "products.product",
     "fields": {
       "sku": "pp5006380260",
@@ -767,7 +702,7 @@
     }
   },
   {
-    "pk": 60,
+    "pk": 55,
     "model": "products.product",
     "fields": {
       "sku": "pp5006380233",
@@ -780,7 +715,7 @@
     }
   },
   {
-    "pk": 61,
+    "pk": 56,
     "model": "products.product",
     "fields": {
       "sku": "pp5006311067",
@@ -793,7 +728,7 @@
     }
   },
   {
-    "pk": 62,
+    "pk": 57,
     "model": "products.product",
     "fields": {
       "sku": "pp5006310935",
@@ -806,7 +741,7 @@
     }
   },
   {
-    "pk": 63,
+    "pk": 58,
     "model": "products.product",
     "fields": {
       "sku": "pp5006310918",
@@ -819,7 +754,7 @@
     }
   },
   {
-    "pk": 64,
+    "pk": 59,
     "model": "products.product",
     "fields": {
       "sku": "pp5006070077",
@@ -832,7 +767,7 @@
     }
   },
   {
-    "pk": 65,
+    "pk": 60,
     "model": "products.product",
     "fields": {
       "sku": "pp5005740430",
@@ -845,7 +780,7 @@
     }
   },
   {
-    "pk": 66,
+    "pk": 61,
     "model": "products.product",
     "fields": {
       "sku": "pp5004910158",
@@ -858,7 +793,7 @@
     }
   },
   {
-    "pk": 67,
+    "pk": 62,
     "model": "products.product",
     "fields": {
       "sku": "pp5004111503",
@@ -871,7 +806,7 @@
     }
   },
   {
-    "pk": 68,
+    "pk": 63,
     "model": "products.product",
     "fields": {
       "sku": "pp5003831225",
@@ -884,7 +819,7 @@
     }
   },
   {
-    "pk": 69,
+    "pk": 64,
     "model": "products.product",
     "fields": {
       "sku": "pp5003070787",
@@ -897,85 +832,7 @@
     }
   },
   {
-    "pk": 70,
-    "model": "products.product",
-    "fields": {
-      "sku": "pp5007310136",
-      "name": "Outdoor Waterproof Pants",
-      "description": "Stay dry and comfortable on your outdoor adventures with these waterproof pants. Designed for durability and performance, they'll keep you protected in any weather conditions. Perfect for hiking, camping, and other outdoor activities.",
-      "price": 79.99,
-      "category": 6,
-      "image_url": "",
-      "image": ""
-    }
-  },
-  {
-    "pk": 71,
-    "model": "products.product",
-    "fields": {
-      "sku": "pp5006870003",
-      "name": "Combat Tactical Pants",
-      "description": "Gear up for your next adventure with these combat tactical pants. Built to withstand rugged terrain and harsh conditions, they offer exceptional durability and versatility. Whether you're hiking through the wilderness or tackling tough obstacles, these pants have you covered.",
-      "price": 89.99,
-      "category": 6,
-      "image_url": "",
-      "image": ""
-    }
-  },
-  {
-    "pk": 72,
-    "model": "products.product",
-    "fields": {
-      "sku": "pp5006590111",
-      "name": "Outdoor Adventure Cargo Pants",
-      "description": "Embark on your outdoor adventures with confidence in these cargo pants. Featuring ample pocket space and a rugged design, they're perfect for hiking, camping, and exploring. Stay comfortable and prepared for anything nature throws your way.",
-      "price": 74.99,
-      "category": 6,
-      "image_url": "",
-      "image": ""
-    }
-  },
-  {
-    "pk": 73,
-    "model": "products.product",
-    "fields": {
-      "sku": "pp5006541122",
-      "name": "Waterproof Hiking Pants",
-      "description": "Conquer the trails in these waterproof hiking pants. Designed for maximum comfort and protection, they'll keep you dry and comfortable during your outdoor excursions. With a durable construction and practical features, they're essential gear for any hiker.",
-      "price": 69.99,
-      "category": 6,
-      "image_url": "",
-      "image": ""
-    }
-  },
-  {
-    "pk": 74,
-    "model": "products.product",
-    "fields": {
-      "sku": "pp5006390235",
-      "name": "Tactical Outdoor Cargo Pants",
-      "description": "Stay prepared for your outdoor adventures with these tactical cargo pants. Built to withstand rugged terrain and harsh conditions, they offer exceptional durability and functionality. Whether you're hiking, camping, or on a mission, these pants have you covered.",
-      "price": 85.99,
-      "category": 6,
-      "image_url": "",
-      "image": ""
-    }
-  },
-  {
-    "pk": 75,
-    "model": "products.product",
-    "fields": {
-      "sku": "pp5006333711",
-      "name": "Waterproof Outdoor Pants",
-      "description": "Brave the elements in these waterproof outdoor pants. Engineered for superior performance and comfort, they'll keep you dry and protected during your outdoor pursuits. Whether you're hiking, camping, or fishing, these pants are your ultimate companion.",
-      "price": 79.99,
-      "category": 6,
-      "image_url": "",
-      "image": ""
-    }
-  },
-  {
-    "pk": 76,
+    "pk": 65,
     "model": "products.product",
     "fields": {
       "sku": "pp5006330197",
@@ -988,7 +845,7 @@
     }
   },
   {
-    "pk": 77,
+    "pk": 66,
     "model": "products.product",
     "fields": {
       "sku": "pp5003050249",
@@ -1001,7 +858,7 @@
     }
   },
   {
-    "pk": 78,
+    "pk": 67,
     "model": "products.product",
     "fields": {
       "sku": "pp5003050247",
@@ -1014,7 +871,7 @@
     }
   },
   {
-    "pk": 79,
+    "pk": 68,
     "model": "products.product",
     "fields": {
       "sku": "pp5003050246",
@@ -1027,7 +884,7 @@
     }
   },
   {
-    "pk": 80,
+    "pk": 69,
     "model": "products.product",
     "fields": {
       "sku": "pp5003050245",
@@ -1040,7 +897,7 @@
     }
   },
   {
-    "pk": 81,
+    "pk": 70,
     "model": "products.product",
     "fields": {
       "sku": "pp5003050244",
@@ -1053,7 +910,7 @@
     }
   },
   {
-    "pk": 82,
+    "pk": 71,
     "model": "products.product",
     "fields": {
       "sku": "pp5006160127",
@@ -1066,7 +923,7 @@
     }
   },
   {
-    "pk": 83,
+    "pk": 72,
     "model": "products.product",
     "fields": {
       "sku": "pp5005810108",
@@ -1079,7 +936,7 @@
     }
   },
   {
-    "pk": 84,
+    "pk": 73,
     "model": "products.product",
     "fields": {
       "sku": "pp5005740634",
@@ -1092,7 +949,7 @@
     }
   },
   {
-    "pk": 85,
+    "pk": 74,
     "model": "products.product",
     "fields": {
       "sku": "pp5005740561",
@@ -1105,7 +962,7 @@
     }
   },
   {
-    "pk": 86,
+    "pk": 75,
     "model": "products.product",
     "fields": {
       "sku": "pp5005700140",
@@ -1118,7 +975,7 @@
     }
   },
   {
-    "pk": 87,
+    "pk": 76,
     "model": "products.product",
     "fields": {
       "sku": "pp5005650677",
@@ -1131,33 +988,7 @@
     }
   },
   {
-    "pk": 88,
-    "model": "products.product",
-    "fields": {
-      "sku": "pp5006640930",
-      "name": "Outdoor Survival Skills: Basic Navigation",
-      "description": "Learn the essential skills of basic navigation for outdoor adventures.",
-      "price": 82.99,
-      "category": 7,
-      "image_url": "",
-      "image": ""
-    }
-  },
-  {
-    "pk": 89,
-    "model": "products.product",
-    "fields": {
-      "sku": "pp5006590221",
-      "name": "Wilderness Survival: Shelter Building",
-      "description": "Master the art of building shelters in the wilderness with this comprehensive course.",
-      "price": 362.99,
-      "category": 7,
-      "image_url": "",
-      "image": ""
-    }
-  },
-  {
-    "pk": 90,
+    "pk": 77,
     "model": "products.product",
     "fields": {
       "sku": "pp5006590213",
@@ -1170,7 +1001,7 @@
     }
   },
   {
-    "pk": 91,
+    "pk": 78,
     "model": "products.product",
     "fields": {
       "sku": "pp5005980146",
@@ -1183,7 +1014,7 @@
     }
   },
   {
-    "pk": 92,
+    "pk": 79,
     "model": "products.product",
     "fields": {
       "sku": "pp5005310360",
@@ -1196,7 +1027,7 @@
     }
   },
   {
-    "pk": 93,
+    "pk": 80,
     "model": "products.product",
     "fields": {
       "sku": "pp5005140282",
@@ -1209,7 +1040,7 @@
     }
   },
   {
-    "pk": 94,
+    "pk": 81,
     "model": "products.product",
     "fields": {
       "sku": "pp5004910477",
@@ -1222,7 +1053,7 @@
     }
   },
   {
-    "pk": 95,
+    "pk": 82,
     "model": "products.product",
     "fields": {
       "sku": "pp5003960682",
@@ -1235,7 +1066,7 @@
     }
   },
   {
-    "pk": 96,
+    "pk": 83,
     "model": "products.product",
     "fields": {
       "sku": "pp5003560948",
@@ -1248,7 +1079,7 @@
     }
   },
   {
-    "pk": 97,
+    "pk": 84,
     "model": "products.product",
     "fields": {
       "sku": "pp5003560513",
@@ -1261,7 +1092,7 @@
     }
   },
   {
-    "pk": 98,
+    "pk": 85,
     "model": "products.product",
     "fields": {
       "sku": "pp5003230723",
@@ -1274,7 +1105,7 @@
     }
   },
   {
-    "pk": 99,
+    "pk": 86,
     "model": "products.product",
     "fields": {
       "sku": "pp5003161326",
@@ -1287,7 +1118,7 @@
     }
   },
   {
-    "pk": 100,
+    "pk": 87,
     "model": "products.product",
     "fields": {
       "sku": "pp5002701115",
@@ -1300,7 +1131,7 @@
     }
   },
   {
-    "pk": 101,
+    "pk": 88,
     "model": "products.product",
     "fields": {
       "sku": "pp5002601115",
@@ -1313,7 +1144,7 @@
     }
   },
   {
-    "pk": 102,
+    "pk": 89,
     "model": "products.product",
     "fields": {
       "sku": "pp5002111605",
@@ -1326,7 +1157,7 @@
     }
   },
   {
-    "pk": 103,
+    "pk": 90,
     "model": "products.product",
     "fields": {
       "sku": "pp5001890157",
@@ -1339,13 +1170,182 @@
     }
   },
   {
+    "pk": 91,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5006310072",
+      "name": "Alpine Expedition Fleece Jacket",
+      "description": "Embark on your next alpine adventure with confidence in our Alpine Expedition fleece jacket. This jacket is made from premium fleece for maximum warmth and comfort, and features zippered pockets to keep your essentials secure.",
+      "price": 99.99,
+      "category": 8,
+      "image_url": "",
+      "image": ""
+    }
+  },
+  {
+    "pk": 92,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5006242905",
+      "name": "Summit Ascent Softshell Jacket",
+      "description": "Conquer the summit in our Summit Ascent softshell jacket. This jacket combines wind and water resistance with breathable comfort, making it ideal for challenging outdoor pursuits.",
+      "price": 129.99,
+      "category": 8,
+      "image_url": "",
+      "image": ""
+    }
+  },
+  {
+    "pk": 93,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5006242904",
+      "name": "Trailblazer 3-in-1 Parka",
+      "description": "Blaze your own trail with our Trailblazer 3-in-1 parka. This versatile parka features a waterproof shell and a removable insulated liner, allowing you to customize your level of warmth and protection.",
+      "price": 199.99,
+      "category": 8,
+      "image_url": "",
+      "image": ""
+    }
+  },
+  {
+    "pk": 94,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5006241766",
+      "name": "Arctic Expedition Down Jacket",
+      "description": "Embark on an arctic expedition with our Arctic Expedition down jacket. This jacket is filled with premium down insulation for maximum warmth in extreme cold conditions, while the water-resistant shell keeps you dry.",
+      "price": 249.99,
+      "category": 8,
+      "image_url": "",
+      "image": ""
+    }
+  },
+  {
+    "pk": 95,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5006082011",
+      "name": "Backcountry Explorer Insulated Jacket",
+      "description": "Explore the backcountry in comfort with our Backcountry Explorer insulated jacket. This jacket features a durable water-repellent finish and synthetic insulation to keep you warm and dry in harsh conditions.",
+      "price": 159.99,
+      "category": 8,
+      "image_url": "",
+      "image": ""
+    }
+  },
+  {
+    "pk": 96,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005940242",
+      "name": "Wilderness Trail Fleece Pullover",
+      "description": "Hit the trails in style with our Wilderness Trail fleece pullover. This pullover features a cozy fleece construction and a quarter-zip design for easy layering.",
+      "price": 79.99,
+      "category": 8,
+      "image_url": "",
+      "image": ""
+    }
+  },
+  {
+    "pk": 97,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005870638",
+      "name": "Summit Peak Softshell Vest",
+      "description": "Reach new heights with our Summit Peak softshell vest. This vest provides core warmth and wind protection, making it an essential layer for any outdoor adventure.",
+      "price": 69.99,
+      "category": 8,
+      "image_url": "",
+      "image": ""
+    }
+  },
+  {
+    "pk": 98,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005840776",
+      "name": "Glacier Ridge Waterproof Parka",
+      "description": "Conquer the elements with our Glacier Ridge waterproof parka. This parka features a waterproof shell and synthetic insulation to keep you warm and dry in cold, wet conditions.",
+      "price": 189.99,
+      "category": 8,
+      "image_url": "",
+      "image": ""
+    }
+  },
+  {
+    "pk": 99,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005430944",
+      "name": "Alpine Explorer Insulated Jacket",
+      "description": "Explore the alpine in comfort with our Alpine Explorer insulated jacket. This jacket features a water-resistant shell and synthetic insulation to keep you warm and dry on the slopes.",
+      "price": 179.99,
+      "category": 8,
+      "image_url": "",
+      "image": ""
+    }
+  },
+  {
+    "pk": 100,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5004991006",
+      "name": "Summit Quest Softshell Jacket",
+      "description": "Embark on a summit quest with our Summit Quest softshell jacket. This jacket features a windproof and water-resistant shell, making it ideal for high-altitude adventures.",
+      "price": 139.99,
+      "category": 8,
+      "image_url": "",
+      "image": ""
+    }
+  },
+  {
+    "pk": 101,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5004900522",
+      "name": "Glacier Peak Down Parka",
+      "description": "Conquer the cold with our Glacier Peak down parka. This parka features premium down insulation and a water-resistant shell to keep you warm and dry in extreme conditions.",
+      "price": 279.99,
+      "category": 8,
+      "image_url": "",
+      "image": ""
+    }
+  },
+  {
+    "pk": 102,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003780391",
+      "name": "Expedition Pro Fleece Jacket",
+      "description": "Embark on an expedition with our Expedition Pro fleece jacket. This jacket features a durable water-repellent finish and cozy fleece construction for maximum warmth and comfort.",
+      "price": 109.99,
+      "category": 8,
+      "image_url": "",
+      "image": ""
+    }
+  },
+  {
+    "pk": 103,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003540313",
+      "name": "Cascade Trail Waterproof Jacket",
+      "description": "Hit the trail in any weather with our Cascade Trail waterproof jacket. This jacket features a waterproof shell and adjustable hood to keep you dry and comfortable on rainy days.",
+      "price": 129.99,
+      "category": 8,
+      "image_url": "",
+      "image": ""
+    }
+  },
+  {
     "pk": 104,
     "model": "products.product",
     "fields": {
-      "sku": "pp5007320233",
-      "name": "AdventureTech Mountain Pro Base Layer",
-      "description": "Stay warm and dry with our Mountain Pro Base Layer, perfect for all your outdoor adventures. Moisture-wicking fabric ensures comfort while you explore. crewneck long sleeves polyester/spandex blend machine washable",
-      "price": 39.99,
+      "sku": "pp5003360384",
+      "name": "Summit Ridge Softshell Jacket",
+      "description": "Reach new heights with our Summit Ridge softshell jacket. This jacket features a windproof and water-resistant shell, making it ideal for challenging outdoor pursuits.",
+      "price": 119.99,
       "category": 8,
       "image_url": "",
       "image": ""
@@ -1355,10 +1355,10 @@
     "pk": 105,
     "model": "products.product",
     "fields": {
-      "sku": "pp5007310220",
-      "name": "TrailBlaze Waterproof Rain Pants",
-      "description": "Don't let rain dampen your outdoor fun. Our TrailBlaze Rain Pants will keep you dry and comfortable on all your adventures. elastic waistband with drawstring waterproof design polyester construction",
-      "price": 49.99,
+      "sku": "pp5002820147",
+      "name": "Explorer's Edge Fleece Vest",
+      "description": "Discover new horizons with our Explorer's Edge fleece vest. This vest features a cozy fleece construction and zippered pockets for storing essentials on the trail.",
+      "price": 59.99,
       "category": 8,
       "image_url": "",
       "image": ""
@@ -1368,11 +1368,11 @@
     "pk": 106,
     "model": "products.product",
     "fields": {
-      "sku": "pp5007300026",
-      "name": "Explorer's Edge Quick-Dry Hiking Shorts",
-      "description": "Stay cool and comfortable on the trails with our Quick-Dry Hiking Shorts. Breathable fabric and multiple pockets make them perfect for your outdoor excursions. quick-dry fabric adjustable waistband zippered pockets",
-      "price": 34.99,
-      "category": 8,
+      "sku": "847291034582",
+      "name": "Summit 2-Person Backpacking Tent",
+      "description": "The Summit 2-Person Backpacking Tent is perfect for your next outdoor adventure. Its lightweight design and easy setup make it ideal for backpackers and campers alike.",
+      "price": 199.99,
+      "category": 9,
       "image_url": "",
       "image": ""
     }
@@ -1381,11 +1381,11 @@
     "pk": 107,
     "model": "products.product",
     "fields": {
-      "sku": "pp5007280253",
-      "name": "AdventureTech Alpine Performance Jacket",
-      "description": "Conquer the elements with our Alpine Performance Jacket. Designed for maximum warmth and mobility, it's perfect for all your outdoor pursuits. fleece-lined adjustable cuffs waterproof shell",
-      "price": 79.99,
-      "category": 8,
+      "sku": "935716284012",
+      "name": "Alpine 4-Person Family Tent",
+      "description": "The Alpine 4-Person Family Tent offers spacious accommodation for your family camping trips. With its durable construction and weather-resistant materials, you can enjoy camping in comfort and style.",
+      "price": 299.99,
+      "category": 9,
       "image_url": "",
       "image": ""
     }
@@ -1394,11 +1394,11 @@
     "pk": 108,
     "model": "products.product",
     "fields": {
-      "sku": "pp5007250126",
-      "name": "TrekTech Merino Wool Socks",
-      "description": "Keep your feet warm and dry on the trail with our Merino Wool Socks. Moisture-wicking and odor-resistant, they're essential for any outdoor enthusiast. merino wool blend reinforced heel and toe cushioned sole",
-      "price": 19.99,
-      "category": 8,
+      "sku": "720964318572",
+      "name": "Ridge 6-Person Camping Tent",
+      "description": "The Ridge 6-Person Camping Tent is designed for larger groups and families. With its spacious interior and easy setup, it's perfect for weekend getaways and extended camping trips.",
+      "price": 399.99,
+      "category": 9,
       "image_url": "",
       "image": ""
     }
@@ -1407,11 +1407,11 @@
     "pk": 109,
     "model": "products.product",
     "fields": {
-      "sku": "pp5007210967",
-      "name": "SummitShield Waterproof Shell Jacket",
-      "description": "Stay dry in style with our SummitShield Waterproof Shell Jacket. Whether you're hitting the slopes or exploring the city, this jacket has you covered. adjustable hood and cuffs waterproof and breathable fabric zippered pockets",
-      "price": 89.99,
-      "category": 8,
+      "sku": "486230159274",
+      "name": "Trailblazer 3-Person Backpacking Tent",
+      "description": "The Trailblazer 3-Person Backpacking Tent is lightweight and compact, making it ideal for backpackers and minimalist campers. Its durable construction and weatherproof design ensure a comfortable night's sleep in any conditions.",
+      "price": 149.99,
+      "category": 9,
       "image_url": "",
       "image": ""
     }
@@ -1420,11 +1420,11 @@
     "pk": 110,
     "model": "products.product",
     "fields": {
-      "sku": "pp5007210063",
-      "name": "Highlander Insulated Vest",
-      "description": "Stay warm on chilly days with our Highlander Insulated Vest. Lightweight and packable, it's the perfect layering piece for any outdoor adventure. insulated design zippered pockets adjustable hem",
-      "price": 59.99,
-      "category": 8,
+      "sku": "592836401725",
+      "name": "Expedition 8-Person Dome Tent",
+      "description": "The Expedition 8-Person Dome Tent is perfect for large groups and family camping trips. With its spacious interior and easy setup, you can enjoy the great outdoors in comfort and style.",
+      "price": 499.99,
+      "category": 9,
       "image_url": "",
       "image": ""
     }
@@ -1433,11 +1433,11 @@
     "pk": 111,
     "model": "products.product",
     "fields": {
-      "sku": "pp5007170182",
-      "name": "ClimbPro Quick-Dry Tank Top",
-      "description": "Stay cool and dry on the rock face with our ClimbPro Tank Top. Moisture-wicking fabric and a racerback design ensure maximum comfort during your climb. quick-dry fabric racerback design slim fit",
-      "price": 29.99,
-      "category": 8,
+      "sku": "149682537802",
+      "name": "Basecamp 10-Person Cabin Tent",
+      "description": "The Basecamp 10-Person Cabin Tent offers spacious accommodation for larger groups and families. With its tall ceiling and multiple rooms, it provides comfort and convenience for extended camping trips.",
+      "price": 599.99,
+      "category": 9,
       "image_url": "",
       "image": ""
     }
@@ -1446,11 +1446,11 @@
     "pk": 112,
     "model": "products.product",
     "fields": {
-      "sku": "pp5007170155",
-      "name": "TundraTech Fleece-Lined Leggings",
-      "description": "Stay cozy on cold days with our TundraTech Leggings. Fleece-lined for warmth and comfort, they're perfect for layering under pants or wearing on their own. fleece-lined fabric stretchy and comfortable high waist",
-      "price": 34.99,
-      "category": 8,
+      "sku": "384715926038",
+      "name": "Summit Ultra-Light 2-Person Tent",
+      "description": "The Summit Ultra-Light 2-Person Tent is perfect for backpackers and minimalist campers. Its lightweight design and compact size make it easy to carry on long hikes, while its durable construction ensures reliable performance in any conditions.",
+      "price": 249.99,
+      "category": 9,
       "image_url": "",
       "image": ""
     }
@@ -1459,11 +1459,11 @@
     "pk": 113,
     "model": "products.product",
     "fields": {
-      "sku": "pp5007160030",
-      "name": "PeakPerformance Convertible Hiking Pants",
-      "description": "Adapt to changing conditions with our PeakPerformance Hiking Pants. Convertible design allows you to switch between pants and shorts, while water-resistant fabric keeps you dry. zip-off legs for shorts conversion adjustable waistband multiple pockets",
-      "price": 69.99,
-      "category": 8,
+      "sku": "570291843625",
+      "name": "Trailhead 4-Person Backpacking Tent",
+      "description": "The Trailhead 4-Person Backpacking Tent is designed for adventurous couples or small families. Its lightweight design and compact size make it easy to carry on backpacking trips, while its durable construction ensures reliable performance in any conditions.",
+      "price": 179.99,
+      "category": 9,
       "image_url": "",
       "image": ""
     }
@@ -1472,11 +1472,11 @@
     "pk": 114,
     "model": "products.product",
     "fields": {
-      "sku": "pp5007090227",
-      "name": "OutdoorVenture Quick-Dry T-Shirt",
-      "description": "Stay cool and comfortable on the trail with our OutdoorVenture Quick-Dry T-Shirt. Moisture-wicking fabric ensures you stay dry during your outdoor adventures. quick-dry fabric crewneck short sleeves",
-      "price": 24.99,
-      "category": 8,
+      "sku": "925784569812",
+      "name": "Everest Extreme Sleeping Bag",
+      "description": "Conquer the cold nights with the Everest Extreme Sleeping Bag. Designed for extreme conditions, this sleeping bag will keep you warm and comfortable during your most adventurous expeditions.",
+      "price": 299.99,
+      "category": 10,
       "image_url": "",
       "image": ""
     }
@@ -1485,11 +1485,11 @@
     "pk": 115,
     "model": "products.product",
     "fields": {
-      "sku": "pp5007071033",
-      "name": "TrailBlazer Waterproof Hiking Boots - Boys",
-      "description": "Keep his feet dry and comfortable on all his outdoor adventures with our TrailBlazer Hiking Boots. Waterproof design and rugged construction ensure durability on the trail. waterproof construction cushioned insole rubber outsole",
-      "price": 59.99,
-      "category": 8,
+      "sku": "936547812569",
+      "name": "Summit Series Ultralight Sleeping Bag",
+      "description": "Experience lightweight warmth with the Summit Series Ultralight Sleeping Bag. Perfect for backpacking and camping, this sleeping bag offers superior insulation without the added bulk.",
+      "price": 199.99,
+      "category": 10,
       "image_url": "",
       "image": ""
     }
@@ -1498,11 +1498,11 @@
     "pk": 116,
     "model": "products.product",
     "fields": {
-      "sku": "pp5006960828",
-      "name": "AdventureTech Lightweight Rain Jacket",
-      "description": "Be prepared for sudden showers with our Lightweight Rain Jacket. Compact and packable, it's perfect for stashing in your backpack or glove compartment. waterproof and breathable fabric adjustable hood and cuffs zippered pockets",
-      "price": 49.99,
-      "category": 8,
+      "sku": "845693214587",
+      "name": "Arctic Expedition Double Sleeping Bag",
+      "description": "Snuggle up with your loved one in the Arctic Expedition Double Sleeping Bag. With its spacious design and cold-resistant materials, this sleeping bag is perfect for couples who love to explore the great outdoors together.",
+      "price": 399.99,
+      "category": 10,
       "image_url": "",
       "image": ""
     }
@@ -1511,11 +1511,11 @@
     "pk": 117,
     "model": "products.product",
     "fields": {
-      "sku": "pp5006950238",
-      "name": "AdventureTech UV-Protection Sun Hat",
-      "description": "Protect yourself from the sun's harmful rays with our UV-Protection Sun Hat. Lightweight and breathable, it's perfect for all your outdoor adventures. wide brim adjustable chin strap UPF 50+ protection",
-      "price": 29.99,
-      "category": 8,
+      "sku": "701258963214",
+      "name": "Trailblazer Mummy Sleeping Bag",
+      "description": "Stay warm and cozy on your camping trips with the Trailblazer Mummy Sleeping Bag. Designed to provide maximum insulation, this sleeping bag is perfect for cold nights under the stars.",
+      "price": 129.99,
+      "category": 10,
       "image_url": "",
       "image": ""
     }
@@ -1524,11 +1524,11 @@
     "pk": 118,
     "model": "products.product",
     "fields": {
-      "sku": "pp5006430031",
-      "name": "AdventureTech Trail Running Shoes - Kids",
-      "description": "Let them explore the trails with confidence in our Trail Running Shoes. Lightweight and durable, they provide the support they need for all their outdoor adventures. breathable mesh upper cushioned insole rubber outsole",
-      "price": 39.99,
-      "category": 8,
+      "sku": "369874125698",
+      "name": "Explorer Doublewide Sleeping Bag",
+      "description": "Share the warmth with the Explorer Doublewide Sleeping Bag. With its roomy design and soft lining, this sleeping bag is perfect for camping trips with friends.",
+      "price": 249.99,
+      "category": 10,
       "image_url": "",
       "image": ""
     }
@@ -1537,11 +1537,11 @@
     "pk": 119,
     "model": "products.product",
     "fields": {
-      "sku": "pp5006370013",
-      "name": "ExpeditionTech Quick-Dry Swim Trunks",
-      "description": "Dive into adventure with our Quick-Dry Swim Trunks. Whether you're hitting the beach or the pool, these trunks will keep you comfortable and stylish. quick-dry fabric elastic waistband with drawstring mesh lining",
-      "price": 29.99,
-      "category": 8,
+      "sku": "582143697854",
+      "name": "Alpine Envelope Sleeping Bag",
+      "description": "Sleep comfortably under the stars with the Alpine Envelope Sleeping Bag. Its envelope shape provides ample room to move around, while its insulated design keeps you warm all night long.",
+      "price": 179.99,
+      "category": 10,
       "image_url": "",
       "image": ""
     }
@@ -1550,11 +1550,11 @@
     "pk": 120,
     "model": "products.product",
     "fields": {
-      "sku": "pp5006340653",
-      "name": "AdventureTech Packable Rain Poncho",
-      "description": "Stay dry on the go with our Packable Rain Poncho. Lightweight and compact, it's perfect for stashing in your backpack or glove compartment. waterproof design hood with drawstring packable into small pouch",
-      "price": 19.99,
-      "category": 8,
+      "sku": "785469231478",
+      "name": "Cascade Trail Sleeping Bag",
+      "description": "Stay warm and cozy on your next camping trip with the Cascade Trail Sleeping Bag. With its durable construction and soft lining, this sleeping bag is perfect for outdoor enthusiasts.",
+      "price": 99.99,
+      "category": 10,
       "image_url": "",
       "image": ""
     }
@@ -1563,440 +1563,11 @@
     "pk": 121,
     "model": "products.product",
     "fields": {
-      "sku": "pp5006280064",
-      "name": "Explorer's Edge Lightweight Camping Hammock",
-      "description": "Relax in nature with our Lightweight Camping Hammock. Easy to set up and pack away, it's perfect for camping trips, backpacking, or just lounging in the backyard. durable nylon construction lightweight and portable includes suspension system",
-      "price": 49.99,
-      "category": 8,
-      "image_url": "",
-      "image": ""
-    }
-  },
-  {
-    "pk": 122,
-    "model": "products.product",
-    "fields": {
-      "sku": "pp5006820399",
-      "name": "Mountain Summit Waterproof Ski Jacket",
-      "description": "Conquer the slopes with confidence in our Mountain Summit waterproof ski jacket. This jacket offers exceptional protection from the elements while keeping you warm and dry. Features include a removable hood, adjustable cuffs, and multiple pockets for all your essentials.",
-      "price": 149.99,
-      "category": 9,
-      "image_url": "",
-      "image": ""
-    }
-  },
-  {
-    "pk": 123,
-    "model": "products.product",
-    "fields": {
-      "sku": "pp5006750455",
-      "name": "AdventureTech Insulated Parka",
-      "description": "Stay warm and stylish on your outdoor adventures with our AdventureTech insulated parka. Featuring a water-resistant shell and cozy insulation, this parka is perfect for chilly days in the wilderness.",
-      "price": 179.99,
-      "category": 9,
-      "image_url": "",
-      "image": ""
-    }
-  },
-  {
-    "pk": 124,
-    "model": "products.product",
-    "fields": {
-      "sku": "pp5006310072",
-      "name": "Alpine Expedition Fleece Jacket",
-      "description": "Embark on your next alpine adventure with confidence in our Alpine Expedition fleece jacket. This jacket is made from premium fleece for maximum warmth and comfort, and features zippered pockets to keep your essentials secure.",
-      "price": 99.99,
-      "category": 9,
-      "image_url": "",
-      "image": ""
-    }
-  },
-  {
-    "pk": 125,
-    "model": "products.product",
-    "fields": {
-      "sku": "pp5006242905",
-      "name": "Summit Ascent Softshell Jacket",
-      "description": "Conquer the summit in our Summit Ascent softshell jacket. This jacket combines wind and water resistance with breathable comfort, making it ideal for challenging outdoor pursuits.",
-      "price": 129.99,
-      "category": 9,
-      "image_url": "",
-      "image": ""
-    }
-  },
-  {
-    "pk": 126,
-    "model": "products.product",
-    "fields": {
-      "sku": "pp5006242904",
-      "name": "Trailblazer 3-in-1 Parka",
-      "description": "Blaze your own trail with our Trailblazer 3-in-1 parka. This versatile parka features a waterproof shell and a removable insulated liner, allowing you to customize your level of warmth and protection.",
-      "price": 199.99,
-      "category": 9,
-      "image_url": "",
-      "image": ""
-    }
-  },
-  {
-    "pk": 127,
-    "model": "products.product",
-    "fields": {
-      "sku": "pp5006241766",
-      "name": "Arctic Expedition Down Jacket",
-      "description": "Embark on an arctic expedition with our Arctic Expedition down jacket. This jacket is filled with premium down insulation for maximum warmth in extreme cold conditions, while the water-resistant shell keeps you dry.",
-      "price": 249.99,
-      "category": 9,
-      "image_url": "",
-      "image": ""
-    }
-  },
-  {
-    "pk": 128,
-    "model": "products.product",
-    "fields": {
-      "sku": "pp5006082011",
-      "name": "Backcountry Explorer Insulated Jacket",
-      "description": "Explore the backcountry in comfort with our Backcountry Explorer insulated jacket. This jacket features a durable water-repellent finish and synthetic insulation to keep you warm and dry in harsh conditions.",
-      "price": 159.99,
-      "category": 9,
-      "image_url": "",
-      "image": ""
-    }
-  },
-  {
-    "pk": 129,
-    "model": "products.product",
-    "fields": {
-      "sku": "pp5005940242",
-      "name": "Wilderness Trail Fleece Pullover",
-      "description": "Hit the trails in style with our Wilderness Trail fleece pullover. This pullover features a cozy fleece construction and a quarter-zip design for easy layering.",
-      "price": 79.99,
-      "category": 9,
-      "image_url": "",
-      "image": ""
-    }
-  },
-  {
-    "pk": 130,
-    "model": "products.product",
-    "fields": {
-      "sku": "pp5005870638",
-      "name": "Summit Peak Softshell Vest",
-      "description": "Reach new heights with our Summit Peak softshell vest. This vest provides core warmth and wind protection, making it an essential layer for any outdoor adventure.",
-      "price": 69.99,
-      "category": 9,
-      "image_url": "",
-      "image": ""
-    }
-  },
-  {
-    "pk": 131,
-    "model": "products.product",
-    "fields": {
-      "sku": "pp5005840776",
-      "name": "Glacier Ridge Waterproof Parka",
-      "description": "Conquer the elements with our Glacier Ridge waterproof parka. This parka features a waterproof shell and synthetic insulation to keep you warm and dry in cold, wet conditions.",
-      "price": 189.99,
-      "category": 9,
-      "image_url": "",
-      "image": ""
-    }
-  },
-  {
-    "pk": 132,
-    "model": "products.product",
-    "fields": {
-      "sku": "pp5005430944",
-      "name": "Alpine Explorer Insulated Jacket",
-      "description": "Explore the alpine in comfort with our Alpine Explorer insulated jacket. This jacket features a water-resistant shell and synthetic insulation to keep you warm and dry on the slopes.",
-      "price": 179.99,
-      "category": 9,
-      "image_url": "",
-      "image": ""
-    }
-  },
-  {
-    "pk": 133,
-    "model": "products.product",
-    "fields": {
-      "sku": "pp5004991006",
-      "name": "Summit Quest Softshell Jacket",
-      "description": "Embark on a summit quest with our Summit Quest softshell jacket. This jacket features a windproof and water-resistant shell, making it ideal for high-altitude adventures.",
-      "price": 139.99,
-      "category": 9,
-      "image_url": "",
-      "image": ""
-    }
-  },
-  {
-    "pk": 134,
-    "model": "products.product",
-    "fields": {
-      "sku": "pp5004900522",
-      "name": "Glacier Peak Down Parka",
-      "description": "Conquer the cold with our Glacier Peak down parka. This parka features premium down insulation and a water-resistant shell to keep you warm and dry in extreme conditions.",
-      "price": 279.99,
-      "category": 9,
-      "image_url": "",
-      "image": ""
-    }
-  },
-  {
-    "pk": 135,
-    "model": "products.product",
-    "fields": {
-      "sku": "pp5003780391",
-      "name": "Expedition Pro Fleece Jacket",
-      "description": "Embark on an expedition with our Expedition Pro fleece jacket. This jacket features a durable water-repellent finish and cozy fleece construction for maximum warmth and comfort.",
-      "price": 109.99,
-      "category": 9,
-      "image_url": "",
-      "image": ""
-    }
-  },
-  {
-    "pk": 136,
-    "model": "products.product",
-    "fields": {
-      "sku": "pp5003540313",
-      "name": "Cascade Trail Waterproof Jacket",
-      "description": "Hit the trail in any weather with our Cascade Trail waterproof jacket. This jacket features a waterproof shell and adjustable hood to keep you dry and comfortable on rainy days.",
-      "price": 129.99,
-      "category": 9,
-      "image_url": "",
-      "image": ""
-    }
-  },
-  {
-    "pk": 137,
-    "model": "products.product",
-    "fields": {
-      "sku": "pp5003360384",
-      "name": "Summit Ridge Softshell Jacket",
-      "description": "Reach new heights with our Summit Ridge softshell jacket. This jacket features a windproof and water-resistant shell, making it ideal for challenging outdoor pursuits.",
-      "price": 119.99,
-      "category": 9,
-      "image_url": "",
-      "image": ""
-    }
-  },
-  {
-    "pk": 138,
-    "model": "products.product",
-    "fields": {
-      "sku": "pp5002820147",
-      "name": "Explorer's Edge Fleece Vest",
-      "description": "Discover new horizons with our Explorer's Edge fleece vest. This vest features a cozy fleece construction and zippered pockets for storing essentials on the trail.",
-      "price": 59.99,
-      "category": 9,
-      "image_url": "",
-      "image": ""
-    }
-  },
-  {
-    "pk": 139,
-    "model": "products.product",
-    "fields": {
-      "sku": "847291034582",
-      "name": "Summit 2-Person Backpacking Tent",
-      "description": "The Summit 2-Person Backpacking Tent is perfect for your next outdoor adventure. Its lightweight design and easy setup make it ideal for backpackers and campers alike.",
-      "price": 199.99,
-      "category": 10,
-      "image_url": "",
-      "image": ""
-    }
-  },
-  {
-    "pk": 140,
-    "model": "products.product",
-    "fields": {
-      "sku": "935716284012",
-      "name": "Alpine 4-Person Family Tent",
-      "description": "The Alpine 4-Person Family Tent offers spacious accommodation for your family camping trips. With its durable construction and weather-resistant materials, you can enjoy camping in comfort and style.",
-      "price": 299.99,
-      "category": 10,
-      "image_url": "",
-      "image": ""
-    }
-  },
-  {
-    "pk": 141,
-    "model": "products.product",
-    "fields": {
-      "sku": "720964318572",
-      "name": "Ridge 6-Person Camping Tent",
-      "description": "The Ridge 6-Person Camping Tent is designed for larger groups and families. With its spacious interior and easy setup, it's perfect for weekend getaways and extended camping trips.",
-      "price": 399.99,
-      "category": 10,
-      "image_url": "",
-      "image": ""
-    }
-  },
-  {
-    "pk": 142,
-    "model": "products.product",
-    "fields": {
-      "sku": "486230159274",
-      "name": "Trailblazer 3-Person Backpacking Tent",
-      "description": "The Trailblazer 3-Person Backpacking Tent is lightweight and compact, making it ideal for backpackers and minimalist campers. Its durable construction and weatherproof design ensure a comfortable night's sleep in any conditions.",
-      "price": 149.99,
-      "category": 10,
-      "image_url": "",
-      "image": ""
-    }
-  },
-  {
-    "pk": 143,
-    "model": "products.product",
-    "fields": {
-      "sku": "592836401725",
-      "name": "Expedition 8-Person Dome Tent",
-      "description": "The Expedition 8-Person Dome Tent is perfect for large groups and family camping trips. With its spacious interior and easy setup, you can enjoy the great outdoors in comfort and style.",
-      "price": 499.99,
-      "category": 10,
-      "image_url": "",
-      "image": ""
-    }
-  },
-  {
-    "pk": 144,
-    "model": "products.product",
-    "fields": {
-      "sku": "149682537802",
-      "name": "Basecamp 10-Person Cabin Tent",
-      "description": "The Basecamp 10-Person Cabin Tent offers spacious accommodation for larger groups and families. With its tall ceiling and multiple rooms, it provides comfort and convenience for extended camping trips.",
-      "price": 599.99,
-      "category": 10,
-      "image_url": "",
-      "image": ""
-    }
-  },
-  {
-    "pk": 145,
-    "model": "products.product",
-    "fields": {
-      "sku": "384715926038",
-      "name": "Summit Ultra-Light 2-Person Tent",
-      "description": "The Summit Ultra-Light 2-Person Tent is perfect for backpackers and minimalist campers. Its lightweight design and compact size make it easy to carry on long hikes, while its durable construction ensures reliable performance in any conditions.",
-      "price": 249.99,
-      "category": 10,
-      "image_url": "",
-      "image": ""
-    }
-  },
-  {
-    "pk": 146,
-    "model": "products.product",
-    "fields": {
-      "sku": "570291843625",
-      "name": "Trailhead 4-Person Backpacking Tent",
-      "description": "The Trailhead 4-Person Backpacking Tent is designed for adventurous couples or small families. Its lightweight design and compact size make it easy to carry on backpacking trips, while its durable construction ensures reliable performance in any conditions.",
-      "price": 179.99,
-      "category": 10,
-      "image_url": "",
-      "image": ""
-    }
-  },
-  {
-    "pk": 147,
-    "model": "products.product",
-    "fields": {
-      "sku": "925784569812",
-      "name": "Everest Extreme Sleeping Bag",
-      "description": "Conquer the cold nights with the Everest Extreme Sleeping Bag. Designed for extreme conditions, this sleeping bag will keep you warm and comfortable during your most adventurous expeditions.",
-      "price": 299.99,
-      "category": 11,
-      "image_url": "",
-      "image": ""
-    }
-  },
-  {
-    "pk": 148,
-    "model": "products.product",
-    "fields": {
-      "sku": "936547812569",
-      "name": "Summit Series Ultralight Sleeping Bag",
-      "description": "Experience lightweight warmth with the Summit Series Ultralight Sleeping Bag. Perfect for backpacking and camping, this sleeping bag offers superior insulation without the added bulk.",
-      "price": 199.99,
-      "category": 11,
-      "image_url": "",
-      "image": ""
-    }
-  },
-  {
-    "pk": 149,
-    "model": "products.product",
-    "fields": {
-      "sku": "845693214587",
-      "name": "Arctic Expedition Double Sleeping Bag",
-      "description": "Snuggle up with your loved one in the Arctic Expedition Double Sleeping Bag. With its spacious design and cold-resistant materials, this sleeping bag is perfect for couples who love to explore the great outdoors together.",
-      "price": 399.99,
-      "category": 11,
-      "image_url": "",
-      "image": ""
-    }
-  },
-  {
-    "pk": 150,
-    "model": "products.product",
-    "fields": {
-      "sku": "701258963214",
-      "name": "Trailblazer Mummy Sleeping Bag",
-      "description": "Stay warm and cozy on your camping trips with the Trailblazer Mummy Sleeping Bag. Designed to provide maximum insulation, this sleeping bag is perfect for cold nights under the stars.",
-      "price": 129.99,
-      "category": 11,
-      "image_url": "",
-      "image": ""
-    }
-  },
-  {
-    "pk": 151,
-    "model": "products.product",
-    "fields": {
-      "sku": "369874125698",
-      "name": "Explorer Doublewide Sleeping Bag",
-      "description": "Share the warmth with the Explorer Doublewide Sleeping Bag. With its roomy design and soft lining, this sleeping bag is perfect for camping trips with friends.",
-      "price": 249.99,
-      "category": 11,
-      "image_url": "",
-      "image": ""
-    }
-  },
-  {
-    "pk": 152,
-    "model": "products.product",
-    "fields": {
-      "sku": "582143697854",
-      "name": "Alpine Envelope Sleeping Bag",
-      "description": "Sleep comfortably under the stars with the Alpine Envelope Sleeping Bag. Its envelope shape provides ample room to move around, while its insulated design keeps you warm all night long.",
-      "price": 179.99,
-      "category": 11,
-      "image_url": "",
-      "image": ""
-    }
-  },
-  {
-    "pk": 153,
-    "model": "products.product",
-    "fields": {
-      "sku": "785469231478",
-      "name": "Cascade Trail Sleeping Bag",
-      "description": "Stay warm and cozy on your next camping trip with the Cascade Trail Sleeping Bag. With its durable construction and soft lining, this sleeping bag is perfect for outdoor enthusiasts.",
-      "price": 99.99,
-      "category": 11,
-      "image_url": "",
-      "image": ""
-    }
-  },
-  {
-    "pk": 154,
-    "model": "products.product",
-    "fields": {
       "sku": "632145897452",
       "name": "Backcountry Quilt Sleeping Bag",
       "description": "Sleep comfortably on your backpacking adventures with the Backcountry Quilt Sleeping Bag. Its quilted design provides warmth and comfort without the added bulk, making it perfect for lightweight travel.",
       "price": 159.99,
-      "category": 11,
+      "category": 10,
       "image_url": "",
       "image": ""
     }
