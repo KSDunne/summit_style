@@ -670,6 +670,14 @@ input[name="q"]::placeholder {
   font-weight: bold;
 }
 
+/* credit for word-wrap: https://www.w3schools.com/cssref/css3_pr_word-wrap.php */
+.order-email,
+.order-number {
+  width: 90%;
+  max-width: 90%;
+  word-wrap: break-word;
+}
+
 /* media queries */
 
 /* slightly larger container on xl screens */
