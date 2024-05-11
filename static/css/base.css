@@ -670,12 +670,17 @@ input[name="q"]::placeholder {
   font-weight: bold;
 }
 
+/* checkout success page */
+
 /* credit for word-wrap: https://www.w3schools.com/cssref/css3_pr_word-wrap.php */
-.order-email,
-.order-number {
+.order-email {
   width: 90%;
   max-width: 90%;
   word-wrap: break-word;
+}
+
+.checkout-info{
+  font-size: 130%;
 }
 
 /* media queries */
