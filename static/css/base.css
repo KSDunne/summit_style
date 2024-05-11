@@ -11,7 +11,7 @@ body {
 /* index page hero image */
 
 #hero-outer {
-  height: 68vh;
+  height: 70vh;
   width: 100%;
   overflow: hidden;
   position: relative;
@@ -20,7 +20,7 @@ body {
 /* credit for object-fit: https://www.w3schools.com/csS/css3_object-fit.asp */
 
 .hero-image {
-  height: 68vh;
+  height: 70vh;
   width: 100%;
   overflow: hidden;
   object-fit: cover;
@@ -700,7 +700,7 @@ input[name="q"]::placeholder {
 .title-text-aa {
   font-family: "Roboto", sans-serif;
   position: absolute;
-  top: 18vh;
+  top: 17vh;
   padding: 8px 7px 0px 7px;
   text-align: center;
   border-radius: 14px;
@@ -713,6 +713,40 @@ input[name="q"]::placeholder {
 .title-text-aa > h1 {
   padding-top: 10px;
   font-size: 220%;
+}
+
+#hero-outer-aa {
+  height: 65vh;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.hero-image-aa {
+  height: 65vh;
+  width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.cover-text-aa {
+  background-color: rgba(33, 33, 33, 0.8);
+  font-family: "Roboto", sans-serif;
+  position: absolute;
+  top: 50vh;
+  padding: 8px 7px 0px 7px;
+  text-align: center;
+  border-radius: 14px;
+  width: 70%;
+  color: #fef2d8;
+  left: 15%;
+  right: 15%;
+}
+
+.cover-text-aa > h2 {
+  padding-top: 10px;
+  padding-bottom: 15px;
+  font-size: 120%;
 }
 
 /* media queries */
@@ -825,6 +859,47 @@ input[name="q"]::placeholder {
     left: 25%;
     right: 25%;
   }
+
+  .title-text-aa {
+    font-family: "Roboto", sans-serif;
+    position: absolute;
+    top: 21vh;
+    padding: 8px 7px 0px 7px;
+    text-align: center;
+    border-radius: 14px;
+    width: 70%;
+    color: black;
+    left: 15%;
+    right: 15%;
+  }
+  
+  #hero-outer-aa {
+    height: 70vh;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .hero-image-aa {
+    height: 70vh;
+    width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+  }
+
+  .cover-text-aa {
+    background-color: rgba(33, 33, 33, 0.8);
+    font-family: "Roboto", sans-serif;
+    position: absolute;
+    top: 56vh;
+    padding: 8px 7px 0px 7px;
+    text-align: center;
+    border-radius: 14px;
+    width: 40%;
+    color: #fef2d8;
+    left: 30%;
+    right: 30%;
+  }
 }
 
 /* Very Large devices (large laptop screens and monitors, 1440px and up) */
@@ -856,5 +931,57 @@ input[name="q"]::placeholder {
 
   #green-section {
     margin-bottom: 2%;
+  }
+
+  .title-text-aa {
+    font-family: "Roboto", sans-serif;
+    position: absolute;
+    top: 24vh;
+    padding: 8px 7px 0px 7px;
+    text-align: center;
+    border-radius: 14px;
+    width: 70%;
+    color: black;
+    left: 15%;
+    right: 15%;
+  }
+
+  .title-text-aa > h1 {
+    padding-top: 10px;
+    font-size: 270%;
+  }
+  
+  #hero-outer-aa {
+    height: 78vh;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .hero-image-aa {
+    height: 78vh;
+    width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+  }
+
+  .cover-text-aa {
+    background-color: rgba(33, 33, 33, 0.8);
+    font-family: "Roboto", sans-serif;
+    position: absolute;
+    top: 60vh;
+    padding: 8px 7px 0px 7px;
+    text-align: center;
+    border-radius: 14px;
+    width: 40%;
+    color: #fef2d8;
+    left: 30%;
+    right: 30%;
+  }
+
+  .cover-text-aa > h2 {
+    padding-top: 10px;
+    padding-bottom: 15px;
+    font-size: 150%;
   }
 }
