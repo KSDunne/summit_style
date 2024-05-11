@@ -683,6 +683,16 @@ input[name="q"]::placeholder {
   font-size: 130%;
 }
 
+/* sign out page */
+
+.you-sure-lo{
+  margin-bottom: 6rem;
+}
+
+.lo-form{
+  margin-bottom: 200px;
+}
+
 /* media queries */
 
 /* slightly larger container on xl screens */
