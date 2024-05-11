@@ -11,7 +11,7 @@ body {
 /* index page hero image */
 
 #hero-outer {
-  height: 74vh;
+  height: 68vh;
   width: 100%;
   overflow: hidden;
   position: relative;
@@ -20,7 +20,7 @@ body {
 /* credit for object-fit: https://www.w3schools.com/csS/css3_object-fit.asp */
 
 .hero-image {
-  height: 74vh;
+  height: 68vh;
   width: 100%;
   overflow: hidden;
   object-fit: cover;
@@ -50,7 +50,7 @@ body {
   background-color: rgba(33, 33, 33, 0.8);
   font-family: "Roboto", sans-serif;
   position: absolute;
-  top: 56vh;
+  top: 50vh;
   padding: 8px 7px 0px 7px;
   text-align: center;
   border-radius: 14px;
@@ -683,7 +683,7 @@ input[name="q"]::placeholder {
   font-size: 130%;
 }
 
-/* allauth custom css */
+/* allauth custom css. aa stands for allauth */
 
 .you-sure-lo{
   margin-bottom: 6rem;
@@ -695,6 +695,24 @@ input[name="q"]::placeholder {
 
 .email-confirm {
   margin-bottom: 200px;
+}
+
+.title-text-aa {
+  font-family: "Roboto", sans-serif;
+  position: absolute;
+  top: 18vh;
+  padding: 8px 7px 0px 7px;
+  text-align: center;
+  border-radius: 14px;
+  width: 70%;
+  color: black;
+  left: 15%;
+  right: 15%;
+}
+
+.title-text-aa > h1 {
+  padding-top: 10px;
+  font-size: 220%;
 }
 
 /* media queries */
@@ -782,11 +800,11 @@ input[name="q"]::placeholder {
   }
 
   .title-text > h1 {
-    font-size: 240%;
+    font-size: 280%;
   }
 
   .cover-text {
-    top: 58vh;
+    top: 52vh;
   }
 
   #green-section {
@@ -818,22 +836,22 @@ input[name="q"]::placeholder {
 
   /* index page cover text on hero image */
   .title-text {
-    top: 15vh;
+    top: 14vh;
   }
 
   .title-text > h1 {
-    font-size: 290%;
+    font-size: 340%;
   }
 
   .cover-text {
-    top: 58vh;
-    width: 42%;
-    left: 29%;
-    right: 29%;
+    top: 52vh;
+    width: 40%;
+    left: 30%;
+    right: 30%;
   }
 
   .cover-text > h2 {
-    font-size: 130%;
+    font-size: 170%;
   }
 
   #green-section {
