@@ -689,8 +689,11 @@ input[name="q"]::placeholder {
   margin-bottom: 6rem;
 }
 
-.lo-form,
-.email-confirm{
+.lo-form {
+  margin-bottom: 200px;
+}
+
+.email-confirm {
   margin-bottom: 200px;
 }
 
