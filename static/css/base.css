@@ -683,13 +683,14 @@ input[name="q"]::placeholder {
   font-size: 130%;
 }
 
-/* sign out page */
+/* allauth custom css */
 
 .you-sure-lo{
   margin-bottom: 6rem;
 }
 
-.lo-form{
+.lo-form,
+.email-confirm{
   margin-bottom: 200px;
 }
 
