@@ -749,6 +749,10 @@ input[name="q"]::placeholder {
   font-size: 120%;
 }
 
+.bg-custom-nav {
+  background: #e8f2fe;
+}
+
 /* media queries */
 
 /* slightly larger container on xl screens */
