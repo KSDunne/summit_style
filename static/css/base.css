@@ -1009,7 +1009,7 @@ input[name="q"]::placeholder {
   
   .we-sell-text {
     font-size: 1.8rem;
-    margin-top: 12px;
+    margin-top: 18px;
   }
 }
 
@@ -1099,14 +1099,5 @@ input[name="q"]::placeholder {
   .edit-del-btn {
     width: 38%;
     font-size: 1rem;
-  }
-
-  .browse-text {
-    font-size: 3rem;
-  }
-  
-  .we-sell-text {
-    font-size: 2rem;
-    margin-top: 20px;
   }
 }
