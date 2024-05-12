@@ -18,16 +18,16 @@
       aria-labelledby="mobile-search"
     >
       <form class="form" method="GET" action="{% url 'products' %}">
-        <div class="input-group w-100">
+        <div class="input-group w-100 search-border ">
           <input
-            class="form-control border border-black rounded-left"
+            class="form-control search-border rounded-0"
             type="text"
             name="q"
             placeholder="Search our site"
           />
           <div class="input-group-append">
             <button
-              class="form-control form-control btn btn-black border border-black rounded-right"
+              class="form-control search-btn rounded-0"
               type="submit"
             >
               <span class="icon">
