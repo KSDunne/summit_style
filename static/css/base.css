@@ -812,6 +812,12 @@ input[name="q"]::placeholder {
   list-style-type: none;
 }
 
+/* styling the account dropdown */
+
+.dropdown-menu-account {
+    min-width: 6rem;
+}
+
 /* media queries */
 
 /* slightly larger container on xl screens */
