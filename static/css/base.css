@@ -778,6 +778,22 @@ input[name="q"]::placeholder {
   border-color: transparent !important;
 }
 
+/* sign in page */
+
+.signin-bg {
+  background-color: #fffaef;
+  border-radius: 35px;
+  width: 98%;
+  padding: 2%;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+
+.sign-in-form {
+  display: flex;
+  justify-content: center;
+}
+
 /* media queries */
 
 /* slightly larger container on xl screens */
