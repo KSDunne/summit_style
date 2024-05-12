@@ -549,6 +549,10 @@ input[name="q"]::placeholder {
   display: inline-block;
 }
 
+.no-items-div {
+  margin-bottom: 60px;
+}
+
 /* mobile icon styling */
 
 .mobile-icon-text {
@@ -748,6 +752,8 @@ input[name="q"]::placeholder {
   padding-bottom: 15px;
   font-size: 120%;
 }
+
+/* search bar custom style */
 
 .search-btn {
     background-color: #001efa;
