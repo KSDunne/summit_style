@@ -768,6 +768,10 @@ input[name="q"]::placeholder {
   border: 1px solid #001efa !important;
 }
 
+.navbar-toggler {
+  border-color: transparent !important;
+}
+
 /* media queries */
 
 /* slightly larger container on xl screens */
