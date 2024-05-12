@@ -789,6 +789,10 @@ input[name="q"]::placeholder {
   margin-bottom: 1rem;
 }
 
+.login-paragraph {
+  color: black !important;
+}
+
 .login-paragraph a {
  color: #692d5d;
  font-weight: 500;
@@ -801,6 +805,11 @@ input[name="q"]::placeholder {
 
 #hint_id_password a {
   color: #692d5d;
+}
+
+#hint_id_password1 ul {
+  padding: 4px 0px 0px 0px;
+  list-style-type: none;
 }
 
 /* media queries */
