@@ -86,6 +86,7 @@
           <div class="card star-card">
             <div class="card-body star-card-body">
               <h5>Star Rating</h5>
+              {% if product.average_rating %}         
               <h6 class="card-title" id="average-rating">
                 Avg rating:
                 <span
@@ -104,6 +105,9 @@
                   class="fa fa-star {% if product.average_rating > 4 %} checked {% endif %}"
                 ></span>
               </h6>
+              {% else %}
+              <h6 class="no-rating">No Rating Yet - Stars Appear Here When Someone Rates The Product! </h6>
+              {% endif %}           
               <h6>Scroll to have your say!</h6>
             </div>
           </div>

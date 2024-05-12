@@ -513,6 +513,12 @@ input[name="q"]::placeholder {
   color: orange;
 }
 
+/* no rating yet color */
+.no-rating {
+  color: #001efa;
+  font-weight: 400;
+}
+
 /* product detail wishlist styling */
 
 .btn-like {
