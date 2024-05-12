@@ -475,6 +475,33 @@ input[name="q"]::placeholder {
   color: #ffff00;
 }
 
+/* banner on products page */
+
+.browse-container {
+  margin-bottom: 3rem;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #212529;
+  color: #fef2d8;
+  padding: 10px 20px;
+}
+
+.browse-text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.1rem;
+  margin: 0;
+  align-items: center;
+}
+
+.we-sell-text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
+  margin-top: 8px;
+  align-items: center;
+}
+
 /* average rating style */
 /* credit for avg rating style: https://medium.com/geekculture/django-implementing-star-rating-e1deff03bb1c */
 
@@ -975,6 +1002,15 @@ input[name="q"]::placeholder {
     left: 30%;
     right: 30%;
   }
+
+  .browse-text {
+    font-size: 2.8rem;
+  }
+  
+  .we-sell-text {
+    font-size: 1.8rem;
+    margin-top: 12px;
+  }
 }
 
 /* Very Large devices (large laptop screens and monitors, 1440px and up) */
@@ -1063,5 +1099,14 @@ input[name="q"]::placeholder {
   .edit-del-btn {
     width: 38%;
     font-size: 1rem;
+  }
+
+  .browse-text {
+    font-size: 3rem;
+  }
+  
+  .we-sell-text {
+    font-size: 2rem;
+    margin-top: 20px;
   }
 }
