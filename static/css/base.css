@@ -320,7 +320,7 @@ input[name="q"]::placeholder {
 
 /* custom footer style */
 .footer-section {
-  background-color: #5ea5f9;
+  background-color: #7db6fa;
 }
 
 .social-icon {
@@ -789,9 +789,18 @@ input[name="q"]::placeholder {
   margin-bottom: 1rem;
 }
 
+.login-paragraph a {
+ color: #692d5d;
+ font-weight: 500;
+}
+
 .sign-in-form {
   display: flex;
   justify-content: center;
+}
+
+#hint_id_password a {
+  color: #692d5d;
 }
 
 /* media queries */
