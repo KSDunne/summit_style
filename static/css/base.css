@@ -936,7 +936,7 @@ input[name="q"]::placeholder {
   .title-text-aa {
     font-family: "Roboto", sans-serif;
     position: absolute;
-    top: 24vh;
+    top: 30vh;
     padding: 8px 7px 0px 7px;
     text-align: center;
     border-radius: 14px;
@@ -952,14 +952,14 @@ input[name="q"]::placeholder {
   }
   
   #hero-outer-aa {
-    height: 78vh;
+    height: 90vh;
     width: 100%;
     overflow: hidden;
     position: relative;
   }
   
   .hero-image-aa {
-    height: 78vh;
+    height: 90vh;
     width: 100%;
     overflow: hidden;
     object-fit: cover;
@@ -969,7 +969,7 @@ input[name="q"]::placeholder {
     background-color: rgba(33, 33, 33, 0.8);
     font-family: "Roboto", sans-serif;
     position: absolute;
-    top: 60vh;
+    top: 74vh;
     padding: 8px 7px 0px 7px;
     text-align: center;
     border-radius: 14px;
