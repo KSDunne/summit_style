@@ -147,7 +147,14 @@
             </div>
             {% endif %}
             <div class="col-12">
+              {% if product.is_course %} 
+              <p class="mt-3"><strong>In-person or Online:</strong> In-person</p>
+              <p class="mt-3"><strong>Lenth of course:</strong> 3 hr</p>
+              <p class="mt-3"><strong>Select number of course tickets:</strong></p>
+              <p class="mt-3"><strong>Note <i class="fa-regular fa-clipboard"></i> </strong> If in-person select 1 per person. If on-line select 1 per log-in!</p>
+              {% else %}
               <p class="mt-3"><strong>Quantity:</strong></p>
+              {% endif %}
               <div class="form-group w-50">
                 <div class="input-group input-group-{{ product.id }}">
                   <div class="input-group-prepend">
