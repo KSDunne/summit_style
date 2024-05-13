@@ -879,8 +879,8 @@ input[name="q"]::placeholder {
 
 .product-del-text {
   font-family: 'Roboto', sans-serif;
-  font-size: 2.1rem;
-  margin-top: 2em;
+  font-size: 1.8rem;
+  margin-top: 4rem;
 }
 
 /* media queries */
@@ -1053,7 +1053,15 @@ input[name="q"]::placeholder {
   }
 
   .product-del-text {
-    margin-top: 8rem;
+    font-size: 2.6rem;
+    margin-top: 8.4rem;
+  }
+
+  .deletion-btn {
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 2px;
+    margin: 4vh;
   }
 }
 
@@ -1143,5 +1151,17 @@ input[name="q"]::placeholder {
   .edit-del-btn {
     width: 38%;
     font-size: 1rem;
+  }
+
+  .confirm-del-title {
+    font-size: 2.4rem;
+    margin: 100px 0 60px 0;
+  }
+
+  .deletion-btn {
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 2px;
+    margin: 4vh 0 15vh 0;
   }
 }
