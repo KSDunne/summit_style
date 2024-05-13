@@ -856,15 +856,18 @@ input[name="q"]::placeholder {
   font-size: 1.2rem;
 }
 
+/* delete product defensive page */
+
 .delete-product-banner {
+  position: relative;
   margin-bottom: 3rem;
-  height: 54vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  min-height: 54vh; 
   background-color: #2f343a;
   color: #fef2d8;
   padding: 10px 20px;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
 }
 
 .deletion-btn {
@@ -872,6 +875,12 @@ input[name="q"]::placeholder {
   font-weight: 600;
   padding: 2px;
   margin: 4vh;
+}
+
+.product-del-text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.1rem;
+  margin-top: 2em;
 }
 
 /* media queries */
@@ -973,6 +982,10 @@ input[name="q"]::placeholder {
   .you-sure {
     font-size: 1.5rem;
   }
+
+  .product-del-text {
+    margin-top: 2.2rem;
+  }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
@@ -1037,6 +1050,10 @@ input[name="q"]::placeholder {
   .we-sell-text {
     font-size: 1.8rem;
     margin-top: 18px;
+  }
+
+  .product-del-text {
+    margin-top: 8rem;
   }
 }
 
