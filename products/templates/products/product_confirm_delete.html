@@ -1,0 +1,26 @@
+{% extends "base.html" %} 
+{% load static %}
+
+<!-- credit: https://github.com/Dee-McG/Recipe-Tutorial/blob/main/recipes/templates/recipes/recipe_confirm_delete.html -->
+<!-- customised by: warning the user this cannot be undone -->
+<!-- customised by: using {product.name} and { product.price} instead of {object.title} -->
+{% block title %}Delete product - {{ product.name }} {% endblock %} 
+
+{% block content %}
+<div class="delete-product-banner row text-center px-2">
+    <div class="col-10">       
+        <h3 class="browse-text">Delete Product? <i class="fa-solid fa-person-walking"></i></h3>                                 
+    </div>      
+</div>
+<div class="container">
+    <h3 class="text-center mt-2">Confirm Product Deletion</h3>
+    <div class="d-flex justify-content-center pt-4">
+        <form method="post" class="text-center">
+            {% csrf_token %} 
+            <p class="you-sure">Are you sure you want to delete "{{ product.name }}, {{ product.price}}"?</p>
+            <p class="you-sure">This cannot be undone!</p>
+            <input type="submit" value="Confirm" class="btn btn-primary w-25 deletion-btn">
+        </form>
+    </div>
+</div>
+{% endblock %}

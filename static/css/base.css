@@ -856,6 +856,17 @@ input[name="q"]::placeholder {
   font-size: 1.2rem;
 }
 
+.delete-product-banner {
+  margin-bottom: 3rem;
+  height: 54vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2f343a;
+  color: #fef2d8;
+  padding: 10px 20px;
+}
+
 /* media queries */
 
 /* slightly larger container on xl screens */
