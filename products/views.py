@@ -328,46 +328,20 @@ def edit_product(request, product_id):
 
     return render(request, template, context)
 
+@login_required
+def delete_product(request, product_id):
+    """Delete a product from the store with confirmation"""
+    if not request.user.is_superuser:
+        messages.error(request, "Sorry, only store owners can do that.")
+        return redirect(reverse("home"))
 
-class DeleteProduct(LoginRequiredMixin, UserPassesTestMixin, DeleteView):
-    """
-    Delete a product from the store. Only if user is a superuser.
+    product = get_object_or_404(Product, pk=product_id)
 
-    Uses :model:`products.Product`
-
-    **Context**
-
-    ``object``
-        Represents the product instance to be deleted.
-
-    **Template**
-
-    :template:`products/product_confirm_delete.html`
-
-    Redirects to success url which is "/products/"
-    """
-
-    model = Product
-    success_url = reverse_lazy("products")
-    template_name = "products/product_confirm_delete.html" 
-
-    def delete(self, request):
-        """
-        Deletes the product instance from the database.
-
-        Returns:
-            HttpResponseRedirect: Redirects to the success_url.
-        """
-        self.object = self.get_object()
-        self.object.delete()
+    if request.method == 'POST':
+        # If the request is a POST request, it means the user has confirmed deletion.
+        product.delete()
         messages.success(request, "Product deleted!")
-        return redirect(self.get_success_url())
+        return redirect(reverse("products"))
 
-    def test_func(self):
-        """
-        Checks if the logged-in user is authorized to delete the product.
-
-        Returns:
-            bool: True if the logged-in user is authorized, False otherwise.
-        """
-        return self.request.user.is_superuser
+    # If it's a GET request, render the confirmation page.
+    return render(request, 'products/product_confirm_delete.html', {'product': product})
