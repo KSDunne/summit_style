@@ -867,6 +867,13 @@ input[name="q"]::placeholder {
   padding: 10px 20px;
 }
 
+.deletion-btn {
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 2px;
+  margin: 4vh;
+}
+
 /* media queries */
 
 /* slightly larger container on xl screens */
@@ -961,6 +968,10 @@ input[name="q"]::placeholder {
 
   #green-section {
     margin-bottom: 5%;
+  }
+
+  .you-sure {
+    font-size: 1.5rem;
   }
 }
 
