@@ -866,6 +866,10 @@ input[name="q"]::placeholder {
   width: 38%;
 }
 
+.sort-select-width {
+  width: 70%;
+}
+
 /* media queries */
 
 /* slightly larger container on xl screens */
@@ -1133,5 +1137,9 @@ input[name="q"]::placeholder {
   .deletion-btn {
     margin: 4vh 0 15vh 0;
     width: 22%;
+  }
+
+  .sort-select-width {
+    width: 50%;
   }
 }
