@@ -159,19 +159,6 @@
     "pk": 13,
     "model": "products.product",
     "fields": {
-      "sku": "pp5006170131",
-      "name": "Mountain Shelter: Introduction to Tent Construction",
-      "description": "Embark on a journey to master the basics of tent construction with our Mountain Shelter course. Learn fundamental techniques for setting up tents, selecting appropriate materials, and ensuring safety and stability in outdoor environments.",
-      "price": 49.99,
-      "category": 2,
-      "image_url": "",
-      "image": ""
-    }
-  },
-  {
-    "pk": 14,
-    "model": "products.product",
-    "fields": {
       "sku": "pp5006170128",
       "name": "Wilderness Survival: Advanced Tent Rigging",
       "description": "Take your tent rigging skills to the next level with our Wilderness Survival course. Explore advanced techniques for securing tents in rugged terrain, extreme weather conditions, and high-altitude environments.",
@@ -182,7 +169,7 @@
     }
   },
   {
-    "pk": 15,
+    "pk": 14,
     "model": "products.product",
     "fields": {
       "sku": "pp5005851218",
@@ -195,7 +182,7 @@
     }
   },
   {
-    "pk": 16,
+    "pk": 15,
     "model": "products.product",
     "fields": {
       "sku": "pp5005520205",
@@ -208,20 +195,7 @@
     }
   },
   {
-    "pk": 17,
-    "model": "products.product",
-    "fields": {
-      "sku": "pp5003950576",
-      "name": "Advanced Tent Framework Design Course",
-      "description": "Delve deep into the intricacies of tent framework design with this advanced course. Explore innovative methods and optimize your tent structures for maximum stability and durability.",
-      "price": 60.99,
-      "category": 2,
-      "image_url": "",
-      "image": ""
-    }
-  },
-  {
-    "pk": 18,
+    "pk": 16,
     "model": "products.product",
     "fields": {
       "sku": "pp5003950574",
@@ -234,7 +208,7 @@
     }
   },
   {
-    "pk": 19,
+    "pk": 17,
     "model": "products.product",
     "fields": {
       "sku": "pp5003790542",
@@ -247,7 +221,7 @@
     }
   },
   {
-    "pk": 20,
+    "pk": 18,
     "model": "products.product",
     "fields": {
       "sku": "pp5003690115",
@@ -260,7 +234,7 @@
     }
   },
   {
-    "pk": 21,
+    "pk": 19,
     "model": "products.product",
     "fields": {
       "sku": "pp5003620308",
@@ -273,7 +247,7 @@
     }
   },
   {
-    "pk": 22,
+    "pk": 20,
     "model": "products.product",
     "fields": {
       "sku": "pp5003440111",
@@ -286,7 +260,7 @@
     }
   },
   {
-    "pk": 23,
+    "pk": 21,
     "model": "products.product",
     "fields": {
       "sku": "pp5006330208",
@@ -299,20 +273,7 @@
     }
   },
   {
-    "pk": 24,
-    "model": "products.product",
-    "fields": {
-      "sku": "pp5006200658",
-      "name": "Mountain Summit Sleeping Bag",
-      "description": "Stay warm and cozy on chilly nights with our Mountain Summit Sleeping Bag. Made with high-quality insulation and a durable shell, this sleeping bag is perfect for camping under the stars or relaxing in your tent. Get ready for a restful night's sleep wherever your adventures take you.",
-      "price": 129.99,
-      "category": 3,
-      "image_url": "",
-      "image": ""
-    }
-  },
-  {
-    "pk": 25,
+    "pk": 22,
     "model": "products.product",
     "fields": {
       "sku": "pp5006200155",
@@ -325,7 +286,7 @@
     }
   },
   {
-    "pk": 26,
+    "pk": 23,
     "model": "products.product",
     "fields": {
       "sku": "pp5006153172",
@@ -338,20 +299,7 @@
     }
   },
   {
-    "pk": 27,
-    "model": "products.product",
-    "fields": {
-      "sku": "pp5006150186",
-      "name": "Everest Expedition Tent",
-      "description": "Set up camp anywhere with our Everest Expedition Tent. Designed for extreme conditions, this tent features durable construction and weatherproof materials to keep you protected from the elements. Whether you're camping in the mountains or exploring remote wilderness, this tent is your ultimate shelter.",
-      "price": 299.99,
-      "category": 3,
-      "image_url": "",
-      "image": ""
-    }
-  },
-  {
-    "pk": 28,
+    "pk": 24,
     "model": "products.product",
     "fields": {
       "sku": "pp5005980058",
@@ -364,20 +312,7 @@
     }
   },
   {
-    "pk": 29,
-    "model": "products.product",
-    "fields": {
-      "sku": "pp5005941612",
-      "name": "Summit Alpine Backpacking Tent",
-      "description": "Experience the ultimate adventure with our Summit Alpine Backpacking Tent. Engineered for performance and durability, this tent provides ample space and weather protection for your backcountry excursions. Whether you're summiting peaks or traversing rugged landscapes, this tent is your home away from home.",
-      "price": 199.99,
-      "category": 3,
-      "image_url": "",
-      "image": ""
-    }
-  },
-  {
-    "pk": 30,
+    "pk": 25,
     "model": "products.product",
     "fields": {
       "sku": "pp5005940299",
@@ -390,7 +325,7 @@
     }
   },
   {
-    "pk": 31,
+    "pk": 26,
     "model": "products.product",
     "fields": {
       "sku": "pp5005930313",
@@ -403,7 +338,7 @@
     }
   },
   {
-    "pk": 32,
+    "pk": 27,
     "model": "products.product",
     "fields": {
       "sku": "pp5005870599",
@@ -416,7 +351,7 @@
     }
   },
   {
-    "pk": 33,
+    "pk": 28,
     "model": "products.product",
     "fields": {
       "sku": "pp5005850180",
@@ -429,7 +364,7 @@
     }
   },
   {
-    "pk": 34,
+    "pk": 29,
     "model": "products.product",
     "fields": {
       "sku": "pp5005840598",
@@ -442,7 +377,7 @@
     }
   },
   {
-    "pk": 35,
+    "pk": 30,
     "model": "products.product",
     "fields": {
       "sku": "pp5005760088",
@@ -455,7 +390,7 @@
     }
   },
   {
-    "pk": 36,
+    "pk": 31,
     "model": "products.product",
     "fields": {
       "sku": "pp5005430914",
@@ -468,7 +403,7 @@
     }
   },
   {
-    "pk": 37,
+    "pk": 32,
     "model": "products.product",
     "fields": {
       "sku": "pp5005330596",
@@ -481,7 +416,7 @@
     }
   },
   {
-    "pk": 38,
+    "pk": 33,
     "model": "products.product",
     "fields": {
       "sku": "pp5006790745",
@@ -494,7 +429,7 @@
     }
   },
   {
-    "pk": 39,
+    "pk": 34,
     "model": "products.product",
     "fields": {
       "sku": "pp5006660007",
@@ -507,33 +442,7 @@
     }
   },
   {
-    "pk": 40,
-    "model": "products.product",
-    "fields": {
-      "sku": "pp5006620412",
-      "name": "Adventure Ready Short-Sleeve Fleece Shirt",
-      "description": "Be adventure-ready with our short-sleeve fleece shirt. Crafted with breathable fleece fabric, this shirt is perfect for outdoor activities in changing weather conditions. Features a button-down front and chest pocket for added convenience. 100% polyester. Machine washable.",
-      "price": 53.99,
-      "category": 4,
-      "image_url": "",
-      "image": ""
-    }
-  },
-  {
-    "pk": 41,
-    "model": "products.product",
-    "fields": {
-      "sku": "pp5006420202",
-      "name": "Summit Peak Roll-Cuff Fleece Jeans",
-      "description": "Reach new heights with our Summit Peak roll-cuff fleece jeans. These versatile jeans feature a cozy fleece lining to keep you warm during chilly outdoor adventures. The roll-cuff design adds a touch of style, perfect for transitioning between seasons. 98% cotton, 2% spandex. Machine washable.",
-      "price": 58.99,
-      "category": 4,
-      "image_url": "",
-      "image": ""
-    }
-  },
-  {
-    "pk": 42,
+    "pk": 35,
     "model": "products.product",
     "fields": {
       "sku": "pp5006380337",
@@ -546,7 +455,7 @@
     }
   },
   {
-    "pk": 43,
+    "pk": 36,
     "model": "products.product",
     "fields": {
       "sku": "pp5006243276",
@@ -559,7 +468,7 @@
     }
   },
   {
-    "pk": 44,
+    "pk": 37,
     "model": "products.product",
     "fields": {
       "sku": "pp5006243106",
@@ -572,7 +481,7 @@
     }
   },
   {
-    "pk": 45,
+    "pk": 38,
     "model": "products.product",
     "fields": {
       "sku": "pp5006170357",
@@ -585,7 +494,7 @@
     }
   },
   {
-    "pk": 46,
+    "pk": 39,
     "model": "products.product",
     "fields": {
       "sku": "pp5006081758",
@@ -598,7 +507,7 @@
     }
   },
   {
-    "pk": 47,
+    "pk": 40,
     "model": "products.product",
     "fields": {
       "sku": "pp5005860175",
@@ -611,7 +520,7 @@
     }
   },
   {
-    "pk": 48,
+    "pk": 41,
     "model": "products.product",
     "fields": {
       "sku": "pp5005200166",
@@ -624,7 +533,7 @@
     }
   },
   {
-    "pk": 49,
+    "pk": 42,
     "model": "products.product",
     "fields": {
       "sku": "pp5004991162",
@@ -637,7 +546,7 @@
     }
   },
   {
-    "pk": 50,
+    "pk": 43,
     "model": "products.product",
     "fields": {
       "sku": "pp5003910638",
@@ -650,7 +559,7 @@
     }
   },
   {
-    "pk": 51,
+    "pk": 44,
     "model": "products.product",
     "fields": {
       "sku": "pp5003570628",
@@ -663,7 +572,7 @@
     }
   },
   {
-    "pk": 52,
+    "pk": 45,
     "model": "products.product",
     "fields": {
       "sku": "pp5006820170",
@@ -676,7 +585,7 @@
     }
   },
   {
-    "pk": 53,
+    "pk": 46,
     "model": "products.product",
     "fields": {
       "sku": "pp5006462180",
@@ -689,7 +598,7 @@
     }
   },
   {
-    "pk": 54,
+    "pk": 47,
     "model": "products.product",
     "fields": {
       "sku": "pp5006380260",
@@ -702,7 +611,7 @@
     }
   },
   {
-    "pk": 55,
+    "pk": 48,
     "model": "products.product",
     "fields": {
       "sku": "pp5006380233",
@@ -715,7 +624,7 @@
     }
   },
   {
-    "pk": 56,
+    "pk": 49,
     "model": "products.product",
     "fields": {
       "sku": "pp5006311067",
@@ -728,7 +637,7 @@
     }
   },
   {
-    "pk": 57,
+    "pk": 50,
     "model": "products.product",
     "fields": {
       "sku": "pp5006310935",
@@ -741,7 +650,7 @@
     }
   },
   {
-    "pk": 58,
+    "pk": 51,
     "model": "products.product",
     "fields": {
       "sku": "pp5006310918",
@@ -754,7 +663,7 @@
     }
   },
   {
-    "pk": 59,
+    "pk": 52,
     "model": "products.product",
     "fields": {
       "sku": "pp5006070077",
@@ -767,20 +676,7 @@
     }
   },
   {
-    "pk": 60,
-    "model": "products.product",
-    "fields": {
-      "sku": "pp5005740430",
-      "name": "Thermal Wetsuit Jacket",
-      "description": "Stay warm on chilly days with our thermal wetsuit jacket. Featuring a fleece-lined interior and water-resistant exterior, this jacket is perfect for layering or wearing on its own.",
-      "price": 119.99,
-      "category": 5,
-      "image_url": "",
-      "image": ""
-    }
-  },
-  {
-    "pk": 61,
+    "pk": 53,
     "model": "products.product",
     "fields": {
       "sku": "pp5004910158",
@@ -793,20 +689,7 @@
     }
   },
   {
-    "pk": 62,
-    "model": "products.product",
-    "fields": {
-      "sku": "pp5004111503",
-      "name": "Two-Piece Wetsuit Set",
-      "description": "Get versatile performance with our two-piece wetsuit set. This set includes a long-sleeve top and full-length pants, providing customizable coverage and warmth for any aquatic activity.",
-      "price": 389.99,
-      "category": 5,
-      "image_url": "",
-      "image": ""
-    }
-  },
-  {
-    "pk": 63,
+    "pk": 54,
     "model": "products.product",
     "fields": {
       "sku": "pp5003831225",
@@ -819,7 +702,7 @@
     }
   },
   {
-    "pk": 64,
+    "pk": 55,
     "model": "products.product",
     "fields": {
       "sku": "pp5003070787",
@@ -832,7 +715,7 @@
     }
   },
   {
-    "pk": 65,
+    "pk": 56,
     "model": "products.product",
     "fields": {
       "sku": "pp5006330197",
@@ -845,7 +728,7 @@
     }
   },
   {
-    "pk": 66,
+    "pk": 57,
     "model": "products.product",
     "fields": {
       "sku": "pp5003050249",
@@ -858,7 +741,7 @@
     }
   },
   {
-    "pk": 67,
+    "pk": 58,
     "model": "products.product",
     "fields": {
       "sku": "pp5003050247",
@@ -871,7 +754,7 @@
     }
   },
   {
-    "pk": 68,
+    "pk": 59,
     "model": "products.product",
     "fields": {
       "sku": "pp5003050246",
@@ -884,7 +767,7 @@
     }
   },
   {
-    "pk": 69,
+    "pk": 60,
     "model": "products.product",
     "fields": {
       "sku": "pp5003050245",
@@ -897,7 +780,7 @@
     }
   },
   {
-    "pk": 70,
+    "pk": 61,
     "model": "products.product",
     "fields": {
       "sku": "pp5003050244",
@@ -910,7 +793,7 @@
     }
   },
   {
-    "pk": 71,
+    "pk": 62,
     "model": "products.product",
     "fields": {
       "sku": "pp5006160127",
@@ -923,7 +806,7 @@
     }
   },
   {
-    "pk": 72,
+    "pk": 63,
     "model": "products.product",
     "fields": {
       "sku": "pp5005810108",
@@ -936,7 +819,7 @@
     }
   },
   {
-    "pk": 73,
+    "pk": 64,
     "model": "products.product",
     "fields": {
       "sku": "pp5005740634",
@@ -949,20 +832,7 @@
     }
   },
   {
-    "pk": 74,
-    "model": "products.product",
-    "fields": {
-      "sku": "pp5005740561",
-      "name": "Waterproof Combat Pants",
-      "description": "Stay prepared for any outdoor challenge with these waterproof combat pants. Engineered for durability and performance, they offer maximum comfort and protection in harsh conditions. Whether you're hiking, camping, or on a mission, these pants have you covered.",
-      "price": 89.99,
-      "category": 6,
-      "image_url": "",
-      "image": ""
-    }
-  },
-  {
-    "pk": 75,
+    "pk": 65,
     "model": "products.product",
     "fields": {
       "sku": "pp5005700140",
@@ -975,20 +845,7 @@
     }
   },
   {
-    "pk": 76,
-    "model": "products.product",
-    "fields": {
-      "sku": "pp5005650677",
-      "name": "Tactical Cargo Pants",
-      "description": "Gear up for your outdoor missions with these tactical cargo pants. Built for durability and functionality, they feature ample pocket space and a rugged design. Whether you're hiking, camping, or on a mission, these pants have you covered.",
-      "price": 85.99,
-      "category": 6,
-      "image_url": "",
-      "image": ""
-    }
-  },
-  {
-    "pk": 77,
+    "pk": 66,
     "model": "products.product",
     "fields": {
       "sku": "pp5006590213",
@@ -1001,7 +858,7 @@
     }
   },
   {
-    "pk": 78,
+    "pk": 67,
     "model": "products.product",
     "fields": {
       "sku": "pp5005980146",
@@ -1014,7 +871,7 @@
     }
   },
   {
-    "pk": 79,
+    "pk": 68,
     "model": "products.product",
     "fields": {
       "sku": "pp5005310360",
@@ -1027,7 +884,7 @@
     }
   },
   {
-    "pk": 80,
+    "pk": 69,
     "model": "products.product",
     "fields": {
       "sku": "pp5005140282",
@@ -1040,7 +897,7 @@
     }
   },
   {
-    "pk": 81,
+    "pk": 70,
     "model": "products.product",
     "fields": {
       "sku": "pp5004910477",
@@ -1053,7 +910,7 @@
     }
   },
   {
-    "pk": 82,
+    "pk": 71,
     "model": "products.product",
     "fields": {
       "sku": "pp5003960682",
@@ -1066,33 +923,7 @@
     }
   },
   {
-    "pk": 83,
-    "model": "products.product",
-    "fields": {
-      "sku": "pp5003560948",
-      "name": "Outdoor Survival Skills: Wilderness First Aid",
-      "description": "Gain crucial first aid skills tailored for wilderness environments to ensure safety during outdoor adventures.",
-      "price": 338.99,
-      "category": 7,
-      "image_url": "",
-      "image": ""
-    }
-  },
-  {
-    "pk": 84,
-    "model": "products.product",
-    "fields": {
-      "sku": "pp5003560513",
-      "name": "Outdoor Survival Skills: Water Purification Techniques",
-      "description": "Learn essential techniques for purifying water in outdoor settings to ensure safe hydration during adventures.",
-      "price": 241.99,
-      "category": 7,
-      "image_url": "",
-      "image": ""
-    }
-  },
-  {
-    "pk": 85,
+    "pk": 72,
     "model": "products.product",
     "fields": {
       "sku": "pp5003230723",
@@ -1105,7 +936,7 @@
     }
   },
   {
-    "pk": 86,
+    "pk": 73,
     "model": "products.product",
     "fields": {
       "sku": "pp5003161326",
@@ -1118,7 +949,7 @@
     }
   },
   {
-    "pk": 87,
+    "pk": 74,
     "model": "products.product",
     "fields": {
       "sku": "pp5002701115",
@@ -1131,7 +962,7 @@
     }
   },
   {
-    "pk": 88,
+    "pk": 75,
     "model": "products.product",
     "fields": {
       "sku": "pp5002601115",
@@ -1144,7 +975,7 @@
     }
   },
   {
-    "pk": 89,
+    "pk": 76,
     "model": "products.product",
     "fields": {
       "sku": "pp5002111605",
@@ -1157,7 +988,7 @@
     }
   },
   {
-    "pk": 90,
+    "pk": 77,
     "model": "products.product",
     "fields": {
       "sku": "pp5001890157",
@@ -1170,7 +1001,7 @@
     }
   },
   {
-    "pk": 91,
+    "pk": 78,
     "model": "products.product",
     "fields": {
       "sku": "pp5006310072",
@@ -1183,7 +1014,7 @@
     }
   },
   {
-    "pk": 92,
+    "pk": 79,
     "model": "products.product",
     "fields": {
       "sku": "pp5006242905",
@@ -1196,7 +1027,7 @@
     }
   },
   {
-    "pk": 93,
+    "pk": 80,
     "model": "products.product",
     "fields": {
       "sku": "pp5006242904",
@@ -1209,33 +1040,7 @@
     }
   },
   {
-    "pk": 94,
-    "model": "products.product",
-    "fields": {
-      "sku": "pp5006241766",
-      "name": "Arctic Expedition Down Jacket",
-      "description": "Embark on an arctic expedition with our Arctic Expedition down jacket. This jacket is filled with premium down insulation for maximum warmth in extreme cold conditions, while the water-resistant shell keeps you dry.",
-      "price": 249.99,
-      "category": 8,
-      "image_url": "",
-      "image": ""
-    }
-  },
-  {
-    "pk": 95,
-    "model": "products.product",
-    "fields": {
-      "sku": "pp5006082011",
-      "name": "Backcountry Explorer Insulated Jacket",
-      "description": "Explore the backcountry in comfort with our Backcountry Explorer insulated jacket. This jacket features a durable water-repellent finish and synthetic insulation to keep you warm and dry in harsh conditions.",
-      "price": 159.99,
-      "category": 8,
-      "image_url": "",
-      "image": ""
-    }
-  },
-  {
-    "pk": 96,
+    "pk": 81,
     "model": "products.product",
     "fields": {
       "sku": "pp5005940242",
@@ -1248,7 +1053,7 @@
     }
   },
   {
-    "pk": 97,
+    "pk": 82,
     "model": "products.product",
     "fields": {
       "sku": "pp5005870638",
@@ -1261,7 +1066,7 @@
     }
   },
   {
-    "pk": 98,
+    "pk": 83,
     "model": "products.product",
     "fields": {
       "sku": "pp5005840776",
@@ -1274,7 +1079,7 @@
     }
   },
   {
-    "pk": 99,
+    "pk": 84,
     "model": "products.product",
     "fields": {
       "sku": "pp5005430944",
@@ -1287,7 +1092,7 @@
     }
   },
   {
-    "pk": 100,
+    "pk": 85,
     "model": "products.product",
     "fields": {
       "sku": "pp5004991006",
@@ -1300,7 +1105,7 @@
     }
   },
   {
-    "pk": 101,
+    "pk": 86,
     "model": "products.product",
     "fields": {
       "sku": "pp5004900522",
@@ -1313,7 +1118,7 @@
     }
   },
   {
-    "pk": 102,
+    "pk": 87,
     "model": "products.product",
     "fields": {
       "sku": "pp5003780391",
@@ -1326,7 +1131,7 @@
     }
   },
   {
-    "pk": 103,
+    "pk": 88,
     "model": "products.product",
     "fields": {
       "sku": "pp5003540313",
@@ -1339,7 +1144,7 @@
     }
   },
   {
-    "pk": 104,
+    "pk": 89,
     "model": "products.product",
     "fields": {
       "sku": "pp5003360384",
@@ -1352,7 +1157,7 @@
     }
   },
   {
-    "pk": 105,
+    "pk": 90,
     "model": "products.product",
     "fields": {
       "sku": "pp5002820147",
@@ -1365,7 +1170,7 @@
     }
   },
   {
-    "pk": 106,
+    "pk": 91,
     "model": "products.product",
     "fields": {
       "sku": "847291034582",
@@ -1378,7 +1183,7 @@
     }
   },
   {
-    "pk": 107,
+    "pk": 92,
     "model": "products.product",
     "fields": {
       "sku": "935716284012",
@@ -1391,7 +1196,7 @@
     }
   },
   {
-    "pk": 108,
+    "pk": 93,
     "model": "products.product",
     "fields": {
       "sku": "720964318572",
@@ -1404,7 +1209,7 @@
     }
   },
   {
-    "pk": 109,
+    "pk": 94,
     "model": "products.product",
     "fields": {
       "sku": "486230159274",
@@ -1417,7 +1222,7 @@
     }
   },
   {
-    "pk": 110,
+    "pk": 95,
     "model": "products.product",
     "fields": {
       "sku": "592836401725",
@@ -1430,7 +1235,7 @@
     }
   },
   {
-    "pk": 111,
+    "pk": 96,
     "model": "products.product",
     "fields": {
       "sku": "149682537802",
@@ -1443,7 +1248,7 @@
     }
   },
   {
-    "pk": 112,
+    "pk": 97,
     "model": "products.product",
     "fields": {
       "sku": "384715926038",
@@ -1456,7 +1261,7 @@
     }
   },
   {
-    "pk": 113,
+    "pk": 98,
     "model": "products.product",
     "fields": {
       "sku": "570291843625",
@@ -1469,7 +1274,7 @@
     }
   },
   {
-    "pk": 114,
+    "pk": 99,
     "model": "products.product",
     "fields": {
       "sku": "925784569812",
@@ -1482,7 +1287,7 @@
     }
   },
   {
-    "pk": 115,
+    "pk": 100,
     "model": "products.product",
     "fields": {
       "sku": "936547812569",
@@ -1495,7 +1300,7 @@
     }
   },
   {
-    "pk": 116,
+    "pk": 101,
     "model": "products.product",
     "fields": {
       "sku": "845693214587",
@@ -1508,7 +1313,7 @@
     }
   },
   {
-    "pk": 117,
+    "pk": 102,
     "model": "products.product",
     "fields": {
       "sku": "701258963214",
@@ -1521,7 +1326,7 @@
     }
   },
   {
-    "pk": 118,
+    "pk": 103,
     "model": "products.product",
     "fields": {
       "sku": "369874125698",
@@ -1534,7 +1339,7 @@
     }
   },
   {
-    "pk": 119,
+    "pk": 104,
     "model": "products.product",
     "fields": {
       "sku": "582143697854",
@@ -1547,7 +1352,7 @@
     }
   },
   {
-    "pk": 120,
+    "pk": 105,
     "model": "products.product",
     "fields": {
       "sku": "785469231478",
@@ -1560,7 +1365,7 @@
     }
   },
   {
-    "pk": 121,
+    "pk": 106,
     "model": "products.product",
     "fields": {
       "sku": "632145897452",
