@@ -874,7 +874,8 @@ input[name="q"]::placeholder {
   font-size: 1rem;
   font-weight: 600;
   padding: 2px;
-  margin: 4vh;
+  margin: 4vh 0 4vh 0;
+  width: 38%;
 }
 
 .product-del-text {
@@ -1059,9 +1060,7 @@ input[name="q"]::placeholder {
 
   .deletion-btn {
     font-size: 1.5rem;
-    font-weight: 600;
-    padding: 2px;
-    margin: 4vh;
+    width: 25%;
   }
 }
 
@@ -1159,9 +1158,7 @@ input[name="q"]::placeholder {
   }
 
   .deletion-btn {
-    font-size: 1.5rem;
-    font-weight: 600;
-    padding: 2px;
     margin: 4vh 0 15vh 0;
+    width: 22%;
   }
 }

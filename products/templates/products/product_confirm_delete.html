@@ -24,8 +24,12 @@
     <div class="d-flex justify-content-center pt-4">
         <form method="post">
             {% csrf_token %}
-            <button type="submit">Yes, delete</button>
-            <a href="{% url 'products' %}">Cancel</a>
+            <p class="you-sure">Are you sure you want to delete "{{ product.name }}, €{{ product.price}}"?</p>
+            <p class="you-sure">This cannot be undone!</p>
+            <div class="d-flex justify-content-center">
+                <input type="submit" value="Confirm" class="btn btn-primary mx-1 deletion-btn">
+                <a href="{% url 'products' %}" class="btn btn-primary mx-1 deletion-btn">Cancel</a>
+            </div>
         </form>
     </div>
 </div>
