@@ -14,18 +14,19 @@
 {% block title %}Delete product - {{ product.name }} {% endblock %} 
 
 {% block content %}
-<div class="delete-product-banner row text-center px-2">
+<div class="browse-container row text-center px-2">
     <div class="col-10">       
-        <h3 class="product-del-text">Delete Product? Scroll to confirm <i class="fa-solid fa-trash"></i></h3>                                 
+        <h3 class="browse-text">Delete Product? Scroll to confirm <i class="fa-solid fa-trash"></i></h3>                                 
     </div>      
 </div>
+
 <div class="container">
     <h3 class="text-center confirm-del-title">Confirm Product Deletion</h3>
     <div class="d-flex justify-content-center pt-4">
         <form method="post">
             {% csrf_token %}
-            <p class="you-sure">Are you sure you want to delete "{{ product.name }}, €{{ product.price}}"?</p>
-            <p class="you-sure">This cannot be undone!</p>
+            <p class="you-sure text-center">Are you sure you want to delete "{{ product.name }}, €{{ product.price}}"?</p>
+            <p class="you-sure text-center">This cannot be undone!</p>
             <div class="d-flex justify-content-center">
                 <input type="submit" value="Confirm" class="btn btn-primary mx-1 deletion-btn">
                 <a href="{% url 'products' %}" class="btn btn-primary mx-1 deletion-btn">Cancel</a>

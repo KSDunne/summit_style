@@ -858,30 +858,12 @@ input[name="q"]::placeholder {
 
 /* delete product defensive page */
 
-.delete-product-banner {
-  position: relative;
-  margin-bottom: 3rem;
-  min-height: 54vh; 
-  background-color: #2f343a;
-  color: #fef2d8;
-  padding: 10px 20px;
-  display: flex;
-  justify-content: center; 
-  align-items: center; 
-}
-
 .deletion-btn {
   font-size: 1rem;
   font-weight: 600;
   padding: 2px;
   margin: 4vh 0 4vh 0;
   width: 38%;
-}
-
-.product-del-text {
-  font-family: 'Roboto', sans-serif;
-  font-size: 1.8rem;
-  margin-top: 4rem;
 }
 
 /* media queries */
@@ -983,10 +965,6 @@ input[name="q"]::placeholder {
   .you-sure {
     font-size: 1.5rem;
   }
-
-  .product-del-text {
-    margin-top: 2.2rem;
-  }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
@@ -1051,11 +1029,6 @@ input[name="q"]::placeholder {
   .we-sell-text {
     font-size: 1.8rem;
     margin-top: 18px;
-  }
-
-  .product-del-text {
-    font-size: 2.6rem;
-    margin-top: 8.4rem;
   }
 
   .deletion-btn {
@@ -1154,7 +1127,7 @@ input[name="q"]::placeholder {
 
   .confirm-del-title {
     font-size: 2.4rem;
-    margin: 100px 0 60px 0;
+    margin: 15vh 0 4vh 0;
   }
 
   .deletion-btn {
