@@ -1,25 +1,23 @@
-{% extends "base.html" %}
-
-{% block page_header %}
-    <div class="container header-container">
-        <div class="row">
-            <div class="col"></div>
-        </div>
-    </div>
-{% endblock %}
-
-{% block title %}Edit Review{% endblock %} 
-
-{% block content %}
-<div class="container">
-    <form method="POST" enctype="multipart/form-data" class="p-2 form edit-form">
-        <h1 class="text-center edit-review-title">Edit Review</h1>
-        {% csrf_token %}
-        {{ form.media }} 
-        {{ form|crispy }}
-        <div class="text-center">
-            <button type="submit" class="btn btn-primary mt-2">Edit Review</button>
-        </div>
+{% extends "base.html" %} {% block page_header %}
+<div class="container header-container">
+  <div class="row">
+    <div class="col"></div>
+  </div>
+</div>
+{% endblock %} {% block title %}Edit Review{% endblock %} {% block content %}
+<div class="edit-review-container d-flex flex-column flex-grow-1">
+  <div class="container">
+    <form
+      method="POST"
+      enctype="multipart/form-data"
+      class="p-2 form edit-form"
+    >
+      <h1 class="text-center edit-review-title">Edit Review</h1>
+      {% csrf_token %} {{ form.media }} {{ form|crispy }}
+      <div class="text-center">
+        <button type="submit" class="btn btn-primary mt-2">Edit Review</button>
+      </div>
     </form>
+  </div>
 </div>
 {% endblock %}
