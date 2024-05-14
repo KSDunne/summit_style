@@ -713,6 +713,41 @@ footer {
   font-weight: bold;
 }
 
+/* education section on index page */
+
+#center-education {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.center-education-heading {
+  width: 100%;
+  line-height: 20px;
+  clear: both;
+  margin-bottom: 50px;
+}
+
+.center-education-heading i {
+  color: #2cbc91;
+}
+
+#education-paragraph {
+  padding: 6px;
+  font-size: 130%;
+  line-height: 180%;
+}
+
+#education-list {
+  margin-left: 25px;
+  padding: 6px;
+  line-height: 200%;
+  font-size: 110%;
+}
+
+#education-list a {
+  font-weight: bold;
+}
+
 /* checkout success page */
 
 /* credit for word-wrap: https://www.w3schools.com/cssref/css3_pr_word-wrap.php */
