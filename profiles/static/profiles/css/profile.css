@@ -20,6 +20,12 @@ body {
   overflow-y: auto;
 }
 
+.profile-title {
+    color: #2fc698;
+    font-size: 115%;
+    font-weight: 600;
+}
+
 #profile-update-form .form-control {
   color: #000;
 }
