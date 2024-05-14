@@ -6,6 +6,8 @@ body {
   min-height: 100vh;
   font-family: "Inter", sans-serif;
   color: #3a3a3a;
+  display: flex;
+  flex-direction: column;
 }
 
 /* index page hero image */
@@ -319,6 +321,10 @@ input[name="q"]::placeholder {
 }
 
 /* custom footer style */
+footer {
+  margin-top: auto;
+}
+
 .footer-section {
   background-color: #7db6fa;
 }
@@ -898,10 +904,6 @@ input[name="q"]::placeholder {
 @media (max-width: 991px) {
   .header-container {
     padding-top: 82px;
-  }
-
-  body {
-    height: calc(100vh - 116px);
   }
 
   .display-4.logo-font.text-black {
