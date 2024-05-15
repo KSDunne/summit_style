@@ -63,7 +63,8 @@
         </p>
         {% endif %}
         <div>
-          <h6 class="text-black wl-rating">Avg rating:</h6>
+          {% if product.average_rating %}         
+          <h6 class="text-black wl-rating">Avg rating:
           <span
             class="fa fa-star {% if product.average_rating > 0 %} checked {% endif %}"
           ></span>
@@ -79,6 +80,10 @@
           <span
             class="fa fa-star {% if product.average_rating > 4 %} checked {% endif %}"
           ></span>
+          </h6>
+          {% else %}
+          <h6 class="no-rating">No Rating Yet - Stars Appear Here When Someone Rates The Product!</h6>
+          {% endif %}   
         </div>
       </div>
       <!-- product detail button -->
