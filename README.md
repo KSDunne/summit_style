@@ -246,6 +246,20 @@ Also, see a site I found that is selling online courses for mountaineering in Sc
 
 ![Index Monitor](docs/readme_images/Monitor_Home.png)
 
+### Products page
+
+#### Mobile
+
+![Products iPhone SE](docs/readme_images/Products_Page.png)
+
+#### Tablet
+
+![Products Tablet](docs/readme_images/Tablet_Products.png)
+
+#### Monitor
+
+![Products Monitor](docs/readme_images/Monitor_Products.png)
+
 ### Product detail page
 
 #### Mobile
@@ -259,6 +273,48 @@ Also, see a site I found that is selling online courses for mountaineering in Sc
 #### Monitor
 
 ![Product Detail Monitor](docs/readme_images/Monitor_Product_Detail.png)
+
+### Contact page
+
+#### Mobile
+
+![Contact iPhone SE](docs/readme_images/Contact_Page.png)
+
+#### Tablet
+
+![Contact Tablet](docs/readme_images/Tablet_Contact.png)
+
+#### Monitor
+
+![Contact Monitor](docs/readme_images/Monitor_Contact.png)
+
+### Wishlist page
+
+#### Mobile
+
+![Wishlist iPhone SE](docs/readme_images/Wishlist_Page.png)
+
+#### Tablet
+
+![Wishlist Tablet](docs/readme_images/Tablet_Wishlist.png)
+
+#### Monitor
+
+![Wishlist Monitor](docs/readme_images/Monitor_Wishlist.png)
+
+### Register page
+
+#### Mobile
+
+![Register iPhone SE](docs/readme_images/Register_Page.png)
+
+#### Tablet
+
+![Register Tablet](docs/readme_images/Tablet_Register.png)
+
+#### Monitor
+
+![Register Monitor](docs/readme_images/Monitor_Register.png)
 
 ## Database schema
 
