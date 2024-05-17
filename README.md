@@ -262,6 +262,12 @@ Also, see a site I found that is selling online courses for mountaineering in Sc
 
 ### Product detail page
 
+Two of the three custom models can be seen here. 
+
+- Firstly the product model which uses a 'wishlist' field can be seen here with a toggle heart and an 'is_course' boolean field that changes the sizes section to a section that contains whether the course is in-person or online and the length of the course. 
+
+- Secondly, the star model comes through here with full crud functionality for ratings and reviews.
+
 #### Mobile
 
 ![Product Detail iPhone SE](docs/readme_images/Product_Detail_Page.png)
@@ -276,6 +282,8 @@ Also, see a site I found that is selling online courses for mountaineering in Sc
 
 ### Contact page
 
+- The third custom model can be seen on the FE here.
+
 #### Mobile
 
 ![Contact iPhone SE](docs/readme_images/Contact_Page.png)
@@ -289,6 +297,8 @@ Also, see a site I found that is selling online courses for mountaineering in Sc
 ![Contact Monitor](docs/readme_images/Monitor_Contact.png)
 
 ### Wishlist page
+
+- The 'many-to-many' wishlist field in the product model is utilised on this page.
 
 #### Mobile
 
@@ -315,6 +325,20 @@ Also, see a site I found that is selling online courses for mountaineering in Sc
 #### Monitor
 
 ![Register Monitor](docs/readme_images/Monitor_Register.png)
+
+### Login page
+
+#### Mobile
+
+![Login iPhone SE](docs/readme_images/Login_Page.png)
+
+#### Tablet
+
+![Login Tablet](docs/readme_images/Tablet_Login.png)
+
+#### Monitor
+
+![Login Monitor](docs/readme_images/Monitor_Login.png)
 
 ## Database schema
 
