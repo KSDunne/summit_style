@@ -19,7 +19,7 @@ Here is an eCommerce website, for a fictitious business called Summit Style. Thi
 An ecommerce app is designed to facilitate commercial or business transactions and it involves an online transfer of information. 
 
 - Summit style is a retail store and it is a B2C (business to customer) type of business
-- The deliverables here are products (clothes, tents, sleeping bags) and digital products (courses)
+- The deliverables here are products (clothes, tents, sleeping bags) and digital products (if course is online) or services (if course is offered onsite)
 - This business uses a single payment system, that is the transaction is finished after a single payment is made
 
 ## User experience (UX)
@@ -52,34 +52,34 @@ An ecommerce app is designed to facilitate commercial or business transactions a
 
 - As a website user, I want to be able to:
 
-1.	View a list of clothing products so that I can select some to buy
-2.	View a list of outdoor equipment products so that I can select some to buy
-3.	View a list of short courses so that I can select some to buy
+1.	View a list of clothing products, so that I can select some to buy
+2.	View a list of outdoor equipment products, so that I can select some to buy
+3.	View a list of short courses, so that I can select some to buy
 4.	View a specific category of products or courses, so that I can quickly find what I'm interested in
-5.	View individual product details so that I am informed of price, description and product rating
-6.	View individual course details so that I am informed of price, description and rating
+5.	View individual product details, so that I am informed of price, description and product rating
+6.	View individual course details, so that I am informed of price, description and rating
 7.	Identify sale items easily, so that I can take advantage of savings on products I want to buy
 8.	See the total of my purchases at any time to avoid overspending
-9.	Register for an account so that I can have a profile that is specific to me
+9.	Register for an account, so that I can have a profile that is specific to me
 10.	Easily log in and out to access my personal account information and to protect it once I’m finished interacting with it
-11.	Easily recover my password if I forget it so that I can recover access to my account
+11.	Easily recover my password if I forget it, so that I can recover access to my account
 12.	Receive an email confirmation after registering to verify my account registration was successful
-13.	Have a personalised user profile so that I can view my order history, order confirmations and save payment information
+13.	Have a personalised user profile, so that I can view my order history, order confirmations and save payment information
 14.	Quickly separate a list of clothing products from a list of equipment and a list of courses
-15.	Sort the list of offerings (clothes, equipment or courses) so that I can easily distinguish the best rated, the best priced or categorically sort products
-16.	Sort a specific category of product or course, so that I can find the best rated or best priced in a specific category
+15.	Sort the list of offerings (clothes, equipment or courses), so that I can easily distinguish the best priced or categorically sort products
+16.	Sort a specific category of product or course, so that I can find the best priced in a specific category
 17.	Search for a product or course by name or description so that I can find a specific product or course
 18.	Easily see what I've searched for and the number of results so that I can quickly see if the product or course I want is available here
-19.	Easily select the size of a product when purchasing it so that I don’t accidentally order the wrong size of clothing
-20.	View items in my cart to be purchased so that I’m aware of the total cost of items and all the items that I will receive after checkout
-21.	Adjust the quantity of individual items in my cart so that I can make changes to my order before checkout if I wish to do so
-22.	Easily enter my personal payment information so that I can checkout quickly
-23.	Feel that my personal and payment information is safe so that I can confidentially provide the information to make a purchase
-24.	View an order confirmation after checkout so that I can verify that I haven’t made any mistakes
-25.	Receive an email confirmation after I make a purchase so that I can keep the confirmation for my own records
+19.	Easily select the size of a product when purchasing it, so that I don’t accidentally order the wrong size of clothing
+20.	View items in my cart to be purchased, so that I’m aware of the total cost of items and all the items that I will receive after checkout
+21.	Adjust the quantity of individual items in my cart, so that I can make changes to my order before checkout if I wish to do so
+22.	Easily enter my personal payment information, so that I can checkout quickly
+23.	Feel that my personal and payment information is safe, so that I can confidentially provide the information to make a purchase
+24.	View an order confirmation after checkout, so that I can verify that I haven’t made any mistakes
+25.	Receive an email confirmation after I make a purchase, so that I can keep the confirmation for my own records
 26. See average star ratings on products quickly and easily, so that I don't have to go searching for ratings and I can buy a reliable product or course
-27. Submit my star rating so that I can give a vote on how good the product or course is
-28. Read reviews that other customers have submitted so that I feel I am purchasing a reliable product
+27. Submit my star rating, so that I can give a vote on how good the product or course is
+28. Read reviews that other customers have submitted, so that I feel I am purchasing a reliable product
 29. Submit a review using a front end form with fields for title, star rating and review text
 30. Edit the review I gave, in case I change my mind on how good a product or course is
 31. Delete a review I submitted in case I rate the wrong product or I change my mind about giving my opinion
@@ -92,9 +92,9 @@ An ecommerce app is designed to facilitate commercial or business transactions a
 
 - As a store owner, I want to be able to:
 
-38.	Add a product or course so that I can add new offerings as they become available for me to sell
-39.	Edit or update a product or course information so that I can change product and course prices, descriptions and images if needed
-40.	Delete a product or course so that I can remove items that are no longer for sale
+38.	Add a product or course, so that I can add new offerings as they become available for me to sell
+39.	Edit or update a product or course information, so that I can change product and course prices, descriptions and images if needed
+40.	Delete a product or course, so that I can remove items that are no longer for sale
 
 ## Sprints
 
@@ -107,7 +107,7 @@ An ecommerce app is designed to facilitate commercial or business transactions a
 7. Purchasing and checkout
 8. Store management
 9. Add rating and review feature
-10. Testimonials app
+10. Wishlist feature
 11. Contact app
 12. Testing
 13. Project sunset
@@ -120,7 +120,7 @@ An ecommerce app is designed to facilitate commercial or business transactions a
 
 #### Monitor navigation bar
 
-On monitor size screens, this is split into 2 divs. The top nav which contains the logo, a search bar, an account dropdown menu and a shopping cart logo with link to the shopping cart. This shopping cart also shows a running total of the users spend. The second part is the main site navigation bar. This main navbar contains downdown menus and links with titles; all products, clothes, equipment, courses, testimonials and contact.
+On monitor size screens, this is split into 2 divs. The top nav which contains the logo, a search bar, an account dropdown menu and a shopping cart logo with link to the shopping cart. This shopping cart also shows a running total of the users spend. The second part is the main site navigation bar. This main navbar contains downdown menus and links with titles; all products, clothes, equipment, courses and contact.
 
 ### Hero image
 
