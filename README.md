@@ -559,6 +559,23 @@ Go back to the AWS Services Menu and follow these steps:
 
 ### Deploying with heroku
 
+After account setup, the steps were as follows:
+
+- Click the "create new app" button on heroku
+- Create a unique name for the app
+- Select region (Europe was selected for this project)
+- Click "create app"
+- Select the deployment method (github was used for this project)
+- Search for the github repository name (it was summit_style for this project)
+- Click connect
+- There is an option to use manual deployment or automatic deployment. Make sure main branch is selected
+- In the settings tab select reveal config vars. Input the required hidden variables
+- Select python as the buildpack
+- Deploy
+- After the first deployment you will see a message saying "your app was successfully deployed" and there will be a "view" button to take you to your deployed application
+
+The live link for this project can be found here - [Summit Style](https://summit-style-b727a186ee80.herokuapp.com/)
+
 ### Fork this repository:
 
 - Go to the [GitHub repository](https://github.com/KSDunne/summit_style)
