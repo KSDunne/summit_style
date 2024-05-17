@@ -45,7 +45,7 @@ An ecommerce app is designed to facilitate commercial or business transactions a
 4. Purchasing and checkout
 5. Store management
 6. Rating and review feature
-7. Testimonials app
+7. Wishlist feature
 8. Contact app
 
 ### User stories
