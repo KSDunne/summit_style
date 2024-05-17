@@ -95,6 +95,7 @@ An ecommerce app is designed to facilitate commercial or business transactions a
 38.	Add a product or course, so that I can add new offerings as they become available for me to sell
 39.	Edit or update a product or course information, so that I can change product and course prices, descriptions and images if needed
 40.	Delete a product or course, so that I can remove items that are no longer for sale
+41. Not delete products by an accident. I get asked are you sure.
 
 ## Sprints
 
