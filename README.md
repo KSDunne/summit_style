@@ -52,50 +52,50 @@ An ecommerce app is designed to facilitate commercial or business transactions a
 
 - As a website user, I want to be able to:
 
-1.	View a list of clothing products, so that I can select some to buy
-2.	View a list of outdoor equipment products, so that I can select some to buy
-3.	View a list of short courses, so that I can select some to buy
-4.	View a specific category of products or courses, so that I can quickly find what I'm interested in
-5.	View individual product details, so that I am informed of price, description and product rating
-6.	View individual course details, so that I am informed of price, description and rating
-7.	Identify sale items easily, so that I can take advantage of savings on products I want to buy
-8.	See the total of my purchases at any time to avoid overspending
-9.	Register for an account, so that I can have a profile that is specific to me
-10.	Easily log in and out to access my personal account information and to protect it once I’m finished interacting with it
-11.	Easily recover my password if I forget it, so that I can recover access to my account
-12.	Receive an email confirmation after registering to verify my account registration was successful
-13.	Have a personalised user profile, so that I can view my order history, order confirmations and save payment information
-14.	Quickly separate a list of clothing products from a list of equipment and a list of courses
-15.	Sort the list of offerings (clothes, equipment or courses), so that I can easily distinguish the best priced or categorically sort products
-16.	Sort a specific category of product or course, so that I can find the best priced in a specific category
-17.	Search for a product or course by name or description so that I can find a specific product or course
-18.	Easily see what I've searched for and the number of results so that I can quickly see if the product or course I want is available here
-19.	Easily select the size of a product when purchasing it, so that I don’t accidentally order the wrong size of clothing
-20.	View items in my cart to be purchased, so that I’m aware of the total cost of items and all the items that I will receive after checkout
-21.	Adjust the quantity of individual items in my cart, so that I can make changes to my order before checkout if I wish to do so
-22.	Easily enter my personal payment information, so that I can checkout quickly
-23.	Feel that my personal and payment information is safe, so that I can confidentially provide the information to make a purchase
-24.	View an order confirmation after checkout, so that I can verify that I haven’t made any mistakes
-25.	Receive an email confirmation after I make a purchase, so that I can keep the confirmation for my own records
-26. See average star ratings on products quickly and easily, so that I don't have to go searching for ratings and I can buy a reliable product or course
-27. Submit my star rating, so that I can give a vote on how good the product or course is
-28. Read reviews that other customers have submitted, so that I feel I am purchasing a reliable product
-29. Submit a review using a front end form with fields for title, star rating and review text
-30. Edit the review I gave, in case I change my mind on how good a product or course is
-31. Delete a review I submitted in case I rate the wrong product or I change my mind about giving my opinion
-32. Read testimonials from other customers so that I feel like I am making a reliable purchase
-33. Submit a testimonial of my own so that I can give my opinion on my purchase from this company
-34. Find the contact page easily, so that I don't get frustrated trying to contact the company
-35. Contact summit style using a contact form and recieve feedback that my query has been stored and the company will respond in a few days
-36. Toggle a heart button to add and remove products and courses from my wishlist, so that when I have the money or when they go on special offer I can access them easily
-37. Go to a page that has a list of my wishlist items, so that I don't have to spend time looking all over the site for items that I liked in the past
+1.	View a list of clothing products, so that I can select some to buy (epic 1)
+2.	View a list of outdoor equipment products, so that I can select some to buy (epic 1)
+3.	View a list of short courses, so that I can select some to buy (epic 1)
+4.	View a specific category of products or courses, so that I can quickly find what I'm interested in (epic 1)
+5.	View individual product details, so that I am informed of price, description and product rating (epic 1)
+6.	View individual course details, so that I am informed of price, description and rating (epic 1)
+7.	Identify sale items easily, so that I can take advantage of savings on products I want to buy (epic 1)
+8.	See the total of my purchases at any time to avoid overspending (epic 4)
+9.	Register for an account, so that I can have a profile that is specific to me (epic 2)
+10.	Easily log in and out to access my personal account information and to protect it once I’m finished interacting with it (epic 2)
+11.	Easily recover my password if I forget it, so that I can recover access to my account (epic 2)
+12.	Receive an email confirmation after registering to verify my account registration was successful (epic 2)
+13.	Have a personalised user profile, so that I can view my order history, order confirmations and save payment information (epic 2)
+14.	Quickly separate a list of clothing products from a list of equipment and a list of courses (epic 3)
+15.	Sort the list of offerings (clothes, equipment or courses), so that I can easily distinguish the best priced or categorically sort products (epic 3)
+16.	Sort a specific category of product or course, so that I can find the best priced in a specific category (epic 3)
+17.	Search for a product or course by name or description so that I can find a specific product or course (epic 3)
+18.	Easily see what I've searched for and the number of results so that I can quickly see if the product or course I want is available here (epic 3)
+19.	Easily select the size of a product when purchasing it, so that I don’t accidentally order the wrong size of clothing (epic 4)
+20.	View items in my cart to be purchased, so that I’m aware of the total cost of items and all the items that I will receive after checkout (epic 4)
+21.	Adjust the quantity of individual items in my cart, so that I can make changes to my order before checkout if I wish to do so (epic 4)
+22.	Easily enter my personal payment information, so that I can checkout quickly (epic 4)
+23.	Feel that my personal and payment information is safe, so that I can confidentially provide the information to make a purchase (epic 4)
+24.	View an order confirmation after checkout, so that I can verify that I haven’t made any mistakes (epic 4)
+25.	Receive an email confirmation after I make a purchase, so that I can keep the confirmation for my own records (epic 4)
+26. See average star ratings on products quickly and easily, so that I don't have to go searching for ratings and I can buy a reliable product or course (epic 6)
+27. Submit my star rating, so that I can give a vote on how good the product or course is (epic 6)
+28. Read reviews that other customers have submitted, so that I feel I am purchasing a reliable product (epic 6)
+29. Submit a review using a front end form with fields for title, star rating and review text (epic 6)
+30. Edit the review I gave, in case I change my mind on how good a product or course is (epic 6)
+31. Delete a review I submitted in case I rate the wrong product or I change my mind about giving my opinion (epic 6)
+32. Read testimonials from other customers so that I feel like I am making a reliable purchase (epic 6)
+33. Submit a testimonial of my own so that I can give my opinion on my purchase from this company (epic 6)
+34. Find the contact page easily, so that I don't get frustrated trying to contact the company (epic 8)
+35. Contact summit style using a contact form and recieve feedback that my query has been stored and the company will respond in a few days (epic 8)
+36. Toggle a heart button to add and remove products and courses from my wishlist, so that when I have the money or when they go on special offer I can access them easily (epic 7)
+37. Go to a page that has a list of my wishlist items, so that I don't have to spend time looking all over the site for items that I liked in the past (epic 7)
 
 - As a store owner, I want to be able to:
 
-38.	Add a product or course, so that I can add new offerings as they become available for me to sell
-39.	Edit or update a product or course information, so that I can change product and course prices, descriptions and images if needed
-40.	Delete a product or course, so that I can remove items that are no longer for sale
-41. Not delete products by an accident. I get asked are you sure.
+38.	Add a product or course, so that I can add new offerings as they become available for me to sell (epic 5)
+39.	Edit or update a product or course information, so that I can change product and course prices, descriptions and images if needed (epic 5)
+40.	Delete a product or course, so that I can remove items that are no longer for sale (epic 5)
+41. Not delete products by an accident. I get asked are you sure (epic 5)
 
 ## Sprints
 
