@@ -83,8 +83,8 @@ An ecommerce app is designed to facilitate commercial or business transactions a
 29. Submit a review using a front end form with fields for title, star rating and review text (epic 6)
 30. Edit the review I gave, in case I change my mind on how good a product or course is (epic 6)
 31. Delete a review I submitted in case I rate the wrong product or I change my mind about giving my opinion (epic 6)
-32. Read testimonials from other customers so that I feel like I am making a reliable purchase (epic 6)
-33. Submit a testimonial of my own so that I can give my opinion on my purchase from this company (epic 6)
+32. Read testimonials from other customers so that I feel like I am making a reliable purchase
+33. Submit a testimonial of my own so that I can give my opinion on my purchase from this company
 34. Find the contact page easily, so that I don't get frustrated trying to contact the company (epic 8)
 35. Contact summit style using a contact form and recieve feedback that my query has been stored and the company will respond in a few days (epic 8)
 36. Toggle a heart button to add and remove products and courses from my wishlist, so that when I have the money or when they go on special offer I can access them easily (epic 7)
