@@ -347,7 +347,7 @@ Two of the three custom models can be seen here.
 
 In the diagram below the one to one and many to many relationships can be seen.
 
-![DBSchema](docs/readme_images/db_schema.PNG)
+![DBSchema](docs/readme_images/db_schema.png)
 
 ### Entity relationship tables
 
