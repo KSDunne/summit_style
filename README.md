@@ -226,6 +226,7 @@ This site has a Mailchimp newsletter signup, which is used to collect email addr
 ### Newsletter
 
 ![newsletter signup](docs/readme_images/newsletter_signup.png)
+
 ### Facebook
 
 ## Design
