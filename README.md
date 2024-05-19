@@ -345,13 +345,13 @@ Two of the three custom models can be seen here.
 
 ### Entity relationship diagram
 
-In the diagram below the one to one and many to many relationships can be seen.
+In the diagram below, OneToOne, ManyToMany and Foreign Key relationships can be seen.
 
 ![DBSchema](docs/readme_images/db_schema.png)
 
 ### Entity relationship tables
 
-Please find a screenshot of tables below. These tables are in preparation for the final entity relationship diagram (ERD).
+Please find a screenshot of tables below. These tables were created as rough work in preparation for the final entity relationship diagram (ERD).
 
 ![ERD1](docs/readme_images/erd1_190524.png)
 ![ERD2](docs/readme_images/erd2_190524.png)
