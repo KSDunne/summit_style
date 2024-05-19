@@ -652,6 +652,20 @@ footer {
 
 /* contact page styling */
 
+#hero-outer-contact{
+    height: 65vh;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.hero-image-contact {
+  height: 65vh;
+  width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+
 .contact-heading {
   margin-top: 3rem;
   background-color: #e8f2fe;
