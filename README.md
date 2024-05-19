@@ -215,9 +215,17 @@ See the screenshot of the dropdown on google for this short-tailed keyword
 
 ![adventure courses keyword](docs/readme_images/adventure_courses_kw.png)
 
-Also, see a site I found that is selling online courses for mountaineering in Scotland
+Also, see a site I found during my research, that is selling online courses for mountaineering in Scotland
 
 ![mountaineering courses](docs/readme_images/mountain_courses_kw.png)
+
+## Marketing
+
+This site has a Mailchimp newsletter signup, which is used to collect email addresses for marketing purposes. A facebook business page was also setup.
+
+### Newsletter
+
+### Facebook
 
 ## Design
 
