@@ -495,14 +495,14 @@ footer {
 }
 
 .browse-text {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 2.1rem;
   margin: 0;
   align-items: center;
 }
 
 .we-sell-text {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1.2rem;
   margin-top: 8px;
   align-items: center;
@@ -652,11 +652,11 @@ footer {
 
 /* contact page styling */
 
-#hero-outer-contact{
-    height: 65vh;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
+#hero-outer-contact {
+  height: 65vh;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
 }
 
 .hero-image-contact {
@@ -673,9 +673,14 @@ footer {
 }
 
 .center-contact {
-    padding-top: 30px;
-    width: 80%;
-    margin: 0 auto;
+  padding-top: 2rem;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.center-contact-address {
+  width: 80%;
+  margin: 0 auto;
 }
 
 .contact-page-headings {
@@ -689,9 +694,21 @@ footer {
   font-weight: bold;
 }
 
+.contact-page-headings h2 {
+  font-size: 170%;
+}
+
+.contact-page-headings i {
+  color: #2cbc91;
+}
+
 .contact-form {
   background-color: #e8f2fe;
   border-radius: 14px;
+}
+
+.contact-ul {
+  padding-left: 24px;
 }
 
 /* mailchimp newsletter styling */
@@ -788,13 +805,13 @@ footer {
   word-wrap: break-word;
 }
 
-.checkout-info{
+.checkout-info {
   font-size: 130%;
 }
 
 /* allauth custom css. aa stands for allauth */
 
-.you-sure-lo{
+.you-sure-lo {
   margin-bottom: 6rem;
 }
 
@@ -861,18 +878,19 @@ footer {
 /* search bar custom style */
 
 .search-btn {
-    background-color: #001efa;
-    border: 1px solid #001efa !important;
-    display: inline-block;
-    font-weight: 400;
-    color: #ffff00;
-    text-align: center;
-    vertical-align: middle;
-    user-select: none;
-    padding: .375rem .75rem;
-    font-size: 1rem;
-    line-height: 1.5;
-    transition: color .15s ease-in-out, background-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  background-color: #001efa;
+  border: 1px solid #001efa !important;
+  display: inline-block;
+  font-weight: 400;
+  color: #ffff00;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out;
 }
 
 .search-border {
@@ -899,8 +917,8 @@ footer {
 }
 
 .login-paragraph a {
- color: #692d5d;
- font-weight: 500;
+  color: #692d5d;
+  font-weight: 500;
 }
 
 .sign-in-form {
@@ -920,10 +938,10 @@ footer {
 /* styling the account dropdown */
 
 .dropdown-menu-account {
-    min-width: 6rem;
+  min-width: 6rem;
 }
 
-.text-category{
+.text-category {
   color: black;
   font-size: 1.2rem;
 }
@@ -1065,14 +1083,14 @@ footer {
     left: 15%;
     right: 15%;
   }
-  
+
   #hero-outer-aa {
     height: 70vh;
     width: 100%;
     overflow: hidden;
     position: relative;
   }
-  
+
   .hero-image-aa {
     height: 70vh;
     width: 100%;
@@ -1097,7 +1115,7 @@ footer {
   .browse-text {
     font-size: 2.8rem;
   }
-  
+
   .we-sell-text {
     font-size: 1.8rem;
     margin-top: 18px;
@@ -1157,14 +1175,14 @@ footer {
     padding-top: 10px;
     font-size: 270%;
   }
-  
+
   #hero-outer-aa {
     height: 90vh;
     width: 100%;
     overflow: hidden;
     position: relative;
   }
-  
+
   .hero-image-aa {
     height: 90vh;
     width: 100%;
