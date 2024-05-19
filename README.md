@@ -231,7 +231,7 @@ This site has a Mailchimp newsletter signup, which is used to collect email addr
 
 Firstly, a logo was designed using [hubspot brand kit generator](https://www.hubspot.com/brand-kit-generator). This was used as the profile picture for the facebook page. The logo includes an icon that looks like a person with a bag on their back, climbing a mountain and the business name beside the icon. The main hero image from the website was used as the cover photo.
 
-![facebook business page](docs/readme_images/facebook_page.png)
+![facebook page](docs/readme_images/facebook_page.png)
 
 ## Design
 
