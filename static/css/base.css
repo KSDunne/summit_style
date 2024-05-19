@@ -668,8 +668,25 @@ footer {
 
 .contact-heading {
   margin-top: 3rem;
-  background-color: #e8f2fe;
+  background-color: #37d0a2;
   border-radius: 14px;
+}
+
+.center-contact {
+    padding-top: 30px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.contact-page-headings {
+  width: 100%;
+  line-height: 26px;
+  clear: both;
+  margin-bottom: 50px;
+}
+
+.contact-page-headings a {
+  font-weight: bold;
 }
 
 .contact-form {
