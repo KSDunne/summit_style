@@ -6,80 +6,91 @@
 </div>
 {% endblock %} {% block content %}
 <div class="contact-container d-flex flex-column flex-grow-1">
-<!-- credit for hero section code: love-running-2.0 depreciated project July 2023 -->
-<section id="hero-outer-contact">
-    <!-- Image taken from https://www.shutterstock.com/image-photo/full-length-young-man-blue-shirt-2184316109 -->
+  <!-- credit for hero section code: love-running-2.0 depreciated project July 2023 -->
+  <section id="hero-outer-contact">
+    <!-- image taken from https://www.shutterstock.com/image-photo/full-length-young-man-blue-shirt-2184316109 -->
     <img
-    src="{{ MEDIA_URL }}contact_hero.jpg"
-    class="hero-image-contact"
-    alt="Image of a man making a phone call outdoors"
+      src="{{ MEDIA_URL }}contact_hero.jpg"
+      class="hero-image-contact"
+      alt="Image of a man making a phone call outdoors"
     />
-</section>
+  </section>
 
-<section class="contact-heading-section">
-  <div class="container">
-    <div class="row justify-content-center">
-      <h1 class="text-black contact-heading p-2">Contact Us</h1>
-    </div>
-  </div>
-</section>
-
-        <!-- fill in our form text section -->
-        <section>
-          <div class="center-contact">
-              <div class="contact-page-headings">
-                  <h2>Fill In Our Form To Contact Us Or Connect With Us On Our Socials <i class="fa-solid fa-phone"></i></h2>
-                  <hr>
-                  <p>
-                      <a href="#contact-section" aria-label="Link to contact form lower on this page">Contact us</a> to talk
-                      equipment, to chat about outdoor style or to enquire about upcoming courses.
-                  </p>
-              </div>
-          </div>
-      </section>
-
-      <!-- store address section -->
-      <section>
-          <div class="center-contact">
-              <div class="contact-page-headings">
-                  <h2>Store Address <i class="fa-solid fa-phone"></i></h2>
-                  <hr>
-                  <ul id="contact-list">
-                      <li><b>Location:</b> Dublin, Ireland</li>
-                      <li><b>Phone:</b> 00353895557422</li>
-                      <!-- credit for mailto: w3schools -->
-                      <li><b>Email:</b><a href="mailto:info@summitstyle.com"> info@summitstyle.com</a></li>
-                  </ul>
-              </div>
-          </div>
-      </section>
-
-      <section id="contact-section">
-      <div class="row justify-content-center text-black">
-        <div class="col-10 col-lg-8 col-xl-6 my-4 p-4 contact-form">
-          <h2 class="text-center">Would you like to get in contact?</h2>
-          <p>
-            Welcome to the Summit Style contact form! Let us know the topic
-            you're interested in chatting about. If you're eyeing a course,
-            don't forget to specify your availability timeframe. We're eager to
-            hear from you and help you gear up for your next summit adventure!
-          </p>
-
-          <!-- contact form -->
-          <form method="post">
-            {{ contact_form | crispy }} {% csrf_token %}
-            <button
-              class="btn contact-btn"
-              aria-label="click this button to submit your contact request"
-              type="submit"
-            >
-              Submit
-            </button>
-          </form>
-        </div>
+  <!-- overall page title -->
+  <section>
+    <div class="container">
+      <div class="row justify-content-center">
+        <h1 class="text-black contact-heading p-2">Contact Us</h1>
       </div>
     </div>
-  </div>
-</section>
+  </section>
+
+  <!-- fill in our form text section -->
+  <section>
+    <div class="center-contact">
+      <div class="contact-page-headings">
+        <h2>
+          Fill In Our Form To Contact Us Or Connect With Us On Our Socials
+          <i class="fa-solid fa-phone"></i>
+        </h2>
+        <hr />
+        <p>
+          <a
+            href="#contact-section"
+            aria-label="Link to contact form lower on this page"
+            >Contact us</a
+          >
+          to talk equipment, to chat about outdoor style or to enquire about
+          upcoming courses.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- store address section -->
+  <section>
+    <div class="center-contact">
+      <div class="contact-page-headings">
+        <h2>Store Address <i class="fa-solid fa-phone"></i></h2>
+        <hr />
+        <ul>
+          <li><b>Location:</b> Dublin, Ireland</li>
+          <li><b>Phone:</b> 00353895557422</li>
+          <!-- credit for mailto: w3schools -->
+          <li>
+            <b>Email:</b
+            ><a href="mailto:info@summitstyle.com"> info@summitstyle.com</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- contact form section -->
+  <section id="contact-section">
+    <div class="row justify-content-center text-black">
+      <div class="col-10 col-lg-8 col-xl-6 my-4 p-4 contact-form">
+        <h2 class="text-center">Would you like to get in contact?</h2>
+        <p>
+          Welcome to the Summit Style contact form! Let us know the topic you're
+          interested in chatting about. If you're eyeing a course, don't forget
+          to specify your availability timeframe. We're eager to hear from you
+          and help you gear up for your next summit adventure!
+        </p>
+
+        <!-- form -->
+        <form method="post">
+          {{ contact_form | crispy }} {% csrf_token %}
+          <button
+            class="btn contact-btn"
+            aria-label="click this button to submit your contact request"
+            type="submit"
+          >
+            Submit
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
 </div>
 {% endblock %}
