@@ -353,7 +353,8 @@ In the diagram below the one to one and many to many relationships can be seen.
 
 Please find a screenshot of tables below. These tables are in preparation for the final entity relationship diagram (ERD).
 
-![ERD](docs/readme_images/erd1_300424.PNG)
+![ERD1](docs/readme_images/erd1_190524.PNG)
+![ERD2](docs/readme_images/erd2_190524.PNG)
 
 ## Technology Used
 
