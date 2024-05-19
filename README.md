@@ -345,6 +345,10 @@ Two of the three custom models can be seen here.
 
 ### Entity relationship diagram
 
+In the diagram below the one to one and many to many relationships can be seen.
+
+![DBSchema](docs/readme_images/db_schema.PNG)
+
 ### Entity relationship tables
 
 Please find a screenshot of tables below. These tables are in preparation for the final entity relationship diagram (ERD).
@@ -367,9 +371,6 @@ Please find a screenshot of tables below. These tables are in preparation for th
 - Bootstrap
 
 ### Database
-In the diagram below the one to one and many to many relationships can be seen.
-
-![DBSchema](docs/readme_images/db_schema.PNG)
 
 - [PostgreSQL from Code Institute](https://dbs.ci-dbs.net/ "link to postgresql from code institute") was used as the PostgreSQL database for this project
 
