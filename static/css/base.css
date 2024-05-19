@@ -686,8 +686,7 @@ footer {
 .contact-page-headings {
   width: 100%;
   line-height: 26px;
-  clear: both;
-  margin-bottom: 50px;
+  margin-bottom: 2rem;
 }
 
 .contact-page-headings a {
