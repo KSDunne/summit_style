@@ -28,7 +28,7 @@ class ContactRequest(models.Model):
     email = models.EmailField()
     topic = models.TextField(choices=TOPICS)
     timeframe = models.TextField(choices=TIMEFRAME, null=True, blank=True)
-    message = models.TextField()
+    message = models.TextField(max_length=900)
     read = models.BooleanField(default=False)
     created_on = models.DateTimeField(auto_now_add=True)
 

@@ -15,7 +15,7 @@ def contact_page(request):
     Allows user contact requests.
 
     **Context**
-    
+
     ``contact_form``
             An instance of :form:`contact.ContactForm`.
 
@@ -34,6 +34,12 @@ def contact_page(request):
                 "Contact request received! We try to respond within"
                 + " 2 working days.",
             )
+        else:
+            error_message = "There was an error processing your request."
+            +" Please correct the following errors: {}".format(
+                contact_form.errors.as_text()
+            )
+            messages.error(request, error_message)
 
     contact_form = ContactForm()
 

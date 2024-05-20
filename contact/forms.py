@@ -1,5 +1,7 @@
 from django import forms
 from .models import ContactRequest
+from django.core.exceptions import ValidationError
+import re
 
 
 class ContactForm(forms.ModelForm):
@@ -26,3 +28,18 @@ class ContactForm(forms.ModelForm):
             "timeframe": "Availability for a course",
             "message": "Message",
         }
+        
+    def clean(self):
+        cleaned_data = super().clean()
+        phone = cleaned_data.get("phone")
+
+        if phone:
+            """
+            Regular expression to check if the phone field contains only
+            digits, spaces, parentheses, + or -.
+            """
+            if not re.match(r'^[\d\s()+-]+$', phone):
+                raise ValidationError(
+                    "Phone number should contain only"
+                    + " digits, spaces, parentheses, + or -."
+                )
