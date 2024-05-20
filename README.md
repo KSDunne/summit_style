@@ -233,6 +233,10 @@ Firstly, a logo was designed using [hubspot brand kit generator](https://www.hub
 
 ![facebook page](docs/readme_images/facebook_page.png)
 
+A 'sign up' call to action button was added to the facebook page that links back to the main heroku website encouraging facebook users to navigate to our site and sign up to the newsletter. A post was also created with a link to the live heroku website.
+
+![facebook page](docs/readme_images/facebook_page2.png)
+
 ## Design
 
 ### Color
