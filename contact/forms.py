@@ -28,7 +28,7 @@ class ContactForm(forms.ModelForm):
             "timeframe": "Availability for a course",
             "message": "Message",
         }
-        
+
     def clean(self):
         cleaned_data = super().clean()
         phone = cleaned_data.get("phone")
@@ -38,7 +38,7 @@ class ContactForm(forms.ModelForm):
             Regular expression to check if the phone field contains only
             digits, spaces, parentheses, + or -.
             """
-            if not re.match(r'^[\d\s()+-]+$', phone):
+            if not re.match(r"^[\d\s()+-]+$", phone):
                 raise ValidationError(
                     "Phone number should contain only"
                     + " digits, spaces, parentheses, + or -."

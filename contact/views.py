@@ -35,13 +35,14 @@ def contact_page(request):
                 + " 2 working days.",
             )
         else:
-            error_message = (
-                "There was an error processing your request."
-                " Please correct the following errors: {}".format(
-                    contact_form.errors.as_text()
-                )
-            )
+            error_message = ("There was an error processing your request."
+                             + " See error displayed on form.")
             messages.error(request, error_message)
+            return render(
+                request,
+                "contact/contact.html",
+                {"contact_form": contact_form, "error_message": error_message},
+            )
 
     contact_form = ContactForm()
 
