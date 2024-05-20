@@ -368,7 +368,7 @@ In the diagram below, OneToOne, ManyToMany and Foreign Key relationships can be 
 Please find a screenshot of tables below. These tables were created as rough work in preparation for the final entity relationship diagram (ERD).
 
 ![ERD1](docs/readme_images/erd1_190524.png)
-![ERD2](docs/readme_images/erd2_190524.png)
+![ERD2](docs/readme_images/erd2_200524.png)
 
 ## Technology Used
 
