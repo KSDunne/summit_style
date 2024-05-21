@@ -89,7 +89,7 @@ An ecommerce app is designed to facilitate commercial or business transactions a
 35. Contact summit style using a contact form and recieve feedback that my query has been stored and the company will respond in a few days (epic 8)
 36. Toggle a heart button to add and remove products and courses from my wishlist, so that when I have the money or when they go on special offer I can access them easily (epic 7)
 37. Go to a page that has a list of my wishlist items, so that I don't have to spend time looking all over the site for items that I liked in the past (epic 7)
-38. Easily locate the privacy policy, so that I can see how my personal data is protected
+38. Easily locate the privacy policy, so that I can see how my personal data is protected (epic 2)
 
 - As a store owner, I want to be able to:
 
