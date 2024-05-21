@@ -89,13 +89,14 @@ An ecommerce app is designed to facilitate commercial or business transactions a
 35. Contact summit style using a contact form and recieve feedback that my query has been stored and the company will respond in a few days (epic 8)
 36. Toggle a heart button to add and remove products and courses from my wishlist, so that when I have the money or when they go on special offer I can access them easily (epic 7)
 37. Go to a page that has a list of my wishlist items, so that I don't have to spend time looking all over the site for items that I liked in the past (epic 7)
+38. Easily locate the privacy policy, so that I can see how my personal data is protected
 
 - As a store owner, I want to be able to:
 
-38.	Add a product or course, so that I can add new offerings as they become available for me to sell (epic 5)
-39.	Edit or update a product or course information, so that I can change product and course prices, descriptions and images if needed (epic 5)
-40.	Delete a product or course, so that I can remove items that are no longer for sale (epic 5)
-41. Not delete products by an accident. I get asked are you sure (epic 5)
+39.	Add a product or course, so that I can add new offerings as they become available for me to sell (epic 5)
+40.	Edit or update a product or course information, so that I can change product and course prices, descriptions and images if needed (epic 5)
+41.	Delete a product or course, so that I can remove items that are no longer for sale (epic 5)
+42. Not delete products by an accident. I get asked are you sure (epic 5)
 
 ## Sprints
 
