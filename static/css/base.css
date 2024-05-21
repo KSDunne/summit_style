@@ -344,14 +344,13 @@ footer {
   font-weight: 500;
 }
 
-.contact-text-email {
-  color: black;
+.contact-text-link {
   font-size: 102%;
   font-weight: 600;
   padding-bottom: 1rem;
 }
 
-.contact-text-email a {
+.contact-text-link a {
   color: #692d5d;
 }
 
