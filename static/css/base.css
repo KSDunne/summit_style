@@ -651,6 +651,10 @@ footer {
 
 /* contact page styling */
 
+.contact-container {
+  overflow-x: hidden;
+}
+
 #hero-outer-contact {
   height: 65vh;
   width: 100%;
