@@ -480,7 +480,11 @@ footer {
   color: #ffff00;
 }
 
-/* banner on products page */
+/* products page */
+
+.products-container {
+  overflow-x: hidden;
+}
 
 .browse-container {
   margin-bottom: 3rem;
