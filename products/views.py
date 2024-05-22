@@ -16,7 +16,26 @@ from .forms import ProductForm, StarForm
 
 
 def all_products(request):
-    """A view to show all products, including sorting and search queries"""
+    """
+    A view to show all products, including sorting and search queries.
+
+    Uses :model: `products.Product` and :model: `products.Category`
+
+    **Context**
+
+    ``products``
+        A list of instances of :model:`products.Product`.
+    ``search_term``
+        The search query string entered by the user, if any.
+    ``current_categories``
+        A list of instances of :model:`products.Category` filtered by the user's selection.
+    ``current_sorting``
+        The current sorting method applied to the products list.
+
+    **Template:**
+
+    :template:`products/products.html`
+    """
 
     products = Product.objects.all()
     query = None
@@ -67,16 +86,37 @@ def all_products(request):
 
 @login_required
 def product_detail(request, product_id):
-    """A view to show individual product details"""
+    """
+    A view to show individual product details.
+
+    Uses :model: `products.Product` and :model: `reviews.Star`
+
+    **Context**
+
+    ``product``
+        An instance of :model:`products.Product`.
+    ``stars``
+        A queryset of :model:`reviews.Star` instances related to the product.
+    ``review_count``
+        The count of reviews (instances of :model:`reviews.Star`) for the product.
+    ``star_form``
+        An instance of :form:`reviews.StarForm` for submitting a new review.
+    ``liked``
+        Indicates if the product is in the user's wishlist.
+
+    **Template:**
+
+    :template:`products/product_detail.html`
+    """
 
     product = get_object_or_404(Product, pk=product_id)
     stars = Star.objects.filter(product=product)
     review_count = Star.objects.filter(product=product).count()
     liked = False
-    
+
     if product.wishlist.filter(id=request.user.id).exists():
         liked = True
-        
+
     if request.method == "POST":
         star_form = StarForm(data=request.POST)
         if star_form.is_valid():
@@ -121,7 +161,8 @@ class Wishlist(LoginRequiredMixin, View):
             product.wishlist.add(request.user)
 
         return HttpResponseRedirect(reverse("product_detail", args=[pk]))
-    
+
+
 class MyWishlist(LoginRequiredMixin, View):
     """
     Display wishlist for the logged-in user on the my_wishlist template.
@@ -250,6 +291,9 @@ class DeleteReview(LoginRequiredMixin, UserPassesTestMixin, DeleteView):
         return reverse_lazy("product_detail", kwargs={"product_id": star.product.pk})
 
     def form_valid(self, form):
+        """
+        Called when the form is valid. Displays a success message.
+        """
         messages.success(
             self.request,
             "Your review has been deleted successfully!",
@@ -272,7 +316,27 @@ class DeleteReview(LoginRequiredMixin, UserPassesTestMixin, DeleteView):
 
 @login_required
 def add_product(request):
-    """Add a product to the store"""
+    """
+    Add a product to the store. This view allows
+    superusers to add a new product to the store's
+    inventory.
+
+    Uses :form: `products.ProductForm`
+
+    **Context**
+
+    ``form``
+        An instance of :form:`products.ProductForm` for adding a new product.
+
+    **Template**
+
+    :template:`products/add_product.html`
+
+    **Redirects**
+
+    Redirects to the home page if the user is not a superuser.
+    Redirects to the product detail page after successful addition of the product.
+    """
     if not request.user.is_superuser:
         messages.error(request, "Sorry, only store owners can do that.")
         return redirect(reverse("home"))
@@ -300,7 +364,29 @@ def add_product(request):
 
 @login_required
 def edit_product(request, product_id):
-    """Edit a product in the store"""
+    """
+    Edit a product in the store. This view allows
+    superusers to edit an existing product in the
+    store's inventory.
+
+    Uses :form: `products.ProductForm`
+
+    **Context**
+
+    ``form``
+        An instance of :form:`products.ProductForm` for editing the product.
+    ``product``
+        An instance of :model:`products.Product` representing the product to be edited.
+
+    **Template**
+
+    :template:`products/edit_product.html`
+
+    **Redirects**
+
+    Redirects to the home page if the user is not a superuser.
+    Redirects to the product detail page after successful editing of the product.
+    """
     if not request.user.is_superuser:
         messages.error(request, "Sorry, only store owners can do that.")
         return redirect(reverse("home"))
@@ -328,20 +414,43 @@ def edit_product(request, product_id):
 
     return render(request, template, context)
 
+
 @login_required
 def delete_product(request, product_id):
-    """Delete a product from the store with confirmation"""
+    """
+    Delete a product from the store with confirmation. This
+    view allows superusers to delete an existing product
+    from the store's inventory. It displays a confirmation
+    page before deletion.
+
+    Uses :model: `products.Product`
+
+    **Context**
+
+    ``product``
+        An instance of :model:`products.Product` representing the product to be deleted.
+
+    **Template**
+
+    :template:`products/product_confirm_delete.html`
+
+    **Redirects**
+
+    Redirects to the home page if the user is not a superuser.
+    Redirects to the products page after successful deletion of the product.
+    """
+
     if not request.user.is_superuser:
         messages.error(request, "Sorry, only store owners can do that.")
         return redirect(reverse("home"))
 
     product = get_object_or_404(Product, pk=product_id)
 
-    if request.method == 'POST':
+    if request.method == "POST":
         # If the request is a POST request, it means the user has confirmed deletion.
         product.delete()
         messages.success(request, "Product deleted!")
         return redirect(reverse("products"))
 
     # If it's a GET request, render the confirmation page.
-    return render(request, 'products/product_confirm_delete.html', {'product': product})
+    return render(request, "products/product_confirm_delete.html", {"product": product})
