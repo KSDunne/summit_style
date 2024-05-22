@@ -724,6 +724,10 @@ footer {
   margin: 0 auto;
 }
 
+.subscribe-heading {
+  font-size: 130%;
+}
+
 /* partnerships section on index page */
 
 #center-partnerships {
@@ -956,6 +960,12 @@ footer {
 
 .sort-select-width {
   width: 70%;
+}
+
+/* shopping cart custom style */
+
+.sub-total {
+  font-size: 120%;
 }
 
 /* media queries */
