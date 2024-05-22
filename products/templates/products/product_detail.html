@@ -6,49 +6,51 @@
 </div>
 {% endblock %} {% block content %}
 <div class="product-detail-container d-flex flex-column flex-grow-1">
-<div class="overlay"></div>
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-12 col-md-6 col-lg-4 offset-lg-2">
-      <div class="image-container my-5">
-        {% if product.image %}
-        <a href="{{ product.image.url }}" target="_blank">
-          <img
-            class="card-img-top img-fluid"
-            src="{{ product.image.url }}"
-            alt="{{ product.name }}"
-          />
-        </a>
-        {% else %}
-        <a href="">
-          <img
-            class="card-img-top img-fluid"
-            src="{{ MEDIA_URL }}noimage.png"
-            alt="{{ product.name }}"
-          />
-        </a>
-        {% endif %}
-      </div>
-    </div>
-    <div class="col-12 col-md-6 col-lg-4">
-      <div class="product-details-container mb-5 mt-md-5">
-        <h4 class="mb-0">{{ product.name }}</h4>
-        <p class="lead mb-0 text-left font-weight-bold">€{{ product.price }}</p>
-        {% if product.category %}
-        <p class="small mt-1 mb-0">
-          <a
-            class="text-muted"
-            href="{% url 'products' %}?category={{ product.category.name }}"
-          >
-            <i class="fas fa-tag mr-1"></i>{{ product.category.friendly_name }}
+  <div class="overlay"></div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12 col-md-6 col-lg-4 offset-lg-2">
+        <div class="image-container my-5">
+          {% if product.image %}
+          <a href="{{ product.image.url }}" target="_blank">
+            <img
+              class="card-img-top img-fluid"
+              src="{{ product.image.url }}"
+              alt="{{ product.name }}"
+            />
           </a>
-        </p>
-        {% endif %}
+          {% else %}
+          <a href="">
+            <img
+              class="card-img-top img-fluid"
+              src="{{ MEDIA_URL }}noimage.png"
+              alt="{{ product.name }}"
+            />
+          </a>
+          {% endif %}
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="product-details-container mb-5 mt-md-5">
+          <h4 class="mb-0">{{ product.name }}</h4>
+          <p class="lead mb-0 text-left font-weight-bold">
+            €{{ product.price }}
+          </p>
+          {% if product.category %}
+          <p class="small mt-1 mb-0">
+            <a
+              class="text-muted"
+              href="{% url 'products' %}?category={{ product.category.name }}"
+            >
+              <i class="fas fa-tag mr-1"></i>{{ product.category.friendly_name }}
+            </a>
+          </p>
+          {% endif %}
 
-        <!-- wishlist section -->
-        <div class="col pt-3 pl-0 mt-3">
-          <h5>Wishlist</h5>
-          <strong>Click heart</strong> to add or remove from wishlist:
+          <!-- wishlist section -->
+          <div class="col pt-3 pl-0 mt-3">
+            <h5>Wishlist</h5>
+            <strong>Click heart</strong> to add or remove from wishlist: 
             {% if user.is_authenticated %}
             <form
               class="d-inline"
@@ -79,248 +81,263 @@
             <span class="text-secondary"><i class="far fa-heart"></i></span>
             {% endif %}
             <!-- The number of wishes (full heart clicks by multiple users) is here -->
-            <div class="text-secondary">Number of users that added this to their wishlist: <strong>{{ product.number_of_wishes }}</strong></div>
-        </div>
-
-        <!-- average star rating section -->
-        <div class="star-container">
-          <div class="card star-card">
-            <div class="card-body star-card-body">
-              <h5>Star Rating</h5>
-              {% if product.average_rating %}         
-              <h6 class="card-title" id="average-rating">
-                Avg rating:
-                <span
-                  class="fa fa-star {% if product.average_rating > 0 %} checked {% endif %}"
-                ></span>
-                <span
-                  class="fa fa-star {% if product.average_rating > 1 %} checked {% endif %}"
-                ></span>
-                <span
-                  class="fa fa-star {% if product.average_rating > 2 %} checked {% endif %}"
-                ></span>
-                <span
-                  class="fa fa-star {% if product.average_rating > 3 %} checked {% endif %}"
-                ></span>
-                <span
-                  class="fa fa-star {% if product.average_rating > 4 %} checked {% endif %}"
-                ></span>
-              </h6>
-              {% else %}
-              <h6 class="no-rating">No Rating Yet - Stars Appear Here When Someone Rates The Product!</h6>
-              {% endif %}           
-              <h6>Scroll to have your say!</h6>
+            <div class="text-secondary">
+              Number of users that added this to their wishlist:
+              <strong>{{ product.number_of_wishes }}</strong>
             </div>
           </div>
-        </div>
 
-        <h6>Description:</h6>
-        <p class="prod-detail-describe">{{ product.description }}</p>
-        {% if request.user.is_superuser %}
-        <small class="pd-edit-delete">
-          <a href="{% url 'edit_product' product.id %}">Edit</a> |
-          <a class="text-danger" href="{% url 'delete_product' product.id %}"
-            >Delete</a
+          <!-- average star rating section -->
+          <div class="star-container">
+            <div class="card star-card">
+              <div class="card-body star-card-body">
+                <h5>Star Rating</h5>
+                {% if product.average_rating %}
+                <h6 class="card-title" id="average-rating">
+                  Avg rating:
+                  <span
+                    class="fa fa-star {% if product.average_rating > 0 %} checked {% endif %}"
+                  ></span>
+                  <span
+                    class="fa fa-star {% if product.average_rating > 1 %} checked {% endif %}"
+                  ></span>
+                  <span
+                    class="fa fa-star {% if product.average_rating > 2 %} checked {% endif %}"
+                  ></span>
+                  <span
+                    class="fa fa-star {% if product.average_rating > 3 %} checked {% endif %}"
+                  ></span>
+                  <span
+                    class="fa fa-star {% if product.average_rating > 4 %} checked {% endif %}"
+                  ></span>
+                </h6>
+                {% else %}
+                <h6 class="no-rating">
+                  No Rating Yet - Stars Appear Here When Someone Rates The
+                  Product!
+                </h6>
+                {% endif %}
+                <h6>Scroll to have your say!</h6>
+              </div>
+            </div>
+          </div>
+
+          <h6>Description:</h6>
+          <p class="prod-detail-describe">{{ product.description }}</p>
+          {% if request.user.is_superuser %}
+          <small class="pd-edit-delete">
+            <a href="{% url 'edit_product' product.id %}">Edit</a> |
+            <a class="text-danger" href="{% url 'delete_product' product.id %}"
+              >Delete</a
+            >
+          </small>
+          {% endif %}
+          <form
+            class="form"
+            action="{% url 'add_to_cart' product.id %}"
+            method="POST"
           >
-        </small>
-        {% endif %}
-        <form
-          class="form"
-          action="{% url 'add_to_cart' product.id %}"
-          method="POST"
-        >
-          {% csrf_token %}
-          <div class="form-row">
-            {% with product.has_sizes as s %} {% if s %}
-            <div class="col-12">
-              <p class="pd-size"><strong>Size:</strong></p>
-              <select
-                class="form-control rounded-0 w-50"
-                name="product_size"
-                id="id_product_size"
-              >
-                <option value="xs">XS</option>
-                <option value="s">S</option>
-                <option value="m" selected>M</option>
-                <option value="l">L</option>
-                <option value="xl">XL</option>
-              </select>
-            </div>
-            {% endif %}
-            <div class="col-12">
-              {% if product.is_course %} 
-              <p class="mt-3"><strong>In-person or Online:</strong> In-person</p>
-              <p class="mt-3"><strong>Lenth of course:</strong> 3 hr</p>
-              <p class="mt-3"><strong>Select number of course tickets:</strong></p>
-              <p class="mt-3"><strong>Note <i class="fa-regular fa-clipboard"></i> </strong> If in-person select 1 per person. If on-line select 1 per log-in!</p>
-              {% else %}
-              <p class="mt-3"><strong>Quantity:</strong></p>
-              {% endif %}
-              <div class="form-group w-50">
-                <div class="input-group input-group-{{ product.id }}">
-                  <div class="input-group-prepend">
-                    <button
-                      class="decrement-qty btn btn-black rounded-0 decrement-qty_{{ product.id }}"
-                      data-item_id="{{ product.id }}"
-                    >
-                      <span class="icon">
-                        <i class="fas fa-minus"></i>
-                      </span>
-                    </button>
-                  </div>
-                  <input
-                    class="form-control qty_input id_qty_{{ product.id }}"
-                    type="number"
-                    name="quantity"
-                    value="1"
-                    min="1"
-                    max="99"
-                    data-item_id="{{ product.id }}"
-                  />
-                  <div class="input-group-append">
-                    <button
-                      class="increment-qty btn btn-black rounded-0 increment-qty_{{ product.id }}"
-                      data-item_id="{{ product.id }}"
-                    >
-                      <span class="icon">
-                        <i class="fas fa-plus"></i>
-                      </span>
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col{% if s %}-12 mt-2{% endif %}">
-              <a
-                href="{% url 'products' %}"
-                class="btn btn-outline-black rounded-0 mt-5"
-              >
-                <span class="icon">
-                  <i class="fas fa-chevron-left"></i>
-                </span>
-                <span class="text-uppercase">Keep Shopping</span>
-              </a>
-              <input
-                type="submit"
-                class="btn btn-black rounded-0 text-uppercase mt-5"
-                value="Add to Cart"
-              />
-            </div>
-            <input
-              type="hidden"
-              name="redirect_url"
-              value="{{ request.path }}"
-            />
-            {% endwith %}
-          </div>
-        </form>
-      </div>
-    </div>
-  </div>
-
-  <!-- rate and review panel-->
-  <section class="review-title-section">
-    <div class="container">
-      <div class="row justify-content-center align-items-center">
-        <div class="col-md-10">
-          <div class="row">
-            <div class="col-12 text-center">
-              <hr />
-              <h3>
-                <strong class="text-secondary">Rate and Review Panel</strong>
-              </h3>
-              <!-- displaying count of reviews on this product -->
-              <div>
-                <strong
-                  ><i class="fa-solid fa-pencil"></i> {{ review_count }}
-                  reviews</strong
+            {% csrf_token %}
+            <div class="form-row">
+              {% with product.has_sizes as s %} {% if s %}
+              <div class="col-12">
+                <p class="pd-size"><strong>Size:</strong></p>
+                <select
+                  class="form-control rounded-0 w-50"
+                  name="product_size"
+                  id="id_product_size"
                 >
+                  <option value="xs">XS</option>
+                  <option value="s">S</option>
+                  <option value="m" selected>M</option>
+                  <option value="l">L</option>
+                  <option value="xl">XL</option>
+                </select>
               </div>
-              <hr />
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="reviews-section">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <div class="card all-reviews mb-4 mt-3">
-            <h3 class="card-header">Reviews:</h3>
-            <div class="card-body">
-              <!-- Your review display code here -->
-              <!-- we want a for loop inside the control tags
-            to iterate through each review in reviews -->
-              {% for star in stars %}
-              <div class="p-2 review-item">
-                <p><strong>On: </strong><span> {{ star.created_on }} </span></p>
-                <p><strong>User: </strong>{{ star.user}}</p>
-                <p>
-                  <strong>Rated: </strong>{{ star.rating}}
-                  <i class="fa-regular fa-star"></i>
+              {% endif %}
+              <div class="col-12">
+                {% if product.is_course %}
+                <p class="mt-3">
+                  <strong>In-person or Online:</strong> In-person
                 </p>
-                <p><strong>Title: </strong>{{ star.title}}</p>
-                <div>
-                  <p><strong>Review:</strong></p>
-                  <div>{{ star.body | linebreaks }}</div>
-                  {% if user.is_authenticated and star.user == user %}
-                  <div class="text-center">
-                    <a
-                      href="{% url 'edit_review' star.id %}"
-                      class="btn btn-primary edit-del-btn"
-                      >Edit</a
-                    >
-                    <a
-                      href="{% url 'delete_review' star.id %}"
-                      class="btn btn-primary edit-del-btn"
-                      >Delete</a
-                    >
-                  </div>
-                  {% endif %}
-                </div>
-              </div>
-              <!-- for loop ends here -->
-              {% endfor %}
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="card write-review mb-4 mt-3">
-            <h3 class="card-header">Write a Review:</h3>
-            <div class="text-center mt-3">
-              <!-- creating a new review -->
-              <div class="col-md-12 card mb-4 mt-3">
-                <div class="card-body">
-                  <h4 class="pt-3">
-                    <strong>Reviewing:</strong> {{ product.name }}
-                  </h4>
-                  <form
-                    method="POST"
-                    enctype="multipart/form-data"
-                    class="p-2 form"
-                  >
-                    {% csrf_token %} {{ star_form | crispy }}
-                    <h5 class="pt-3">
-                      <strong>From user:</strong> {{ request.user }}
-                    </h5>
-                    <div class="text-center">
-                      <button type="submit" class="btn btn-primary mt-2">
-                        Submit
+                <p class="mt-3"><strong>Lenth of course:</strong> 3 hr</p>
+                <p class="mt-3">
+                  <strong>Select number of course tickets:</strong>
+                </p>
+                <p class="mt-3">
+                  <strong>Note <i class="fa-regular fa-clipboard"></i> </strong>
+                  If in-person select 1 per person. If on-line select 1 per
+                  log-in!
+                </p>
+                {% else %}
+                <p class="mt-3"><strong>Quantity:</strong></p>
+                {% endif %}
+                <div class="form-group w-50">
+                  <div class="input-group input-group-{{ product.id }}">
+                    <div class="input-group-prepend">
+                      <button
+                        class="decrement-qty btn btn-black rounded-0 decrement-qty_{{ product.id }}"
+                        data-item_id="{{ product.id }}"
+                      >
+                        <span class="icon">
+                          <i class="fas fa-minus"></i>
+                        </span>
                       </button>
                     </div>
-                  </form>
+                    <input
+                      class="form-control qty_input id_qty_{{ product.id }}"
+                      type="number"
+                      name="quantity"
+                      value="1"
+                      min="1"
+                      max="99"
+                      data-item_id="{{ product.id }}"
+                    />
+                    <div class="input-group-append">
+                      <button
+                        class="increment-qty btn btn-black rounded-0 increment-qty_{{ product.id }}"
+                        data-item_id="{{ product.id }}"
+                      >
+                        <span class="icon">
+                          <i class="fas fa-plus"></i>
+                        </span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col{% if s %}-12 mt-2{% endif %}">
+                <a
+                  href="{% url 'products' %}"
+                  class="btn btn-outline-black rounded-0 mt-5"
+                >
+                  <span class="icon">
+                    <i class="fas fa-chevron-left"></i>
+                  </span>
+                  <span class="text-uppercase">Keep Shopping</span>
+                </a>
+                <input
+                  type="submit"
+                  class="btn btn-black rounded-0 text-uppercase mt-5"
+                  value="Add to Cart"
+                />
+              </div>
+              <input
+                type="hidden"
+                name="redirect_url"
+                value="{{ request.path }}"
+              />
+              {% endwith %}
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- rate and review panel-->
+    <section class="review-title-section">
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-md-10">
+            <div class="row">
+              <div class="col-12 text-center">
+                <hr />
+                <h3>
+                  <strong class="text-secondary">Rate and Review Panel</strong>
+                </h3>
+                <!-- displaying count of reviews on this product -->
+                <div>
+                  <strong
+                    ><i class="fa-solid fa-pencil"></i> {{ review_count }}
+                    reviews</strong
+                  >
+                </div>
+                <hr />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="reviews-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card all-reviews mb-4 mt-3">
+              <h3 class="card-header">Reviews:</h3>
+              <div class="card-body">
+                <!-- we want a for loop inside the control tags
+            to iterate through each review in reviews -->
+                {% for star in stars %}
+                <div class="p-2 review-item">
+                  <p>
+                    <strong>On: </strong><span> {{ star.created_on }} </span>
+                  </p>
+                  <p><strong>User: </strong>{{ star.user}}</p>
+                  <p>
+                    <strong>Rated: </strong>{{ star.rating}}
+                    <i class="fa-regular fa-star"></i>
+                  </p>
+                  <p><strong>Title: </strong>{{ star.title}}</p>
+                  <div>
+                    <p><strong>Review:</strong></p>
+                    <div>{{ star.body | linebreaks }}</div>
+                    {% if user.is_authenticated and star.user == user %}
+                    <div class="text-center">
+                      <a
+                        href="{% url 'edit_review' star.id %}"
+                        class="btn btn-primary edit-del-btn"
+                        >Edit</a
+                      >
+                      <a
+                        href="{% url 'delete_review' star.id %}"
+                        class="btn btn-primary edit-del-btn"
+                        >Delete</a
+                      >
+                    </div>
+                    {% endif %}
+                  </div>
+                </div>
+                <!-- for loop ends here -->
+                {% endfor %}
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card write-review mb-4 mt-3">
+              <h3 class="card-header">Write a Review:</h3>
+              <div class="text-center mt-3">
+                <!-- creating a new review -->
+                <div class="col-md-12 card mb-4 mt-3">
+                  <div class="card-body">
+                    <h4 class="pt-3">
+                      <strong>Reviewing:</strong> {{ product.name }}
+                    </h4>
+                    <form
+                      method="POST"
+                      enctype="multipart/form-data"
+                      class="p-2 form"
+                    >
+                      {% csrf_token %} {{ star_form | crispy }}
+                      <h5 class="pt-3">
+                        <strong>From user:</strong> {{ request.user }}
+                      </h5>
+                      <div class="text-center">
+                        <button type="submit" class="btn btn-primary mt-2">
+                          Submit
+                        </button>
+                      </div>
+                    </form>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-</div>
+    </section>
+  </div>
 </div>
 {% endblock %} {% block postloadjs %} {{ block.super }} 
 {% include 'products/includes/quantity_input_script.html' %} {% endblock %}
