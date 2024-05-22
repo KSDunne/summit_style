@@ -1,19 +1,25 @@
-from django.core.validators import MinLengthValidator, MinValueValidator, MaxValueValidator
+from django.core.validators import (
+    MinLengthValidator,
+    MinValueValidator,
+    MaxValueValidator,
+)
 from django.db import models
 from django.contrib.auth.models import User
 from django.db.models import Avg
 
 # Models for products app
 
-'''
+"""
 Credit: https://github.com/Code-Institute-Solutions/boutique_ado_v1/blob
 /5e595d250f0d7a408a7ccd40bfa25d24c000034d/products/models.py#L3
-'''
+"""
+
+
 class Category(models.Model):
 
     class Meta:
-        verbose_name_plural = 'Categories'
-        
+        verbose_name_plural = "Categories"
+
     name = models.CharField(max_length=254)
     friendly_name = models.CharField(max_length=254, null=True, blank=True)
 
@@ -23,14 +29,19 @@ class Category(models.Model):
     def get_friendly_name(self):
         return self.friendly_name
 
-'''
+
+"""
 Credit: https://github.com/Code-Institute-Solutions/boutique_ado_v1/blob
 /5e595d250f0d7a408a7ccd40bfa25d24c000034d/products/models.py#L18
 I changed this model by adding a 'wishlist' field, a 'is_course' field
 and I set 'has_sizes' to a default of True.
-'''
+"""
+
+
 class Product(models.Model):
-    category = models.ForeignKey('Category', null=True, blank=True, on_delete=models.SET_NULL)
+    category = models.ForeignKey(
+        "Category", null=True, blank=True, on_delete=models.SET_NULL
+    )
     sku = models.CharField(max_length=254, null=True, blank=True)
     name = models.CharField(max_length=254)
     description = models.TextField()
@@ -45,9 +56,12 @@ class Product(models.Model):
         return self.name
 
     def average_rating(self) -> int:
-        avg_rating = Star.objects.filter(product=self).aggregate(Avg("rating"))["rating__avg"] or 0
+        avg_rating = (
+            Star.objects.filter(product=self).aggregate(Avg("rating"))["rating__avg"]
+            or 0
+        )
         return round(avg_rating)
-    
+
     def number_of_wishes(self):
         return self.wishlist.count()
 
@@ -59,18 +73,19 @@ class Star(models.Model):
         default=0,
         validators=[
             MinValueValidator(1, "Rating must be at least 1"),
-            MaxValueValidator(5, "Rating must be a max of 5")
-        ]
+            MaxValueValidator(5, "Rating must be a max of 5"),
+        ],
     )
     title = models.CharField(max_length=180)
     body = models.TextField(
-        validators=[MinLengthValidator(
-            30, "Review must be greater than 30 characters")],
-        max_length=400
+        validators=[
+            MinLengthValidator(30, "Review must be greater than 30 characters")
+        ],
+        max_length=400,
     )
     created_on = models.DateTimeField(auto_now_add=True)
     updated_on = models.DateTimeField(auto_now=True)
-    
+
     class Meta:
         ordering = ["-created_on"]
 
