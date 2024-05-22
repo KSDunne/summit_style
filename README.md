@@ -2,7 +2,7 @@
 
 (Developer: Katie Dunne)
 
-![AmIResponsive Image](docs/readme_images/amiresponsive.PNG)
+![AmIResponsive Image](docs/readme_images/amiresponsive220524.PNG)
 
 ## Live website
 
