@@ -7,175 +7,179 @@
 </div>
 {% endblock %} {% block content %}
 <div class="index-container d-flex flex-column flex-grow-1">
-<!-- credit for hero section code: love-running-2.0 depreciated project July 2023. Line break was added, as that was more suited to my aesthetic -->
-<section id="hero-outer">
-  <!--Image taken from https://www.shutterstock.com/image-photo/happy-hiker-winning-reaching-life-goal-366801260 -->
-  <img
-    src="{{ MEDIA_URL }}homepage_background.jpg"
-    class="hero-image"
-    alt="Image of a man with hiking equipment exploring some mountains"
-  />
-  <div class="title-text">
-    <h1>Summit Style</h1>
-  </div>
-  <div class="cover-text">
-    <h2>We sell outdoor clothing, equipment and courses</h2>
-  </div>
-</section>
-
-<div class="container my-4 text-center">
-  <div class="row">
-    <div class="col-md-8 offset-md-2">
-      <h3>
-        <a
-          href="{% url 'products' %}"
-          class="btn btn-index text-uppercase text-center py-2 mt-3 mb-4"
-          aria-label="Click button to navigate to products page)"
-          >Shop Now</a
-        >
-      </h3>
+  <!-- credit for hero section code: love-running-2.0 depreciated project July 2023. Line break was added, as that was more suited to my aesthetic -->
+  <section id="hero-outer">
+    <!-- Image taken from https://www.shutterstock.com/image-photo/happy-hiker-winning-reaching-life-goal-366801260 -->
+    <img
+      src="{{ MEDIA_URL }}homepage_background.jpg"
+      class="hero-image"
+      alt="Image of a man with hiking equipment exploring some mountains"
+    />
+    <div class="title-text">
+      <h1>Summit Style</h1>
     </div>
-  </div>
-</div>
+    <div class="cover-text">
+      <h2>We sell outdoor clothing, equipment and courses</h2>
+    </div>
+  </section>
 
-<!-- partnerships-->
-<section id="partnerships">
-  <div id="center-partnerships">
-    <div class="center-partnerships-heading">
-      <h3>We're Responsible <i class="fa-solid fa-leaf"></i></h3>
-      <hr />
-      <p id="partnerships-paragraph">
-        As an <strong>adventure store</strong> that sells <strong>outdoor clothing</strong> and
-      <strong>hiking equipment</strong>, we pride ourselves in the responsible corporate
-       partnerships we hold:
-      </p>
-      <ul id="partnerships-list">
-        <li>
+  <div class="container my-4 text-center">
+    <div class="row">
+      <div class="col-md-8 offset-md-2">
+        <h3>
           <a
-            href="https://www.paperfoam.com/technology/"
-            target="_blank"
-            rel="noopener"
-            aria-label="Visit this link that states how we partner with paper foam to use recycled packaging (opens in a new tab)"
-            >Recycled Packaging:</a
+            href="{% url 'products' %}"
+            class="btn btn-index text-uppercase text-center py-2 mt-3 mb-4"
+            aria-label="Click button to navigate to products page)"
+            >Shop Now</a
           >
-          We take our commitment to the environment seriously, even down to the
-          packaging of our <strong>hiking clothes</strong> and
-          <strong>equipment for camping in Ireland</strong>. Our innovative
-          approach includes using biodegradable and recycled materials for
-          packaging.
-        </li>
-
-        <li>
-          <a
-            href="https://www.reforestnation.ie"
-            target="_blank"
-            rel="noopener"
-            aria-label="Visit this link to read more about our tree planting partnership (opens in a new tab)"
-            >Reforest Nation:</a
-          >
-          Join us as we lead the way in responsible corporate practices, planting trees with every
-          sale to create a better, greener future. You can take on
-          <strong>Ireland's toughest hike</strong> with peace of mind that you
-          sourced your gear from a responsible company!
-        </li>
-      </ul>
+        </h3>
+      </div>
     </div>
   </div>
-</section>
 
-<!-- education -->
-<section id="education">
-  <div id="center-education">
-    <div class="center-education-heading">
-      <h3>We Educate <i class="fa-solid fa-graduation-cap"></i></h3>
-      <hr />
-      <p id="education-paragraph">
-        We're thrilled to announce that we frequently host onsite and online courses, split 
-        into <strong>tent building</strong> and <strong>outdoor skills</strong>. Not only do we 
-        sell gear, but we aim to share expertise too. Explore key topics below:
-      </p>
-      <ul id="education-list">
-        <li>
-          <a
-            href="{% url 'products' %}?category=tent_building,outdoor_skills"
-            aria-label="Link to a list of all courses offered on this site"
-            >Technical Skills and Safety:</a
-          >
-          These are 2 foundational pillars upon which all our courses are built.
-        </li>
+  <!-- partnerships-->
+  <section id="partnerships">
+    <div id="center-partnerships">
+      <div class="center-partnerships-heading">
+        <h3>We're Responsible <i class="fa-solid fa-leaf"></i></h3>
+        <hr />
+        <p id="partnerships-paragraph">
+          As an <strong>adventure store</strong> that sells
+          <strong>outdoor clothing</strong> and
+          <strong>hiking equipment</strong>, we pride ourselves in the
+          responsible corporate partnerships we hold:
+        </p>
+        <ul id="partnerships-list">
+          <li>
+            <a
+              href="https://www.paperfoam.com/technology/"
+              target="_blank"
+              rel="noopener"
+              aria-label="Visit this link that states how we partner with paper foam to use recycled packaging (opens in a new tab)"
+              >Recycled Packaging:</a
+            >
+            We take our commitment to the environment seriously, even down to
+            the packaging of our <strong>hiking clothes</strong> and
+            <strong>equipment for camping in Ireland</strong>. Our innovative
+            approach includes using biodegradable and recycled materials for
+            packaging.
+          </li>
 
-        <li>
-          <a
-            href="https://www.leavenotraceireland.org/"
-            target="_blank"
-            rel="noopener"
-            aria-label="Visit this link to read more about the principles of leave no trace (opens in a new tab)"
-            >Leave no trace:</a
-          >
-          We encourage our customers to enjoy and protect the outdoors responsibly, so we teach the core 
-          'leave no trace' principles in all of our courses.
-        </li>
-      </ul>
+          <li>
+            <a
+              href="https://www.reforestnation.ie"
+              target="_blank"
+              rel="noopener"
+              aria-label="Visit this link to read more about our tree planting partnership (opens in a new tab)"
+              >Reforest Nation:</a
+            >
+            Join us as we lead the way in responsible corporate practices,
+            planting trees with every sale to create a better, greener future.
+            You can take on
+            <strong>Ireland's toughest hike</strong> with peace of mind that you
+            sourced your gear from a responsible company!
+          </li>
+        </ul>
+      </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<!-- were green paragraph -->
-<section id="green-text-section">
-  <div id="green-text">
-    <div class="center-green-heading">
-      <h3>We're Green <i class="fa-solid fa-recycle"></i></h3>
-      <hr />
-      <p>
-        See the four points below that show how we are socially responsible and giving back to the
-        environment with every sale!
-      </p>
-    </div>
-  </div>
-</section>
+  <!-- education -->
+  <section id="education">
+    <div id="center-education">
+      <div class="center-education-heading">
+        <h3>We Educate <i class="fa-solid fa-graduation-cap"></i></h3>
+        <hr />
+        <p id="education-paragraph">
+          We're thrilled to announce that we frequently host onsite and online
+          courses, split into <strong>tent building</strong> and
+          <strong>outdoor skills</strong>. Not only do we sell gear, but we aim
+          to share expertise too. Explore key topics below:
+        </p>
+        <ul id="education-list">
+          <li>
+            <a
+              href="{% url 'products' %}?category=tent_building,outdoor_skills"
+              aria-label="Link to a list of all courses offered on this site"
+              >Technical Skills and Safety:</a
+            >
+            These are 2 foundational pillars upon which all our courses are
+            built.
+          </li>
 
-<!-- responsive green-boxes -->
-<!-- credit for responsive boxes code and responsive 'green box' design inspiration: love-running-v3 newest version August 2023 -->
-<section id="green-section">
-  <div id="green">
-    <div id="bcorporation-home">
-      <h4>B Corporation</h4>
-      <p>
-        As a certified B Corporation, we maintain high standards of social and
-        environmental performance, transparency and accountability across our
-        business. This certification evaluates a company's overall social and
-        environmental impact.
-      </p>
+          <li>
+            <a
+              href="https://www.leavenotraceireland.org/"
+              target="_blank"
+              rel="noopener"
+              aria-label="Visit this link to read more about the principles of leave no trace (opens in a new tab)"
+              >Leave no trace:</a
+            >
+            We encourage our customers to enjoy and protect the outdoors
+            responsibly, so we teach the core 'leave no trace' principles in all
+            of our courses.
+          </li>
+        </ul>
+      </div>
     </div>
-    <div id="ethical-home">
-      <h4>Ethical Sourcing</h4>
-      <p>
-        We are committed to ethically sourcing materials for our hiking clothes
-        and equipment, ensuring fair labor practices and supporting local
-        communities while delivering top-quality gear for your outdoor
-        adventures.
-      </p>
-    </div>
-    <div id="packaging-home">
-      <h4>Recycled Packaging</h4>
-      <p>
+  </section>
 
-        We're serious about the environment, even in packaging. Our innovative
-        approach involves biodegradable and recycled materials, cutting waste
-        and shrinking our shipping carbon footprint.
-      </p>
+  <!-- were green paragraph -->
+  <section id="green-text-section">
+    <div id="green-text">
+      <div class="center-green-heading">
+        <h3>We're Green <i class="fa-solid fa-recycle"></i></h3>
+        <hr />
+        <p>
+          See the four points below that show how we are socially responsible
+          and giving back to the environment with every sale!
+        </p>
+      </div>
     </div>
-    <div id="tree-home">
-      <h4>Tree Planting Partnership</h4>
-      <p>
-        For every purchase made on our platform, we partner with reforestation
-        initiatives to plant a tree in areas affected by deforestation. Join us
-        in our mission to not just sustain, but enhance our planet's natural
-        beauty for generations to come.
-      </p>
+  </section>
+
+  <!-- responsive green-boxes -->
+  <!-- credit for responsive boxes code and responsive 'green box' design inspiration: love-running-v3 newest version August 2023 -->
+  <section id="green-section">
+    <div id="green">
+      <div id="bcorporation-home">
+        <h4>B Corporation</h4>
+        <p>
+          As a certified B Corporation, we maintain high standards of social and
+          environmental performance, transparency and accountability across our
+          business. This certification evaluates a company's overall social and
+          environmental impact.
+        </p>
+      </div>
+      <div id="ethical-home">
+        <h4>Ethical Sourcing</h4>
+        <p>
+          We are committed to ethically sourcing materials for our hiking
+          clothes and equipment, ensuring fair labor practices and supporting
+          local communities while delivering top-quality gear for your outdoor
+          adventures.
+        </p>
+      </div>
+      <div id="packaging-home">
+        <h4>Recycled Packaging</h4>
+        <p>
+          We're serious about the environment, even in packaging. Our innovative
+          approach involves biodegradable and recycled materials, cutting waste
+          and shrinking our shipping carbon footprint.
+        </p>
+      </div>
+      <div id="tree-home">
+        <h4>Tree Planting Partnership</h4>
+        <p>
+          For every purchase made on our platform, we partner with reforestation
+          initiatives to plant a tree in areas affected by deforestation. Join
+          us in our mission to not just sustain, but enhance our planet's
+          natural beauty for generations to come.
+        </p>
+      </div>
     </div>
-  </div>
-</section>
+  </section>
 </div>
 
 {% endblock %}
