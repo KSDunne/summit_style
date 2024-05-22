@@ -11,7 +11,7 @@ body {
 }
 
 .content-container {
-  flex-grow: 1; 
+  flex-grow: 1;
   width: 100%;
 }
 
@@ -21,9 +21,9 @@ body {
 }
 
 .profile-title {
-    color: #29ae86;
-    font-size: 115%;
-    font-weight: 600;
+  color: #29ae86;
+  font-size: 115%;
+  font-weight: 600;
 }
 
 #profile-update-form .form-control {
