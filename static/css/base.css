@@ -836,7 +836,7 @@ footer {
 .title-text-aa {
   font-family: "Roboto", sans-serif;
   position: absolute;
-  top: 17vh;
+  top: 10vh;
   padding: 8px 7px 0px 7px;
   text-align: center;
   border-radius: 14px;
@@ -869,7 +869,7 @@ footer {
   background-color: rgba(33, 33, 33, 0.8);
   font-family: "Roboto", sans-serif;
   position: absolute;
-  top: 50vh;
+  top: 45vh;
   padding: 8px 7px 0px 7px;
   text-align: center;
   border-radius: 14px;
@@ -1177,7 +1177,7 @@ footer {
   .title-text-aa {
     font-family: "Roboto", sans-serif;
     position: absolute;
-    top: 30vh;
+    top: 20vh;
     padding: 8px 7px 0px 7px;
     text-align: center;
     border-radius: 14px;
@@ -1200,7 +1200,7 @@ footer {
   }
 
   .hero-image-aa {
-    height: 90vh;
+    height: 80vh;
     width: 100%;
     overflow: hidden;
     object-fit: cover;
@@ -1210,7 +1210,7 @@ footer {
     background-color: rgba(33, 33, 33, 0.8);
     font-family: "Roboto", sans-serif;
     position: absolute;
-    top: 74vh;
+    top: 64vh;
     padding: 8px 7px 0px 7px;
     text-align: center;
     border-radius: 14px;
