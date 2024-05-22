@@ -9,7 +9,29 @@ from checkout.models import Order
 
 @login_required
 def profile(request):
-    """Display the user's profile."""
+    """
+    Display and update the user's profile. This view allows
+    authenticated users to view and update their profile
+    information. If the request method is POST, it processes
+    the profile form data and updates the profile. If the request
+    method is GET, it displays the profile form with the
+    current profile information.
+
+    Uses :model: `profiles.UserProfile`
+    Uses :form: `profiles.UserProfileForm`
+
+    **Context**
+
+    ``form``
+        An instance of :form:`profiles.UserProfileForm` for editing the user profile.
+    ``on_profile_page``
+        A boolean indicating that the user is on the profile page.
+
+    **Template**
+
+    :template:`profiles/profile.html`
+
+    """
     profile = get_object_or_404(UserProfile, user=request.user)
 
     if request.method == "POST":
@@ -30,6 +52,22 @@ def profile(request):
 
 
 def order_history(request, order_number):
+    """
+    Display the order history for a specific order.
+
+    Uses :model: `checkout.Order`
+
+    **Context**
+
+    ``order``
+        An instance of :model:`checkout.Order` representing the order to be displayed.
+    ``from_profile``
+        A boolean indicating that the view is accessed from the profile page.
+
+    **Template**
+
+    :template:`checkout/checkout_success.html`
+    """
     order = get_object_or_404(Order, order_number=order_number)
 
     messages.info(
