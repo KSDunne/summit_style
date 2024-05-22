@@ -33,7 +33,7 @@ body {
 .title-text {
   font-family: "Roboto", sans-serif;
   position: absolute;
-  top: 12vh;
+  top: 9vh;
   padding: 8px 7px 0px 7px;
   text-align: center;
   border-radius: 14px;
@@ -52,19 +52,19 @@ body {
   background-color: rgba(33, 33, 33, 0.8);
   font-family: "Roboto", sans-serif;
   position: absolute;
-  top: 50vh;
+  top: 45vh;
   padding: 8px 7px 0px 7px;
   text-align: center;
   border-radius: 14px;
-  width: 70%;
+  width: 78%;
   color: #fef2d8;
-  left: 15%;
-  right: 15%;
+  left: 11%;
+  right: 11%;
 }
 
 .cover-text > h2 {
-  padding-top: 10px;
-  padding-bottom: 15px;
+  padding-top: 6px;
+  padding-bottom: 10px;
   font-size: 120%;
 }
 
