@@ -6,35 +6,37 @@ from .models import Product, Category, Star
 
 class ProductAdmin(admin.ModelAdmin):
     list_display = (
-        'sku',
-        'name',
-        'category',
-        'price',
-        'average_rating',
-        'image',
+        "sku",
+        "name",
+        "category",
+        "price",
+        "average_rating",
+        "image",
     )
 
-    ordering = ('sku',)
+    ordering = ("sku",)
 
 
 class CategoryAdmin(admin.ModelAdmin):
     list_display = (
-        'friendly_name',
-        'name',
+        "friendly_name",
+        "name",
     )
-    
+
+
 class StarAdmin(admin.ModelAdmin):
     list_display = (
-        'product_name',
-        'user',
-        'rating',
-        'title',
-        'created_on',
+        "product_name",
+        "user",
+        "rating",
+        "title",
+        "created_on",
     )
 
     def product_name(self, obj):
         return obj.product.name
-    product_name.short_description = 'Product'
+
+    product_name.short_description = "Product"
 
 
 admin.site.register(Product, ProductAdmin)
