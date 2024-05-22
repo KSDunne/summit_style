@@ -7,116 +7,119 @@
 {% endblock %} {% block content %}
 <!-- user wishList page -->
 <div class="wishlist-container d-flex flex-column flex-grow-1">
-<div class="container-fluid">
-  <div class="row">
-    <div class="col text-center mt-2">
-      <p class="heart-note mt-4">
-        <i class="fa-regular fa-clipboard fa-lg"></i>
-        <strong>Note:</strong> Click heart on product detail page to add or
-        remove from wishlist!
-      </p>
-      <h1 class="font-weight-bold text-uppercase text-black mt-5">
-        My Wishlist
-      </h1>
-    </div>
-  </div>
-  <!-- user wishList items -->
-  {% for product in wishlist_products %}
-  <div class="row justify-content-center mb-2">
-    <div class="col-12 col-md-6 col-lg-3">
-      <div class="image-container mt-5">
-        {% if product.image %}
-        <a href="{% url 'product_detail' product.id %}">
-          <img
-            class="card-img-top"
-            src="{{ product.image.url }}"
-            alt=" {{ product.name }}"
-          />
-        </a>
-        {% else %}
-        <a href="{% url 'product_detail' product.id %}">
-          <img
-            class="card-img-top"
-            src="{{ MEDIA_URL }}noimage.png "
-            alt=" {{ product.name }}"
-          />
-        </a>
-        {% endif %}
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col text-center mt-2">
+        <p class="heart-note mt-4">
+          <i class="fa-regular fa-clipboard fa-lg"></i>
+          <strong>Note:</strong> Click heart on product detail page to add or
+          remove from wishlist!
+        </p>
+        <h1 class="font-weight-bold text-uppercase text-black mt-5">
+          My Wishlist
+        </h1>
       </div>
     </div>
-    <div class="col-12 col-md-6 col-lg-4">
-      <div class="products-detail-container my-5">
-        <h3 class="mb-4 pt-md-5 text-black font-weight-bold">
-          {{ product.name }}
-        </h3>
-        <h4 class="text-black lead mb-2 text-left font-weight-bold">
-          €{{ product.price }}
-        </h4>
-        {% if product.category %}
-        <p class="small">
-          <a
-            class="text-muted text-black font-weight-bold"
-            href="{% url 'products' %}?category={{ product.category.name }}"
-          >
-            Category: {{ product.category.friendly_name }}
+    <!-- user wishList items -->
+    {% for product in wishlist_products %}
+    <div class="row justify-content-center mb-2">
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="image-container mt-5">
+          {% if product.image %}
+          <a href="{% url 'product_detail' product.id %}">
+            <img
+              class="card-img-top"
+              src="{{ product.image.url }}"
+              alt=" {{ product.name }}"
+            />
           </a>
-        </p>
-        {% endif %}
-        <div>
-          {% if product.average_rating %}         
-          <h6 class="text-black wl-rating">Avg rating:
-          <span
-            class="fa fa-star {% if product.average_rating > 0 %} checked {% endif %}"
-          ></span>
-          <span
-            class="fa fa-star {% if product.average_rating > 1 %} checked {% endif %}"
-          ></span>
-          <span
-            class="fa fa-star {% if product.average_rating > 2 %} checked {% endif %}"
-          ></span>
-          <span
-            class="fa fa-star {% if product.average_rating > 3 %} checked {% endif %}"
-          ></span>
-          <span
-            class="fa fa-star {% if product.average_rating > 4 %} checked {% endif %}"
-          ></span>
-          </h6>
           {% else %}
-          <h6 class="no-rating">No Rating Yet - Stars Appear Here When Someone Rates The Product!</h6>
-          {% endif %}   
+          <a href="{% url 'product_detail' product.id %}">
+            <img
+              class="card-img-top"
+              src="{{ MEDIA_URL }}noimage.png "
+              alt=" {{ product.name }}"
+            />
+          </a>
+          {% endif %}
         </div>
       </div>
-      <!-- product detail button -->
-      <div class="text-center">
-        <a
-          class="btn wl-product-btn w-30 mt-3"
-          href="{% url 'product_detail' product.id %}"
-        >
-          <span class="text-uppercase font-weight-bold">Product Details</span>
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="products-detail-container my-5">
+          <h3 class="mb-4 pt-md-5 text-black font-weight-bold">
+            {{ product.name }}
+          </h3>
+          <h4 class="text-black lead mb-2 text-left font-weight-bold">
+            €{{ product.price }}
+          </h4>
+          {% if product.category %}
+          <p class="small">
+            <a
+              class="text-muted text-black font-weight-bold"
+              href="{% url 'products' %}?category={{ product.category.name }}"
+            >
+              Category: {{ product.category.friendly_name }}
+            </a>
+          </p>
+          {% endif %}
+          <div>
+            {% if product.average_rating %}
+            <h6 class="text-black wl-rating">
+              Avg rating:
+              <span
+                class="fa fa-star {% if product.average_rating > 0 %} checked {% endif %}"
+              ></span>
+              <span
+                class="fa fa-star {% if product.average_rating > 1 %} checked {% endif %}"
+              ></span>
+              <span
+                class="fa fa-star {% if product.average_rating > 2 %} checked {% endif %}"
+              ></span>
+              <span
+                class="fa fa-star {% if product.average_rating > 3 %} checked {% endif %}"
+              ></span>
+              <span
+                class="fa fa-star {% if product.average_rating > 4 %} checked {% endif %}"
+              ></span>
+            </h6>
+            {% else %}
+            <h6 class="no-rating">
+              No Rating Yet - Stars Appear Here When Someone Rates The Product!
+            </h6>
+            {% endif %}
+          </div>
+        </div>
+        <!-- product detail button -->
+        <div class="text-center">
+          <a
+            class="btn wl-product-btn w-30 mt-3"
+            href="{% url 'product_detail' product.id %}"
+          >
+            <span class="text-uppercase font-weight-bold">Product Details</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- wishlist page if empty -->
+    <!-- note, the empty tag is part of the for loop. It used for if the collection is empty -->
+    {% empty %}
+    <div class="row justify-content-center">
+      <div class="text-center mt-3 no-items-div">
+        <h3 class="font-weight-bold text-uppercase">
+          You have no items in your wishlist
+        </h3>
+        <a class="btn btn-light btn-lg mt-5" href="{% url 'products' %}">
+          <span class="icon">
+            <i class="text-info fas fa-chevron-left"></i>
+          </span>
+          <span class="text-uppercase font-weight-bold text-info"
+            >Keep Shopping</span
+          >
         </a>
       </div>
     </div>
+    {% endfor %}
   </div>
-
-  <!-- wishlist page if empty -->
-  <!-- note, the empty tag is part of the for loop. It used for if the collection is empty -->
-  {% empty %}
-  <div class="row justify-content-center">
-    <div class="text-center mt-3 no-items-div">
-      <h3 class="font-weight-bold text-uppercase">
-        You have no items in your wishlist
-      </h3>
-      <a class="btn btn-light btn-lg mt-5" href="{% url 'products' %}">
-        <span class="icon">
-          <i class="text-info fas fa-chevron-left"></i>
-        </span>
-        <span class="text-uppercase font-weight-bold text-info"
-          >Keep Shopping</span
-        >
-      </a>
-    </div>
-  </div>
-  {% endfor %}
-</div>
 </div>
 {% endblock %}
