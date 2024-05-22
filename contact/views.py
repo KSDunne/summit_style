@@ -35,8 +35,10 @@ def contact_page(request):
                 + " 2 working days.",
             )
         else:
-            error_message = ("There was an error processing your request."
-                             + " See error displayed on form.")
+            error_message = (
+                "There was an error processing your request."
+                + " See error displayed on form."
+            )
             messages.error(request, error_message)
             return render(
                 request,

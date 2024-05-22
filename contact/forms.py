@@ -11,11 +11,12 @@ class ContactForm(forms.ModelForm):
 
     class Meta:
         """
-        Uses :model:`contact.ContactRequest`. This form
-        collects information from users who want to contact the business.
+        This form collects information from users who want to contact the business.
         It includes fields for the user's name, phone, email, their topic of
         interest. If they chose course as an interest they can add
         the timeframe for when they are available to do the course.
+
+        Uses :model:`contact.ContactRequest`.
         """
 
         model = ContactRequest
