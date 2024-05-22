@@ -7,13 +7,23 @@ from products.models import Product
 
 
 def view_cart(request):
-    """A view that renders the cart contents page"""
+    """
+    A view that renders the cart contents page
+
+    **Template:**
+
+    :template:`cart/cart.html`
+    """
 
     return render(request, "cart/cart.html")
 
 
 def add_to_cart(request, item_id):
-    """Add a quantity of the specified product to the shopping cart"""
+    """
+    Add a quantity of the specified product to the shopping cart
+
+    Uses :model: `products.Product`
+    """
 
     product = get_object_or_404(Product, pk=item_id)
     quantity = int(request.POST.get("quantity"))
@@ -56,7 +66,11 @@ def add_to_cart(request, item_id):
 
 
 def adjust_cart(request, item_id):
-    """Adjust the quantity of the specified product to the specified amount"""
+    """
+    Adjust the quantity of the specified product to the specified amount
+
+    Uses :model: `products.Product`
+    """
 
     product = get_object_or_404(Product, pk=item_id)
     quantity = int(request.POST.get("quantity"))
@@ -94,7 +108,11 @@ def adjust_cart(request, item_id):
 
 
 def remove_from_cart(request, item_id):
-    """Remove the item from the shopping cart"""
+    """
+    Remove the item from the shopping cart
+
+    Uses :model: `products.Product`
+    """
 
     try:
         product = get_object_or_404(Product, pk=item_id)
