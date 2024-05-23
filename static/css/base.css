@@ -926,17 +926,8 @@ footer {
 
 /* styling for custom 404 page*/
 
-.btn-error {
-  color: black;
-  font-weight: 600;
-  background-color: yellow;
-  border-radius: 22px;
-  box-shadow: 0 2px 2px #3a3a3a;
-  width: 40%;
-  left: 37%;
-  right: 37%;
-  font-size: 70%;
-  padding-top: 14px;
+.error-heading {
+  padding-top: 1.5rem;
 }
 
 /* media queries */
