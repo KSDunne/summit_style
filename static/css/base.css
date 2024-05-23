@@ -819,7 +819,7 @@ footer {
   font-size: 130%;
 }
 
-/* allauth custom css. aa stands for allauth */
+/* allauth custom css */
 
 .you-sure-lo {
   margin-bottom: 6rem;
@@ -831,58 +831,6 @@ footer {
 
 .email-confirm {
   margin-bottom: 130px;
-}
-
-.title-text-aa {
-  font-family: "Roboto", sans-serif;
-  position: absolute;
-  top: 9vh;
-  padding: 8px 7px 0px 7px;
-  text-align: center;
-  border-radius: 14px;
-  width: 70%;
-  color: black;
-  left: 15%;
-  right: 15%;
-}
-
-.title-text-aa > h1 {
-  padding-top: 10px;
-  font-size: 220%;
-}
-
-#hero-outer-aa {
-  height: 65vh;
-  width: 100%;
-  overflow: hidden;
-  position: relative;
-}
-
-.hero-image-aa {
-  height: 65vh;
-  width: 100%;
-  overflow: hidden;
-  object-fit: cover;
-}
-
-.cover-text-aa {
-  background-color: rgba(33, 33, 33, 0.8);
-  font-family: "Roboto", sans-serif;
-  position: absolute;
-  top: 44vh;
-  padding: 8px 7px 0px 7px;
-  text-align: center;
-  border-radius: 14px;
-  width: 78%;
-  color: #fef2d8;
-  left: 11%;
-  right: 11%;
-}
-
-.cover-text-aa > h2 {
-  padding-top: 6px;
-  padding-bottom: 10px;
-  font-size: 120%;
 }
 
 /* search bar custom style */
@@ -1087,47 +1035,6 @@ footer {
     right: 25%;
   }
 
-  .title-text-aa {
-    font-family: "Roboto", sans-serif;
-    position: absolute;
-    top: 21vh;
-    padding: 8px 7px 0px 7px;
-    text-align: center;
-    border-radius: 14px;
-    width: 70%;
-    color: black;
-    left: 15%;
-    right: 15%;
-  }
-
-  #hero-outer-aa {
-    height: 70vh;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-  }
-
-  .hero-image-aa {
-    height: 70vh;
-    width: 100%;
-    overflow: hidden;
-    object-fit: cover;
-  }
-
-  .cover-text-aa {
-    background-color: rgba(33, 33, 33, 0.8);
-    font-family: "Roboto", sans-serif;
-    position: absolute;
-    top: 56vh;
-    padding: 8px 7px 0px 7px;
-    text-align: center;
-    border-radius: 14px;
-    width: 40%;
-    color: #fef2d8;
-    left: 30%;
-    right: 30%;
-  }
-
   .browse-text {
     font-size: 2.8rem;
   }
@@ -1172,58 +1079,6 @@ footer {
 
   #green-section {
     margin-bottom: 2%;
-  }
-
-  .title-text-aa {
-    font-family: "Roboto", sans-serif;
-    position: absolute;
-    top: 20vh;
-    padding: 8px 7px 0px 7px;
-    text-align: center;
-    border-radius: 14px;
-    width: 70%;
-    color: black;
-    left: 15%;
-    right: 15%;
-  }
-
-  .title-text-aa > h1 {
-    padding-top: 10px;
-    font-size: 270%;
-  }
-
-  #hero-outer-aa {
-    height: 80vh;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-  }
-
-  .hero-image-aa {
-    height: 80vh;
-    width: 100%;
-    overflow: hidden;
-    object-fit: cover;
-  }
-
-  .cover-text-aa {
-    background-color: rgba(33, 33, 33, 0.8);
-    font-family: "Roboto", sans-serif;
-    position: absolute;
-    top: 64vh;
-    padding: 8px 7px 0px 7px;
-    text-align: center;
-    border-radius: 14px;
-    width: 40%;
-    color: #fef2d8;
-    left: 30%;
-    right: 30%;
-  }
-
-  .cover-text-aa > h2 {
-    padding-top: 10px;
-    padding-bottom: 15px;
-    font-size: 150%;
   }
 
   .edit-del-btn {
