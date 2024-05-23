@@ -8,19 +8,33 @@
 <div class="signin-bg text-center text-dark">
   <h2 class="logo-font mb-4">{% trans "Sign Up" %}</h2>
 
-  <p class="login-paragraph">{% blocktrans %}Welcome to Summit Style. Where account holders can make purchases and access
-    their very own wishlist! Do you already have an account? Then
-    please <a href="{{ login_url }}">sign in</a>.{% endblocktrans %}</p>
+  <p class="login-paragraph">
+    {% blocktrans %}Welcome to Summit Style. Where account holders can make
+    purchases and access their very own wishlist! Do you already have an
+    account? Then please <a href="{{ login_url }}">sign in</a>.
+    {% endblocktrans%}
+  </p>
 
   <div class="sign-in-form">
     <div>
-      <form class="signup" id="signup_form" method="post" action="{% url 'account_signup' %}">
-        {% csrf_token %}
-        {{ form|crispy }}
-        {% if redirect_field_value %}
-        <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
+      <form
+        class="signup"
+        id="signup_form"
+        method="post"
+        action="{% url 'account_signup' %}"
+      >
+        {% csrf_token %} {{ form|crispy }} {% if redirect_field_value %}
+        <input
+          type="hidden"
+          name="{{ redirect_field_name }}"
+          value="{{ redirect_field_value }}"
+        />
         {% endif %}
-        <a class="btn btn-outline-black rounded-0" href="{% url 'account_login' %}">Back to Login</a>
+        <a
+          class="btn btn-outline-black rounded-0"
+          href="{% url 'account_login' %}"
+          >Back to Login</a
+        >
         <button type="submit">{% trans "Sign Up" %}</button>
       </form>
     </div>

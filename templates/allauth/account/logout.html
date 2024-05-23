@@ -12,11 +12,16 @@
 
 <div class="lo-form">
   <form method="post" action="{% url 'account_logout' %}">
-    {% csrf_token %}
-    {% if redirect_field_value %}
-    <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}"/>
+    {% csrf_token %} {% if redirect_field_value %}
+    <input
+      type="hidden"
+      name="{{ redirect_field_name }}"
+      value="{{ redirect_field_value }}"
+    />
     {% endif %}
-    <a class="btn btn-outline-black rounded-0" href="{% url 'home' %}">Cancel</a>
+    <a class="btn btn-outline-black rounded-0" href="{% url 'home' %}"
+      >Cancel</a
+    >
     <button type="submit">{% trans 'Sign Out' %}</button>
   </form>
 </div>
