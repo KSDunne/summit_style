@@ -65,6 +65,10 @@ class Product(models.Model):
     /5e595d250f0d7a408a7ccd40bfa25d24c000034d/products/models.py#L18
     I customised this model by adding a 'wishlist' field, a 'is_course' field
     and I set 'has_sizes' to a default of True.
+
+    Credit: https://github.com/Code-Institute-Solutions/Django3blog/blob/
+    master/10_likes/blog/models.py#L21
+    The 'wishlist' field is based on I think therefore I blog likes
     """
 
     category = models.ForeignKey(
