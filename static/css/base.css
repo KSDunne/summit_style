@@ -570,7 +570,7 @@ footer {
   color: #ffff00;
   padding: 1rem;
   border-radius: 8px;
-  width: 50%;
+  width: 84%;
   margin: 0 auto;
   font-size: 115%;
 }
@@ -1103,6 +1103,10 @@ footer {
   }
 
   .sort-select-width {
+    width: 50%;
+  }
+
+  .heart-note {
     width: 50%;
   }
 }
