@@ -89,6 +89,23 @@ class Order(models.Model):
 
 
 class OrderLineItem(models.Model):
+    """
+    Model representing an individual line item in an order.
+
+    Fields:
+        - `order` (ForeignKey): Reference to the order this line item
+        belongs to.
+        - `product` (ForeignKey): Reference to the product being
+        ordered.
+        - `product_size` (CharField): Size of the product (optional).
+        - `quantity` (IntegerField): Quantity of the product being ordered.
+        - `lineitem_total` (DecimalField): Total price for this line
+        item.
+
+    Methods:
+        - `save()`: Override of the original save method to calculate
+        `lineitem_total` and update the order total.
+    """
     order = models.ForeignKey(
         Order,
         null=False,
