@@ -3,6 +3,21 @@ from .models import Order
 
 
 class OrderForm(forms.ModelForm):
+    """
+    Form for creating order instances.
+
+    **Fields**
+        full_name: Full name of the customer.
+        email: Email address of the customer.
+        phone_number: Phone number of the customer.
+        street_address1: First line of the customer's address.
+        street_address2: Second line of the customer's address.
+        town_or_city: Town or city of the customer's address.
+        postcode: Postal code of the customer's address.
+        country: Country of the customer's address.
+        county: County, state, or locality of the customer's address.
+    """
+
     class Meta:
         model = Order
         fields = (
