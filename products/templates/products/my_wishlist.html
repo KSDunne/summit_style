@@ -5,7 +5,8 @@
   </div>
 </div>
 {% endblock %} {% block content %}
-<!-- user wishList page -->
+<!-- wishlist page -->
+<!-- credit: https://github.com/Harry-Leepz/Nourish-and-Lift/blob/main/wishlist/templates/wishlist/wishlist.html -->
 <div class="wishlist-container d-flex flex-column flex-grow-1">
   <div class="container-fluid">
     <div class="row">
@@ -20,7 +21,7 @@
         </h1>
       </div>
     </div>
-    <!-- user wishList items -->
+    <!-- items -->
     {% for product in wishlist_products %}
     <div class="row justify-content-center mb-2">
       <div class="col-12 col-md-6 col-lg-3">
@@ -101,22 +102,22 @@
       </div>
     </div>
 
-    <!-- wishlist page if empty -->
+    <!-- if empty -->
     <!-- note, the empty tag is part of the for loop. It used for if the collection is empty -->
     {% empty %}
     <div class="row justify-content-center">
       <div class="text-center mt-3 no-items-div">
         <h3 class="font-weight-bold text-uppercase">
-          You have no items in your wishlist
+          No items in your wishlist
         </h3>
-        <a class="btn btn-light btn-lg mt-5" href="{% url 'products' %}">
-          <span class="icon">
-            <i class="text-info fas fa-chevron-left"></i>
-          </span>
-          <span class="text-uppercase font-weight-bold text-info"
-            >Keep Shopping</span
+        <h4 class="mt-4">
+          <a
+            href="{% url 'products' %}"
+            class="btn-lg btn-index text-uppercase text-center py-2 mt-4 mb-4"
           >
-        </a>
+            Return to shop
+          </a>
+        </h4>
       </div>
     </div>
     {% endfor %}

@@ -10,9 +10,9 @@ from checkout.models import Order
 @login_required
 def profile(request):
     """
-    Display and update the user's profile. This view allows
-    authenticated users to view and update their profile
-    information. If the request method is POST, it processes
+    This view allows authenticated users
+    to view and update their profile information.
+    If the request method is POST, it processes
     the profile form data and updates the profile. If the request
     method is GET, it displays the profile form with the
     current profile information.
