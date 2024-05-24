@@ -3,6 +3,10 @@ from .models import UserProfile
 
 
 class UserProfileForm(forms.ModelForm):
+    """
+    Form for updating user profile information.
+    """
+
     class Meta:
         model = UserProfile
         exclude = ("user",)
