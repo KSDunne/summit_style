@@ -4,6 +4,13 @@ from .models import Product, Category, Star
 
 
 class ProductForm(forms.ModelForm):
+    """
+    Form for creating and updating product instances.
+
+    **Fields**
+
+    All fields from the Product model are included.
+    """
 
     class Meta:
         model = Product
@@ -25,18 +32,24 @@ class ProductForm(forms.ModelForm):
 
 class StarForm(forms.ModelForm):
     """
-    Form class for users to review a product
+    Form for users to review a product.
 
-    **Fields:**
+    Uses :model:`products.Star`.
 
-    `body`: Text area where logged in users can write their reviews
+    **Fields**
+
+        title: The title of the review.
+        rating: The rating given by the user, ranging from 1 to 5.
+        body: The main text of the review provided by the user.
+
+    **Labels**
+
+        title: "Review Title"
+        rating: "Rating (1-5)"
+        body: "Review Text"
     """
 
     class Meta:
-        """
-        Uses :model: `products.Star`
-        """
-
         model = Star
         fields = (
             "title",
