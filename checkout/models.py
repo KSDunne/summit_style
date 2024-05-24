@@ -22,6 +22,7 @@ class Order(models.Model):
         - `save`: Overrides the save method to set the order number
         if it hasn't been set already.
     """
+
     order_number = models.CharField(max_length=32, null=False, editable=False)
     user_profile = models.ForeignKey(
         UserProfile,
@@ -106,6 +107,7 @@ class OrderLineItem(models.Model):
         - `save()`: Override of the original save method to calculate
         `lineitem_total` and update the order total.
     """
+
     order = models.ForeignKey(
         Order,
         null=False,
