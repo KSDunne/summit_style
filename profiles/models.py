@@ -9,7 +9,11 @@ from django_countries.fields import CountryField
 class UserProfile(models.Model):
     """
     A user profile model for maintaining default
-    delivery information and order history
+    delivery information
+
+    Credit: https://github.com/Code-Institute-Solutions/
+    boutique_ado_v1/blob/250e2c2b8e43cccb56b4721cd8a8bd4
+    de6686546/profiles/models.py#L9
     """
 
     user = models.OneToOneField(User, on_delete=models.CASCADE)
