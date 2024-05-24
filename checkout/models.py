@@ -11,6 +11,17 @@ from profiles.models import UserProfile
 
 
 class Order(models.Model):
+    """
+    Model for orders. This model is related to :model:`profiles.UserProfile`.
+
+    Methods:
+        - `_generate_order_number`: Generates a random, unique
+        order number using UUID.
+        - `update_total`: Updates the grand total each time a line
+        item is added, accounting for delivery costs.
+        - `save`: Overrides the save method to set the order number
+        if it hasn't been set already.
+    """
     order_number = models.CharField(max_length=32, null=False, editable=False)
     user_profile = models.ForeignKey(
         UserProfile,
