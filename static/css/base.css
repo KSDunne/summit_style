@@ -97,7 +97,7 @@ body {
   text-transform: uppercase;
 }
 
-/* summit style logo style */
+/* summit style logo */
 
 .brand {
   font-family: "Roboto", sans-serif;
@@ -416,6 +416,20 @@ footer {
   color: #17a2b8; /* text-info */
 }
 
+/* allauth custom css continued */
+
+.you-sure-lo {
+  margin-bottom: 6rem;
+}
+
+.lo-form {
+  margin-bottom: 140px;
+}
+
+.email-confirm {
+  margin-bottom: 130px;
+}
+
 /* Product Form */
 
 .btn-file {
@@ -470,7 +484,7 @@ footer {
   margin-top: 1rem;
 }
 
-/* custom delivery banner styling */
+/* custom delivery banner */
 
 .custom-bg-blue {
   background-color: #001efa;
@@ -563,7 +577,7 @@ footer {
   background: transparent;
 }
 
-/* wishlist page styling */
+/* wishlist page */
 
 .heart-note {
   background: #1b1e21;
@@ -595,7 +609,7 @@ footer {
   margin-bottom: 60px;
 }
 
-/* mobile icon styling */
+/* mobile icons */
 
 .mobile-icon-text {
   font-size: 70%;
@@ -653,7 +667,7 @@ footer {
   margin-top: 2rem;
 }
 
-/* contact page styling */
+/* contact page */
 
 .contact-container {
   overflow-x: hidden;
@@ -817,20 +831,6 @@ footer {
 
 .checkout-info {
   font-size: 130%;
-}
-
-/* allauth custom css */
-
-.you-sure-lo {
-  margin-bottom: 6rem;
-}
-
-.lo-form {
-  margin-bottom: 140px;
-}
-
-.email-confirm {
-  margin-bottom: 130px;
 }
 
 /* search bar custom style */
