@@ -16,7 +16,7 @@ Here is an eCommerce website, for a fictitious business called Summit Style. Thi
 
 ## Ecommerce
 
-An ecommerce app is designed to facilitate commercial or business transactions and it involves an online transfer of information. 
+An ecommerce app is designed to facilitate commercial or business transactions and it involves an online transfer of information.
 
 - Summit style is a retail store and it is a B2C (business to customer) type of business
 - The deliverables here are products (clothes, tents, sleeping bags) and digital products (if course is online) or services (if course is offered onsite)
@@ -52,31 +52,31 @@ An ecommerce app is designed to facilitate commercial or business transactions a
 
 - As a website user, I want to be able to:
 
-1.	View a list of clothing products, so that I can select some to buy (epic 1)
-2.	View a list of outdoor equipment products, so that I can select some to buy (epic 1)
-3.	View a list of short courses, so that I can select some to buy (epic 1)
-4.	View a specific category of products or courses, so that I can quickly find what I'm interested in (epic 1)
-5.	View individual product details, so that I am informed of price, description and product rating (epic 1)
-6.	View individual course details, so that I am informed of price, description and rating (epic 1)
-7.	Identify sale items easily, so that I can take advantage of savings on products I want to buy (epic 1)
-8.	See the total of my purchases at any time to avoid overspending (epic 4)
-9.	Register for an account, so that I can have a profile that is specific to me (epic 2)
-10.	Easily log in and out to access my personal account information and to protect it once I’m finished interacting with it (epic 2)
-11.	Easily recover my password if I forget it, so that I can recover access to my account (epic 2)
-12.	Receive an email confirmation after registering to verify my account registration was successful (epic 2)
-13.	Have a personalised user profile, so that I can view my order history, order confirmations and save payment information (epic 2)
-14.	Quickly separate a list of clothing products from a list of equipment and a list of courses (epic 3)
-15.	Sort the list of offerings (clothes, equipment or courses), so that I can easily distinguish the best priced or categorically sort products (epic 3)
-16.	Sort a specific category of product or course, so that I can find the best priced in a specific category (epic 3)
-17.	Search for a product or course by name or description so that I can find a specific product or course (epic 3)
-18.	Easily see what I've searched for and the number of results so that I can quickly see if the product or course I want is available here (epic 3)
-19.	Easily select the size of a product when purchasing it, so that I don’t accidentally order the wrong size of clothing (epic 4)
-20.	View items in my cart to be purchased, so that I’m aware of the total cost of items and all the items that I will receive after checkout (epic 4)
-21.	Adjust the quantity of individual items in my cart, so that I can make changes to my order before checkout if I wish to do so (epic 4)
-22.	Easily enter my personal payment information, so that I can checkout quickly (epic 4)
-23.	Feel that my personal and payment information is safe, so that I can confidentially provide the information to make a purchase (epic 4)
-24.	View an order confirmation after checkout, so that I can verify that I haven’t made any mistakes (epic 4)
-25.	Receive an email confirmation after I make a purchase, so that I can keep the confirmation for my own records (epic 4)
+1. View a list of clothing products, so that I can select some to buy (epic 1)
+2. View a list of outdoor equipment products, so that I can select some to buy (epic 1)
+3. View a list of short courses, so that I can select some to buy (epic 1)
+4. View a specific category of products or courses, so that I can quickly find what I'm interested in (epic 1)
+5. View individual product details, so that I am informed of price, description and product rating (epic 1)
+6. View individual course details, so that I am informed of price, description and rating (epic 1)
+7. Identify sale items easily, so that I can take advantage of savings on products I want to buy (epic 1)
+8. See the total of my purchases at any time to avoid overspending (epic 4)
+9. Register for an account, so that I can have a profile that is specific to me (epic 2)
+10. Easily log in and out to access my personal account information and to protect it once I’m finished interacting with it (epic 2)
+11. Easily recover my password if I forget it, so that I can recover access to my account (epic 2)
+12. Receive an email confirmation after registering to verify my account registration was successful (epic 2)
+13. Have a personalised user profile, so that I can view my order history, order confirmations and save payment information (epic 2)
+14. Quickly separate a list of clothing products from a list of equipment and a list of courses (epic 3)
+15. Sort the list of offerings (clothes, equipment or courses), so that I can easily distinguish the best priced or categorically sort products (epic 3)
+16. Sort a specific category of product or course, so that I can find the best priced in a specific category (epic 3)
+17. Search for a product or course by name or description so that I can find a specific product or course (epic 3)
+18. Easily see what I've searched for and the number of results so that I can quickly see if the product or course I want is available here (epic 3)
+19. Easily select the size of a product when purchasing it, so that I don’t accidentally order the wrong size of clothing (epic 4)
+20. View items in my cart to be purchased, so that I’m aware of the total cost of items and all the items that I will receive after checkout (epic 4)
+21. Adjust the quantity of individual items in my cart, so that I can make changes to my order before checkout if I wish to do so (epic 4)
+22. Easily enter my personal payment information, so that I can checkout quickly (epic 4)
+23. Feel that my personal and payment information is safe, so that I can confidentially provide the information to make a purchase (epic 4)
+24. View an order confirmation after checkout, so that I can verify that I haven’t made any mistakes (epic 4)
+25. Receive an email confirmation after I make a purchase, so that I can keep the confirmation for my own records (epic 4)
 26. See average star ratings on products quickly and easily, so that I don't have to go searching for ratings and I can buy a reliable product or course (epic 6)
 27. Submit my star rating, so that I can give a vote on how good the product or course is (epic 6)
 28. Read reviews that other customers have submitted, so that I feel I am purchasing a reliable product (epic 6)
@@ -93,9 +93,9 @@ An ecommerce app is designed to facilitate commercial or business transactions a
 
 - As a store owner, I want to be able to:
 
-39.	Add a product or course, so that I can add new offerings as they become available for me to sell (epic 5)
-40.	Edit or update a product or course information, so that I can change product and course prices, descriptions and images if needed (epic 5)
-41.	Delete a product or course, so that I can remove items that are no longer for sale (epic 5)
+39. Add a product or course, so that I can add new offerings as they become available for me to sell (epic 5)
+40. Edit or update a product or course information, so that I can change product and course prices, descriptions and images if needed (epic 5)
+41. Delete a product or course, so that I can remove items that are no longer for sale (epic 5)
 42. Not delete products by an accident. I get asked are you sure (epic 5)
 
 ## Sprints
@@ -282,9 +282,9 @@ A 'sign up' call to action button was added to the facebook page that links back
 
 ### Product detail page
 
-Two of the three custom models can be seen here. 
+Two of the three custom models can be seen here.
 
-- Firstly the product model which uses a 'wishlist' field can be seen here with a toggle heart and an 'is_course' boolean field that changes the sizes section to a section that contains whether the course is in-person or online and the length of the course. 
+- Firstly the product model which uses a 'wishlist' field can be seen here with a toggle heart and an 'is_course' boolean field that changes the sizes section to a section that contains whether the course is in-person or online and the length of the course.
 
 - Secondly, the star model comes through here with full crud functionality for ratings and reviews.
 
@@ -387,6 +387,7 @@ Please find a screenshot of tables below. These tables were created as rough wor
 - Python
 
 ### Frameworks and libraries
+
 - [Django 4.2.10](https://www.djangoproject.com/ "link to django docs homepage") was the python framework used to develop the site
 - Bootstrap
 
@@ -400,7 +401,7 @@ Please find a screenshot of tables below. These tables were created as rough wor
 
 ## Testing
 
-Detailed testing documentation can be found
+Detailed testing documentation can be found [here.](./TESTING.md)
 
 ### Fixed bugs
 
@@ -496,7 +497,7 @@ From the Bucket Policy tab, select the Policy Generator link, and use the follow
 - Click Add Statement
 - Click Generate Policy
 - Copy the entire Policy, and paste it into the Bucket Policy Editor
-- Add a /* on to the end of the resource key, because we want to allow access to all resources in this bucket
+- Add a /\* on to the end of the resource key, because we want to allow access to all resources in this bucket
 
 ```
 {
@@ -538,8 +539,8 @@ Go back to the AWS Services Menu and follow these steps:
 - Click on actions and import policy
 - Search for "AmazonS3FullAccess", select this policy, and click Import
 - Click "JSON" under "Policy Document" to see the imported policy
-- Copy the bucket ARN from the bucket policy page and paste it into the "Resource" section of the JSON snippet. 
-- Copy the bucket ARN a second time into the "Resource" section of the JSON snippet. This time, add "/*" to the end of the ARN to allow access to all resources in this bucket
+- Copy the bucket ARN from the bucket policy page and paste it into the "Resource" section of the JSON snippet.
+- Copy the bucket ARN a second time into the "Resource" section of the JSON snippet. This time, add "/\*" to the end of the ARN to allow access to all resources in this bucket
 
 ```
     {
@@ -570,12 +571,11 @@ Go back to the AWS Services Menu and follow these steps:
 3. Create User
 
 - On the users page, click on add user
-- Enter a User name 
+- Enter a User name
 - Select Programmatic access and AWS Management Console access and click next
 - Click on add user to group, select the user group created earlier and click create user
 - Take note of the Access key and Secret access key as these will be needed to connect to the S3 bucket
 - At this point it's important to download and save this CSV file containing the access keys, because once you have gone through this process you can't download them again
-
 
 #### Final steps for AWS setup
 
