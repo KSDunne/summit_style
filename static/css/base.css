@@ -615,6 +615,10 @@ footer {
   font-size: 70%;
 }
 
+.text-icon {
+  color: #001efa;
+}
+
 /* rate and review crud panel on product detail page */
 
 .all-reviews {
