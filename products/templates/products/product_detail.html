@@ -187,6 +187,7 @@
                     <div class="input-group-prepend">
                       <button
                         class="decrement-qty btn btn-black rounded-0 decrement-qty_{{ product.id }}"
+                        aria-label="decrement button"
                         data-item_id="{{ product.id }}"
                       >
                         <span class="icon">
@@ -207,6 +208,7 @@
                       <button
                         class="increment-qty btn btn-black rounded-0 increment-qty_{{ product.id }}"
                         data-item_id="{{ product.id }}"
+                        aria-label="increment button"
                       >
                         <span class="icon">
                           <i class="fas fa-plus"></i>
