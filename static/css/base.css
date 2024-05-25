@@ -477,7 +477,8 @@ footer {
 }
 
 .pd-edit-delete {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 500;
 }
 
 .pd-size {
@@ -646,6 +647,11 @@ footer {
 
 .write-review {
   border: none;
+}
+
+.submit-review {
+  font-weight: 700;
+  font-size: 1.2rem;
 }
 
 /* style for edit review form and confirm delete */

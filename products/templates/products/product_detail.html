@@ -131,12 +131,12 @@
 
           <!-- edit or delete product (for admin) -->
           {% if request.user.is_superuser %}
-          <small class="pd-edit-delete">
-            <a href="{% url 'edit_product' product.id %}">Edit</a> |
+          <p class="pd-edit-delete">
+            <a class="text-icon" href="{% url 'edit_product' product.id %}">Edit</a> |
             <a class="text-danger" href="{% url 'delete_product' product.id %}"
               >Delete</a
             >
-          </small>
+          </p>
           {% endif %}
 
           <!-- add to cart form -->
@@ -336,7 +336,7 @@
                         <strong>From user:</strong> {{ request.user }}
                       </h5>
                       <div class="text-center">
-                        <button type="submit" class="btn btn-primary mt-2">
+                        <button type="submit" class="btn btn-primary submit-review mt-2">
                           Submit
                         </button>
                       </div>
