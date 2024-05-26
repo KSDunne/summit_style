@@ -20,8 +20,12 @@ body {
   overflow-y: auto;
 }
 
+.order-history a {
+  color: #001efa;
+}
+
 .profile-title {
-  color: #29ae86;
+  color: #1e7d60;
   font-size: 115%;
   font-weight: 600;
 }
