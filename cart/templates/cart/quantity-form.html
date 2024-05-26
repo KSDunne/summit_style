@@ -51,9 +51,8 @@
   </div>
 </form>
 <a class="update-link text-icon"><small>Update</small></a>
-<a
-  class="remove-item text-danger float-right"
-  id="remove_{{ item.item_id }}"
-  data-product_size="{{ item.size }}"
-  ><small>Remove</small></a
->
+<a class="remove-item text-danger float-right"
+   data-item-id="{{ item.item_id }}"
+   data-product-size="{{ item.size }}">
+  <small>Remove</small>
+</a>
