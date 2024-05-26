@@ -97,10 +97,11 @@
               <a
                 class="text-black nav-link"
                 href="#"
-                id="user-options"
+                id="options"
                 data-toggle="dropdown"
                 aria-haspopup="true"
                 aria-expanded="false"
+                aria-label="account options"
               >
                 <div class="text-center">
                   <div><i class="fas fa-user fa-lg"></i></div>
@@ -109,7 +110,7 @@
               </a>
               <div
                 class="dropdown-menu border-0"
-                aria-labelledby="user-options"
+                aria-label="dropdown account"
               >
                 {% if request.user.is_authenticated %} 
                 {% if request.user.is_superuser %}
