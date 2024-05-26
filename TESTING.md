@@ -76,8 +76,6 @@ Performance, accessibility, best practices and seo were tested using [lighthouse
 | sign up page     | 87          | 98            | 100            | 100 | <details><summary>Sign Up</summary><img src="./docs/readme_images/testing/signup_lighthouse.png"></details>                | PASS   |
 | sign in page     | 82          | 98            | 100            | 100 | <details><summary>Sign In</summary><img src="./docs/readme_images/testing/signin_lighthouse.png"></details>                | PASS   |
 | logout page      | 84          | 98            | 100            | 100 | <details><summary>Log Out</summary><img src="./docs/readme_images/testing/logout_lighthouse.png"></details>                | PASS   |
-📋 Copy
-Clear
 
 ### Lighthouse result explanation
 
