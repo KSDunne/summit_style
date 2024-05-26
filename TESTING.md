@@ -51,6 +51,36 @@ See user story testing table below. All 'must have' and 'should have' user stori
 | 41  | Delete a product or course, so that I can remove items that are no longer for sale (store owner)                                                                                      | yes, need met                                         | <details><summary>US41</summary><img src="./docs/readme_images/userstories_ss/us41.png"></details> | PASS             |
 | 42  | Not delete products by an accident. I get asked are you sure (store owner)                                                                                                            | yes, need met                                         | <details><summary>US42</summary><img src="./docs/readme_images/userstories_ss/us42.png"></details> | PASS             |
 
+## Lighthouse
+
+Performance, accessibility, best practices and seo were tested using [lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) in Chrome DevTools.
+
+### Lighthouse results table
+
+| page             | performance | accessibility | best practices | seo | screenshot                                                                                                                 | result |
+| ---------------- | ----------- | ------------- | -------------- | --- | -------------------------------------------------------------------------------------------------------------------------- | ------ |
+| home             | 64          | 100           | 100            | 100 | <details><summary>Home Page</summary><img src="./docs/readme_images/testing/home_lighthouse.png"></details>                | PASS   |
+| products         | 49          | 98            | 100            | 100 | <details><summary>Products</summary><img src="./docs/readme_images/testing/products_lighthouse.png"></details>             | FAIL   |
+| product detail   | 76          | 92            | 100            | 100 | <details><summary>Product Detail</summary><img src="./docs/readme_images/testing/productdet_lighthouse.png"></details>     | PASS   |
+| add product      | 96          | 98            | 100            | 100 | <details><summary>Add Product</summary><img src="./docs/readme_images/testing/addproduct_lighthouse.png"></details>        | PASS   |
+| edit product     | 94          | 98            | 100            | 100 | <details><summary>Edit Product</summary><img src="./docs/readme_images/testing/editproduct_lighthouse.png"></details>      | PASS   |
+| delete product   | 96          | 98            | 100            | 100 | <details><summary>Delete Product</summary><img src="./docs/readme_images/testing/delproduct_lighthouse.png"></details>     | PASS   |
+| cart             | 94          | 98            | 100            | 90  | <details><summary>Cart</summary><img src="./docs/readme_images/testing/cart_lighthouse.png"></details>                     | PASS   |
+| checkout         | 83          | 97            | 92             | 100 | <details><summary>Checkout</summary><img src="./docs/readme_images/testing/checkout_lighthouse.png"></details>             | PASS   |
+| checkout success | 91          | 98            | 100            | 100 | <details><summary>Checkout Success</summary><img src="./docs/readme_images/testing/checkoutsucc_lighthouse.png"></details> | PASS   |
+| edit review      | 95          | 98            | 100            | 100 | <details><summary>Edit Review</summary><img src="./docs/readme_images/testing/editreview_lighthouse.png"></details>        | PASS   |
+| delete review    | 95          | 98            | 100            | 100 | <details><summary>Delete Review</summary><img src="./docs/readme_images/testing/delreview_lighthouse.png"></details>       | PASS   |
+| user profile     | 90          | 98            | 100            | 100 | <details><summary>User Profile</summary><img src="./docs/readme_images/testing/userprofile_lighthouse.png"></details>      | PASS   |
+| wishlist         | 93          | 98            | 100            | 100 | <details><summary>Wishlist</summary><img src="./docs/readme_images/testing/wishlist_lighthouse.png"></details>             | PASS   |
+| contact          | 90          | 98            | 100            | 100 | <details><summary>Contact</summary><img src="./docs/readme_images/testing/contact_lighthouse.png"></details>               | PASS   |
+| sign up page     | 87          | 98            | 100            | 100 | <details><summary>Sign Up</summary><img src="./docs/readme_images/testing/signup_lighthouse.png"></details>                | PASS   |
+| sign in page     | 82          | 98            | 100            | 100 | <details><summary>Sign In</summary><img src="./docs/readme_images/testing/signin_lighthouse.png"></details>                | PASS   |
+| logout page      | 84          | 98            | 100            | 100 | <details><summary>Log Out</summary><img src="./docs/readme_images/testing/logout_lighthouse.png"></details>                | PASS   |
+📋 Copy
+Clear
+
+### Lighthouse result explanation
+
 ## Code validation
 
 ### HTML
