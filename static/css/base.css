@@ -924,6 +924,7 @@ footer {
   padding: 2px;
   margin: 4vh 0 4vh 0;
   width: 38%;
+  text-transform: uppercase;
 }
 
 .sort-select-width {
