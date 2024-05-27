@@ -117,6 +117,18 @@ Pass
 
 ![CSS validation](docs/readme_images/validation/css_validation.PNG)
 
+### JavaScript
+
+JavaScript code in the stripe_elements.js file was put through the [JSHint Validator](https://jshint.com/).
+
+#### JS Result
+
+### Python
+
+All python code was put through the [CI Python Linter](https://pep8ci.herokuapp.com/).
+
+#### Python Result
+
 ## Device compatibility
 
 Throughout development the website was tested consistently using a laptop with screen size of 14 inches, a 23 inch monitor and my own in-hand iPhone 12 Pro. Multiple different devices were selected on Chrome DevTools and the window was periodically resized to check responsiveness.
