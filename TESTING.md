@@ -87,25 +87,25 @@ All HTML pages were tested with the [W3C HTML Validator](https://validator.w3.or
 
 #### HTML Result
 
-| page             | validator                                                                                                               | result |
-| ---------------- | ----------------------------------------------------------------------------------------------------------------------- | ------ |
-| home             | <details><summary>Home Page</summary><img src="./docs/readme_images/validation/home_html.png"></details>                | PASS   |
-| products         | <details><summary>Products</summary><img src="./docs/readme_images/validation/products_html.png"></details>             | PASS   |
-| product detail   | <details><summary>Product Detail</summary><img src="./docs/readme_images/validation/productdet_html.png"></details>     | PASS   |
-| add product      | <details><summary>Add Product</summary><img src="./docs/readme_images/validation/addproduct_html.png"></details>        | PASS   |
-| edit product     | <details><summary>Edit Product</summary><img src="./docs/readme_images/validation/editproduct_html.png"></details>      | PASS   |
-| delete product   | <details><summary>Delete Product</summary><img src="./docs/readme_images/validation/delproduct_html.png"></details>     | PASS   |
-| cart             | <details><summary>Cart</summary><img src="./docs/readme_images/validation/cart_html.png"></details>                     | PASS   |
-| checkout         | <details><summary>Checkout</summary><img src="./docs/readme_images/validation/checkout_html.png"></details>             | PASS   |
-| checkout success | <details><summary>Checkout Success</summary><img src="./docs/readme_images/validation/checkoutsucc_html.png"></details> | PASS   |
-| edit review      | <details><summary>Edit Review</summary><img src="./docs/readme_images/validation/editreview_html.png"></details>        | PASS   |
-| delete review    | <details><summary>Delete Review</summary><img src="./docs/readme_images/validation/delreview_html.png"></details>       | PASS   |
-| user profile     | <details><summary>User Profile</summary><img src="./docs/readme_images/validation/userprofile_html.png"></details>      | PASS   |
-| wishlist         | <details><summary>Wishlist</summary><img src="./docs/readme_images/validation/wishlist_html.png"></details>             | PASS   |
-| contact          | <details><summary>Contact</summary><img src="./docs/readme_images/validation/contact_html.png"></details>               | PASS   |
-| sign up page     | <details><summary>Sign Up</summary><img src="./docs/readme_images/validation/signup_html.png"></details>                | PASS   |
-| sign in page     | <details><summary>Sign In</summary><img src="./docs/readme_images/validation/signin_html.png"></details>                | PASS   |
-| logout page      | <details><summary>Log Out</summary><img src="./docs/readme_images/validation/logout_html.png"></details>                | PASS   |
+| page             | validator                                                                                                               | result                                                           |
+| ---------------- | ----------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
+| home             | <details><summary>Home Page</summary><img src="./docs/readme_images/validation/home_html.png"></details>                | PASS                                                             |
+| products         | <details><summary>Products</summary><img src="./docs/readme_images/validation/products_html.png"></details>             | PASS                                                             |
+| product detail   | <details><summary>Product Detail</summary><img src="./docs/readme_images/validation/productdet_html.png"></details>     | PASS                                                             |
+| add product      | <details><summary>Add Product</summary><img src="./docs/readme_images/validation/addproduct_html.png"></details>        | PASS                                                             |
+| edit product     | <details><summary>Edit Product</summary><img src="./docs/readme_images/validation/editproduct_html.png"></details>      | PASS                                                             |
+| delete product   | <details><summary>Delete Product</summary><img src="./docs/readme_images/validation/delproduct_html.png"></details>     | PASS                                                             |
+| cart             | <details><summary>Cart</summary><img src="./docs/readme_images/validation/cart_html.png"></details>                     | PASS                                                             |
+| checkout         | <details><summary>Checkout</summary><img src="./docs/readme_images/validation/checkout_html.png"></details>             | PASS                                                             |
+| checkout success | <details><summary>Checkout Success</summary><img src="./docs/readme_images/validation/checkoutsucc_html.png"></details> | PASS                                                             |
+| edit review      | <details><summary>Edit Review</summary><img src="./docs/readme_images/validation/editreview_html.png"></details>        | PASS                                                             |
+| delete review    | <details><summary>Delete Review</summary><img src="./docs/readme_images/validation/delreview_html.png"></details>       | PASS                                                             |
+| user profile     | <details><summary>User Profile</summary><img src="./docs/readme_images/validation/userprofile_html.png"></details>      | PASS                                                             |
+| wishlist         | <details><summary>Wishlist</summary><img src="./docs/readme_images/validation/wishlist_html.png"></details>             | PASS                                                             |
+| contact          | <details><summary>Contact</summary><img src="./docs/readme_images/validation/contact_html.png"></details>               | PASS                                                             |
+| sign up page     | <details><summary>Sign Up</summary><img src="./docs/readme_images/validation/signup_html.png"></details>                | ERROR - Allauth rendered 'ul' as child of 'small' in crispy form |
+| sign in page     | <details><summary>Sign In</summary><img src="./docs/readme_images/validation/signin_html.png"></details>                | PASS                                                             |
+| logout page      | <details><summary>Log Out</summary><img src="./docs/readme_images/validation/logout_html.png"></details>                | PASS                                                             |
 
 ## Device compatibility
 
