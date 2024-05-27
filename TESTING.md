@@ -107,6 +107,16 @@ All HTML pages were tested with the [W3C HTML Validator](https://validator.w3.or
 | sign in page     | <details><summary>Sign In</summary><img src="./docs/readme_images/validation/signin_html.png"></details>                | PASS                                              |
 | logout page      | <details><summary>Log Out</summary><img src="./docs/readme_images/validation/logout_html.png"></details>                | PASS                                              |
 
+### CSS
+
+Custom CSS was put through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/).
+
+#### CSS Result
+
+Pass
+
+![CSS validation](docs/readme_images/validation/css_validation.PNG)
+
 ## Device compatibility
 
 Throughout development the website was tested consistently using a laptop with screen size of 14 inches, a 23 inch monitor and my own in-hand iPhone 12 Pro. Multiple different devices were selected on Chrome DevTools and the window was periodically resized to check responsiveness.
