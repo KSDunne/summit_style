@@ -28,7 +28,8 @@ def all_products(request):
     ``search_term``
         The search query string entered by the user, if any.
     ``current_categories``
-        A list of instances of :model:`products.Category` filtered by the user's selection.
+        A list of instances of :model:`products.Category` filtered
+        by the user's selection.
     ``current_sorting``
         The current sorting method applied to the products list.
 
@@ -66,10 +67,12 @@ def all_products(request):
         if "q" in request.GET:
             query = request.GET["q"]
             if not query:
-                messages.error(request, "You didn't enter any search criteria!")
+                messages.error(
+                    request, "You didn't enter any search criteria!")
                 return redirect(reverse("products"))
 
-            queries = Q(name__icontains=query) | Q(description__icontains=query)
+            queries = (Q(name__icontains=query) |
+                       Q(description__icontains=query))
             products = products.filter(queries)
 
     current_sorting = f"{sort}_{direction}"
@@ -98,7 +101,8 @@ def product_detail(request, product_id):
     ``stars``
         A queryset of :model:`reviews.Star` instances related to the product.
     ``review_count``
-        The count of reviews (instances of :model:`reviews.Star`) for the product.
+        The count of reviews (instances of :model:`reviews.Star`) for
+        the product.
     ``star_form``
         An instance of :form:`reviews.StarForm` for submitting a new review.
     ``liked``
@@ -126,8 +130,8 @@ def product_detail(request, product_id):
             star.save()
             messages.success(request, "Review submitted successfully")
             return HttpResponseRedirect(
-                reverse("product_detail", kwargs={"product_id": star.product.pk})
-            )
+                reverse("product_detail",
+                        kwargs={"product_id": star.product.pk}))
 
     else:
         star_form = StarForm()
@@ -228,7 +232,8 @@ class EditReview(LoginRequiredMixin, UserPassesTestMixin, UpdateView):
         that they were already on.
         """
         star = self.get_object()
-        return reverse_lazy("product_detail", kwargs={"product_id": star.product.pk})
+        return reverse_lazy("product_detail",
+                            kwargs={"product_id": star.product.pk})
 
     def form_valid(self, form):
         form.instance.confirmed = False
@@ -288,7 +293,8 @@ class DeleteReview(LoginRequiredMixin, UserPassesTestMixin, DeleteView):
         that they were already on.
         """
         star = self.get_object()
-        return reverse_lazy("product_detail", kwargs={"product_id": star.product.pk})
+        return reverse_lazy("product_detail",
+                            kwargs={"product_id": star.product.pk})
 
     def form_valid(self, form):
         """
@@ -335,7 +341,8 @@ def add_product(request):
     **Redirects**
 
     Redirects to the home page if the user is not a superuser.
-    Redirects to the product detail page after successful addition of the product.
+    Redirects to the product detail page after successful addition
+    of the product.
     """
     if not request.user.is_superuser:
         messages.error(request, "Sorry, only store owners can do that.")
@@ -349,7 +356,8 @@ def add_product(request):
             return redirect(reverse("product_detail", args=[product.id]))
         else:
             messages.error(
-                request, "Failed to add product. Please ensure the form is valid."
+                request, "Failed to add product."
+                + " Please ensure the form is valid."
             )
     else:
         form = ProductForm()
@@ -376,7 +384,8 @@ def edit_product(request, product_id):
     ``form``
         An instance of :form:`products.ProductForm` for editing the product.
     ``product``
-        An instance of :model:`products.Product` representing the product to be edited.
+        An instance of :model:`products.Product` representing
+        the product to be edited.
 
     **Template**
 
@@ -385,7 +394,8 @@ def edit_product(request, product_id):
     **Redirects**
 
     Redirects to the home page if the user is not a superuser.
-    Redirects to the product detail page after successful editing of the product.
+    Redirects to the product detail page after successful
+    editing of the product.
     """
     if not request.user.is_superuser:
         messages.error(request, "Sorry, only store owners can do that.")
@@ -400,7 +410,8 @@ def edit_product(request, product_id):
             return redirect(reverse("product_detail", args=[product.id]))
         else:
             messages.error(
-                request, "Failed to update product. Please ensure the form is valid."
+                request, "Failed to update product."
+                + "Please ensure the form is valid."
             )
     else:
         form = ProductForm(instance=product)
@@ -428,7 +439,8 @@ def delete_product(request, product_id):
     **Context**
 
     ``product``
-        An instance of :model:`products.Product` representing the product to be deleted.
+        An instance of :model:`products.Product` representing the product
+        to be deleted.
 
     **Template**
 
@@ -447,10 +459,11 @@ def delete_product(request, product_id):
     product = get_object_or_404(Product, pk=product_id)
 
     if request.method == "POST":
-        # If the request is a POST request, it means the user has confirmed deletion.
+        # If it is a POST request, it means the user has confirmed deletion.
         product.delete()
         messages.success(request, "Product deleted!")
         return redirect(reverse("products"))
 
     # If it's a GET request, render the confirmation page.
-    return render(request, "products/product_confirm_delete.html", {"product": product})
+    return render(
+        request, "products/product_confirm_delete.html", {"product": product})
