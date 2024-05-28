@@ -16,8 +16,8 @@ class ContactForm(forms.ModelForm):
         phone: Phone number of the user.
         email: Email address of the user.
         topic: Topic of interest for contacting the business.
-        timeframe: Availability for a course if the user's interest is a course.
-                   (Label: "Availability for a course")
+        timeframe: Availability for a course if the user's interest
+            is a course. (Label: "Availability for a course")
         message: Additional message or comments from the user.
 
     **Methods**
