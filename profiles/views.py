@@ -23,7 +23,8 @@ def profile(request):
     **Context**
 
     ``form``
-        An instance of :form:`profiles.UserProfileForm` for editing the user profile.
+        An instance of :form:`profiles.UserProfileForm` for editing the
+        user profile.
     ``on_profile_page``
         A boolean indicating that the user is on the profile page.
 
@@ -40,7 +41,8 @@ def profile(request):
             form.save()
             messages.success(request, "Profile updated successfully")
         else:
-            messages.error(request, "Update failed. Please ensure the form is valid.")
+            messages.error(request,
+                           "Update failed. Please ensure the form is valid.")
     else:
         form = UserProfileForm(instance=profile)
     orders = profile.orders.all()
@@ -60,7 +62,8 @@ def order_history(request, order_number):
     **Context**
 
     ``order``
-        An instance of :model:`checkout.Order` representing the order to be displayed.
+        An instance of :model:`checkout.Order` representing the order to
+        be displayed.
     ``from_profile``
         A boolean indicating that the view is accessed from the profile page.
 
