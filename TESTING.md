@@ -127,12 +127,15 @@ Profile: Pass
 
 ![CSS base validation](docs/readme_images/validation/css_profile_validation.png)
 
-
 ### JavaScript
 
 JavaScript code in the stripe_elements.js file was put through the [JSHint Validator](https://jshint.com/).
 
 #### JS Result
+
+JavaScript ES6 was selected and the following were declaired as global: $, Stripe, document, location. The result was a pass.
+
+![JS validation](docs/readme_images/validation/stripejs_validation.png)
 
 ### Python
 
