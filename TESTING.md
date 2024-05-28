@@ -113,9 +113,20 @@ Custom CSS was put through the [W3C CSS Validator](https://jigsaw.w3.org/css-val
 
 #### CSS Result
 
-Pass
+Base: Pass 
 
-![CSS validation](docs/readme_images/validation/css_validation.PNG)
+The code for the base css test came from 'view page source' on the live site and navigating to the custom css file. The css here was copied into the validator.
+
+![CSS base validation](docs/readme_images/validation/css_base_validation.png)
+
+Checkout: Pass
+
+![CSS base validation](docs/readme_images/validation/css_checkout_validation.png)
+
+Profile: Pass
+
+![CSS base validation](docs/readme_images/validation/css_profile_validation.png)
+
 
 ### JavaScript
 
