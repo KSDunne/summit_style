@@ -26,11 +26,14 @@ class ContactRequest(models.Model):
         - `name` (CharField): Name of the sender.
         - `phone` (CharField): Phone number of the sender (optional).
         - `email` (EmailField): Email address of the sender.
-        - `topic` (TextField): Topic of the message chosen from predefined choices.
-        - `timeframe` (TextField): Timeframe specified by the sender (optional).
+        - `topic` (TextField): Topic of the message chosen from
+            predefined choices.
+        - `timeframe` (TextField): Timeframe specified by the
+            sender (optional).
         - `message` (TextField): Content of the message.
         - `read` (BooleanField): Indicates whether the message has been read.
-        - `created_on` (DateTimeField): Date and time when the message was created.
+        - `created_on` (DateTimeField): Date and time when the message
+            was created.
 
     Meta:
         - `ordering`: Ordering for queries based on creation date.
