@@ -944,6 +944,11 @@ footer {
   padding-top: 1.5rem;
 }
 
+.product-image {
+  width: 100%;
+  height: auto;
+}
+
 /* media queries */
 
 /* slightly larger container on xl screens */
