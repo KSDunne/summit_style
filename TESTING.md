@@ -60,7 +60,7 @@ Performance, accessibility, best practices and seo were tested using [lighthouse
 | page             | performance | accessibility | best practices | seo | screenshot                                                                                                                 | result |
 | ---------------- | ----------- | ------------- | -------------- | --- | -------------------------------------------------------------------------------------------------------------------------- | ------ |
 | home             | 64          | 100           | 100            | 100 | <details><summary>Home Page</summary><img src="./docs/readme_images/testing/home_lighthouse.png"></details>                | PASS   |
-| products         | 49          | 98            | 100            | 100 | <details><summary>Products</summary><img src="./docs/readme_images/testing/products_lighthouse.png"></details>             | FAIL   |
+| products         | 50          | 98            | 100            | 100 | <details><summary>Products</summary><img src="./docs/readme_images/testing/products_lighthouse.png"></details>             | PASS   |
 | product detail   | 76          | 92            | 100            | 100 | <details><summary>Product Detail</summary><img src="./docs/readme_images/testing/productdet_lighthouse.png"></details>     | PASS   |
 | add product      | 96          | 98            | 100            | 100 | <details><summary>Add Product</summary><img src="./docs/readme_images/testing/addproduct_lighthouse.png"></details>        | PASS   |
 | edit product     | 94          | 98            | 100            | 100 | <details><summary>Edit Product</summary><img src="./docs/readme_images/testing/editproduct_lighthouse.png"></details>      | PASS   |
