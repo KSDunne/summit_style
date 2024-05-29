@@ -79,6 +79,12 @@ Performance, accessibility, best practices and seo were tested using [lighthouse
 
 ### Lighthouse result explanation
 
+The products page had a low performance score (50). Some steps were implemented to try and improve this score; (1) the 'noimage' file was compressed by 80% (2) the file format was changed from png to webp and (3) the dimensions of the noimage file were reduced from 664x665 to 255x255. Unfortunately these steps did not improve the score much. Please read on for the conclusion.
+
+The biggest opportunity shown on the lighthouse results (see screenshot below) was to reduce server response time. So I conclude that the reason for the slow performance on the 'all products' page, is because there is a lot of data being pulled from postgres (product information such as, price and category) and AWS (the product photos) at the same time. There is a deadline for this project and the page loads successfully, so that is enough for mvp at this time. This issue can be investigated further at a later date.
+
+![Lighthouse products page opportunity](docs/readme_images/validation/products_opportunity.png)
+
 ## Code validation
 
 ### HTML
