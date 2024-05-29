@@ -83,7 +83,7 @@ The products page had a low performance score (50). Some steps were implemented 
 
 The biggest opportunity shown on the lighthouse results (see screenshot below) was to reduce server response time. So I conclude that the reason for the slow performance on the 'all products' page, is because there is a lot of data being pulled from postgres (product information such as, price and category) and AWS (the product photos) at the same time. There is a deadline for this project and the page loads successfully, so that is enough for mvp at this time. This issue can be investigated further at a later date.
 
-![Lighthouse products page opportunity](docs/readme_images/validation/products_opportunity.png)
+![Lighthouse products page opportunity](docs/readme_images/testing/products_opportunity.png)
 
 ## Code validation
 
