@@ -63,7 +63,7 @@ An ecommerce app is designed to facilitate commercial or business transactions a
 9. Register for an account, so that I can have a profile that is specific to me (epic 2)
 10. Easily log in and out to access my personal account information and to protect it once I’m finished interacting with it (epic 2)
 11. Easily recover my password if I forget it, so that I can recover access to my account (epic 2)
-12. Receive an email confirmation after registering to verify my account registration was successful (epic 2)
+12. Receive an email confirmation after registering to verify my account registration (epic 2)
 13. Have a personalised user profile, so that I can view my order history, order confirmations and save payment information (epic 2)
 14. Quickly separate a list of clothing products from a list of equipment and a list of courses (epic 3)
 15. Sort the list of offerings (clothes, equipment or courses), so that I can easily distinguish the best priced or categorically sort products (epic 3)
