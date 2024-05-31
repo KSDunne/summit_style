@@ -191,6 +191,28 @@ All python code was put through the [CI Python Linter](https://pep8ci.herokuapp.
 | project views            | <details><summary>Project Views</summary><img src="./docs/readme_images/validation/project_views_py.png"></details>                       | PASS   |                                                                                             |
 | project wsgi             | <details><summary>Project Wsgi</summary><img src="./docs/readme_images/validation/project_wsgi_py.png"></details>                         | PASS   |                                                                                             |
 
+## Manual testing
+
+### Submit a review using a FE form validation
+
+| User action                               | Validation error                      | Does it work as expected? |
+| ----------------------------------------- | ------------------------------------- | ------------------------- |
+| User leaves title field blank             | Please fill in this field             | PASS                      |
+| User enters a rating number >5            | Rating must be a max of 5             | PASS                      |
+| User enters a rating number <1            | Rating must be at least 1             | PASS                      |
+| User enters review text of <30 characters | Review must be at least 30 characters | PASS                      |
+
+### Contact form validation
+
+| User action                                                                          | Validation error                                                      | Does it work as expected? |
+| ------------------------------------------------------------------------------------ | --------------------------------------------------------------------- | ------------------------- |
+| User leaves name field blank                                                         | Please fill in this field                                             | PASS                      |
+| User enters anything other than digits, spaces, parenthesis, + or - for phone number | Phone number should contain only digits, spaces, parentheses, + or -. | PASS                      |
+| User leaves an @ out of an email address                                             | Please include an '@' in the email address.                           | PASS                      |
+| User leaves email field blank                                                        | Please fill in this field                                             | PASS                      |
+| User does not select a topic                                                         | Please select an item in the list                                     | PASS                      |
+| User enters <30 characters in the message field                                      | Message must be at least 30 charactes                                 | PASS                      |
+
 ## Device compatibility
 
 Throughout development the website was tested consistently using a laptop with screen size of 14 inches, a 23 inch monitor and my own in-hand iPhone 12 Pro. Multiple different devices were selected on Chrome DevTools and the window was periodically resized to check responsiveness.
