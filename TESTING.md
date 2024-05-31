@@ -213,6 +213,33 @@ All python code was put through the [CI Python Linter](https://pep8ci.herokuapp.
 | User does not select a topic                                                         | Please select an item in the list                                     | PASS                      |
 | User enters <30 characters in the message field                                      | Message must be at least 30 characters                                | PASS                      |
 
+### Notifications and feedback testing
+
+| User action                                                 | Notification and Feedback                                                                          | Does it work as expected? |
+| ----------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | ------------------------- |
+| Subscribe to newsletter                                     | Thank you for subscribing! appears                                                                 | PASS                      |
+| User clicks search when the search bar is blank             | Error toast saying you didn’t enter any search criteria                                            | PASS                      |
+| User adds item to cart                                      | Success toast appears saying added item to your cart                                               | PASS                      |
+| User updates quantity of item already in cart               | Success toast appears                                                                              | PASS                      |
+| User removes item from cart                                 | Success toast appears                                                                              | PASS                      |
+| User writes a review                                        | Success toast appears saying review submitted successfully                                         | PASS                      |
+| User updates a review                                       | Success toast appears saying your review has been updated                                          | PASS                      |
+| User deletes a review                                       | Success toast appears saying your review has been deleted                                          | PASS                      |
+| User adds item to wishlist by clicking on the outline heart | The heart changes from an outline to solid and number of users that have added this item increases | PASS                      |
+| User removes item from wishlist by clicking solid heart     | The heart changes from solid to an outline and number of users that have added this item decreases | PASS                      |
+| User pays for item                                          | Success toast appears saying order successfully processes                                          | PASS                      |
+| User updates default delivery info from profile             | Success toast appears saying profile updated successfully                                          | PASS                      |
+| User clicks on an item in order history                     | Info toast appears saying this is a past confirmation                                              | PASS                      |
+| User submits a contact request                              | Success toast appears saying request received! we will try to respond within 2 days                | PASS                      |
+| An error is raised when filling in contact form             | Error toast appears saying there was an error processing your request                              | PASS                      |
+| Store owner adds a product                                  | Success toast appears                                                                              | PASS                      |
+| Store owner clicks edit button on a product                 | Info toast appears to warn the store owner they are editing a product                              | PASS                      |
+| Store owner clicks update product button                    | Success toast appears saying successfully updated product                                          | PASS                      |
+| Store owner clicks delete on a products                     | They are sent to a defensive page to ask are you sure?                                             | PASS                      |
+| Signin                                                      | Successfully signed in as username appears on success toast                                        | PASS                      |
+| Signout                                                     | You have signed out appears on success toast                                                       | PASS                      |
+| Register                                                    | Alert toast appears saying confirmation email sent to the user's email                             | PASS                      |
+
 ## Device compatibility
 
 Throughout development the website was tested consistently using a laptop with screen size of 14 inches, a 23 inch monitor and my own in-hand iPhone 12 Pro. Multiple different devices were selected on Chrome DevTools and the window was periodically resized to check responsiveness.
