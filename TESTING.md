@@ -253,6 +253,28 @@ All python code was put through the [CI Python Linter](https://pep8ci.herokuapp.
 
 ### Testing all links and buttons on website
 
+|    | clickable link                                     | what does it do?                                                                         | does it work as expected? |
+| -- | -------------------------------------------------- | ---------------------------------------------------------------------------------------- | ------------------------- |
+| 1  | clickable summit style brand in top left of screen | returns to index page                                                                    | PASS                      |
+| 2  | navbar all products                                | shows a dropdown with filtering options and a sale button                                | PASS                      |
+| 3  | navbar clothes                                     | shows a dropdown with multiple clothes categories                                        | PASS                      |
+| 4  | navbar equipment                                   | shows a dropdown with multiple equipment categories                                      | PASS                      |
+| 5  | navbar courses                                     | shows a dropdown with multiple course categories                                         | PASS                      |
+| 6  | navbar contact                                     | brings the user to the contact page where a form is rendered                             | PASS                      |
+| 7  | account button                                     | shows a drop down with management, profile and login/out options                         | PASS                      |
+| 8  | wishlist link                                      | brings the user to the wishlist page                                                     | PASS                      |
+| 9  | shop now button                                    | brings the user to the all products page                                                 | PASS                      |
+| 10 | recycled packaging (external link)                 | link opens in a new tab                                                                  | PASS                      |
+| 11 | reforest nation (external link)                    | link opens in a new tab                                                                  | PASS                      |
+| 12 | technical skills and safety (internal link)        | sends the user to the products page that is filtered to just courses                     | PASS                      |
+| 13 | leave no trace (external link)                     | link opens in a new tab                                                                  | PASS                      |
+| 14 | subscribe button                                   | if the user entered their email address this button will submit the address to mailchimp | PASS                      |
+| 15 | clickable facebook icon                            | a new tab opens with the summit style facebook page                                      | PASS                      |
+| 16 | clickable instagram icon                           | link opens in a new tab                                                                  | PASS                      |
+| 17 | clickable github icon                              | link opens in a new tab                                                                  | PASS                      |
+| 18 | mail to link                                       | opens up your local email service                                                        | PASS                      |
+| 19 | privacy policy button                              | opens the privacy policy for the user                                                    | PASS                      |
+
 ### Feature testing table
 
 ## Responsiveness
