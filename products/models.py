@@ -143,7 +143,7 @@ class Star(models.Model):
     title = models.CharField(max_length=180)
     body = models.TextField(
         validators=[
-            MinLengthValidator(30, "Review must be greater than 30 characters")
+            MinLengthValidator(30, "Review must be at least 30 characters")
         ],
         max_length=400,
     )
