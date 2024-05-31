@@ -240,6 +240,24 @@ All python code was put through the [CI Python Linter](https://pep8ci.herokuapp.
 | Signout                                                     | You have signed out appears on success toast                                                       | PASS                      |
 | Register                                                    | Alert toast appears saying confirmation email sent to the user's email                             | PASS                      |
 
+### Notifications and feedback testing for admin panel
+
+### Testing all links and buttons on website
+
+### Feature testing table
+
+## Responsiveness
+
+## Browser compatibility
+
+ - All pages were tested for 'intended appearance' and 'responsiveness' on the following browsers; Chrome, Firefox, Safari, Edge and Opera
+
+- See browser compatibility testing results in the table below
+
+### Intended appearance on different browsers
+
+### Intended responsiveness on different browsers
+
 ## Device compatibility
 
 Throughout development the website was tested consistently using a laptop with screen size of 14 inches, a 23 inch monitor and my own in-hand iPhone 12 Pro. Multiple different devices were selected on Chrome DevTools and the window was periodically resized to check responsiveness.
