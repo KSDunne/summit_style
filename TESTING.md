@@ -242,6 +242,15 @@ All python code was put through the [CI Python Linter](https://pep8ci.herokuapp.
 
 ### Notifications and feedback testing for admin panel
 
+| Action                                           | Notification                                                                 | Does it work as expected? |
+| ------------------------------------------------ | ---------------------------------------------------------------------------- | ------------------------- |
+| When admin delete a contact request              | Successfully deleted 1 contact request                                       | PASS                      |
+| When admin delete more than one contact requests | Successfully deleted 'number' contact requests                               | PASS                      |
+| When contact request is marked as read in admin  | The contact request “Contact request from username” was changed successfully | PASS                      |
+| Admin add a review                               | The star 'item rated 5 by user' was added successfully                       | PASS                      |
+| Admin delete a review                            | Successfully deleted 1 star (a star is a review in admin)                    | PASS                      |
+| Admin delete a product                           | Successfully deleted 1 product                                               | PASS                      |
+
 ### Testing all links and buttons on website
 
 ### Feature testing table
