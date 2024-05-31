@@ -70,8 +70,7 @@
             <div class="col-12 col-md-4">
               <p class="small mb-0 text-black font-weight-bold">
                 {{ item.product.name }} - Size 
-                {% if item.product.has_sizes %}
-                {{ item.size|upper }}
+                {% if item.product.has_sizes %}{{ item.product_size|upper }}
                 {% else %}N/A
                 {% endif %}
               </p>
