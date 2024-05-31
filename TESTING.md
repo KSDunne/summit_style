@@ -211,7 +211,7 @@ All python code was put through the [CI Python Linter](https://pep8ci.herokuapp.
 | User leaves an @ out of an email address                                             | Please include an '@' in the email address.                           | PASS                      |
 | User leaves email field blank                                                        | Please fill in this field                                             | PASS                      |
 | User does not select a topic                                                         | Please select an item in the list                                     | PASS                      |
-| User enters <30 characters in the message field                                      | Message must be at least 30 charactes                                 | PASS                      |
+| User enters <30 characters in the message field                                      | Message must be at least 30 characters                                | PASS                      |
 
 ## Device compatibility
 
