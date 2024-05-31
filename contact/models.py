@@ -1,4 +1,5 @@
 from django.db import models
+from django.core.validators import MinLengthValidator
 
 TOPICS = (
     ("Clothes Topic", "Clothes"),
@@ -47,7 +48,12 @@ class ContactRequest(models.Model):
     email = models.EmailField()
     topic = models.TextField(choices=TOPICS)
     timeframe = models.TextField(choices=TIMEFRAME, null=True, blank=True)
-    message = models.TextField(max_length=900)
+    message = models.TextField(
+        validators=[
+            MinLengthValidator(30, "Message must be at least 30 characters")
+        ],
+        max_length=900,
+    )
     read = models.BooleanField(default=False)
     created_on = models.DateTimeField(auto_now_add=True)
 
