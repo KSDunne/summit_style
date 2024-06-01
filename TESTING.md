@@ -320,6 +320,13 @@ All python code was put through the [CI Python Linter](https://pep8ci.herokuapp.
 | 63 | product management - edit a product | cancel button                                               | brings the user to the all products page                                                           | PASS                      |
 | 64 | product management - edit a product | remove button on the image                                  | when update product is clicked this removes the image                                              | PASS                      |
 | 65 | product management - edit a product | update product button                                       | submits the form and edits the information for that item                                           | PASS                      |
+| 66 | login                               | forgot password                                             | brings the user to a password reset page                                                           | PASS                      |
+| 67 | login                               | home button                                                 | brings the user to the index page                                                                  | PASS                      |
+| 68 | login                               | signin                                                      | submits the form and authenticates the user                                                        | PASS                      |
+| 69 | register page                       | back to login button                                        | brings the user to the login page                                                                  | PASS                      |
+| 70 | register page                       | sign up button                                              | submits the form if valid and send the user to a confirm email page                                | PASS                      |
+| 71 | logout page                         | cancel button                                               | sends the user to the index page                                                                   | PASS                      |
+| 72 | logout page                         | sign out button                                             | sends the user to the index page and shows success toast saying you have signed out                | PASS                      |
 
 ### Feature testing table
 
