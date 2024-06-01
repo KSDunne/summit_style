@@ -374,6 +374,7 @@ All python code was put through the [CI Python Linter](https://pep8ci.herokuapp.
 | wishlist                                            | na    | na       | na             | na      | na      | PASS     | na   | na       | na               | na            | na               | na                | na                  | na          | na            | na       | na    | na     |
 | register form                                       | na    | na       | na             | na      | na      | na       | na   | na       | na               | na            | na               | na                | na                  | na          | na            | PASS     | na    | na     |
 | sign in form                                        | na    | na       | na             | na      | na      | na       | na   | na       | na               | na            | na               | na                | na                  | na          | na            | na       | PASS  | na     |
+| responsive green boxes on index page                | PASS  | na       | na             | na      | na      | na       | na   | na       | na               | na            | na               | na                | na                  | na          | na            | na       | na    | na     |
 
 ## Browser compatibility
 
