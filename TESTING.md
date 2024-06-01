@@ -193,7 +193,7 @@ All python code was put through the [CI Python Linter](https://pep8ci.herokuapp.
 
 ## Manual testing
 
-### Submit a review using a FE form validation
+### Validation on review form
 
 | User action                               | Validation error                      | Does it work as expected? |
 | ----------------------------------------- | ------------------------------------- | ------------------------- |
