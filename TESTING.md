@@ -324,6 +324,14 @@ All python code was put through the [CI Python Linter](https://pep8ci.herokuapp.
 
 ## Responsiveness
 
+- Responsiveness of features was tested using Chrome DevTools.
+
+- All features were tested for the intended look and responsiveness on iPhone SE, 375px wide, iPad Mini, 768px wide and Nest Hub Max, 1280px wide. I also consistently tested the look and responsiveness down to 300px throughout development.
+
+- All features passed responsiveness testing and looked good on all devices mentioned. 
+
+- See responsive feature testing results in the table below.
+
 ## Browser compatibility
 
  - All pages were tested for 'intended appearance' and 'responsiveness' on the following browsers; Chrome, Firefox, Safari, Edge and Opera
