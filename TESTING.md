@@ -4,17 +4,13 @@
 
 - [User story testing](#user-story-testing)
 - [Lighthouse](#lighthouse)
-   * [Lighthouse results table](#lighthouse-results-table)
+   * [Lighthouse result table](#lighthouse-result-table)
    * [Lighthouse result explanation](#lighthouse-result-explanation)
 - [Code validation](#code-validation)
    * [HTML](#html)
-      + [HTML Result](#html-result)
    * [CSS](#css)
-      + [CSS Result](#css-result)
    * [JavaScript](#javascript)
-      + [JS Result](#js-result)
    * [Python](#python)
-      + [Python Result](#python-result)
 - [Manual testing](#manual-testing)
    * [Validation on review form](#validation-on-review-form)
    * [Contact form validation](#contact-form-validation)
@@ -79,7 +75,7 @@ See user story testing table below. All 'must have' and 'should have' user stori
 
 Performance, accessibility, best practices and seo were tested using [lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) in Chrome DevTools.
 
-### Lighthouse results table
+### Lighthouse result table
 
 | page             | performance | accessibility | best practices | seo | screenshot                                                                                                                 | result |
 | ---------------- | ----------- | ------------- | -------------- | --- | -------------------------------------------------------------------------------------------------------------------------- | ------ |
