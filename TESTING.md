@@ -307,6 +307,9 @@ All python code was put through the [CI Python Linter](https://pep8ci.herokuapp.
 | 50 | wishlist page                | clickable image                                             | brings the user to the product detail page                                                         | PASS                      |
 | 51 | wishlist page                | clickable category                                          | brings the user to a filtered products page                                                        | PASS                      |
 | 52 | wishlist page                | product details button                                      | brings the user to that specific product detail page                                               | PASS                      |
+| 53 | profile                      | clickable order number                                      | brings the user to a past confirmation                                                             | PASS                      |
+| 54 | profile                      | update information button                                   | updates the default delivery information and works as expected                                     | PASS                      |
+| 55 | order history                | back to profile button                                      | brings the user back to their personal profile with their order history                            | PASS                      |
 
 ### Feature testing table
 
