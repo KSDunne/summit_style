@@ -2,6 +2,30 @@
 
 ## Table of contents
 
+- [User story testing](#user-story-testing)
+- [Lighthouse](#lighthouse)
+   * [Lighthouse results table](#lighthouse-results-table)
+   * [Lighthouse result explanation](#lighthouse-result-explanation)
+- [Code validation](#code-validation)
+   * [HTML](#html)
+      + [HTML Result](#html-result)
+   * [CSS](#css)
+      + [CSS Result](#css-result)
+   * [JavaScript](#javascript)
+      + [JS Result](#js-result)
+   * [Python](#python)
+      + [Python Result](#python-result)
+- [Manual testing](#manual-testing)
+   * [Validation on review form](#validation-on-review-form)
+   * [Contact form validation](#contact-form-validation)
+   * [Notifications and feedback testing](#notifications-and-feedback-testing)
+   * [Notifications and feedback testing for admin panel](#notifications-and-feedback-testing-for-admin-panel)
+   * [Testing all links and buttons on website](#testing-all-links-and-buttons-on-website)
+   * [Feature testing table](#feature-testing-table)
+- [Responsiveness](#responsiveness)
+- [Browser compatibility](#browser-compatibility)
+- [Device compatibility](#device-compatibility)
+
 ## User story testing
 
 See user story testing table below. All 'must have' and 'should have' user stories have passed the criteria for being met. Two user stories won't be live for assessment but it's still a pass because these were part of the testimonial feature and that was classified as a 'could have'.
