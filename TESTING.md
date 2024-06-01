@@ -387,6 +387,27 @@ All python code was put through the [CI Python Linter](https://pep8ci.herokuapp.
 
 Intended responsiveness was tested on a monitor using different browsers while constantly changing window sizes.
 
+| intended responsiveness | chrome | firefox | edge | safari | opera |
+| ----------------------- | ------ | ------- | ---- | ------ | ----- |
+| index                   | pass   | pass    | pass | pass   | pass  |
+| products                | pass   | pass    | pass | pass   | pass  |
+| product detail          | pass   | pass    | pass | pass   | pass  |
+| contact                 | pass   | pass    | pass | pass   | pass  |
+| profile                 | pass   | pass    | pass | pass   | pass  |
+| wishlist                | pass   | pass    | pass | pass   | pass  |
+| cart                    | pass   | pass    | pass | pass   | pass  |
+| checkout                | pass   | pass    | pass | pass   | pass  |
+| checkout success        | pass   | pass    | pass | pass   | pass  |
+| order history           | pass   | pass    | pass | pass   | pass  |
+| add product page        | pass   | pass    | pass | pass   | pass  |
+| edit product page       | pass   | pass    | pass | pass   | pass  |
+| delete product page     | pass   | pass    | pass | pass   | pass  |
+| review edit             | pass   | pass    | pass | pass   | pass  |
+| delete review           | pass   | pass    | pass | pass   | pass  |
+| register                | pass   | pass    | pass | pass   | pass  |
+| login                   | pass   | pass    | pass | pass   | pass  |
+| logout                  | pass   | pass    | pass | pass   | pass  |
+
 ## Device compatibility
 
 Throughout development the website was tested consistently using a laptop with screen size of 14 inches, a 23 inch monitor and my own in-hand iPhone 12 Pro. Multiple different devices were selected on Chrome DevTools and the window was periodically resized to check responsiveness.
