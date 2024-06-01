@@ -253,27 +253,57 @@ All python code was put through the [CI Python Linter](https://pep8ci.herokuapp.
 
 ### Testing all links and buttons on website
 
-|    | clickable link                                     | what does it do?                                                                         | does it work as expected? |
-| -- | -------------------------------------------------- | ---------------------------------------------------------------------------------------- | ------------------------- |
-| 1  | clickable summit style brand in top left of screen | returns to index page                                                                    | PASS                      |
-| 2  | navbar all products                                | shows a dropdown with filtering options and a sale button                                | PASS                      |
-| 3  | navbar clothes                                     | shows a dropdown with multiple clothes categories                                        | PASS                      |
-| 4  | navbar equipment                                   | shows a dropdown with multiple equipment categories                                      | PASS                      |
-| 5  | navbar courses                                     | shows a dropdown with multiple course categories                                         | PASS                      |
-| 6  | navbar contact                                     | brings the user to the contact page where a form is rendered                             | PASS                      |
-| 7  | account button                                     | shows a drop down with management, profile and login/out options                         | PASS                      |
-| 8  | wishlist link                                      | brings the user to the wishlist page                                                     | PASS                      |
-| 9  | shop now button                                    | brings the user to the all products page                                                 | PASS                      |
-| 10 | recycled packaging (external link)                 | link opens in a new tab                                                                  | PASS                      |
-| 11 | reforest nation (external link)                    | link opens in a new tab                                                                  | PASS                      |
-| 12 | technical skills and safety (internal link)        | sends the user to the products page that is filtered to just courses                     | PASS                      |
-| 13 | leave no trace (external link)                     | link opens in a new tab                                                                  | PASS                      |
-| 14 | subscribe button                                   | if the user entered their email address this button will submit the address to mailchimp | PASS                      |
-| 15 | clickable facebook icon                            | a new tab opens with the summit style facebook page                                      | PASS                      |
-| 16 | clickable instagram icon                           | link opens in a new tab                                                                  | PASS                      |
-| 17 | clickable github icon                              | link opens in a new tab                                                                  | PASS                      |
-| 18 | mail to link                                       | opens up your local email service                                                        | PASS                      |
-| 19 | privacy policy button                              | opens the privacy policy for the user                                                    | PASS                      |
+|    | where is the link or button? | clickable link or button                                    | what does it do?                                                                                   | does it work as expected? |
+| -- | ---------------------------- | ----------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | ------------------------- |
+| 1  | index page                   | clickable summit style brand in top left of screen          | returns to index page                                                                              | PASS                      |
+| 2  | index page                   | magnifying glass (search button)                            | will search names and descriptions of products, equipment and courses                              | PASS                      |
+| 3  | index page                   | navbar all products                                         | shows a dropdown with filtering options and a sale button                                          | PASS                      |
+| 4  | index page                   | navbar clothes                                              | shows a dropdown with multiple clothes categories                                                  | PASS                      |
+| 5  | index page                   | navbar equipment                                            | shows a dropdown with multiple equipment categories                                                | PASS                      |
+| 6  | index page                   | navbar courses                                              | shows a dropdown with multiple course categories                                                   | PASS                      |
+| 7  | index page                   | navbar contact                                              | brings the user to the contact page where a form is rendered                                       | PASS                      |
+| 8  | index page                   | account button                                              | shows a drop down with management, profile and login/out options                                   | PASS                      |
+| 9  | index page                   | wishlist link                                               | brings the user to the wishlist page                                                               | PASS                      |
+| 10 | index page                   | navbar cart                                                 | when clicked this button brings the user to the cart page                                          | PASS                      |
+| 11 | index page                   | shop now button                                             | brings the user to the all products page                                                           | PASS                      |
+| 12 | index page                   | recycled packaging (external link)                          | link opens in a new tab                                                                            | PASS                      |
+| 13 | index page                   | reforest nation (external link)                             | link opens in a new tab                                                                            | PASS                      |
+| 14 | index page                   | technical skills and safety (internal link)                 | sends the user to the products page that is filtered to just courses                               | PASS                      |
+| 15 | index page                   | leave no trace (external link)                              | link opens in a new tab                                                                            | PASS                      |
+| 16 | mailchimp section            | subscribe button                                            | if the user entered their email address this button will submit the address to mailchimp           | PASS                      |
+| 17 | footer                       | clickable facebook icon                                     | a new tab opens with the summit style facebook page                                                | PASS                      |
+| 18 | footer                       | clickable instagram icon                                    | link opens in a new tab                                                                            | PASS                      |
+| 19 | footer                       | clickable github icon                                       | link opens in a new tab                                                                            | PASS                      |
+| 20 | footer                       | mail to link                                                | opens up your local email service                                                                  | PASS                      |
+| 21 | footer                       | privacy policy button                                       | opens the privacy policy for the user                                                              | PASS                      |
+| 22 | products page                | clickable images on all product page                        | brings the user to product detail page                                                             | PASS                      |
+| 23 | products page                | sort by                                                     | when clicked this opens a dropdown menu with filter options                                        | PASS                      |
+| 24 | products page                | the category shown on product carts                         | this is clickable and will bring the user to a filtered product page                               | PASS                      |
+| 25 | products page                | products home button displays when products are filtered    | brings the user back to all products page                                                          | PASS                      |
+| 26 | products page                | edit button on all products (shown to superusers)           | brings a store owner to 'edit product' page                                                        | PASS                      |
+| 27 | products page                | delete button on all products (shown to superusers)         | brings a store owner to a defensive 'are you sure?' page                                           | PASS                      |
+| 28 | product detail               | product detail clickable heart                              | add or remove the product to a wishlist the heart will toggle from outline to solid and back again | PASS                      |
+| 29 | product detail               | product detail edit and delete buttons (shown to superuser) | sends user to the appropriate page for the action                                                  | PASS                      |
+| 30 | product detail               | product detail size                                         | displays dropdown options                                                                          | PASS                      |
+| 31 | product detail               | product detail keep shopping button                         | sends user to all products page                                                                    | PASS                      |
+| 32 | product detail               | add to cart button                                          | adds item to cart and displays toast if successful                                                 | PASS                      |
+| 33 | product detail               | submit button on write a review                             | submits the review form                                                                            | PASS                      |
+| 34 | product detail               | edit button on my review                                    | brings the user to an edit page                                                                    | PASS                      |
+| 35 | product detail               | delete button on my review                                  | brings the user to a defensive 'are you sure?' page                                                | PASS                      |
+| 36 | toast                        | go to secure checkout button on toast                       | brings the user to the cart page                                                                   | PASS                      |
+| 37 | cart                         | cart quantity plus and minus                                | increases or decreases the number displayed under qty                                              | PASS                      |
+| 38 | cart                         | cart update button                                          | updates the subtotal and total price for the quantity of items selected                            | PASS                      |
+| 39 | cart                         | cart remove button                                          | removes a specific item from the cart                                                              | PASS                      |
+| 40 | cart                         | cart keep shopping button                                   | sends the user to the all products page                                                            | PASS                      |
+| 41 | cart                         | secure checkout button on cart page                         | sends the user to the checkout template                                                            | PASS                      |
+| 42 | checkout                     | checkout clickable image in the order summary               | sends the user to the product detail page                                                          | PASS                      |
+| 43 | checkout                     | toggle box for saving delivery information                  | saves delivery information on the profile so that it is prefilled in the form the next time        | PASS                      |
+| 44 | checkout                     | checkout adjust cart button                                 | sends the users to the cart page                                                                   | PASS                      |
+| 45 | checkout                     | checkout complete order button                              | sends the user to the checkout success page                                                        | PASS                      |
+| 46 | checkout success page        | checkout success page now check out the latest deals        | sends the user to a filtered products page with sale items                                         | PASS                      |
+| 47 | contact page                 | contact us jump link                                        | brings the user to the contact form further down the page                                          | PASS                      |
+| 48 | contact page                 | contact page mailto link                                    | opens your local email service                                                                     | PASS                      |
+| 49 | contact page                 | contact form submit button                                  | submits the contact form if the fields pass validation                                             | PASS                      |
 
 ### Feature testing table
 
