@@ -304,6 +304,9 @@ All python code was put through the [CI Python Linter](https://pep8ci.herokuapp.
 | 47 | contact page                 | contact us jump link                                        | brings the user to the contact form further down the page                                          | PASS                      |
 | 48 | contact page                 | contact page mailto link                                    | opens your local email service                                                                     | PASS                      |
 | 49 | contact page                 | contact form submit button                                  | submits the contact form if the fields pass validation                                             | PASS                      |
+| 50 | wishlist page                | clickable image                                             | brings the user to the product detail page                                                         | PASS                      |
+| 51 | wishlist page                | clickable category                                          | brings the user to a filtered products page                                                        | PASS                      |
+| 52 | wishlist page                | product details button                                      | brings the user to that specific product detail page                                               | PASS                      |
 
 ### Feature testing table
 
