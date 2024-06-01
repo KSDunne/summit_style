@@ -159,7 +159,7 @@ JavaScript code in the stripe_elements.js file was put through the [JSHint Valid
 
 #### JS Result
 
-JavaScript ES6 was selected and the following were declaired as global: $, Stripe, document, location. The result was a pass.
+JavaScript ES6 was selected and the following were declared as global: $, Stripe, document, location. The result was a pass.
 
 ![JS validation](docs/readme_images/validation/stripejs_validation.png)
 
@@ -255,7 +255,7 @@ All python code was put through the [CI Python Linter](https://pep8ci.herokuapp.
 | Store owner adds a product                                  | Success toast appears                                                                              | PASS                      |
 | Store owner clicks edit button on a product                 | Info toast appears to warn the store owner they are editing a product                              | PASS                      |
 | Store owner clicks update product button                    | Success toast appears saying successfully updated product                                          | PASS                      |
-| Store owner clicks delete on a products                     | They are sent to a defensive page to ask are you sure?                                             | PASS                      |
+| Store owner clicks delete on a product                      | They are sent to a defensive page to ask are you sure?                                             | PASS                      |
 | Signin                                                      | Successfully signed in as username appears on success toast                                        | PASS                      |
 | Signout                                                     | You have signed out appears on success toast                                                       | PASS                      |
 | Register                                                    | Alert toast appears saying confirmation email sent to the user's email                             | PASS                      |
@@ -310,7 +310,7 @@ All python code was put through the [CI Python Linter](https://pep8ci.herokuapp.
 | 33 | product detail                      | submit button on write a review                                       | submits the review form                                                                            | PASS                      |
 | 34 | product detail                      | edit button on my review                                              | brings the user to an edit page                                                                    | PASS                      |
 | 35 | product detail                      | delete button on my review                                            | brings the user to a defensive 'are you sure?' page                                                | PASS                      |
-| 36 | review edit page                    | edit review button                                                    | sumits form and updates the review                                                                 | PASS                      |
+| 36 | review edit page                    | edit review button                                                    | submits form and updates the review                                                                 | PASS                      |
 | 37 | delete review page                  | confirm button                                                        | deletes that review instance                                                                       | PASS                      |
 | 38 | delete product page                 | cancel button                                                         | sends the user to the all products page                                                            | PASS                      |
 | 39 | delete product page                 | confirm button                                                        | deletes that product instance                                                                      | PASS                      |
@@ -359,11 +359,11 @@ All python code was put through the [CI Python Linter](https://pep8ci.herokuapp.
 | - | --------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------- |
 | 1 | drop down nav menu on 320 px                  | when the burger is clicked a dropdown nav menu appears                                                                                          | PASS                      |
 | 2 | drop down nav menu on 768 px                  | when the burger is clicked a dropdown nav menu appears                                                                                          | PASS                      |
-| 3 | contact form                                  | submits a contact request for the user, this works as indended                                                                                  | PASS                      |
+| 3 | contact form                                  | submits a contact request for the user, this works as intended                                                                                  | PASS                      |
 | 4 | review form                                   | submits a review that the user writes, this works as intended                                                                                   | PASS                      |
-| 5 | toggle heart for wishlist                     | this toggles correctly, the number of users that liked the product increases or decreases and the product adds to the wishlist page succesfully | PASS                      |
+| 5 | toggle heart for wishlist                     | this toggles correctly, the number of users that liked the product increases or decreases and the product adds to the wishlist page successfully | PASS                      |
 | 6 | average star rating on products page          | this shows 'x out of 5' on each product and it was tested to see if it is definitely an average calculation and not just 1 rating showing       | PASS                      |
-| 7 | average star rating on product detail page    | the stars fill to solid correctly depanding on what the average rating is                                                                       | PASS                      |
+| 7 | average star rating on product detail page    | the stars fill to solid correctly depending on what the average rating is                                                                       | PASS                      |
 | 8 | display of your own and other peoples reviews | displays reviews on cards with the newest ones at the top                                                                                       | PASS                      |
 | 9 | count of reviews on products details page     | the number goes up and down correctly according to how many reviews are on that item                                                            | PASS                      |
 
