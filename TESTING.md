@@ -381,8 +381,6 @@ All python code was put through the [CI Python Linter](https://pep8ci.herokuapp.
 
 - See browser compatibility testing results in the table below
 
-### Intended appearance on different browsers
-
 ### Intended responsiveness on different browsers
 
 Intended responsiveness was tested on a monitor using different browsers while constantly changing window sizes.
