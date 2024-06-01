@@ -24,7 +24,7 @@
 
 ## User story testing
 
-See user story testing table below. All 'must have' and 'should have' user stories have passed the criteria for being met. Two user stories won't be live for assessment but it's still a pass because these were part of the testimonial feature and that was classified as a 'could have'.
+See user story testing table below. All 'must have' and 'should have' user stories have passed the proposed criteria documented in issues. Two user stories won't be live for assessment but it's still a pass because these were part of the testimonial feature and that was classified as a 'could have'.
 
 |     | user story                                                                                                                                                                            | was the need met?                                  | screenshot                                                                                         | result           |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------- | -------------------------------------------------------------------------------------------------- | ---------------- |
