@@ -377,13 +377,11 @@ All python code was put through the [CI Python Linter](https://pep8ci.herokuapp.
 
 ## Browser compatibility
 
- - All pages were tested for 'intended appearance' and 'responsiveness' on the following browsers; Chrome, Firefox, Safari, Edge and Opera
+ - All pages were tested for 'intended responsiveness' on the following browsers; Chrome, Firefox, Safari, Edge and Opera
 
-- See browser compatibility testing results in the table below
+- Intended responsiveness was tested on a monitor using different browsers while constantly changing window sizes
 
-### Intended responsiveness on different browsers
-
-Intended responsiveness was tested on a monitor using different browsers while constantly changing window sizes.
+- See results in the table below
 
 | intended responsiveness | chrome | firefox | edge | safari | opera |
 | ----------------------- | ------ | ------- | ---- | ------ | ----- |
