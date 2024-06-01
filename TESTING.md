@@ -385,6 +385,8 @@ All python code was put through the [CI Python Linter](https://pep8ci.herokuapp.
 
 ### Intended responsiveness on different browsers
 
+Intended responsiveness was tested on a monitor using different browsers while constantly changing window sizes.
+
 ## Device compatibility
 
 Throughout development the website was tested consistently using a laptop with screen size of 14 inches, a 23 inch monitor and my own in-hand iPhone 12 Pro. Multiple different devices were selected on Chrome DevTools and the window was periodically resized to check responsiveness.
