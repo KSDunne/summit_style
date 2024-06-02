@@ -236,7 +236,7 @@ On monitor size screens, that is >992px, the search bar is displayed on the topn
 
 Product cards contain a product image, name of the product, price, category and average rating. If you are logged in as a superuser you can also see edit and delete buttons. The delete button is defensive.
 
-![Product cards](docs/readme_images/features/product_cards.png)
+![Product card](docs/readme_images/features/product_card.png)
 
 ### Sort dropdown
 
@@ -246,9 +246,13 @@ The options for filtering are by price, name and category.
 
 ### Product detail
 
-The product detail page contains a product image, name, price, category, toggle wishlist heart, star ratings, description, quantity buttons and size dropdown options if applicable. There are "keep shopping" and "add to cart" buttons here too. The product detail page also contains a rate and review panel.
+The product detail page contains a product image, name, price, category, toggle wishlist heart, star ratings, description, quantity buttons and size dropdown options if applicable. The product detail page also contains a rate and review panel.
  
 ![Product detail](docs/readme_images/features/product_detail.png)
+
+There are "keep shopping" and "add to cart" buttons here too.
+
+![Add to cart](docs/readme_images/features/add_to_cart.png)
 
 ### Average star rating
 
