@@ -158,7 +158,7 @@ This is a call to action on the index page. This button brings the user to the a
 
 ![Shop now button](docs/readme_images/features/cta_button.png)
 
-### Were responsible
+### We're responsible
 
 This is a section on the index page to convey that summit style is an ethical company with responsible values. It shows that summit style uses recycled packaging and that they have a corporate partnership with a reforestation website.
 
@@ -204,19 +204,19 @@ This is a crispy form. It is styled with a light yellow background and I removed
 
 The signout page is defensive. It asks the user 'Are you sure you want to sign out?'
 
-![Sign out page](docs/readme_images/features/sign_out_page.PNG)
+![Sign out page](docs/readme_images/features/sign_out_page.png)
 
 ### Shopping cart empty
 
 When a user clicks on the shopping cart, but they haven't added any items yet. The page will display "Your cart is empty" and a button to keep shopping.
 
-![Empty cart](docs/readme_images/features/empty_cart.PNG)
+![Empty cart](docs/readme_images/features/empty_cart.png)
 
 ### Shopping cart with items
 
 This page shows the product image, the name of the product, the size if applicable, the sku, the price, quantity and subtotal for every product in the cart. The cart total, the delivery cost and the grand total are also displayed on this page.
 
-![Cart](docs/readme_images/features/cart.PNG)
+![Cart](docs/readme_images/features/cart.png)
 
 ### Search bar
 
@@ -224,43 +224,43 @@ This page shows the product image, the name of the product, the size if applicab
 
 When the user clicks on the magnifying glass a search bar form will dropdown. The search bar works well for item names and descriptions.
 
-![Mobile search bar](docs/readme_images/features/mobile_search.PNG)
+![Mobile search bar](docs/readme_images/features/mobile_search.png)
 
 #### Search bar on a monitor
 
 On monitor size screens, that is >992px, the search bar is displayed on the topnav.
 
-![Topnav search bar](docs/readme_images/features/topnav_search.PNG)
+![Topnav search bar](docs/readme_images/features/topnav_search.png)
 
 ### Product cards
 
 Product cards contain a product image, name of the product, price, category and average rating. If you are logged in as a superuser you can also see edit and delete buttons. The delete button is defensive.
 
-![Product cards](docs/readme_images/features/product_cards.PNG)
+![Product cards](docs/readme_images/features/product_cards.png)
 
 ### Sort dropdown
 
 The options for filtering are by price, name and category.
 
-![Sort dropdown](docs/readme_images/features/sort_dropdown.PNG)
+![Sort dropdown](docs/readme_images/features/sort_dropdown.png)
 
 ### Product detail
 
 The product detail page contains a product image, name, price, category, toggle wishlist heart, star ratings, description, quantity buttons and size dropdown options if applicable. There are "keep shopping" and "add to cart" buttons here too. The product detail page also contains a rate and review panel.
  
-![Product detail](docs/readme_images/features/product_detail.PNG)
+![Product detail](docs/readme_images/features/product_detail.png)
 
 ### Average star rating
 
 When multiple users add a rating, out of five, to the review form the average number is calculated. This average number is shown on the products page and the product detail page.
 
-![Average rating](docs/readme_images/features/average_rating.PNG)
+![Average rating](docs/readme_images/features/average_rating.png)
 
 ### Rate and review panel
 
 This panel shows the number of reviews that have been submitted for that particular item, it shows the reviews from latest to oldest and there is a form for submitting your own review. The name of the item being reviewed is shown at the top of the form, so that the user doesn't write a review with the wrong product in mind and their username is shown at the bottom of the form for personalisation.
 
-![Review panel](docs/readme_images/features/review_panel.PNG)
+![Review panel](docs/readme_images/features/review_panel.png)
 
 ### Wishlist
 
