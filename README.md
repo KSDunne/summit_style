@@ -258,6 +258,10 @@ When multiple users add a rating, out of five, to the review form the average nu
 
 ### Rate and review panel
 
+This panel shows the number of reviews that have been submitted for that particular item, it shows the reviews from latest to oldest and there is a form for submitting your own review. The name of the item being reviewed is shown at the top of the form, so that the user doesn't write a review with the wrong product in mind and their username is shown at the bottom of the form for personalisation.
+
+![Review panel](docs/readme_images/features/review_panel.PNG)
+
 ### Wishlist
 
 ### Account management, add, edit, delete products
