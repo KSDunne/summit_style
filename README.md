@@ -136,17 +136,37 @@ An ecommerce app is designed to facilitate commercial or business transactions a
 
 #### Mobile navigation using burger menu
 
+On mobile and tablet size screens site navigation uses a burger menu and 4 icons. The burger menu has the following navigation options; home, all products, clothes, equipment, courses and contact. The 4 icons are; search, account, wishlist and shopping cart with the current spend displayed underneath it.
+
 #### Monitor navigation bar
 
-On monitor size screens, this is split into 2 divs. The top nav which contains the logo, a search bar, an account dropdown menu and a shopping cart logo with link to the shopping cart. This shopping cart also shows a running total of the users spend. The second part is the main site navigation bar. This main navbar contains downdown menus and links with titles; all products, clothes, equipment, courses and contact.
+On monitor size screens, this is split into 2 divs. The top nav which contains the logo, a search bar, an account dropdown menu, a wishlist icon and a shopping cart logo with link to the shopping cart. This shopping cart also shows a running total of the users spend. The second part is the main site navigation bar. This main navbar contains downdown menus and links with titles; all products, clothes, equipment, courses and contact.
 
-### Hero image
+### Hero image with cover text
 
-The index page hero image was chosen because it fits the theme of the website. There is a man with hiking gear looking at some mountains in the distance. The colors of this image also align with the theme and design of the overall website.
+The index page hero image was chosen because it fits the theme of the website. There is a man with hiking gear looking at some mountains in the distance. The colors of this image also align with the theme and design of the overall website. The main mountain hero image can also be seen on allauth pages (e.g. register, login and logout)
 
 ### Shop now button
 
-This is a call to action on the index page
+This is a call to action on the index page. This button brings the user to the all products page.
+
+### Were responsible
+
+This is a section on the index page to convey that summit style is an ethical company with responsible values. It shows that summit style uses recycled packaging and that they have a corporate partnership with a reforestation website.
+
+### We educate
+
+This section on the index page showcases the fundamental pillars supporting the courses available on this website.
+
+### We're green section
+
+These are responsive boxes highlighting again how summit style is a responsible, ethical and green company to buy from.
+
+### Newsletter sign up
+
+This is in base.html, so it shows up on all pages right above the footer.
+
+### Footer
 
 ### Shopping cart and single payment system
 
@@ -156,15 +176,13 @@ This is a call to action on the index page
 
 ### Product images and clear descriptions
 
-### We're green section on the index page
-
-### Newsletter sign up
-
-This is in base.html, so it shows up on all pages right above the footer.
-
 ### Average star rating and reviews
 
-### Footer
+### Account management
+
+### Wishlist
+
+### Shopping cart
 
 ### Custom 404 page
 
