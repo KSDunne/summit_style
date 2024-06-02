@@ -198,7 +198,7 @@ This is a crispy form that asks for username and password. It was styled with a 
 
 This is a crispy form. It is styled with a light yellow background and I removed the bullet point dots that are normally present on the password instructions (e.g. your password must contain at least 8 characters).
 
-![Register form](docs/readme_images/features/register_form_ss.png)
+![Register form](docs/readme_images/features/register_form.png)
 
 ### Sign out page
 
