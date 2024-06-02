@@ -272,9 +272,25 @@ This panel shows the number of reviews that have been submitted for that particu
 
 ![Review panel](docs/readme_images/features/review_panel.png)
 
+### Edit the rate and review form that I submitted
+
+### Delete the rate and review form that I submitted
+
 ### Wishlist
 
-### Account management, add, edit, delete products
+### Contact page
+
+### Checkout
+
+### Checkout success page
+
+### Profile
+
+### Add product page
+
+### Edit product
+
+### Delete product
 
 ### Custom 404 page
 
