@@ -39,6 +39,18 @@ An ecommerce app is designed to facilitate commercial or business transactions a
 
 ### User requirements and expectations
 
+- Easy navigation whether using mobile, tablet or monitor
+- Ability to quickly understand the purpose of the website
+- An accessible website for all users
+- A secure payment system
+- A secure data protection policy
+- Detailed product information
+- Visually appealing and responsive design
+- An ability to see how other customers rate and review products
+- An ability to add products to a wishlist for interaction at a later time
+- An ability to contact the business easily
+- Users expect businesses to have responsible ethics
+
 ## Epics and user stories
 
 ### Epics
