@@ -134,17 +134,17 @@ An ecommerce app is designed to facilitate commercial or business transactions a
 
 ### Logo and navigation bar
 
-#### Mobile navigation using burger menu
-
-On mobile and tablet size screens site navigation uses a burger menu and 4 icons. The burger menu has the following navigation options; home, all products, clothes, equipment, courses and contact. The 4 icons are; search, account, wishlist and shopping cart with the current spend displayed underneath it.
-
-![Mobile navbar with burger menu](docs/readme_images/features/navbar_burger.png)
-
 #### Monitor navigation bar
 
 On monitor size screens, this is split into 2 divs. The top nav which contains the logo, a search bar, an account dropdown menu, a wishlist icon and a shopping cart logo with link to the shopping cart. This shopping cart also shows a running total of the users spend. The second part is the main site navigation bar. This main navbar contains downdown menus and links with titles; all products, clothes, equipment, courses and contact.
 
 ![Monitor navbar](docs/readme_images/features/navbar_monitor.png)
+
+#### Mobile navigation using burger menu
+
+On mobile and tablet size screens site navigation uses a burger menu and 4 icons. The burger menu has the following navigation options; home, all products, clothes, equipment, courses and contact. The 4 icons are; search, account, wishlist and shopping cart with the current spend displayed underneath it.
+
+![Mobile navbar with burger menu](docs/readme_images/features/navbar_burger.png)
 
 ### Hero image with cover text
 
