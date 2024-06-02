@@ -188,21 +188,75 @@ The footer has the business email, phone number, social media links, a link to t
 
 ![Footer](docs/readme_images/features/footer.PNG)
 
-### Shopping cart and single payment system
+### Sign in form
 
-### Authentication system
+This is a crispy form that asks for username and password. It was styled with a yellow background.
 
-### Search and filter functionality
+![Sign in form](docs/readme_images/features/sign_in_form.PNG)
 
-### Product images and clear descriptions
+### Register form (Sign up)
 
-### Average star rating and reviews
+This is a crispy form. It is styled with a light yellow background and I removed the bullet point dots that are normally present on the password instructions (e.g. your password must contain at least 8 characters).
 
-### Account management
+![Register form](docs/readme_images/features/register_form_ss.PNG)
+
+### Sign out page
+
+The signout page is defensive. It asks the user 'Are you sure you want to sign out?'
+
+![Sign out page](docs/readme_images/features/sign_out_page.PNG)
+
+### Shopping cart empty
+
+When a user clicks on the shopping cart, but they haven't added any items yet. The page will display "Your cart is empty" and a button to keep shopping.
+
+![Empty cart](docs/readme_images/features/empty_cart.PNG)
+
+### Shopping cart with items
+
+This page shows the product image, the name of the product, the size if applicable, the sku, the price, quantity and subtotal for every product in the cart. The cart total, the delivery cost and the grand total are also displayed on this page.
+
+![Cart](docs/readme_images/features/cart.PNG)
+
+### Search bar
+
+#### Search bar on mobile
+
+When the user clicks on the magnifying glass a search bar form will dropdown. The search bar works well for item names and descriptions.
+
+![Mobile search bar](docs/readme_images/features/mobile_search.PNG)
+
+#### Search bar on a monitor
+
+On monitor size screens, that is >992px, the search bar is displayed on the topnav.
+
+![Topnav search bar](docs/readme_images/features/topnav_search.PNG)
+
+### Product cards
+
+Product cards contain a product image, name of the product, price, category and average rating. If you are logged in as a superuser you can also see edit and delete buttons. The delete button is defensive.
+
+![Product cards](docs/readme_images/features/product_cards.PNG)
+
+### Sort dropdown
+
+The options for filtering are by price, name and category.
+
+![Sort dropdown](docs/readme_images/features/sort_dropdown.PNG)
+
+### Product detail
+
+The product detail page contains a product image, name, price, category, toggle wishlist heart, star ratings, description, quantity buttons and size dropdown options if applicable. There are "keep shopping" and "add to cart" buttons here too. The product detail page also contains a rate and review panel.
+ 
+![Product detail](docs/readme_images/features/product_detail.PNG)
+
+### Average star rating
+
+### Rate and review panel
 
 ### Wishlist
 
-### Shopping cart
+### Account management, add, edit, delete products
 
 ### Custom 404 page
 
