@@ -10,7 +10,7 @@ Link to live website: [Summit Style](https://summit-style-b727a186ee80.herokuapp
 
 ## Purpose of the project
 
-Here is an eCommerce website, for a fictitious business called Summit Style. This is a full stack website built using the Django web framework. This business sells adventure clothing, equipment and short educational courses based on outdoor skills. There is a star rating feature on all products and courses. There is a wishlist feature and there is also a contact tab.
+Here is an eCommerce website, for a fictitious business called Summit Style. This is a full stack website built using the Django web framework. This business sells adventure clothing, equipment and short educational courses based on outdoor skills. There is a star rating feature on all products and courses. All offerings have a review feature. There is a wishlist feature and there is also a contact tab.
 
 ## Table of contents
 
@@ -25,6 +25,10 @@ An ecommerce app is designed to facilitate commercial or business transactions a
 ## User experience (UX)
 
 ### Key project goals
+
+- Build a website that quickly conveys the message that it is a adventure themed shop
+- Create a website where users can see what is being sold easily and can readily access the offerings
+- Add 3 features that enhance the experience of a user visiting an ecommerce website; 1. star ratings and reviews, 2. a wishlist feature and 3. a contact form.
 
 ### Target audience
 
