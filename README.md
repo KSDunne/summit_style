@@ -252,6 +252,10 @@ The product detail page contains a product image, name, price, category, toggle 
 
 ### Average star rating
 
+When multiple users add a rating, out of five, to the review form the average number is calculated. This average number is shown on the products page and the product detail page.
+
+![Average rating](docs/readme_images/features/average_rating.PNG)
+
 ### Rate and review panel
 
 ### Wishlist
@@ -259,6 +263,12 @@ The product detail page contains a product image, name, price, category, toggle 
 ### Account management, add, edit, delete products
 
 ### Custom 404 page
+
+## Future features
+
+- Notifications when items are sold out
+- Instant access to digital products. When a course is bought the customer instantly receives a PDF or access to a course video
+- Subscription to course material (pdfs and videos)
 
 ### MoSCoW
 
@@ -275,12 +285,6 @@ There is a heart button that can be toggled on and off to add and remove items f
 3. Record user contact requests in the database
 
 This is on a contact app with tab of its own
-
-## Future features
-
-- Notifications when items are sold out
-- Instant access to digital products. When a course is bought the customer instantly receives a PDF or access to a course video
-- Subscription to course material (pdfs and videos)
 
 ## Keyword research and SEO
 
