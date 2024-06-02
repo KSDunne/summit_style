@@ -138,67 +138,67 @@ An ecommerce app is designed to facilitate commercial or business transactions a
 
 On mobile and tablet size screens site navigation uses a burger menu and 4 icons. The burger menu has the following navigation options; home, all products, clothes, equipment, courses and contact. The 4 icons are; search, account, wishlist and shopping cart with the current spend displayed underneath it.
 
-![Mobile navbar with burger menu](docs/readme_images/features/navbar_burger.PNG)
+![Mobile navbar with burger menu](docs/readme_images/features/navbar_burger.png)
 
 #### Monitor navigation bar
 
 On monitor size screens, this is split into 2 divs. The top nav which contains the logo, a search bar, an account dropdown menu, a wishlist icon and a shopping cart logo with link to the shopping cart. This shopping cart also shows a running total of the users spend. The second part is the main site navigation bar. This main navbar contains downdown menus and links with titles; all products, clothes, equipment, courses and contact.
 
-![Monitor navbar](docs/readme_images/features/navbar_monitor.PNG)
+![Monitor navbar](docs/readme_images/features/navbar_monitor.png)
 
 ### Hero image with cover text
 
 The index page hero image was chosen because it fits the theme of the website. There is a man with hiking gear looking at some mountains in the distance. The colors of this image also align with the theme and design of the overall website. The main mountain hero image can also be seen on allauth pages (e.g. register, login and logout)
 
-![Hero image mountain](docs/readme_images/features/hero_mountain.PNG)
+![Hero image mountain](docs/readme_images/features/hero_mountain.png)
 
 ### Shop now button
 
 This is a call to action on the index page. This button brings the user to the all products page.
 
-![Shop now button](docs/readme_images/features/cta_button.PNG)
+![Shop now button](docs/readme_images/features/cta_button.png)
 
 ### Were responsible
 
 This is a section on the index page to convey that summit style is an ethical company with responsible values. It shows that summit style uses recycled packaging and that they have a corporate partnership with a reforestation website.
 
-![Were responsible](docs/readme_images/features/responsible.PNG)
+![Were responsible](docs/readme_images/features/responsible.png)
 
 ### We educate
 
 This section on the index page showcases the fundamental pillars supporting the courses available on this website.
 
-![We educate](docs/readme_images/features/we_educate.PNG)
+![We educate](docs/readme_images/features/we_educate.png)
 
 ### We're green section
 
 These are responsive boxes highlighting again how summit style is a responsible, ethical and green company to buy from.
 
-![Were green](docs/readme_images/features/were_green.PNG)
+![Were green](docs/readme_images/features/were_green.png)
 
 ### Newsletter sign up
 
 Mailchimp was used for the newsletter signup. The code for this is in base.html, so it shows up on all pages right above the footer.
 
-![Newsletter](docs/readme_images/features/newsletter.PNG)
+![Newsletter](docs/readme_images/features/newsletter.png)
 
 ### Footer
 
 The footer has the business email, phone number, social media links, a link to the privacy policy and a copyright.
 
-![Footer](docs/readme_images/features/footer.PNG)
+![Footer](docs/readme_images/features/footer.png)
 
 ### Sign in form
 
 This is a crispy form that asks for username and password. It was styled with a yellow background.
 
-![Sign in form](docs/readme_images/features/sign_in_form.PNG)
+![Sign in form](docs/readme_images/features/sign_in_form.png)
 
 ### Register form (Sign up)
 
 This is a crispy form. It is styled with a light yellow background and I removed the bullet point dots that are normally present on the password instructions (e.g. your password must contain at least 8 characters).
 
-![Register form](docs/readme_images/features/register_form_ss.PNG)
+![Register form](docs/readme_images/features/register_form_ss.png)
 
 ### Sign out page
 
