@@ -274,9 +274,33 @@ This panel shows the number of reviews that have been submitted for that particu
 
 ### Edit the rate and review form that I submitted
 
+When the user clicks the edit button on a review that they submitted, they are directed to a review edit page with a pre-filled form. They can edit as they please and then click the 'edit review' button. This will send them back to the product detail page and success toast will appear stating 'your review has been updated!'.
+
+![Edit review](docs/readme_images/features/edit_review.png)
+
 ### Delete the rate and review form that I submitted
 
-### Wishlist
+When the user clicks the delete button on a review that they submitted, they are directed to a defensive page that says 'are you sure?'. If the user clicks confirm the review will be deleted.
+
+![Delete review](docs/readme_images/features/delete_review.png)
+
+### Add item to wishlist
+
+An item can be added to the users wishlist using the toggle heart on the product detail page. When the outline heart is clicked it adds the item to a personal wishlist and the number of users that have added this product to their wishlist increases by 1.
+
+![Add to wishlist](docs/readme_images/features/add_to_wishlist.png)
+
+### Remove item from wishlist
+
+If the user already added an item to their wishlist the heart will be solid. Clicking the solid heart will change it back to an outline. This will remove the item from the wishlist.
+
+![Remove from wishlist](docs/readme_images/features/remove_from_wishlist.png)
+
+### Wishlist page
+
+Items that have been added to the wishlist are listed on a page called 'my wishlist'. Clicking the product image here will bring the user to the product detail page.
+
+![Wishlist page](docs/readme_images/features/wishlist_page.png)
 
 ### Contact page
 
