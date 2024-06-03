@@ -374,6 +374,18 @@ If a superuser is logged in, there will be edit and delete buttons on each produ
 
 ![Delete product](docs/readme_images/features/delete_product.png)
 
+### Registration email
+
+When a user signs up to summit style they will get an email with a link in it to confirm their account registration. The contents of the email can be seen in the screenshot below.
+
+![Registration email](docs/readme_images/features/registration_email.png)
+
+### Order confirmation email
+
+When a user makes a purchase, the webhook settings allow a confirmation email to be sent to them. The contents of the email can be seen in the screenshot below.
+
+![Order confirmation email](docs/readme_images/features/order_confirm_email.png)
+
 ### Custom 404 page
 
 The custom error page has the same hero image as the index page, so that the user does not feel as though they have left the site. This page simply says 'the page you are looking for isn't available' and there is a 'return to shop' button.
