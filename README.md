@@ -352,15 +352,27 @@ The order history can be seen on the profile page and it contains a clickable or
 
 ### Past order confirmation
 
-A past order confirmation can be viewed by clicking the order number on the profile. An information toast appears tell the user that 'This us a past confirmation for order number XXXX. A confirmation email was sent on the order date'.
+A past order confirmation can be viewed by clicking the order number on the profile. An information toast appears tell the user that 'This is a past confirmation for order number XXXX. A confirmation email was sent on the order date'.
 
 ![Past order](docs/readme_images/features/past_order.png)
 
 ### Add product page
 
+If a superuser is logged in, the word 'management' will be shown in the account dropdown. This is a link that brings the superuser to the add products page. There is a form on this page with all the fields relevant for adding a product. The fields are; category, sku, name, description, has sizes, is course, price and image url. There is also a select image button.
+
+![Add product](docs/readme_images/features/add_product.png)
+
 ### Edit product
 
+If a superuser is logged in, there will be edit and delete buttons on each product card and on the product detail pages. If the superuser clicks an edit button, they will be sent to an edit page with a form and pre-filled fields. Information toast will appear informing the user about which product they are currently editing. There is a 'cancel' button here and an 'update product' button.
+
+![Edit product](docs/readme_images/features/edit_product.png)
+
 ### Delete product
+
+If a superuser is logged in, there will be edit and delete buttons on each product card and on the product detail pages. If the superuser clicks the delete button, they will be sent to a defensive confirm deletion page with 2 buttons, 'confirm' and 'cancel'. The user is warned that this cannot be undone.
+
+![Delete product](docs/readme_images/features/delete_product.png)
 
 ### Custom 404 page
 
