@@ -250,19 +250,6 @@
     "pk": 20,
     "model": "products.product",
     "fields": {
-      "sku": "pp5006330208",
-      "name": "Everest Trekking Shoes",
-      "description": "Gear up for your next adventure with our Everest Trekking Shoes. Designed for rugged terrain, these shoes provide superior traction and ankle support. Whether you're hiking through rocky trails or crossing streams, these shoes will keep you comfortable and stable.",
-      "price": 99.99,
-      "category": 3,
-      "image_url": "",
-      "image": ""
-    }
-  },
-  {
-    "pk": 21,
-    "model": "products.product",
-    "fields": {
       "sku": "pp5006200155",
       "name": "Adventure-Ready Compass",
       "description": "Navigate through rugged terrain with ease using our Adventure-Ready Compass. Designed for outdoor enthusiasts, this compass features a durable housing and a precise needle for accurate navigation. Whether you're hiking, camping, or trekking, this compass is an essential tool for your adventures.",
@@ -273,7 +260,7 @@
     }
   },
   {
-    "pk": 22,
+    "pk": 21,
     "model": "products.product",
     "fields": {
       "sku": "pp5006153172",
@@ -286,7 +273,7 @@
     }
   },
   {
-    "pk": 23,
+    "pk": 22,
     "model": "products.product",
     "fields": {
       "sku": "pp5005980058",
@@ -299,7 +286,7 @@
     }
   },
   {
-    "pk": 24,
+    "pk": 23,
     "model": "products.product",
     "fields": {
       "sku": "pp5005870599",
@@ -312,7 +299,7 @@
     }
   },
   {
-    "pk": 25,
+    "pk": 24,
     "model": "products.product",
     "fields": {
       "sku": "pp5005850180",
@@ -325,7 +312,7 @@
     }
   },
   {
-    "pk": 26,
+    "pk": 25,
     "model": "products.product",
     "fields": {
       "sku": "pp5005760088",
@@ -338,7 +325,7 @@
     }
   },
   {
-    "pk": 27,
+    "pk": 26,
     "model": "products.product",
     "fields": {
       "sku": "pp5005430914",
@@ -351,7 +338,7 @@
     }
   },
   {
-    "pk": 28,
+    "pk": 27,
     "model": "products.product",
     "fields": {
       "sku": "pp5005330596",
@@ -364,7 +351,7 @@
     }
   },
   {
-    "pk": 29,
+    "pk": 28,
     "model": "products.product",
     "fields": {
       "sku": "pp5006380337",
@@ -377,7 +364,7 @@
     }
   },
   {
-    "pk": 30,
+    "pk": 29,
     "model": "products.product",
     "fields": {
       "sku": "pp5006170357",
@@ -390,7 +377,7 @@
     }
   },
   {
-    "pk": 31,
+    "pk": 30,
     "model": "products.product",
     "fields": {
       "sku": "pp5006081758",
@@ -403,7 +390,7 @@
     }
   },
   {
-    "pk": 32,
+    "pk": 31,
     "model": "products.product",
     "fields": {
       "sku": "pp5005860175",
@@ -416,7 +403,7 @@
     }
   },
   {
-    "pk": 33,
+    "pk": 32,
     "model": "products.product",
     "fields": {
       "sku": "pp5005200166",
@@ -429,7 +416,7 @@
     }
   },
   {
-    "pk": 34,
+    "pk": 33,
     "model": "products.product",
     "fields": {
       "sku": "pp5004991162",
@@ -442,7 +429,7 @@
     }
   },
   {
-    "pk": 35,
+    "pk": 34,
     "model": "products.product",
     "fields": {
       "sku": "pp5003910638",
@@ -455,7 +442,7 @@
     }
   },
   {
-    "pk": 36,
+    "pk": 35,
     "model": "products.product",
     "fields": {
       "sku": "pp5003570628",
@@ -468,7 +455,7 @@
     }
   },
   {
-    "pk": 37,
+    "pk": 36,
     "model": "products.product",
     "fields": {
       "sku": "pp5006820170",
@@ -481,7 +468,7 @@
     }
   },
   {
-    "pk": 38,
+    "pk": 37,
     "model": "products.product",
     "fields": {
       "sku": "pp5006462180",
@@ -494,7 +481,7 @@
     }
   },
   {
-    "pk": 39,
+    "pk": 38,
     "model": "products.product",
     "fields": {
       "sku": "pp5006380260",
@@ -507,20 +494,7 @@
     }
   },
   {
-    "pk": 40,
-    "model": "products.product",
-    "fields": {
-      "sku": "pp5006380233",
-      "name": "Shorty Wetsuit",
-      "description": "Enjoy the freedom of movement with our shorty wetsuit. Perfect for surfing or snorkeling, this wetsuit offers excellent insulation without restricting your mobility.",
-      "price": 129.99,
-      "category": 5,
-      "image_url": "",
-      "image": ""
-    }
-  },
-  {
-    "pk": 41,
+    "pk": 39,
     "model": "products.product",
     "fields": {
       "sku": "pp5006311067",
@@ -533,7 +507,7 @@
     }
   },
   {
-    "pk": 42,
+    "pk": 40,
     "model": "products.product",
     "fields": {
       "sku": "pp5006310935",
@@ -546,7 +520,7 @@
     }
   },
   {
-    "pk": 43,
+    "pk": 41,
     "model": "products.product",
     "fields": {
       "sku": "pp5006310918",
@@ -559,20 +533,7 @@
     }
   },
   {
-    "pk": 44,
-    "model": "products.product",
-    "fields": {
-      "sku": "pp5006070077",
-      "name": "Neoprene Rash Guard",
-      "description": "Protect your skin from abrasions and sunburn with our neoprene rash guard. Designed for comfort and durability, this rash guard is essential for any water sports enthusiast.",
-      "price": 69.99,
-      "category": 5,
-      "image_url": "",
-      "image": ""
-    }
-  },
-  {
-    "pk": 45,
+    "pk": 42,
     "model": "products.product",
     "fields": {
       "sku": "pp5004910158",
@@ -585,7 +546,7 @@
     }
   },
   {
-    "pk": 46,
+    "pk": 43,
     "model": "products.product",
     "fields": {
       "sku": "pp5003831225",
@@ -598,7 +559,7 @@
     }
   },
   {
-    "pk": 47,
+    "pk": 44,
     "model": "products.product",
     "fields": {
       "sku": "pp5003070787",
@@ -611,7 +572,7 @@
     }
   },
   {
-    "pk": 48,
+    "pk": 45,
     "model": "products.product",
     "fields": {
       "sku": "pp5006590213",
@@ -624,7 +585,7 @@
     }
   },
   {
-    "pk": 49,
+    "pk": 46,
     "model": "products.product",
     "fields": {
       "sku": "pp5005980146",
@@ -637,7 +598,7 @@
     }
   },
   {
-    "pk": 50,
+    "pk": 47,
     "model": "products.product",
     "fields": {
       "sku": "pp5005310360",
@@ -650,7 +611,7 @@
     }
   },
   {
-    "pk": 51,
+    "pk": 48,
     "model": "products.product",
     "fields": {
       "sku": "pp5005140282",
@@ -663,7 +624,7 @@
     }
   },
   {
-    "pk": 52,
+    "pk": 49,
     "model": "products.product",
     "fields": {
       "sku": "pp5004910477",
@@ -676,7 +637,7 @@
     }
   },
   {
-    "pk": 53,
+    "pk": 50,
     "model": "products.product",
     "fields": {
       "sku": "pp5003960682",
@@ -689,7 +650,7 @@
     }
   },
   {
-    "pk": 54,
+    "pk": 51,
     "model": "products.product",
     "fields": {
       "sku": "pp5003161326",
@@ -702,7 +663,7 @@
     }
   },
   {
-    "pk": 55,
+    "pk": 52,
     "model": "products.product",
     "fields": {
       "sku": "pp5002601115",
@@ -715,7 +676,7 @@
     }
   },
   {
-    "pk": 56,
+    "pk": 53,
     "model": "products.product",
     "fields": {
       "sku": "pp5001890157",
@@ -728,7 +689,7 @@
     }
   },
   {
-    "pk": 57,
+    "pk": 54,
     "model": "products.product",
     "fields": {
       "sku": "pp5006310072",
@@ -741,7 +702,7 @@
     }
   },
   {
-    "pk": 58,
+    "pk": 55,
     "model": "products.product",
     "fields": {
       "sku": "pp5006242905",
@@ -754,7 +715,7 @@
     }
   },
   {
-    "pk": 59,
+    "pk": 56,
     "model": "products.product",
     "fields": {
       "sku": "pp5006242904",
@@ -767,7 +728,7 @@
     }
   },
   {
-    "pk": 60,
+    "pk": 57,
     "model": "products.product",
     "fields": {
       "sku": "pp5005940242",
@@ -780,7 +741,7 @@
     }
   },
   {
-    "pk": 61,
+    "pk": 58,
     "model": "products.product",
     "fields": {
       "sku": "pp5005870638",
@@ -793,7 +754,7 @@
     }
   },
   {
-    "pk": 62,
+    "pk": 59,
     "model": "products.product",
     "fields": {
       "sku": "pp5005840776",
@@ -806,7 +767,7 @@
     }
   },
   {
-    "pk": 63,
+    "pk": 60,
     "model": "products.product",
     "fields": {
       "sku": "pp5005430944",
@@ -819,7 +780,7 @@
     }
   },
   {
-    "pk": 64,
+    "pk": 61,
     "model": "products.product",
     "fields": {
       "sku": "pp5004991006",
@@ -832,7 +793,7 @@
     }
   },
   {
-    "pk": 65,
+    "pk": 62,
     "model": "products.product",
     "fields": {
       "sku": "pp5004900522",
@@ -845,7 +806,7 @@
     }
   },
   {
-    "pk": 66,
+    "pk": 63,
     "model": "products.product",
     "fields": {
       "sku": "pp5003780391",
@@ -858,7 +819,7 @@
     }
   },
   {
-    "pk": 67,
+    "pk": 64,
     "model": "products.product",
     "fields": {
       "sku": "pp5003540313",
@@ -871,7 +832,7 @@
     }
   },
   {
-    "pk": 68,
+    "pk": 65,
     "model": "products.product",
     "fields": {
       "sku": "pp5003360384",
@@ -884,7 +845,7 @@
     }
   },
   {
-    "pk": 69,
+    "pk": 66,
     "model": "products.product",
     "fields": {
       "sku": "pp5002820147",
@@ -897,7 +858,7 @@
     }
   },
   {
-    "pk": 70,
+    "pk": 67,
     "model": "products.product",
     "fields": {
       "sku": "847291034582",
@@ -910,7 +871,7 @@
     }
   },
   {
-    "pk": 71,
+    "pk": 68,
     "model": "products.product",
     "fields": {
       "sku": "935716284012",
@@ -923,7 +884,7 @@
     }
   },
   {
-    "pk": 72,
+    "pk": 69,
     "model": "products.product",
     "fields": {
       "sku": "720964318572",
@@ -936,7 +897,7 @@
     }
   },
   {
-    "pk": 73,
+    "pk": 70,
     "model": "products.product",
     "fields": {
       "sku": "486230159274",
@@ -949,7 +910,7 @@
     }
   },
   {
-    "pk": 74,
+    "pk": 71,
     "model": "products.product",
     "fields": {
       "sku": "592836401725",
@@ -962,7 +923,7 @@
     }
   },
   {
-    "pk": 75,
+    "pk": 72,
     "model": "products.product",
     "fields": {
       "sku": "149682537802",
@@ -975,7 +936,7 @@
     }
   },
   {
-    "pk": 76,
+    "pk": 73,
     "model": "products.product",
     "fields": {
       "sku": "384715926038",
@@ -988,7 +949,7 @@
     }
   },
   {
-    "pk": 77,
+    "pk": 74,
     "model": "products.product",
     "fields": {
       "sku": "570291843625",
@@ -1001,7 +962,7 @@
     }
   },
   {
-    "pk": 78,
+    "pk": 75,
     "model": "products.product",
     "fields": {
       "sku": "925784569812",
@@ -1014,7 +975,7 @@
     }
   },
   {
-    "pk": 79,
+    "pk": 76,
     "model": "products.product",
     "fields": {
       "sku": "936547812569",
@@ -1027,7 +988,7 @@
     }
   },
   {
-    "pk": 80,
+    "pk": 77,
     "model": "products.product",
     "fields": {
       "sku": "845693214587",
@@ -1040,7 +1001,7 @@
     }
   },
   {
-    "pk": 81,
+    "pk": 78,
     "model": "products.product",
     "fields": {
       "sku": "701258963214",
@@ -1053,7 +1014,7 @@
     }
   },
   {
-    "pk": 82,
+    "pk": 79,
     "model": "products.product",
     "fields": {
       "sku": "369874125698",
@@ -1066,7 +1027,7 @@
     }
   },
   {
-    "pk": 83,
+    "pk": 80,
     "model": "products.product",
     "fields": {
       "sku": "582143697854",
@@ -1079,7 +1040,7 @@
     }
   },
   {
-    "pk": 84,
+    "pk": 81,
     "model": "products.product",
     "fields": {
       "sku": "785469231478",
@@ -1092,7 +1053,7 @@
     }
   },
   {
-    "pk": 85,
+    "pk": 82,
     "model": "products.product",
     "fields": {
       "sku": "632145897452",
