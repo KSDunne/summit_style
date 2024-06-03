@@ -322,7 +322,7 @@ The contact form is on the contact page. There are 6 fields, 4 of which are requ
 
 ### Contact form validation
 
-There is validation on the phone number field that implements the following, 'Phone number should contain only digits, spaces, parentheses, + or -'. This message shows on the form and error toast appears saying 'There was an error processing your request. See error displayed on the form.'
+There is validation on the phone number field that implements the following, 'Phone number should contain only digits, spaces, parentheses, + or -'. This message shows on the form and error toast appears saying 'There was an error processing your request. See error displayed on the form.' The error was triggered in this instance by adding an exclamation mark at the end of the phone number.
 
 ![Contact form validation](docs/readme_images/features/form_validation.png)
 
