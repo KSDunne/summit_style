@@ -316,9 +316,15 @@ The hero image on the contact page was choosen because it uses earthy colors tha
 
 ### Contact form
 
-The contact form is on the contact page. There are 6 fields, 4 of which are required. The fields are; name (required), phone, email (required), topic (required), availability for a course and message (required). There is validation on the phone number field that implements the following, 'Phone number should contain only digits, spaces, parentheses, + or -'.
+The contact form is on the contact page. There are 6 fields, 4 of which are required. The fields are; name (required), phone, email (required), topic (required), availability for a course and message (required).
 
 ![Contact form](docs/readme_images/features/contact_form.png)
+
+### Contact form validation
+
+There is validation on the phone number field that implements the following, 'Phone number should contain only digits, spaces, parentheses, + or -'. This message shows on the form and error toast appears saying 'There was an error processing your request. See error displayed on the form.'
+
+![Contact form validation](docs/readme_images/features/form_validation.png)
 
 ### Checkout order summary
 
