@@ -334,7 +334,27 @@ The checkout form has fields for name and email address. An order confirmation w
 
 ### Checkout success page
 
+The checkout success page informs the user that an order confirmation email will be sent and it gives the details of the order including billing information (order total, delivery cost and grand total).
+
+![Checkout success](docs/readme_images/features/checkout_success.png)
+
 ### Profile
+
+The main features on the profile page are 'default delivery information' and 'order history'. The default delivery information can be updated by editing the information in the fields and clicking the 'update information' button. An example of this can be seen in the screenshot below.
+
+![Default delivery information](docs/readme_images/features/default_delivery.png)
+
+### Order history
+
+The order history can be seen on the profile page and it contains a clickable order number, the date the orders were made, the items bought and the order total.
+
+![Profile order history](docs/readme_images/features/profile_order_history.png)
+
+### Past order confirmation
+
+A past order confirmation can be viewed by clicking the order number on the profile. An information toast appears tell the user that 'This us a past confirmation for order number XXXX. A confirmation email was sent on the order date'.
+
+![Past order](docs/readme_images/features/past_order.png)
 
 ### Add product page
 
