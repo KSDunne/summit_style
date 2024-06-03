@@ -304,7 +304,33 @@ Items that have been added to the wishlist are listed on a page called 'my wishl
 
 ### Contact page
 
-### Checkout
+There is a link to the contact page on the main navbar and the mobile dropdown navigation. The contact page gives multiple ways of contacting the business. There is a phone number, an email address and a contact form.
+
+![Contact page](docs/readme_images/features/contact_page.png)
+
+### Contact page hero image
+
+The hero image on the contact page was choosen because it uses earthy colors that complement the outdoors theme of the website. The image shows 2 people on the phone.
+
+![Contact hero](docs/readme_images/features/contact_hero.png)
+
+### Contact form
+
+The contact form is on the contact page. There are 6 fields, 4 of which are required. The fields are; name (required), phone, email (required), topic (required), availability for a course and message (required). There is validation on the phone number field that implements the following, 'Phone number should contain only digits, spaces, parentheses, + or -'.
+
+![Contact form](docs/readme_images/features/contact_form.png)
+
+### Checkout order summary
+
+The order summary on the checkout page shows the customer exactly what they are about to pay for. It shows how many items are in the cart and the quantity of each. It shows; a thumbnail image of the product, the product's name, price and size if applicable.
+
+![Checkout summary](docs/readme_images/features/checkout_summary.png)
+
+### Checkout form
+
+The checkout form has fields for name and email address. An order confirmation will be sent to this email address. There is a section for the delivery address and a section for payment which is powered by Stripe. There is also a checkbox that the user can click to save the delivery information to their profile. This information will be pre-filled for the customer the next time they make a purchase.
+
+![Checkout form](docs/readme_images/features/checkout_form.png)
 
 ### Checkout success page
 
