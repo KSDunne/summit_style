@@ -375,6 +375,8 @@ All python code was put through the [CI Python Linter](https://pep8ci.herokuapp.
 
 - All features passed responsiveness testing and looked good on all devices mentioned. 
 
+- The custom 404 page also passed responsiveness testing.
+
 - See responsive feature testing results in the table below.
 
 | feature                                             | index | products | product detail | contact | profile | wishlist | cart | checkout | checkout success | order history | add product page | edit product page | delete product page | review edit | delete review | register | login | logout |
@@ -400,8 +402,6 @@ All python code was put through the [CI Python Linter](https://pep8ci.herokuapp.
 
 - All pages were tested for 'intended responsiveness' on the following browsers; Chrome, Firefox, Safari, Edge and Opera
 
-- The custom 404 page also passed responsiveness testing
-
 - Intended responsiveness was tested on a monitor using different browsers while constantly changing window sizes
 
 - See results in the table below
@@ -426,6 +426,7 @@ All python code was put through the [CI Python Linter](https://pep8ci.herokuapp.
 | register                | pass   | pass    | pass | pass   | pass  |
 | login                   | pass   | pass    | pass | pass   | pass  |
 | logout                  | pass   | pass    | pass | pass   | pass  |
+| custom error page       | pass   | pass    | pass | pass   | pass  |
 
 ## Device compatibility
 
