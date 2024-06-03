@@ -376,6 +376,10 @@ If a superuser is logged in, there will be edit and delete buttons on each produ
 
 ### Custom 404 page
 
+The custom error page has the same hero image as the index page, so that the user does not feel as though they have left the site. This page simply says 'the page you are looking for isn't available' and there is a 'return to shop' button.
+
+![Custom error page](docs/readme_images/features/custom_error_page.png)
+
 ## Future features
 
 - Notifications when items are sold out
