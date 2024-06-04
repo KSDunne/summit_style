@@ -14,11 +14,16 @@
       <p>
         Are you sure you want to delete the review titled, "{{object.title}}"?
       </p>
-      <input
-        type="submit"
-        value="Confirm"
-        class="btn btn-primary review-delete-btn"
-      />
+      <div class="d-flex justify-content-center">
+        <input
+          type="submit"
+          value="Confirm"
+          class="btn btn-primary mx-1 custom-bg-blue deletion-btn"
+        />
+        <a href="{% url 'products' %}" class="btn btn-primary custom-bg-blue mx-1 deletion-btn"
+          >Cancel</a
+        >
+      </div>
     </form>
   </div>
 </div>
