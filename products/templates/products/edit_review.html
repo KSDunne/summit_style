@@ -16,6 +16,11 @@
       <h1 class="text-center edit-review-title">Edit Review</h1>
       {% csrf_token %} {{ form.media }} {{ form|crispy }}
       <div class="text-center">
+        <a
+        href="{% url 'products' %}"
+        class="btn btn-primary mt-2 custom-bg-blue"
+        >Cancel</a
+      >
         <button type="submit" class="btn btn-primary mt-2 custom-bg-blue">Edit Review</button>
       </div>
     </form>
