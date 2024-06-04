@@ -939,6 +939,14 @@ footer {
   padding-top: 1.5rem;
 }
 
+.nav-link {
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+  color: #001efa !important;
+}
+
 /* media queries */
 
 /* slightly larger container on xl screens */

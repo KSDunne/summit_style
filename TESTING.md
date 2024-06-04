@@ -376,7 +376,7 @@ All python code was put through the [CI Python Linter](https://pep8ci.herokuapp.
 
 - All features passed responsiveness testing and looked good on all devices mentioned. 
 
-- The custom 404 page also passed responsiveness testing.
+- The custom 404 page and privacy policy page passed responsiveness testing too.
 
 - See responsive feature testing results in the table below.
 
