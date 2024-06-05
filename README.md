@@ -690,11 +690,15 @@ This, Charge.retrieve retrieves the details of a charge that has previously been
 
 When there was not enough content on a page. It was not reaching the whole way down to the footer and there was a strange gap at the bottom of the page on lots of the pages on the website. See the screenshot below that dipicts this problem.
 
-![Short content bug](docs/readme_images/bugs/short_content_bug1.png)
+![Short content bug 1](docs/readme_images/bugs/short_content_bug1.png)
 
 The fix is in the screenshot below. I set the contents of the container to flex. The items in the container were set to arrange vertically in a column. Flex grow was set to 1 and this means the contents will grow to take up all the available space on the vertical axis.
 
-![Short content bug](docs/readme_images/bugs/short_content_bug2.png)
+![Short content bug 2](docs/readme_images/bugs/short_content_bug2.png)
+
+See the screenshot below, to see what it looks like since it was fixed.
+
+![Short content bug 3](docs/readme_images/bugs/short_content_bug3.png)
 
 3. allauth?
 
