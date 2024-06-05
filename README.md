@@ -628,22 +628,43 @@ Please find a screenshot of tables below. These tables were created as rough wor
 - [HTML5](https://developer.mozilla.org/en-US/docs/Learn/HTML "link to html mozilla documentation")
   was used to create content and structure
 - [CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS "link to css mozilla documentation")
-  was used to add custom styles
-- Javascript
-- Python
+  was used to add custom style
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/javascript "link to javascript mozilla documentation") was used for stripe elements
+- [Python](https://docs.python.org/3/ "link to python documentation") was the main programming language used in this project
 
 ### Frameworks and libraries
 
 - [Django 4.2.10](https://www.djangoproject.com/ "link to django docs homepage") was the python framework used to develop the site
-- Bootstrap
+- [Bootstrap 4.6.2](https://getbootstrap.com/docs/4.6/getting-started/introduction/ "link to bootstrap documentation") was just for the main style of the website
 
 ### Database
 
 - [PostgreSQL from Code Institute](https://dbs.ci-dbs.net/ "link to postgresql from code institute") was used as the PostgreSQL database for this project
 
-### Technologies and tools
+### Technologies
 
+- [VS Code](https://code.visualstudio.com/ "link to visual studio code webpage") was used as the ide for this whole project
+- [GitHub](https://github.com/ "link to github webpage") was used to store the code files, README and assets
+- [Git](https://git-scm.com/ "link to official git website") was used as version control software to commit and push the code to the GitHub repository
+- [Heroku](https://id.heroku.com/login "link to Heroku login") was used to deploy the project
+- [dbdiagram](https://dbdiagram.io/ "link to dbdiagram") was used to make a diagram of the database schema. The diagram was based off erd tables that were documented in excel
+- [Excel](https://microsoft.com/excel "link to official microsoft excel website") was used to created entity relationship tables in preparation for the database schema that was made in dbdiagram
 - [Django allauth](https://docs.allauth.org/en/latest/ "link to official allauth documentation") addresses authentication, registration and account management
+- [Stripe](https://stripe.com/ "link to official stripe website") was used for all payment processing
+- [AWS](https://aws.amazon.com/ "link to official aws website") was used host static and media files
+- [Prettier](https://prettier.io/ "link to official prettier website") was used as the default formatter in Visual Studio Code IDE, for html and css files. The setting 'format on save' was used
+- [Black Formatter for Python](https://marketplace.visualstudio.com/items?itemName=ms-python.black-formatter "link to official black formatter website") was used as the default formatter in Visual Studio Code IDE, for python files. The setting 'format on save' was used.
+- [Balsamiq](https://balsamiq.com/wireframes/ "link to official balsamiq website") was used in early planning to map out wireframes
+- [Google Fonts](https://fonts.google.com/ "link to official google fonts website") was used to import fonts
+- [Favicon Generator](https://favicon.io/favicon-generator/ "link to official favicon generator website") was used to make a tent shaped favicon
+- [Font Awesome](https://fontawesome.com/ "link to official font awesome website") was used for all icons
+- [Google Chrome Developer Tools](https://developer.chrome.com/docs/devtools/overview/ "Link to official chrome developer tools website") was used for lighthouse testing, debugging and consistently checking responsiveness
+- [W3C Markup Validator](https://validator.w3.org/ "link to official html validator") was used to validate all live html
+- [Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/ "link to official css validator") was used to validate CSS code
+- [JS Hint](https://jshint.com/ "link to official javascript validator") was used to validate JavaScript code
+- [Code Institute Python Linter](https://pep8ci.herokuapp.com/ "link to official python validator") was used to validate all python code
+- [Django Crispy Forms](https://pypi.org/project/django-crispy-forms/ "link to official crispy forms website") were used throughout the project to quickly create forms
+- [Chat-GPT](https://chat.openai.com/ "link to chat gpt") was used to create the name of offerings, the description and a price. I queried by giving an example of the details for 1 product and then typing "please give me 10 more products for an adventure themed store, in the category of sportswear". Then queried in a similar way for the rest of the categories (sleeping bags, tents, coats, wetsuits, fleece, sale, tent building and outdoor skills).
 
 ## Testing
 
