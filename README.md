@@ -265,7 +265,7 @@ There are "keep shopping" and "add to cart" buttons here too.
 
 ### Average star rating
 
-When multiple users add a rating, out of five, to the review form the average number is calculated. This average number is shown on the product detail page and the products page.
+When multiple users add a rating, out of five, to the review form the average number is calculated. This average number is shown on the product detail page, the products page and the wishlist page.
 
 Here is what it looks like on the product detail page.
 
@@ -274,6 +274,10 @@ Here is what it looks like on the product detail page.
 Here is what it looks like on the product card.
 
 ![Card rating](docs/readme_images/features/card_rating.png)
+
+Here is what it looks like on the wishlist.
+
+![Wishlist rating](docs/readme_images/features/wishlist_rating.png)
 
 ### Rate and review panel
 
