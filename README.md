@@ -672,9 +672,20 @@ Detailed testing documentation can be found [here.](./TESTING.md)
 
 ### Fixed bugs
 
-Leaving this here as a reminder for me to come back to it later:
+1. Webhook handler - email sent after purchase
 
-1. Webhook handler handling profiles
+There was a problem. No emails were being sent after a purchase was made. Therefore, I concluded there must be a problem with the webhook handler. See the code in the screenshot below. This is the commit that fixed the problem. Stripe was imported and the charge object was used instead of intent.charges.
+
+![Webhook handler bug 1](docs/readme_images/bugs/webhook_bug_1.png)
+
+The screenshots below show the documentation for the charge object and how to retrieve a charge.
+
+![Webhook handler bug 2](docs/readme_images/bugs/webhook_bug_2.png)
+
+This, Charge.retrieve retrieves the details of a charge that has previously been created.
+
+![Webhook handler bug 3](docs/readme_images/bugs/webhook_bug_3.png)
+
 2. wh handler key and testing
 3. allauth?
 
