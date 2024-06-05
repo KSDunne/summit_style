@@ -700,6 +700,24 @@ See the screenshot below, to see what it looks like since it was fixed.
 
 ![Short content bug 3](docs/readme_images/bugs/short_content_bug3.png)
 
+3. Duplicate attribute id bug
+
+When 'view page source' was clicked on the 'add a product' page and the code was copied into the html validator an error popped up saying 'duplicate attribute id'. The first screenshot below shows the page where the error occured.
+
+![Duplicate id bug 1](docs/readme_images/bugs/duplicate_id_bug1.png)
+
+The screenshot below shows the error that appeared in the html validator.
+
+![Duplicate id bug 2](docs/readme_images/bugs/duplicate_id_bug2.png)
+
+Here are the further details of the error. It can be seen that a second id attribute is coming from 'django/forms/widgets/attrs.html'.
+
+![Duplicate id bug 3](docs/readme_images/bugs/duplicate_id_bug3.png)
+
+First of all, I tried to fix this by using a class instead of the id, but this didn't fix the problem. Then I was able to fix it by using a data attribute instead. See the fix in the screenshot of the commit below.
+
+![Duplicate id bug 4](docs/readme_images/bugs/duplicate_id_bug4.png)
+
 ### Unfixed bugs
 
 To my knowledge on submission of this project for assessment, there are no unfixed bugs.
