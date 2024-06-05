@@ -700,9 +700,9 @@ See the screenshot below, to see what it looks like since it was fixed.
 
 ![Short content bug 3](docs/readme_images/bugs/short_content_bug3.png)
 
-3. allauth?
-
 ### Unfixed bugs
+
+To my knowledge on submission of this project for assessment, there are no unfixed bugs.
 
 ### Supported screens and browsers
 
