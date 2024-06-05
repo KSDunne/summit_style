@@ -635,7 +635,7 @@ Please find a screenshot of tables below. These tables were created as rough wor
 ### Frameworks and libraries
 
 - [Django 4.2.10](https://www.djangoproject.com/ "link to django docs homepage") was the python framework used to develop the site
-- [Bootstrap 4.6.2](https://getbootstrap.com/docs/4.6/getting-started/introduction/ "link to bootstrap documentation") was just for the main style of the website
+- [Bootstrap 4.6.2](https://getbootstrap.com/docs/4.6/getting-started/introduction/ "link to bootstrap documentation") was used for the main style of the website
 
 ### Database
 
@@ -644,16 +644,16 @@ Please find a screenshot of tables below. These tables were created as rough wor
 ### Technologies
 
 - [VS Code](https://code.visualstudio.com/ "link to visual studio code webpage") was used as the ide for this whole project
-- [GitHub](https://github.com/ "link to github webpage") was used to store the code files, README and assets
+- [GitHub](https://github.com/ "link to github webpage") was used to store the code files, assets and README
 - [Git](https://git-scm.com/ "link to official git website") was used as version control software to commit and push the code to the GitHub repository
 - [Heroku](https://id.heroku.com/login "link to Heroku login") was used to deploy the project
 - [dbdiagram](https://dbdiagram.io/ "link to dbdiagram") was used to make a diagram of the database schema. The diagram was based off erd tables that were documented in excel
 - [Excel](https://microsoft.com/excel "link to official microsoft excel website") was used to created entity relationship tables in preparation for the database schema that was made in dbdiagram
 - [Django allauth](https://docs.allauth.org/en/latest/ "link to official allauth documentation") addresses authentication, registration and account management
 - [Stripe](https://stripe.com/ "link to official stripe website") was used for all payment processing
-- [AWS](https://aws.amazon.com/ "link to official aws website") was used host static and media files
+- [AWS](https://aws.amazon.com/ "link to official aws website") was used to host static and media files
 - [Prettier](https://prettier.io/ "link to official prettier website") was used as the default formatter in Visual Studio Code IDE, for html and css files. The setting 'format on save' was used
-- [Black Formatter for Python](https://marketplace.visualstudio.com/items?itemName=ms-python.black-formatter "link to official black formatter website") was used as the default formatter in Visual Studio Code IDE, for python files. The setting 'format on save' was used.
+- [Black Formatter for Python](https://marketplace.visualstudio.com/items?itemName=ms-python.black-formatter "link to official black formatter website") was used as the default formatter in Visual Studio Code IDE, for python files. The setting 'format on save' was used
 - [Balsamiq](https://balsamiq.com/wireframes/ "link to official balsamiq website") was used in early planning to map out wireframes
 - [Google Fonts](https://fonts.google.com/ "link to official google fonts website") was used to import fonts
 - [Favicon Generator](https://favicon.io/favicon-generator/ "link to official favicon generator website") was used to make a tent shaped favicon
