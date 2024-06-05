@@ -678,7 +678,7 @@ There was a problem. No emails were being sent after a purchase was made. Theref
 
 ![Webhook handler bug 1](docs/readme_images/bugs/webhook_bug_1.png)
 
-The screenshots below show the documentation for the charge object and how to retrieve a charge.
+The screenshots below shows the documentation for the charge object and how to retrieve a charge.
 
 ![Webhook handler bug 2](docs/readme_images/bugs/webhook_bug_2.png)
 
@@ -686,7 +686,6 @@ This, Charge.retrieve retrieves the details of a charge that has previously been
 
 ![Webhook handler bug 3](docs/readme_images/bugs/webhook_bug_3.png)
 
-2. wh handler key and testing
 3. allauth?
 
 ### Unfixed bugs
