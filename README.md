@@ -16,10 +16,10 @@ This website was built for Project 5 of the Code Institute Diploma in Software D
 
 To explore the payment feature, you can use the following card details when prompted:
 
-Card number: 4242 4242 4242 4242
-Expiry date: any future date (e.g. 10/26)
-CVC: any 3 digits (e.g. 123)
-ZIP: any 5 digits (e.g. 42424)
+- Card number: 4242 4242 4242 4242
+- Expiry date: any future date (e.g. 10/26)
+- CVC: any 3 digits (e.g. 123)
+- ZIP: any 5 digits (e.g. 42424)
 
 ## Table of contents
 
