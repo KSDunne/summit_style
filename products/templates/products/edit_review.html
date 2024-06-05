@@ -17,7 +17,7 @@
       {% csrf_token %} {{ form.media }} {{ form|crispy }}
       <div class="text-center">
         <a
-          href="{% url 'products' %}"
+          href="{{ product_detail_url }}"
           class="btn btn-primary mt-2 custom-bg-blue"
           >Cancel</a
         >

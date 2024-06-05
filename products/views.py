@@ -255,6 +255,16 @@ class EditReview(LoginRequiredMixin, UserPassesTestMixin, UpdateView):
         """
         star = self.get_object()
         return self.request.user == star.user or self.request.user.is_superuser
+    
+    def get_context_data(self, **kwargs):
+        """
+        Add product detail URL to the context data.
+        """
+        context = super().get_context_data(**kwargs)
+        star = self.get_object()
+        product_detail_url = reverse('product_detail', args=[star.product.pk])
+        context['product_detail_url'] = product_detail_url
+        return context
 
 
 """
