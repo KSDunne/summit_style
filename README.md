@@ -12,6 +12,15 @@ Link to live website: [Summit Style](https://summit-style-b727a186ee80.herokuapp
 
 Here is an eCommerce website, for a fictitious business called Summit Style. This is a full stack website built using the Django web framework. This business sells adventure clothing, equipment and short educational courses based on outdoor skills. There is a star rating feature on all products and courses. All offerings have a review feature. There is a wishlist feature and there is also a contact tab.
 
+This website was built for Project 5 of the Code Institute Diploma in Software Development and does not process actual payments. As a result, any orders made will not be fulfilled.
+
+To explore the payment feature, you can use the following card details when prompted:
+
+Card number: 4242 4242 4242 4242
+Expiry date: any future date (e.g. 10/26)
+CVC: any 3 digits (e.g. 123)
+ZIP: any 5 digits (e.g. 42424)
+
 ## Table of contents
 
 ## Ecommerce
