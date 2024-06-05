@@ -686,6 +686,16 @@ This, Charge.retrieve retrieves the details of a charge that has previously been
 
 ![Webhook handler bug 3](docs/readme_images/bugs/webhook_bug_3.png)
 
+2. Short content bug
+
+When there was not enough content on a page. It was not reaching the whole way down to the footer and there was a strange gap at the bottom of the page on lots of the pages on the website. See the screenshot below that dipicts this problem.
+
+![Short content bug](docs/readme_images/bugs/short_content_bug1.png)
+
+The fix is in the screenshot below. I set the contents of the container to flex. The items in the container were set to arrange vertically in a column. Flex grow was set to 1 and this means the contents will grow to take up all the available space on the vertical axis.
+
+![Short content bug](docs/readme_images/bugs/short_content_bug2.png)
+
 3. allauth?
 
 ### Unfixed bugs
