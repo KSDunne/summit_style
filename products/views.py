@@ -201,6 +201,8 @@ Credit: https://www.youtube.com/watch?v=JzDBCZTgVyw&list=PLXuTq6OsqZjbCSfi
 LNb2f1FOs8viArjWy&index=14
 Credit: https://github.com/Dee-McG/Recipe-Tutorial/blob/main/recipes
 /views.py#L61
+Credit: https://medium.com/@hassanraza/when-to-use-get-get-queryset
+-get-context-data-in-django-952df6be036a
 """
 
 
@@ -272,6 +274,8 @@ Credit: https://www.youtube.com/watch?v=nFa3lC105dM&list=
 PLXuTq6OsqZjbCSfiLNb2f1FOs8viArjWy&index=13
 Credit: https://github.com/Dee-McG/Recipe-Tutorial/blob/main/recipes
 /views.py#L72
+Credit: https://medium.com/@hassanraza/when-to-use-get-get-queryset
+-get-context-data-in-django-952df6be036a
 """
 
 

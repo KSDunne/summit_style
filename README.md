@@ -981,6 +981,8 @@ Note: The difference between fork and clone is, you need permissions to push bac
 
 [Daisy's recipe delete tutorial YouTube video](https://www.youtube.com/watch?v=nFa3lC105dM&list=PLXuTq6OsqZjbCSfiLNb2f1FOs8viArjWy&index=13) - Daisy explains how she creates the delete class in this video. I followed along with this video to write my DeleteReview view in the products app.
 
+[Get context data](https://medium.com/@hassanraza/when-to-use-get-get-queryset-get-context-data-in-django-952df6be036a) - This method was used to pass the url back to the template as a variable, when the cancel button was clicked on the review edit or delete forms.
+
 ### Media
 
 The main hero image is a man looking at mountains and it is on the index page and all auth pages. This is from [shutterstock](https://www.shutterstock.com/image-photo/happy-hiker-winning-reaching-life-goal-366801260)
