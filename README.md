@@ -23,13 +23,15 @@ To explore the payment feature, you can use the following card details when prom
 
 ## Table of contents
 
-## Ecommerce
+## Ecommerce business model
 
-An ecommerce app is designed to facilitate commercial or business transactions and it involves an online transfer of information.
+An ecommerce app is designed to facilitate commercial or business transactions, the model used for this app is outlined in the bullet points here:
 
 - Summit style is a retail store and it is a B2C (business to customer) type of business
 - The deliverables here are products (clothes, tents, sleeping bags) and digital products (if course is online) or services (if course is offered onsite)
 - This business uses a single payment system, that is the transaction is finished after a single payment is made
+
+See marketing heading further down the readme document for marketing strategies such as newsletter and facebook page.
 
 ## User experience (UX)
 
