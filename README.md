@@ -419,6 +419,16 @@ The custom error page has the same hero image as the index page, so that the use
 
 ### MoSCoW
 
+This project used the 'MoSCoW' method to classify its requirements and features according to their importance towards a minimum viable product (MVP). 'MoSCoW' stands for 'Must have, Should have, Could have and Won't have', with each classification aiding in the prioritization of features.
+
+In the screenshot below it can be seen where 'must have' and 'should have' labels have been used and in the second screenshot underneath that one, it can be seen where 'could have' and 'won't have' labels were used.
+
+![MoSCoW screenshot 1](docs/readme_images/moscow_ss1.png)
+
+See in the screenshot below that the 'could have' labels and 'wont have' labels ended up on the same issues. This occurred because they were initially classified as 'could have', until I got near to the deadline. Then I realised I wouldn't have time to implement the testimonial feature, so it was moved to 'won't have'. This was acceptable, because the testimonial feature was not necessary for mvp. Normal agile project dynamics were demonstrated here.
+
+![MoSCoW screenshot 2](docs/readme_images/moscow_ss2.png)
+
 ## Three custom models
 
 1. Average Star Rating and Reviews
