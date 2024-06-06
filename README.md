@@ -973,6 +973,14 @@ Note: The difference between fork and clone is, you need permissions to push bac
 
 [Star rating tutorial](https://medium.com/p/e1deff03bb1c) - This is the tutorial I used to add the star rating and then I added the review feature to this model as it made sense to put rate and review together.
 
+[Daisy's recipe edit tutorial repository](https://github.com/Dee-McG/Recipe-Tutorial/blob/main/recipes/views.py#L61) - Daisy uses an EditRecipe class to update a recipe. I adapted this class for my purpose which was to edit a review.
+
+[Daisy's recipe edit tutorial YouTube video](https://www.youtube.com/watch?v=JzDBCZTgVyw&list=PLXuTq6OsqZjbCSfiLNb2f1FOs8viArjWy&index=14) - Daisy explains how she creates the edit class in this video. I followed along with this video to write my EditReview view in the products app.
+
+[Daisy's recipe delete tutorial repository](https://github.com/Dee-McG/Recipe-Tutorial/blob/main/recipes/views.py#L72) - Daisy uses a DeleteRecipe class to delete a recipe. I adapted this class for my purpose which was to delete a review.
+
+[Daisy's recipe delete tutorial YouTube video](https://www.youtube.com/watch?v=nFa3lC105dM&list=PLXuTq6OsqZjbCSfiLNb2f1FOs8viArjWy&index=13) - Daisy explains how she creates the delete class in this video. I followed along with this video to write my DeleteReview view in the products app.
+
 ### Media
 
 The main hero image is a man looking at mountains and it is on the index page and all auth pages. This is from [shutterstock](https://www.shutterstock.com/image-photo/happy-hiker-winning-reaching-life-goal-366801260)
