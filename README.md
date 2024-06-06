@@ -27,7 +27,7 @@ To explore the payment feature, you can use the following card details when prom
 
 ### Key project goals
 
-1. Build a website that quickly conveys the message that it is a adventure themed shop
+1. Build a website that quickly conveys the message that it is an adventure themed shop
 2. Create a website where users can see the details of what is being sold and can readily purchase the offerings
 3. Add 3 features that enhance the experience of a user visiting an ecommerce website; 1. star ratings and reviews, 2. a wishlist feature and 3. a contact form.
 
@@ -103,7 +103,7 @@ To explore the payment feature, you can use the following card details when prom
 32. Read testimonials from other customers so that I feel like I am making a reliable purchase
 33. Submit a testimonial of my own so that I can give my opinion on my purchase from this company
 34. Find the contact page easily, so that I don't get frustrated trying to contact the company (maps to epic 8 and project goal 3)
-35. Contact summit style using a contact form and recieve feedback that my query has been stored and the company will respond in a few days (epic 8)
+35. Contact summit style using a contact form and receive feedback that my query has been stored and the company will respond in a few days (epic 8)
 36. Toggle a heart button to add and remove products and courses from my wishlist, so that when I have the money or when they go on special offer I can access them easily (maps to epic 7 and project goal 3)
 37. Go to a page that has a list of my wishlist items, so that I don't have to spend time looking all over the site for items that I liked in the past (epic 7)
 38. Easily locate the privacy policy, so that I can see how my personal data is protected (epic 2)
@@ -137,7 +137,7 @@ To explore the payment feature, you can use the following card details when prom
 
 #### Monitor navigation bar
 
-On monitor size screens, this is split into 2 divs. The top nav which contains the logo, a search bar, an account dropdown menu, a wishlist icon and a shopping cart logo with link to the shopping cart. This shopping cart also shows a running total of the users spend. The second part is the main site navigation bar. This main navbar contains downdown menus and links with titles; all products, clothes, equipment, courses and contact.
+On monitor size screens, this is split into 2 divs. The top nav which contains the logo, a search bar, an account dropdown menu, a wishlist icon and a shopping cart logo with link to the shopping cart. This shopping cart also shows a running total of the users spend. The second part is the main site navigation bar. This main navbar contains dropdown menus and links with titles; all products, clothes, equipment, courses and contact.
 
 ![Monitor navbar](docs/readme_images/features/navbar_monitor.png)
 
@@ -417,7 +417,7 @@ The custom error page has the same hero image as the index page, so that the use
 
 ## Future features
 
-- Testimonials were classified as a 'could have' on this project. They were not implimented before assessment so they could be added in future.
+- Testimonials were classified as a 'could have' on this project. They were not implemented before assessment so they could be added in future.
 - At the moment, a user is able to make multiple reviews on 1 product and this doesn't make much sense, because they have an edit feature, so why would they want to write another review on the same product? Therefore, a future feature could be that a user can only make one review per product.
 - At the moment on courses, there is a section that says "in-person or online" and there is another section that says the "length of course". On submission of this project for assessment, these were all set to 'in-person' and '3 hr' using html. In future I would add these variables to a model, so they can be adjusted from admin.
 - I noticed at a late date in my project building that I could have put reviews into its own app for separation of concerns. Therefore, in future this part of the project could be refactored.
@@ -748,7 +748,7 @@ This, Charge.retrieve retrieves the details of a charge that has previously been
 
 2. Short content bug
 
-When there was not enough content on a page. It was not reaching the whole way down to the footer and there was a strange gap at the bottom of the page on lots of the pages on the website. See the screenshot below that dipicts this problem.
+When there was not enough content on a page. It was not reaching the whole way down to the footer and there was a strange gap at the bottom of the page on lots of the pages on the website. See the screenshot below that depicts this problem.
 
 ![Short content bug 1](docs/readme_images/bugs/short_content_bug1.png)
 
@@ -762,7 +762,7 @@ See the screenshot below, to see what it looks like since it was fixed.
 
 3. Duplicate attribute id bug
 
-When 'view page source' was clicked on the 'add a product' page and the code was copied into the html validator an error popped up saying 'duplicate attribute id'. The first screenshot below shows the page where the error occured.
+When 'view page source' was clicked on the 'add a product' page and the code was copied into the html validator an error popped up saying 'duplicate attribute id'. The first screenshot below shows the page where the error occurred.
 
 ![Duplicate id bug 1](docs/readme_images/bugs/duplicate_id_bug1.png)
 
@@ -931,7 +931,7 @@ Go back to the AWS Services Menu and follow these steps:
 
 ```
 
-- On the next page add polcity name and description and click create policy
+- On the next page add policy name and description and click create policy
 - To attach Policy to User Group, first click on User Groups in the left-hand menu
 - Click on the user group name created during the above step and select the permissions tab
 - Click Attach Policy
