@@ -23,6 +23,7 @@ To explore the payment feature, you can use the following card details when prom
 
 ## Table of contents
 
+
 ## User experience (UX)
 
 ### Key project goals
@@ -425,7 +426,7 @@ The custom error page has the same hero image as the index page, so that the use
 - Instant access to digital products. When a course is bought the customer instantly receives a PDF or access to a course video.
 - Subscription to course material (pdfs and videos).
 
-### MoSCoW
+## MoSCoW
 
 This project used the 'MoSCoW' method to classify its requirements and features according to their importance towards a minimum viable product (MVP). 'MoSCoW' stands for 'Must have, Should have, Could have and Won't have', with each classification aiding in the prioritization of features.
 
