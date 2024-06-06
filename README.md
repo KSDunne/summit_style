@@ -153,6 +153,18 @@ The index page hero image was chosen because it fits the theme of the website. T
 
 ![Hero image mountain](docs/readme_images/features/hero_mountain.png)
 
+### Clear indication as to whether the user is logged in or out
+
+The log in state is shown on toast when the user logs in. It is also very clearly displayed on multiple pages. These are the index page, the products page and the shopping cart. The reason I chose to show it on these pages is these are pages the user might navigate to before signing up. Seeing clearly that they are not logged in might prompt them to sign up. It is also helpful to display the login state on the shopping cart, so the user knows what user they are logged in as when they are about to navigate to the checkout.
+
+#### Clear indication for when the user is logged in
+
+![Logged in indication](docs/readme_images/features/loggedin_indication.png)
+
+#### Clear indication for when the user is logged out
+
+![Logged out indication](docs/readme_images/features/loggedout_indication.png)
+
 ### Shop now button
 
 This is a call to action on the index page. This button brings the user to the all products page.
