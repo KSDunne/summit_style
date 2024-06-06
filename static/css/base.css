@@ -502,7 +502,7 @@ footer {
 }
 
 .browse-container {
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
   height: 40vh;
   display: flex;
   align-items: center;
@@ -953,7 +953,6 @@ footer {
   justify-content: flex-end;
 }
 
-/* style for loggedin in or out indicator */
 .logged-in {
   font-weight: 500;
   background-color: #fffaef;

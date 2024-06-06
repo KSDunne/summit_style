@@ -18,6 +18,17 @@
     </div>
   </div>
   <div class="overlay"></div>
+
+  {% if user.is_authenticated %}
+  <div class="loggedin-container">
+    <p class="mt-3 logged-in">You are logged in as {{ user.username }}</p>
+  </div>
+  {% else %}
+  <div class="loggedin-container">
+    <p class="mt-3 logged-in">You are not logged in</p>
+  </div>
+  {% endif %}
+  
   <!-- products container -->
   <div class="container-fluid">
     <div class="row">
