@@ -414,7 +414,7 @@ The custom error page has the same hero image as the index page, so that the use
 ## Future features
 
 - Testimonials were classified as a 'could have' on this project. They were not implimented before assessment so they could be added in future.
-- At the moment a user is able to make multiple reviews on 1 product and this doesn't make much sense, because they have an edit feature, so why would they want to write another review on the same product? Therefore, a future feature could be that a user can only make one review per product.
+- At the moment, a user is able to make multiple reviews on 1 product and this doesn't make much sense, because they have an edit feature, so why would they want to write another review on the same product? Therefore, a future feature could be that a user can only make one review per product.
 - At the moment on courses, there is a section that says "in-person or online" and there is another section that says the "length of course". On submission of this project for assessment, these were all set to 'in-person' and '3 hr' using html. In future I would add these variables to a model, so they can be adjusted from admin.
 - I noticed at a late date in my project building that I could have put reviews into its own app for separation of concerns. Therefore, in future this part of the project could be refactored.
 - Notifications when items are sold out.
