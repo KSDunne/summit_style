@@ -1,7 +1,7 @@
-from django import forms
-from .models import ContactRequest
-from django.core.exceptions import ValidationError
 import re
+from django import forms
+from django.core.exceptions import ValidationError
+from .models import ContactRequest
 
 
 class ContactForm(forms.ModelForm):
