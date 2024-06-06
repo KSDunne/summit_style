@@ -203,13 +203,13 @@ The footer has the business email, phone number, social media links, a link to t
 
 ### Sign in form
 
-This is a crispy form that asks for username and password. It was styled with a yellow background.
+This is a crispy form that asks for username and password. It was styled with a yellow background. There is a clear reason displayed here as to why users need to log in. It says 'To make a purchase or access your wishlist, please log in.'.
 
 ![Sign in form](docs/readme_images/features/sign_in_form.png)
 
 ### Register form (Sign up)
 
-This is a crispy form. It is styled with a light yellow background and I removed the bullet point dots that are normally present on the password instructions (e.g. your password must contain at least 8 characters).
+This is a crispy form. It is styled with a light yellow background and I removed the bullet point dots that are normally present on the password instructions (e.g. your password must contain at least 8 characters). There is a clear reason displayed here as to why users need to register. It says 'Account holders can make purchases and access their very own wishlist.'.
 
 ![Register form](docs/readme_images/features/register_form.png)
 
