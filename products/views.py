@@ -258,7 +258,7 @@ class EditReview(LoginRequiredMixin, UserPassesTestMixin, UpdateView):
         star = self.get_object()
         return self.request.user == star.user or self.request.user.is_superuser
 
-    def get_context_url(self, **kwargs):
+    def get_context_data(self, **kwargs):
         """
         Add product detail URL to the context data.
         """
@@ -333,7 +333,7 @@ class DeleteReview(LoginRequiredMixin, UserPassesTestMixin, DeleteView):
         star = self.get_object()
         return self.request.user == star.user or self.request.user.is_superuser
 
-    def get_context_url(self, **kwargs):
+    def get_context_data(self, **kwargs):
         """
         Add product detail URL to the context data.
         """
