@@ -1,3 +1,6 @@
+import json
+import stripe
+
 from django.shortcuts import (
     render, redirect,
     reverse, get_object_or_404,
@@ -13,9 +16,6 @@ from products.models import Product
 from profiles.forms import UserProfileForm
 from profiles.models import UserProfile
 from cart.contexts import cart_contents
-
-import stripe
-import json
 
 
 @require_POST
