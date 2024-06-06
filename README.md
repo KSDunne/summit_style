@@ -69,11 +69,11 @@ To explore the payment feature, you can use the following card details when prom
 
 - As a website user, I want to be able to:
 
-1. View a list of clothing products, so that I can select some to buy (epic 1)
+1. From a page that conveys an outdoor themed hero image, navigate to and view a list of clothing products, so that I can select some to buy (maps to epic 1 and project goal 1)
 2. View a list of outdoor equipment products, so that I can select some to buy (epic 1)
 3. View a list of short courses, so that I can select some to buy (epic 1)
 4. View a specific category of products or courses, so that I can quickly find what I'm interested in (epic 1)
-5. View individual product details, so that I am informed of price, description and product rating (epic 1)
+5. View individual product details, so that I am informed of price, description and product rating (maps to epic 1 and project goal 2)
 6. View individual course details, so that I am informed of price, description and rating (epic 1)
 7. Identify sale items easily, so that I can take advantage of savings on products I want to buy (epic 1)
 8. See the total of my purchases at any time to avoid overspending (epic 4)
@@ -94,7 +94,7 @@ To explore the payment feature, you can use the following card details when prom
 23. Feel that my personal and payment information is safe, so that I can confidentially provide the information to make a purchase (epic 4)
 24. View an order confirmation after checkout, so that I can verify that I haven’t made any mistakes (epic 4)
 25. Receive an email confirmation after I make a purchase, so that I can keep the confirmation for my own records (epic 4)
-26. See average star ratings on products quickly and easily, so that I don't have to go searching for ratings and I can buy a reliable product or course (epic 6)
+26. See average star ratings on products quickly and easily, so that I don't have to go searching for ratings and I can buy a reliable product or course (maps to epic 6 and project goal 3)
 27. Submit my star rating, so that I can give a vote on how good the product or course is (epic 6)
 28. Read reviews that other customers have submitted, so that I feel I am purchasing a reliable product (epic 6)
 29. Submit a review using a front end form with fields for title, star rating and review text (epic 6)
@@ -102,9 +102,9 @@ To explore the payment feature, you can use the following card details when prom
 31. Delete a review I submitted in case I rate the wrong product or I change my mind about giving my opinion (epic 6)
 32. Read testimonials from other customers so that I feel like I am making a reliable purchase
 33. Submit a testimonial of my own so that I can give my opinion on my purchase from this company
-34. Find the contact page easily, so that I don't get frustrated trying to contact the company (epic 8)
+34. Find the contact page easily, so that I don't get frustrated trying to contact the company (maps to epic 8 and project goal 3)
 35. Contact summit style using a contact form and recieve feedback that my query has been stored and the company will respond in a few days (epic 8)
-36. Toggle a heart button to add and remove products and courses from my wishlist, so that when I have the money or when they go on special offer I can access them easily (epic 7)
+36. Toggle a heart button to add and remove products and courses from my wishlist, so that when I have the money or when they go on special offer I can access them easily (maps to epic 7 and project goal 3)
 37. Go to a page that has a list of my wishlist items, so that I don't have to spend time looking all over the site for items that I liked in the past (epic 7)
 38. Easily locate the privacy policy, so that I can see how my personal data is protected (epic 2)
 
