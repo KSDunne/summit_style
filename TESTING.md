@@ -358,17 +358,22 @@ All python code was put through the [CI Python Linter](https://pep8ci.herokuapp.
 
 ### Feature testing table
 
-|   | feature                                       | what does it do?                                                                                                                                | does it work as expected? |
-| - | --------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------- |
-| 1 | drop down nav menu on 320 px                  | when the burger is clicked a dropdown nav menu appears                                                                                          | PASS                      |
-| 2 | drop down nav menu on 768 px                  | when the burger is clicked a dropdown nav menu appears                                                                                          | PASS                      |
-| 3 | contact form                                  | submits a contact request for the user, this works as intended                                                                                  | PASS                      |
-| 4 | review form                                   | submits a review that the user writes, this works as intended                                                                                   | PASS                      |
-| 5 | toggle heart for wishlist                     | this toggles correctly, the number of users that liked the product increases or decreases and the product adds to the wishlist page successfully | PASS                      |
-| 6 | average star rating on products page          | this shows 'x out of 5' on each product and it was tested to see if it is definitely an average calculation and not just 1 rating showing       | PASS                      |
-| 7 | average star rating on product detail page    | the stars fill to solid correctly depending on what the average rating is                                                                       | PASS                      |
-| 8 | display of your own and other peoples reviews | displays reviews on cards with the newest ones at the top                                                                                       | PASS                      |
-| 9 | count of reviews on products details page     | the number goes up and down correctly according to how many reviews are on that item                                                            | PASS                      |
+|    | feature                                       | what does it do?                                                                                                                                | does it work as expected? |
+| -- | --------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------- |
+| 1  | drop down nav menu on 320 px                  | when the burger is clicked a dropdown nav menu appears                                                                                          | PASS                      |
+| 2  | drop down nav menu on 768 px                  | when the burger is clicked a dropdown nav menu appears                                                                                          | PASS                      |
+| 3  | contact form                                  | submits a contact request for the user, this works as indended                                                                                  | PASS                      |
+| 4  | review form                                   | submits a review that the user writes, this works as intended                                                                                   | PASS                      |
+| 5  | toggle heart for wishlist                     | this toggles correctly, the number of users that liked the product increases or decreases and the product adds to the wishlist page succesfully | PASS                      |
+| 6  | average star rating on products page          | this shows 'x out of 5' on each product and it was tested to see if it is definitely an average calculation and not just 1 rating showing       | PASS                      |
+| 7  | average star rating on product detail page    | the stars fill to solid correctly depanding on what the average rating is                                                                       | PASS                      |
+| 8  | average star rating wishlist items            | the stars fill to solid correctly depanding on what the average rating is                                                                       | PASS                      |
+| 9  | display of your own and other peoples reviews | displays reviews on cards with the newest ones at the top                                                                                       | PASS                      |
+| 10 | count of reviews on products details page     | the number goes up and down correctly according to how many reviews are on that item                                                            | PASS                      |
+| 11 | edit review form button                       | submits the form with the edit, this works as indended                                                                                          | PASS                      |
+| 12 | edit review form 'cancel' button              | reverses the user back to the product detail page they were on                                                                                  | PASS                      |
+| 13 | review delete form 'confirm' button           | submits the request to delete the review                                                                                                        | PASS                      |
+| 14 | review delete form 'cancel' button            | reverses the user back to the product detail page they were on                                                                                  | PASS                      |
 
 ## Responsiveness
 
