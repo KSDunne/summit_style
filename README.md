@@ -499,11 +499,21 @@ A 'sign up' call to action button was added to the facebook page that links back
 
 ## Design
 
+### Typography
+
+Google Fonts were used to import Inter and Roboto fonts into base.html. A generic sans-serif font was chosen as a back-up font. These were chosen as they are common to modern website design and are easy to read.
+
 ### Color
+
+Since this business is an outdoors themed shop I chose earthy colors. I also kept accessibility in mind when choosing colors and I used a color blind friendly palette for inspiration. Colors were adapted from palettes generated using [Venngage's accessible color palette generator](https://venngage.com/tools/accessible-color-palette-generator).
+
+Primary Colors - White / Blue / Yellow
 
 #### Color palette 1
 
 ![Accessible color palette 1](docs/readme_images/color_palette_1.PNG)
+
+Secondary Colors - Black / Green / Grey
 
 #### Color palette 2
 
