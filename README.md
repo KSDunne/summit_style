@@ -413,8 +413,9 @@ The custom error page has the same hero image as the index page, so that the use
 
 ## Future features
 
+- Testimonials were classified as a 'could have' on this project. They were not implimented before assessment so they could be added in future.
 - At the moment a user is able to make multiple reviews on 1 product and this doesn't make much sense, because they have an edit feature, so why would they want to write another review on the same product? Therefore, a future feature could be that a user can only make one review per product
-- I noticed at a late date in my project building that I could have put reviews into its own app for separation of concerns. Therefore in future this part of the project could be refactored.
+- I noticed at a late date in my project building that I could have put reviews into its own app for separation of concerns. Therefore, in future this part of the project could be refactored.
 - Notifications when items are sold out
 - Instant access to digital products. When a course is bought the customer instantly receives a PDF or access to a course video
 - Subscription to course material (pdfs and videos)
