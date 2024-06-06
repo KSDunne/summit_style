@@ -443,11 +443,14 @@ This is on a contact app with tab of its own
 
 An ecommerce app is designed to facilitate commercial or business transactions, the model used for this app is outlined in the bullet points here:
 
-- Summit style is a retail store and it is a B2C (business to customer) type of business
-- The deliverables here are products (clothes, tents, sleeping bags) and digital products (if course is online) or services (if course is offered onsite)
+- The core business intent of Summit Style is to provide a seamless ecommerce experience for outdoor enthusiasts
+- Summit Style is a retail store and it is a B2C (business to customer) type of business
+- The deliverables here are products (clothes, tents, sleeping bags) and services (if course is offered onsite)
+- The website may offer digital products (if course is online) in future
 - This business uses a single payment system, that is the transaction is finished after a single payment is made
+- This business does not have a physical storefront, it is an online-only store
 
-See marketing heading further down the readme document for marketing strategies such as newsletter and facebook page.
+See marketing heading further down the readme document for newsletter and facebook marketing strategies.
 
 ## Keyword research and SEO
 
@@ -497,9 +500,15 @@ Also, see a site I found during my research, that is selling online courses for 
 
 ## Marketing
 
-This site has a Mailchimp newsletter signup, which is used to collect email addresses for marketing purposes. A facebook business page was also setup.
+This site has a Mailchimp newsletter signup, which is used to collect email addresses for marketing purposes. A facebook business page was also setup. 
+
+### Strategy
+
+Summit Style plans to send monthly newsletters with information about upcoming sale items, future courses and photos of recent courses. The facebook strategy is to engage with customers on a more frequent basis, adding story pictures a couple of times per day and a facebook post at least 2 times per week.
 
 ### Newsletter
+
+Here is a screenshot of the mailchimp email address form that is included in base.html. This can be seen on every page of the website.
 
 ![newsletter signup](docs/readme_images/newsletter_signup.png)
 
