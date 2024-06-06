@@ -947,6 +947,8 @@ Note: The difference between fork and clone is, you need permissions to push bac
 
 ### Code
 
+[CI walkthrough Boutique Ado](https://github.com/Code-Institute-Solutions/blog/tree/main/12_views_part_3/05_edit_delete) - The CI walkthrough repo was relied upon as a template for this project. I altered styling and there are 3 unique models added. Two are completely custom (star model and contact request) and 1 has been altered from boutique ado (wishlist added to products model).
+
 [Star rating tutorial](https://medium.com/p/e1deff03bb1c)
 [Wishlist logic](https://github.com/Code-Institute-Solutions/Django3blog/blob/master/10_likes/blog/views.py#L69)
 [Wishlist product detail heart](https://github.com/Code-Institute-Solutions/Django3blog/blob/master/10_likes/templates/post_detail.html#L36)
@@ -954,7 +956,19 @@ Note: The difference between fork and clone is, you need permissions to push bac
 
 ### Media
 
+The main hero image is a man looking at mountains and it is on the index page and all auth pages. This is from [shutterstock](https://www.shutterstock.com/image-photo/happy-hiker-winning-reaching-life-goal-366801260)
+
+The hero image on the contact page is 2 people on the phone outdoors. This is from [shutterstock](https://www.shutterstock.com/image-photo/two-people-talking-on-phones-park-234528652)
+
+All product images are stock photos from [pexels](https://www.pexels.com/)
+
 ### Inspiration from real world ecommerce websites
+
+[Regatta](https://www.regatta.com/)
+
+[Pategonia](https://eu.patagonia.com/gb/en/home/)
+
+[Alex Moran Mountaineering](https://www.alexmoranmountaineering.co.uk/)
 
 ## Acknowledgements
 
