@@ -947,12 +947,15 @@ Note: The difference between fork and clone is, you need permissions to push bac
 
 ### Code
 
-[CI walkthrough Boutique Ado](https://github.com/Code-Institute-Solutions/blog/tree/main/12_views_part_3/05_edit_delete) - The CI walkthrough repo was relied upon as a template for this project. I altered styling and there are 3 unique models added. Two are completely custom (star model and contact request) and 1 has been altered from boutique ado (wishlist added to products model).
+[CI walkthrough Boutique Ado](https://github.com/Code-Institute-Solutions/boutique_ado_v1/tree/250e2c2b8e43cccb56b4721cd8a8bd4de6686546) - The CI walkthrough repo was relied upon as a template for this project. I altered styling and there are 3 unique models added. Two are completely custom (star model and contact request) and 1 has been altered from boutique ado (wishlist added to products model).
 
-[Star rating tutorial](https://medium.com/p/e1deff03bb1c)
-[Wishlist logic](https://github.com/Code-Institute-Solutions/Django3blog/blob/master/10_likes/blog/views.py#L69)
-[Wishlist product detail heart](https://github.com/Code-Institute-Solutions/Django3blog/blob/master/10_likes/templates/post_detail.html#L36)
-[My wishlist template](https://github.com/Harry-Leepz/Nourish-and-Lift/blob/main/wishlist/templates/wishlist/wishlist.html)
+[Star rating tutorial](https://medium.com/p/e1deff03bb1c) - This is the tutorial I used to add the star rating and then I added the review feature to this model as it made sense to put rate and review together.
+
+[Wishlist logic](https://github.com/Code-Institute-Solutions/Django3blog/blob/master/10_likes/blog/views.py#L69) - Logic for the wishlist was derived from the like feature shown on CI dashboard material.
+
+[Wishlist product detail heart](https://github.com/Code-Institute-Solutions/Django3blog/blob/master/10_likes/templates/post_detail.html#L36) - Heart template code was derived from the like feature shown on CI dashboard material.
+
+[My wishlist template](https://github.com/Harry-Leepz/Nourish-and-Lift/blob/main/wishlist/templates/wishlist/wishlist.html) - The idea for the 'my wishlist' page was seen on another CI students project. The template code was adapted from here.
 
 ### Media
 
@@ -966,7 +969,7 @@ All product images are stock photos from [pexels](https://www.pexels.com/)
 
 [Regatta](https://www.regatta.com/)
 
-[Pategonia](https://eu.patagonia.com/gb/en/home/)
+[Patagonia](https://eu.patagonia.com/gb/en/home/)
 
 [Alex Moran Mountaineering](https://www.alexmoranmountaineering.co.uk/)
 
