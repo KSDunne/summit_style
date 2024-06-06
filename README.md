@@ -28,7 +28,7 @@ To explore the payment feature, you can use the following card details when prom
 ### Key project goals
 
 1. Build a website that quickly conveys the message that it is a adventure themed shop
-2. Create a website where users can see what is being sold easily and can readily access the offerings
+2. Create a website where users can see the details of what is being sold and can readily purchase the offerings
 3. Add 3 features that enhance the experience of a user visiting an ecommerce website; 1. star ratings and reviews, 2. a wishlist feature and 3. a contact form.
 
 ### Target audience
