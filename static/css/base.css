@@ -947,6 +947,22 @@ footer {
   color: #001efa !important;
 }
 
+/* style for loggedin in or out indicator */
+.loggedin-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* style for loggedin in or out indicator */
+.logged-in {
+  font-weight: 500;
+  background-color: #fffaef;
+  font-size: 115%;
+  padding: 4px 8px;
+  margin-right: 2%;
+  border-radius: 10px;
+}
+
 /* media queries */
 
 /* slightly larger container on xl screens */
