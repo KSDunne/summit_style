@@ -23,16 +23,6 @@ To explore the payment feature, you can use the following card details when prom
 
 ## Table of contents
 
-## Ecommerce business model
-
-An ecommerce app is designed to facilitate commercial or business transactions, the model used for this app is outlined in the bullet points here:
-
-- Summit style is a retail store and it is a B2C (business to customer) type of business
-- The deliverables here are products (clothes, tents, sleeping bags) and digital products (if course is online) or services (if course is offered onsite)
-- This business uses a single payment system, that is the transaction is finished after a single payment is made
-
-See marketing heading further down the readme document for marketing strategies such as newsletter and facebook page.
-
 ## User experience (UX)
 
 ### Key project goals
@@ -448,6 +438,16 @@ There is a heart button that can be toggled on and off to add and remove items f
 3. Record user contact requests in the database
 
 This is on a contact app with tab of its own
+
+## Ecommerce business model
+
+An ecommerce app is designed to facilitate commercial or business transactions, the model used for this app is outlined in the bullet points here:
+
+- Summit style is a retail store and it is a B2C (business to customer) type of business
+- The deliverables here are products (clothes, tents, sleeping bags) and digital products (if course is online) or services (if course is offered onsite)
+- This business uses a single payment system, that is the transaction is finished after a single payment is made
+
+See marketing heading further down the readme document for marketing strategies such as newsletter and facebook page.
 
 ## Keyword research and SEO
 
