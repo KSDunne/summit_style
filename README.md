@@ -118,7 +118,7 @@ To explore the payment feature, you can use the following card details when prom
       + [IAM](#iam)
       + [Final steps for AWS setup](#final-steps-for-aws-setup)
    * [Deploying with heroku](#deploying-with-heroku)
-   * [Fork this repository:](#fork-this-repository)
+   * [Fork this repository](#fork-this-repository)
    * [Clone](#clone)
 - [Credits](#credits)
    * [Code](#code)
@@ -1072,7 +1072,7 @@ After account setup, the steps were as follows:
 
 The live link for this project can be found here - [Summit Style](https://summit-style-b727a186ee80.herokuapp.com/)
 
-### Fork this repository:
+### Fork this repository
 
 - Go to the [GitHub repository](https://github.com/KSDunne/summit_style)
 - Click on the Fork button in the upper right-hand corner
