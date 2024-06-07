@@ -10,7 +10,7 @@ Link to live website: [Summit Style](https://summit-style-b727a186ee80.herokuapp
 
 ## Purpose of the project
 
-Here is an eCommerce website, for a fictitious business called Summit Style. This is a full stack website built using the Django web framework. This business sells adventure clothing, equipment and short educational courses based on outdoor skills. The user experience provides value to the customer with a star rating feature on all products and courses, so the user can buy products that other customers like too. All offerings have a review feature for the same reason. There is a wishlist feature, so that customers can buy items when they go on sale or when they have the money to buy them and there is also a contact tab.
+Here is an eCommerce website, for a fictitious business called Summit Style. This is a full stack website built using the Django web framework. This business sells adventure clothing, equipment and educational courses based on outdoor skills. The user experience provides value to the customer with a star rating feature on all products and courses, so the user can buy products that other customers like too. All offerings have a review feature for the same reason. There is a wishlist feature, so that customers can buy items when they go on sale or when they have the money to buy them and there is also a contact tab.
 
 This website was built for Project 5 of the Code Institute Diploma in Software Development and does not process actual payments. As a result, any orders made will not be fulfilled.
 
@@ -252,7 +252,7 @@ On mobile and tablet size screens site navigation uses a burger menu and 4 icons
 
 ### Hero image with cover text
 
-The index page hero image was chosen because it fits the theme of the website. There is a man with hiking gear looking at some mountains in the distance. The colors of this image also align with the theme and design of the overall website. The main mountain hero image can also be seen on allauth pages (e.g. register, login and logout)
+The index page hero image was chosen because it fits the theme of the website. There is a man with hiking gear looking at some mountains in the distance. The colors of this image also align with the theme and design of the overall website. The main mountain hero image can also be seen on allauth pages (e.g. register, login and logout).
 
 ![Hero image mountain](docs/readme_images/features/hero_mountain.png)
 
@@ -318,7 +318,7 @@ This is a crispy form. It is styled with a light yellow background and I removed
 
 ### Sign out page
 
-The signout page is defensive. It asks the user 'Are you sure you want to sign out?'
+The signout page is defensive. It asks the user 'Are you sure you want to sign out?'.
 
 ![Sign out page](docs/readme_images/features/sign_out_page.png)
 
