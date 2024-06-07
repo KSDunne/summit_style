@@ -2,7 +2,7 @@
 
 (Developer: Katie Dunne)
 
-![AmIResponsive Image](docs/readme_images/amiresponsive220524.PNG)
+![AmIResponsive Image](docs/readme_images/amiresponsive.PNG)
 
 ## Live website
 
@@ -394,7 +394,7 @@ This panel shows the number of reviews that have been submitted for that particu
 
 ### Edit the rate and review form that I submitted
 
-When the user clicks the edit button on a review that they submitted, they are directed to a review edit page with a pre-filled form. They can edit as they please and then click the 'edit review' button. This will send them back to the product detail page and success toast will appear stating 'your review has been updated!'. There is a 'cancel' button here too, so if the user changes their mind they can easily click the cancel button and this brings them back to the all products page instead of them navigating away from the site or using the back button.
+When the user clicks the edit button on a review that they submitted, they are directed to a review edit page with a pre-filled form. They can edit as they please and then click the 'edit review' button. This will send them back to the product detail page and success toast will appear stating 'your review has been updated!'. There is a 'cancel' button here too, so if the user changes their mind they can easily click the cancel button and this brings them back to the product detail page they were on, instead of them navigating away from the site or using the back button.
 
 ![Edit review](docs/readme_images/features/edit_review.png)
 
