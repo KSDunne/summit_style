@@ -951,6 +951,8 @@ footer {
 .loggedin-container {
   display: flex;
   justify-content: flex-end;
+  max-width: 99%;
+  padding: 0 4px;
 }
 
 .logged-in {
@@ -960,6 +962,8 @@ footer {
   padding: 4px 8px;
   margin-right: 2%;
   border-radius: 10px;
+  word-wrap: break-word;
+  overflow: hidden;
 }
 
 /* media queries */
